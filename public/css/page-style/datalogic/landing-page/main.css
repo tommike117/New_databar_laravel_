@@ -1,0 +1,1106 @@
+@media only screen and (max-width:575.98px){
+    #mobile > .container-fluid{
+        overflow:hidden;
+    }
+    #mobile{
+        display:block
+    }
+    #fullpage{
+        display: none;
+
+    }
+    .fp-enabled{
+        overflow: auto !important;
+        height: auto !important;
+    }
+    .m-auto-20{
+        margin:20px auto;
+    }
+    .m-auto-40{
+        margin:40px auto;
+    }
+    .see-all > a{
+        color:#002692;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 500;
+        font-size:14px;
+        letter-spacing: 3px;
+    }
+    .see-all > a:hover{
+        color:#001c68;
+        text-decoration: none;
+    }
+    .margin-form-nav{
+        margin-top:50px;
+    }
+    .banner{
+        height:250px;
+    }
+    .banner-bg-color{
+        background: #050751;
+        width: 100%;
+        height:100%;
+    }
+    .p-xs-0{
+        padding:0 !important;
+    }
+    .block-content{
+        display: flex;
+        flex:0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding:0 20px;
+    }
+    .block-content > h1{
+        font-size:30px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .underline-head-black::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: black;
+        bottom:-10px;
+        margin:auto;
+    }
+    .underline-head-white::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: white;
+        bottom:-10px;
+        margin:auto;
+    }
+    .block-content > p{
+        font-size:12px;
+        font-weight: 300;
+    }
+    .block-content > h2{
+        font-size:25px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .banner-barcode-scanner{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-barcode-scanner.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+    .banner-mobile-computer{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-mobile-computer.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 150px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #mobile > .container-fluid{
+        overflow:hidden;
+    }
+    #mobile{
+        display:block
+    }
+    #fullpage{
+        display: none;
+
+    }
+    .fp-enabled{
+        overflow: auto !important;
+        height: auto !important;
+    }
+    .m-auto-20{
+        margin:20px auto;
+    }
+    .m-auto-40{
+        margin:40px auto;
+    }
+    .see-all > a{
+        color:#002692;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 500;
+        font-size:14px;
+        letter-spacing: 3px;
+    }
+    .see-all > a:hover{
+        color:#001c68;
+        text-decoration: none;
+    }
+    .margin-form-nav{
+        margin-top:50px;
+    }
+    .banner{
+        height:250px;
+    }
+    .banner-bg-color{
+        background: #050751;
+        width: 100%;
+        height:100%;
+    }
+    .p-xs-0{
+        padding:0 !important;
+    }
+    .block-content{
+        display: flex;
+        flex:0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding:0 20px;
+    }
+    .block-content > h1{
+        font-size:30px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .underline-head-black::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: black;
+        bottom:-10px;
+        margin:auto;
+    }
+    .underline-head-white::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: white;
+        bottom:-10px;
+        margin:auto;
+    }
+    .block-content > p{
+        font-size:12px;
+        font-weight: 300;
+    }
+    .block-content > h2{
+        font-size:25px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .banner-barcode-scanner{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-barcode-scanner.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+    .banner-mobile-computer{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-mobile-computer.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #mobile > .container-fluid{
+        overflow:hidden;
+    }
+    #mobile{
+        display:block
+    }
+    #fullpage{
+        display: none;
+
+    }
+    .fp-enabled{
+        overflow: auto !important;
+        height: auto !important;
+    }
+    .m-auto-20{
+        margin:20px auto;
+    }
+    .m-auto-40{
+        margin:40px auto;
+    }
+    .see-all > a{
+        color:#002692;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 500;
+        font-size:14px;
+        letter-spacing: 3px;
+    }
+    .see-all > a:hover{
+        color:#001c68;
+        text-decoration: none;
+    }
+    .margin-form-nav{
+        margin-top:50px;
+    }
+    .banner{
+        height:250px;
+    }
+    .banner-bg-color{
+        background: #050751;
+        width: 100%;
+        height:100%;
+    }
+    .p-xs-0{
+        padding:0 !important;
+    }
+    .block-content{
+        display: flex;
+        flex:0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding:0 20px;
+    }
+    .block-content > h1{
+        font-size:30px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .underline-head-black::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: black;
+        bottom:-10px;
+        margin:auto;
+    }
+    .underline-head-white::after{
+        content:"";
+        width: 100px;
+        height: 1.5px;
+        position: absolute;
+        left: 0;
+        right:0;
+        background: white;
+        bottom:-10px;
+        margin:auto;
+    }
+    .block-content > p{
+        font-size:12px;
+        font-weight: 300;
+    }
+    .block-content > h2{
+        font-size:25px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        margin-bottom:1.4rem;
+        position: relative;
+    }
+    .banner-barcode-scanner{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-barcode-scanner.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+    .banner-mobile-computer{
+        background-image: url('/images/datalogic/landing-page/mobile-banner-mobile-computer.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #mobile{
+        display:none
+    }
+    #fullpage{
+        display: block;
+    }
+
+    .p-lg-font-size {
+        font-size: 22px;
+    }
+
+    .p-letter-spacing {
+        letter-spacing: 2.5px;
+    }
+    .text-black{
+        color:rgb(59, 59, 59);
+    }
+
+
+
+    .section-1
+     {
+        background: #03053D;
+    }
+    .section{
+        position: relative;
+    }
+
+    .section-3{
+        background-image: linear-gradient(85deg, #03053D 46% ,#BB992E);
+    }
+
+    .section-2-image {
+        position: absolute;
+        top: 0;
+    }
+
+    .row-pentagon {
+        height: 350px;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    svg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .pentagon.pentagon-1 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        transform: translate(70px, 50px);
+        transition: 0.5s;
+    }
+
+    .pentagon.hover:hover {
+        cursor: pointer;
+    }
+
+    .pentagon-1::after {
+        content: "Industrial";
+        width: 350px;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.6s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        color:rgb(59, 59, 59);
+    }
+
+    .pentagon-1:hover::after {
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        bottom: 0;
+        z-index: 5555555;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .pentagon.pentagon-1>img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.6);
+        bottom: 0;
+
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 500;
+    }
+
+    .pentagon.pentagon-2 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background: #001966;
+        width: 350px;
+        height: 350px;
+        transform: translate(-14px, -93px);
+    }
+
+    .pentagon.pentagon-2>img {
+        width: 350px;
+    }
+
+    .content-pentagon-2 {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .pentagon.pentagon-3 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        transform: translate(-98px, 50px);
+    }
+
+    .pentagon.pentagon-3>img {
+        width: 350px;
+    }
+    .pentagon-3::after {
+        content: "General Duty";
+        width: 350px;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.6s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        color:rgb(59, 59, 59);
+    }
+
+    .pentagon-3:hover::after {
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        bottom: 0;
+        z-index: 5555555;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .overlay {
+        background-color: rgba(59, 59, 59, 0.69);
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .block-product-type {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 300px;
+        padding: 40px 40px 40px 40px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .h3-lg {
+        font-size: 17px;
+        font-weight: 300;
+        width: 70%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .h2-lg {
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 1.2rem;
+    }
+
+    .height-100p {
+        height: 100%;
+    }
+
+    .flex-half {
+        display: flex;
+    }
+
+    .flex-half.flex-left {
+        padding-bottom: calc(65px + 40px) !important;
+        padding: 40px 40px 90px 40px;
+        width: 100%;
+        flex: 0 0 55%;
+        max-width: 55%;
+        height: 100%;
+    }
+
+    .flex-half.flex-right {
+        width: 100%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+    .block-flex-left {
+        border: 5px solid #BB992E;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .block-flex-right {
+        display: flex;
+        padding: 30px 80px 30px 80px;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .block-flex-right>h1 {
+        color: white;
+        font-size: 4.5vw;
+        letter-spacing: 6.5px;
+        font-weight:bold;
+    }
+
+    .block-flex-right>p {
+        font-size: 1.25vw;
+        color: white;
+        font-weight: 300;
+    }
+
+    .strong-header {
+        color: #BB992E;
+        text-shadow: 6px 0px #aa891159;
+        font-size: 6vw;
+        letter-spacing: 7px;
+    }
+
+    .block-mouse-down-size {
+        position: relative;
+        width: 100px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .mouse-ico-size {
+        position: absolute;
+        width: 90px;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .arrow-down-size {
+        position: absolute;
+        width: 50px;
+        height: auto;
+        bottom: -5px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        animation-name: arrow;
+        transition: 0.5s;
+        animation-iteration-count: infinite;
+        /* animation-direction: alternate-reverse; */
+        animation-duration: 1s;
+    }
+
+    .ico-position {
+        position: absolute;
+        bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .see-all{
+        font-size:14px;
+        color:#BB992E;
+        letter-spacing: 2.8px;
+        position: relative;
+        top:20px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .see-all:hover{
+        text-decoration: none;
+        color:rgb(243, 215, 60);
+    }
+    .block-content{
+        padding:50px;
+    }
+    .block-content > h2{
+        font-size:6.5vw;
+        font-weight: bold;
+        margin-bottom:1.4rem;
+        letter-spacing: 4px;
+        color:white;
+    }
+    .block-content > p{
+        color:white;
+        font-size:1.3vw;
+        font-weight: 300;
+    }
+    .section-3-image{
+        width: 600px;
+        padding:30px;
+    }
+    .block-flex-section-3{
+        align-items:center;
+    }
+    .datalogic-button{
+        background-color:white;
+        box-shadow: none;
+        width: 250px;
+        border:none;
+        height: 70px;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .learnmore{
+        color:#F7901E;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 3.3px;
+        margin:0;
+    }
+    .datalogic-button::after{
+        content: "LEARN MORE";
+        background: white;
+        position: absolute;
+        width: 250px;
+        height: 70px;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        color: #F7901E;
+        font-size: 25px;
+        transform: translateX(-250px);
+        font-weight: 500;
+        letter-spacing: 3.3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.6s;
+    }
+    .datalogic-button:hover::after{
+        content: "LEARN MORE";
+        color:white;
+        background: #F7901E;
+        width: 250px;
+        transform: translateX(0px);
+    }
+    @keyframes arrow {
+        0% {
+            opacity: 1;
+            transform: translateY(-3px);
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #mobile{
+        display:none
+    }
+    #fullpage{
+        display: block;
+    }
+
+    .p-lg-font-size {
+        font-size: 22px;
+    }
+
+    .p-letter-spacing {
+        letter-spacing: 2.5px;
+    }
+    .text-black{
+        color:rgb(59, 59, 59);
+    }
+
+
+
+    .section-1
+     {
+        background: #03053D;
+    }
+    .section{
+        position: relative;
+    }
+
+    .section-3{
+        background-image: linear-gradient(85deg, #03053D 46% ,#BB992E);
+    }
+
+    .section-2-image {
+        position: absolute;
+        top: 0;
+    }
+
+    .row-pentagon {
+        height: 350px;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    svg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .pentagon.pentagon-1 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        transform: translate(70px, 50px);
+        transition: 0.5s;
+    }
+
+    .pentagon.hover:hover {
+        cursor: pointer;
+    }
+
+    .pentagon-1::after {
+        content: "Industrial";
+        width: 350px;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.6s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        color:rgb(59, 59, 59);
+    }
+
+    .pentagon-1:hover::after {
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        bottom: 0;
+        z-index: 5555555;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .pentagon.pentagon-1>img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.6);
+        bottom: 0;
+
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 500;
+    }
+
+    .pentagon.pentagon-2 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background: #001966;
+        width: 350px;
+        height: 350px;
+        transform: translate(-14px, -93px);
+    }
+
+    .pentagon.pentagon-2>img {
+        width: 350px;
+    }
+
+    .content-pentagon-2 {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .pentagon.pentagon-3 {
+        -webkit-mask-image: url(/images/datalogic/landing-page/hexagon.svg);
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        transform: translate(-98px, 50px);
+    }
+
+    .pentagon.pentagon-3>img {
+        width: 350px;
+    }
+    .pentagon-3::after {
+        content: "General Duty";
+        width: 350px;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.6s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        color:rgb(59, 59, 59);
+    }
+
+    .pentagon-3:hover::after {
+        background: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        bottom: 0;
+        z-index: 5555555;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .overlay {
+        background-color: rgba(59, 59, 59, 0.69);
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .block-product-type {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 300px;
+        padding: 40px 40px 40px 40px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .h3-lg {
+        font-size: 17px;
+        font-weight: 300;
+        width: 70%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .h2-lg {
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 1.2rem;
+    }
+
+    .height-100p {
+        height: 100%;
+    }
+
+    .flex-half {
+        display: flex;
+    }
+
+    .flex-half.flex-left {
+        padding-bottom: calc(65px + 40px) !important;
+        padding: 40px 40px 90px 40px;
+        width: 100%;
+        flex: 0 0 45%;
+        max-width: 45%;
+        height:100%;
+    }
+
+    .flex-half.flex-right {
+        width: 100%;
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+
+    .block-flex-left {
+        border: 6px solid #BB992E;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .block-flex-right {
+        display: flex;
+        padding: 30px 80px 30px 80px;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .block-flex-right>h1 {
+        color: white;
+        font-size: 70px;
+        letter-spacing: 6.5px;
+        font-weight:bold;
+    }
+
+    .block-flex-right>p {
+        font-size: 20px;
+        color: white;
+    }
+
+    .strong-header {
+        color: #BB992E;
+        text-shadow: 6px 0px #aa891159;
+        font-size: 80px;
+        letter-spacing: 7px;
+    }
+
+    .block-mouse-down-size {
+        position: relative;
+        width: 100px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .mouse-ico-size {
+        position: absolute;
+        width: 90px;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .arrow-down-size {
+        position: absolute;
+        width: 50px;
+        height: auto;
+        bottom: -5px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        animation-name: arrow;
+        transition: 0.5s;
+        animation-iteration-count: infinite;
+        /* animation-direction: */
+        animation-duration: 1s;
+    }
+
+    .ico-position {
+        position: absolute;
+        bottom: 11%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .see-all{
+        font-size:14px;
+        color:#BB992E;
+        letter-spacing: 2.8px;
+        position: relative;
+        top:20px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .see-all:hover{
+        text-decoration: none;
+        color:rgb(243, 215, 60);
+    }
+    .block-content{
+        padding:50px;
+    }
+    .block-content > h2{
+        font-size:6.5vw;
+        font-weight: bold;
+        margin-bottom:1.4rem;
+        letter-spacing: 4px;
+        color:white;
+    }
+    .block-content > p{
+        color:white;
+        font-size:17px;
+        font-weight: 300;
+    }
+    .section-3-image{
+        width: 600px;
+        padding:30px;
+    }
+    .block-flex-section-3{
+        align-items:center;
+    }
+    .datalogic-button{
+        background-color:white;
+        box-shadow: none;
+        width: 250px;
+        border:none;
+        height: 70px;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .learnmore{
+        color:#F7901E;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 3.3px;
+        margin:0;
+    }
+    .datalogic-button::after{
+        content: "LEARN MORE";
+        background: white;
+        position: absolute;
+        width: 250px;
+        height: 70px;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        color: #F7901E;
+        font-size: 25px;
+        transform: translateX(-250px);
+        font-weight: 500;
+        letter-spacing: 3.3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.6s;
+    }
+    .datalogic-button:hover::after{
+        content: "LEARN MORE";
+        color:white;
+        background: #F7901E;
+        width: 250px;
+        transform: translateX(0px);
+    }
+    @keyframes arrow {
+        0% {
+            opacity: 1;
+            transform: translateY(-3px);
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+    }
+
+}
+
+
+

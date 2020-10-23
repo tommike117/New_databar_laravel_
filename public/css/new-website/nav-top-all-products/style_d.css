@@ -1,0 +1,93 @@
+
+@media (min-width: 992px) {
+    .img-databar-d{
+        display: block;
+    }
+    .img-databar-m{
+        display: none;
+    }
+    .img-databar-t{
+        display: none;
+    }
+    .nav-desktop{
+        display: block;
+    }
+    .nav-mobile{
+        display: none;
+    }
+    .nav a{
+        color:#4d4d4d;
+        transition: 0.3s;
+    }
+    .nav a:hover{
+        text-decoration: none;
+        color: #3399ff;
+    }
+
+    .nav-top{
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        left: 0;
+        right: 0;
+        position: fixed;
+        top: 0;
+        backdrop-filter: saturate(180%) blur(10px);
+        background-color: rgba(255,255,255,0.3);
+        z-index: 9999;
+    }
+    .nav-top2{
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        left: 0;
+        right: 0;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+    .logo{
+        display: flex !important;
+        flex-direction: row;
+        flex-basis: auto;
+        font-family: quicksand;
+        font-size: 15px;
+    }
+    .databar-logo{
+        width:75%;
+        height:auto;
+    }
+
+    .active{
+        font-weight: 700;
+    }
+
+    #navbar{
+        top: -65px;
+        transition: top 0.3s;
+    }
+    #navbar2{
+        transition: top 0.3s;
+    }
+
+    .img-databar-d > a > img{
+        transform: rotateZ(90deg);
+        left: -31%;
+        position: absolute;
+        margin-top: 28%;
+    }
+
+}
+
+.ml-mr-1{
+    margin: 5px;
+}
+.ml-mr-2{
+    margin: 10px;
+}
+.ml-mr-3{
+    margin: 15px;
+}
+.ml-mr-4{
+    margin: 20px 15px;
+}

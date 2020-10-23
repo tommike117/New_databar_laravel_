@@ -1,0 +1,207 @@
+@media (min-width: 992px) {
+    .col-desktop-1 {
+        flex: 0 0 8.3333333333% !important;
+        max-width: 8.3333333333% !important;
+      }
+
+      .col-desktop-2 {
+        flex: 0 0 16.6666666667% !important;
+        max-width: 16.6666666667% !important;
+      }
+
+      .col-desktop-3 {
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+      }
+
+      .col-desktop-4 {
+        flex: 0 0 33.3333333333% !important;
+        max-width: 33.3333333333% !important;
+      }
+
+      .col-desktop-5 {
+        flex: 0 0 41.6666666667% !important;
+        max-width: 41.6666666667% !important;
+      }
+
+      .col-desktop-6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+      }
+
+      .col-desktop-7 {
+        flex: 0 0 58.3333333333% !important;
+        max-width: 58.3333333333% !important;
+      }
+
+      .col-desktop-8 {
+        flex: 0 0 66.6666666667% !important;
+        max-width: 66.6666666667% !important;
+      }
+
+      .col-desktop-9 {
+        flex: 0 0 75% !important;
+        max-width: 75% !important;
+      }
+
+      .col-desktop-10 {
+        flex: 0 0 83.3333333333% !important;
+        max-width: 83.3333333333% !important;
+      }
+
+      .col-desktop-11 {
+        flex: 0 0 91.6666666667% !important;
+        max-width: 91.6666666667% !important;
+      }
+
+      .col-desktop-12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+      }
+    .for-desktop{
+        display: block;
+        margin-top: 130px;
+    }
+    .video-banner{
+        height: 53vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .bg-main-section1{
+        background-image: url("/images/new-website/Bg_home-01.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 94vh;
+        margin-left: -15px;
+
+    }
+    .bg-main-section2{
+        background-image: url("/images/new-website/Bg_home-02.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 100vh;
+
+    }
+    .figure{
+        margin: 0px -14px 0rem;
+    }
+
+    .home-text{
+        font-family: quicksand;
+        text-align: right;
+        font-size: 22px;
+        margin-right: 6%
+
+
+    }
+
+    .home-text p{
+        font-family: quicksand;
+        text-align: right;
+        margin-bottom: 0%;
+        color: #b3b3b3;
+    }
+    .home-text > h1{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 3px;
+    }
+    .home-text > h2{
+        font-family: quicksand;
+        text-align: right;
+        margin-top: 1%;
+        margin-right: 2%;
+        font-weight: bold;
+        font-size:30px;
+        color:#4d4d4d;
+    }
+
+    .home-text > h3{
+        font-family: Poppins;
+        text-align: right;
+        font-size: 35px;
+        margin-top: 1%;
+        margin-right: 2%;
+        color:#4d4d4d;
+    }
+
+    .home-text-section1 > h1 {
+        font-family: quicksand;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 2px;
+        text-align: left !important;
+    }
+    .home-text-section1 > p{
+        font-family: quicksand;
+        text-align: center;
+        font-size: 12px;
+        text-align: left !important;
+    }
+    .bg-footer{
+        background-color:#4d4d4d;
+        height: 136px;
+        width: 440px;
+        position: absolute;
+        right: 40px;
+        bottom: 0%;
+    }
+    a:hover{
+        color: #b3b3b3;
+    }
+    .video-section{
+        height: 54vh;
+        width: 100vh;
+    }
+    .block-video{
+        text-align: right;
+        height: 463px;
+        overflow: hidden;
+    }
+    .img-layout-1{
+        display:flex;
+        align-items: flex-end;
+        margin-left:-15px;
+    }
+    .img-layout{
+        margin-left: 95px;
+    }
+    .text-inline{
+        display: inline;
+    }
+    .desktop-section-1{
+        padding-left: 12% !important;
+        margin-top: 20px;
+    }
+    .text-banner{
+        position: absolute;
+        width: 400px;
+        right: 170px ;
+        top: 130px ;
+     }
+     .text-banner > h5{
+        font-family: quicksand;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        text-shadow:2px 2px 5px #000000;
+     }
+     .text-banner > p{
+        font-family: quicksand;
+        font-size: 20px;
+        color: white;
+        text-shadow:2px 2px 5px #000000;
+     }
+     .footer-section{
+        margin-top: 25px
+    }
+    .icon-footer{
+        width: 500px !important;
+        margin-left:auto !important;
+        margin-top:25px;
+
+    }
+}

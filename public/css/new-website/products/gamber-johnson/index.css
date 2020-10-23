@@ -1,0 +1,670 @@
+@media screen and (min-width: 992px){
+    .section-1{
+
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/gamber-johnson/bg_text1920x1080-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 56vw;
+        width: auto;
+    }
+    .section-2{
+        height: 100vh;
+        width: auto;
+        padding-right: 5%;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-02_1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-2{
+        text-align: -webkit-right;
+        padding-top: 6%;
+    }
+    .text-section-2 > h2{
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        width: fit-content;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 1.0vw;
+        width: 40%;
+        line-height: 1.5;
+        padding-top: 1%;
+        color: #707070;
+    }
+    .text-section-2 > p > strong{
+        font-size: 1.2vw;
+    }
+    .text-section-2 > figure > img {
+        width: 25%;
+    }
+    .section-3{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: right;
+    }
+    .text-section-3{
+        width: 40%;
+        padding: 8% 0% 0 9%;
+        text-align: left;
+    }
+    .text-sup-3{
+        padding-top: 9%;
+    }
+    .text-section-3 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+
+    .tab-mobile-none{
+        display: none;
+    }
+    .section-4{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-4{
+        width: 100%;
+        padding: 10% 5% 0 61%;
+        text-align: right;
+    }
+    .text-section-4 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+    .text-section-4 > a{
+        padding-left: 8%;
+    }
+    .text-sup-4{
+        padding-top: 9%;
+    }
+    .btn-banner{
+        width: 105px;
+        height: 28px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .section-5{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-5{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-05.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: right;
+    }
+    .text-section-5{
+        width: 45%;
+        padding: 8% 0% 0 9%;
+        text-align: left;
+    }
+    .text-sup-5{
+        padding-top: 5%;
+    }
+    .text-section-5 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-5 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/gamber-johnson/text2048px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 95vh;
+        width: auto;
+    }
+    .section-2{
+        height: 1400px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/gamber-johnson/2048px-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 17%;
+    }
+    .text-section-2 > h2{
+        font-faily: quicksand;
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .tab-mobile-none{
+        display: none;
+    }
+    .section-3{
+        height: 1390px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-sup-3{
+        padding-top: 10%;
+
+    }
+    .desktop-none{
+        display: none;
+    }
+    .section-4{
+        height: 1350px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 13% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .text-sup-4{
+        padding-top: 10%;
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .pic-3{
+        width: 97.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .bg-footer {
+        width: 90% !important;
+        height: 190px !important;
+        margin-left: 61px !important;
+        border-radius: 40px 40px 0 0 !important;
+        margin-top: 5%;
+    }
+    .section-5{
+        height: 1300px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-5{
+        background-image: url("/images/new-website/products/gamber-johnson/pic_G750px-3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-5{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-5 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-5 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/gamber-johnson/text2048px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 102%;
+        width: auto;
+    }
+    .section-2{
+        height: 1200px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/gamber-johnson/2048px-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 17%;
+    }
+    .text-section-2 > h2{
+        font-faily: quicksand;
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .tab-mobile-none{
+        display: none;
+    }
+    .section-3{
+        height: 1150px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-sup-3{
+        padding-top: 10%;
+
+    }
+    .desktop-none{
+        display: none;
+    }
+    .section-4{
+        height: 1150px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/gamber-johnson/1920x1080-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 13% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .text-sup-4{
+        padding-top: 10%;
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .pic-3{
+        width: 97.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .bg-footer {
+        width: 90% !important;
+        height: 150px !important;
+        margin-left: 45px !important;
+        border-radius: 40px 40px 0 0 !important;
+        margin-top: 5%;
+    }
+    .section-5{
+        height: 1100px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-5{
+        background-image: url("/images/new-website/products/gamber-johnson/pic_G750px-3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-5{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-5 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-5 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+}
+@media screen and (max-width: 598px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/gamber-johnson/text750px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 760px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/gamber-johnson/750px-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 17%;
+    }
+    .text-section-2 > h2{
+        font-faily: quicksand;
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .tab-mobile-none{
+        display: none;
+    }
+    .section-3{
+        height: 760px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/gamber-johnson/pic_G750px-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-sup-3{
+        padding-top: 10%;
+
+    }
+    .desktop-none{
+        display: none;
+    }
+    .section-4{
+        height: 760px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/gamber-johnson/pic_G750px-2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 13% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .text-sup-4{
+        padding-top: 10%;
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .pic-3{
+        width: 97.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .bg-footer {
+        width: 90% !important;
+        height: 105px !important;
+        margin-left: 34px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+    .section-5{
+        height: 710px;
+        width:auto;
+        padding-left: 12%;
+    }
+    .bg-section-5{
+        background-image: url("/images/new-website/products/gamber-johnson/pic_G750px-3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-5{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-5 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-5 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+}

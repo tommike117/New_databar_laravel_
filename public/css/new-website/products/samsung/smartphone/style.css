@@ -1,0 +1,435 @@
+@media screen and (min-width: 992px){
+    .bg-all{
+        background-image: url('/images/new-website/products/samsung/smartphones/bg_product-01.jpg');
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .tablet-mobile{
+        display:none !important;
+    }
+    .banner-desktop{
+        display: block;
+    }
+    .banner-mobile{
+        display: none;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 17px;
+        font-weight: 300;
+        color: #4d4d4d;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .show-products{
+        color:#4d4d4d;
+        margin-bottom: 25px;
+        margin-top: 5%;
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 0px 100px 0px 135px;
+    }
+    .section-1 > h1{
+        font-family: poppins;
+        font-size: 28px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+        padding-top: 71px;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 18px;
+    }
+    .set-block-product-samsung-smartphone{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 6% 0 8%;
+    }
+    .block-product-samsung-smartphone{
+        height: auto;
+        width: 100%;
+        background-color: #f1f1f185;
+        flex: 0 0 23%;
+        max-width: 23%;
+        margin: 1%;
+        transition: 0.3s;
+
+    }
+    .block-product-samsung-smartphone:hover{
+
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+    }
+    .btn-banner{
+        margin-top: 2%;
+        width: 137px;
+        height: 40px;
+        border-radius: 25px;
+        border: solid 1px #4d4d4d;
+        color: #4d4d4d;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        transition: 0.3s;
+        font-family: poppins;
+        font-weight: 300;
+        margin-bottom: 35px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ff;
+        color: white;
+        border: none;
+
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .tablet-mobile{
+        display: block;
+    }
+    .banner-desktop{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+    }
+    .desktop-none{
+        display: none !important;
+    }
+    .show-products{
+        color:#4d4d4d;
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 17px;
+        margin-top: 15px;
+        font-weight: 300;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: inherit;
+    }
+    .set-block-product-samsung-smartphone{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10% 0 15%;
+    }
+    .block-product-samsung-smartphone{
+        height: auto;
+        width: 100%;
+        background-color: #f1f1f185;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-left: 5%;
+        transition: 0.3s;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+
+    }
+    .btn-banner{
+        width: 125px;
+        height: 35px;
+        border-radius: 25px;
+        border: solid 1px #4d4d4d;
+        color: #4d4d4d;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        transition: 0.3s;
+        font-family: poppins;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ff;
+        color: white;
+        border: none;
+
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+        margin-left: -30px;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 100px 0px 100px;
+    }
+    .section-1 > h1{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .tablet-mobile{
+        display: block;
+    }
+    .banner-desktop{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+    }
+    .desktop-none{
+        display: none !important;
+    }
+    .show-products{
+        color:#4d4d4d;
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: inherit;
+    }
+    .set-block-product-samsung-smartphone{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10% 0 15%;
+    }
+    .block-product-samsung-smartphone{
+        height: auto;
+        width: 100%;
+        background-color: #f1f1f185;
+        flex: 0 0 100%;
+        max-width: 100%;
+        transition: 0.3s;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+
+    }
+    .btn-banner{
+        width: 125px;
+        height: 35px;
+        border-radius: 25px;
+        border: solid 1px #4d4d4d;
+        color: #4d4d4d;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        transition: 0.3s;
+        font-family: poppins;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ff;
+        color: white;
+        border: none;
+
+    }
+
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 100px 0px 100px;
+    }
+    .section-1 > h1{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 598px){
+    .tablet-mobile{
+        display: block;
+    }
+    .banner-desktop{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+    }
+    .desktop-none{
+        display: none !important;
+    }
+    .show-products{
+        color:#4d4d4d;
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }
+    
+    .set-block-product-samsung-smartphone{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10% 0 15%;
+    }
+    .block-product-samsung-smartphone{
+        height: auto;
+        width: 100%;
+        background-color: #f1f1f185;
+        flex: 0 0 100%;
+        max-width: 100%;
+        transition: 0.3s;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+
+    }
+    .btn-banner{
+        width: 125px;
+        height: 35px;
+        border-radius: 25px;
+        border: solid 1px #4d4d4d;
+        color: #4d4d4d;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        transition: 0.3s;
+        font-family: poppins;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ff;
+        color: white;
+        border: none;
+
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 11px;
+        font-weight: 300;
+        margin-top: 15px;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: inherit;
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+        margin-left: -30px;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 30px 0px 30px;
+    }
+    .section-1 > h1{
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+        font-size: 10px;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}

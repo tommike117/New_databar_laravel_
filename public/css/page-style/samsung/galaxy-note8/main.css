@@ -1,0 +1,893 @@
+[data-aos^=myanimation-perfomance][data-aos^=myanimation-perfomance]{
+  opacity: 1 !important;
+  transform: translateY(0px);
+  transition-property:transform !important;
+  
+}
+[data-aos^=myanimation-perfomance][data-aos^=myanimation-perfomance].aos-animate {
+  opacity: 1 !important;
+  transform: translateY(-350px) !important;
+}
+figure{
+  margin-bottom:0;
+}
+figcaption{
+  color:white !important;
+}
+@media only screen and (min-width:320px){
+  .col_banner1{
+    margin-top:15% !important;
+  }
+  .s8_device{
+    width:100px !important;
+    top: calc((100% - 100px) / 2) !important;
+  }
+  .s8_background{
+    width: 100%;
+    height: auto !important;
+  }
+  .s8_text{
+    font-size:15px !important;
+    margin: 10px !important;
+  }
+  .do_bigger_thing{
+    font-size:30px !important;
+    bottom:calc((100% -  41px) / 2) !important;
+  }
+  .s_pen{
+    font-size:20px !important;
+  }
+  .s_pen_line_2{
+    font-size:17px !important;
+    width:100% !important;
+  }
+  .s_pen_content{
+    font-size:13px !important;
+    width:100% !important;
+  }
+  .s_pen_section{
+    top:0 !important;
+  }
+  .ul_spen{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .s_pen_icon{
+    width:30px !important;
+  }
+  .figcapture_spen{
+    font-size:10px !important;
+  }
+  .portrait_s8_device{
+    width:150px !important;
+  }
+  .s8_animation{
+    bottom:10% !important;
+  }
+  .here_we_go{
+    font-size:13px !important;
+    left:-60px !important;
+    right:0 !important;
+    margin:auto !important;
+    bottom:10px !important;
+  }
+  .s8_hand_camera{
+    width:270px !important;
+  }
+  .text_camera_white{
+    font-size:12px !important;
+    width:100% !important;
+    margin-bottom:0 !important;
+  }
+  .big_text_camera_white{
+    font-size:10px !important;
+    width:100% !important;
+  }
+  .content_camera_white{
+    font-size:7px !important;
+    width:100% !important;
+    font-weight: normal !important;
+  }
+  .animation_s8_camera{
+    top:0 !important;
+  }
+  .ul_camera{
+    display: inline-flex;
+    padding:0 !important;
+  }
+  .camera_icon{
+    width:20px !important;
+  }
+  .figcaption_camera{
+    font-size:10px !important;
+  }
+  .s8_performance{
+    width:200px !important;
+  }
+  .performance_line1{
+    font-size:12px !important;
+    width:100% !important;
+  
+  }
+  .performance_line2{
+    font-size:20px !important;
+    width:100% !important;
+  
+  }
+  .performance_line3{
+    font-size:10px !important;
+    width:100% !important;
+  }
+  .remark_text{
+    font-size:8px !important;
+  }
+  .animation_performance{
+    top:0 !important;
+  }
+  .animation_performance_phone{
+    bottom:5% !important;
+  }
+  .design_line1{
+    font-size:12px !important;
+    width:100% !important;
+  }
+  .design_line2{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .design_content{
+    font-size:10px !important;
+    width:100% !important;
+  }
+  .ul_display{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .display_icon{
+    width:30px !important;
+  }
+  .figcaption_display{
+    font-size:10px !important;
+  }
+  .animation_design{
+    bottom:5.5% !important;
+  }
+  .product_icon{
+    width:30px !important;
+  }
+  .ul_product{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .figcaption_product{
+    font-size:10px !important;
+  }
+  .product_1{
+    left: 150px !important;
+    bottom: 80px !important;
+  }
+  .product_2{
+    bottom: 100px !important;
+    right: 14px !important;
+  }
+  .product_3{
+    bottom: 90px !important;
+    right: 109px !important;
+  }
+  .product_4{
+    right: 200px !important;
+    bottom: 80px !important;
+  }
+  .accessories_content{
+    font-size:10px !important;
+  }
+}
+@media only screen and (min-width:375px){
+  .col_banner1{
+    margin-top:10% !important;
+  }
+}
+@media only screen and (min-width:425px){
+  .col_banner1{
+    margin-top:10% !important;
+  }
+  .s8_device{
+    width:150px !important;
+    top: calc((100% - 150px) / 2) !important;
+  }
+  .s8_background{
+    width: 100%;
+    height: auto !important;
+  }
+  .s8_text{
+    font-size:15px !important;
+    margin: 10px !important;
+  }
+  .do_bigger_thing{
+    font-size:30px !important;
+    bottom:calc((100% -  41px) / 2) !important;
+  }
+  .s_pen{
+    margin-top:5% !important;
+    font-size:25px !important;
+  }
+  .s_pen_line_2{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .s_pen_content{
+    font-size:13px !important;
+    width:100% !important;
+  }
+  .s_pen_section{
+    top:0 !important;
+  }
+  .ul_spen{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .s_pen_icon{
+    width:30px !important;
+  }
+  .figcapture_spen{
+    font-size:10px !important;
+  }
+  .portrait_s8_device{
+    width:300px !important;
+  }
+  .s8_animation{
+    bottom:10% !important;
+  }
+  .here_we_go{
+    font-size:13px !important;
+    left:-60px !important;
+    right:0 !important;
+    margin:auto !important;
+    bottom:10px !important;
+  }
+  .s8_hand_camera{
+    width:350px !important;
+  }
+  .text_camera_white{
+    font-size:12px !important;
+    width:100% !important;
+    margin-bottom:0 !important;
+  }
+  .big_text_camera_white{
+    font-size:10px !important;
+    width:100% !important;
+  }
+  .content_camera_white{
+    font-size:7px !important;
+    width:100% !important;
+    font-weight: normal !important;
+  }
+  .animation_s8_camera{
+    top:0 !important;
+  }
+  .ul_camera{
+    display: inline-flex;
+    padding:0 !important;
+  }
+  .camera_icon{
+    width:20px !important;
+  }
+  .figcaption_camera{
+    font-size:10px !important;
+  }
+  .s8_performance{
+    width:300px !important;
+  }
+  .performance_line1{
+    font-size:12px !important;
+    width:100% !important;
+  
+  }
+  .performance_line2{
+    font-size:20px !important;
+    width:100% !important;
+  
+  }
+  .performance_line3{
+    font-size:12px !important;
+    width:100% !important;
+    font-weight:normal;
+  }
+  .remark_text{
+    font-size:10px !important;
+    font-weight: normal !important;
+  }
+  .animation_performance{
+    top:0 !important;
+  }
+  .animation_performance_phone{
+    bottom:5% !important;
+  }
+  .design_line1{
+    font-size:12px !important;
+    width:100% !important;
+  }
+  .design_line2{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .design_content{
+    font-size:10px !important;
+    width:100% !important;
+  }
+  .ul_display{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .display_icon{
+    width:30px !important;
+  }
+  .figcaption_display{
+    font-size:10px !important;
+  }
+  .animation_design{
+    bottom:5.5% !important;
+  }
+  .product_icon{
+    width:30px !important;
+  }
+  .ul_product{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .figcaption_product{
+    font-size:10px !important;
+  }
+  .product_1{
+    left: 150px !important;
+    bottom: 80px !important;
+  }
+  .product_2{
+    bottom: 100px !important;
+    right: 14px !important;
+  }
+  .product_3{
+    bottom: 90px !important;
+    right: 109px !important;
+  }
+  .product_4{
+    right: 200px !important;
+    bottom: 80px !important;
+  }
+  .accessories_content{
+    font-size:10px !important;
+  }
+}
+@media only screen and (min-width:768px){
+  .col_banner1{
+    margin-top:5% !important;
+  }
+  .s8_device{
+    width:200px !important;
+    top: calc((100% - 200px) / 2) !important;
+  }
+  .s8_background{
+    width: 100%;
+    height: auto !important;
+  }
+  .s8_text{
+    font-size:25px !important;
+    margin: 15px !important;
+  }
+  .do_bigger_thing{
+    font-size:70px !important;
+    bottom:calc((100% -  81px) / 2) !important;
+  }
+  .s_pen{
+    margin-top:5% !important;
+    font-size:30px !important;
+  }
+  .s_pen_line_2{
+    font-size:30px !important;
+    width:100% !important;
+  }
+  .s_pen_content{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .s_pen_section{
+    top:0 !important;
+  }
+  .ul_spen{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .s_pen_icon{
+    width:40px !important;
+  }
+  .figcapture_spen{
+    font-size:15px !important;
+  }
+  .portrait_s8_device{
+    width:350px !important;
+  }
+  .s8_animation{
+    bottom:10% !important;
+  }
+  .here_we_go{
+    font-size:15px !important;
+    left:-100px !important;
+    right:0 !important;
+    margin:auto !important;
+    bottom:30px !important;
+  }
+  .s8_hand_camera{
+    width:650px !important;
+  }
+  .text_camera_white{
+    font-size:50px !important;
+    width:100% !important;
+    margin-bottom:0 !important;
+  }
+  .big_text_camera_white{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .content_camera_white{
+    font-size:16px !important;
+    width:100% !important;
+    font-weight: normal !important;
+  }
+  .animation_s8_camera{
+    top:0 !important;
+  }
+  .ul_camera{
+    display: inline-flex;
+    padding:0 !important;
+  }
+  .camera_icon{
+    width:40px !important;
+  }
+  .figcaption_camera{
+    font-size:15px !important;
+  }
+  .s8_performance{
+    width:500px !important;
+  }
+  .performance_line1{
+    font-size:40px !important;
+    width:100% !important;
+  
+  }
+  .performance_line2{
+    font-size:25px !important;
+    width:100% !important;
+  
+  }
+  .performance_line3{
+    font-size:17px !important;
+    width:100% !important;
+    font-weight:normal;
+  }
+  .remark_text{
+    font-size:12px !important;
+    font-weight: normal !important;
+  }
+  .animation_performance{
+    top:0 !important;
+  }
+  .animation_performance_phone{
+    bottom:5% !important;
+  }
+  .design_line1{
+    font-size:50px !important;
+    width:100% !important;
+  }
+  .design_line2{
+    font-size:25px !important;
+    width:100% !important;
+  }
+  .design_content{
+    font-size:17px !important;
+    width:100% !important;
+  }
+  .ul_display{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .display_icon{
+    width:40px !important;
+  }
+  .figcaption_display{
+    font-size:14px !important;
+  }
+  .animation_design{
+    bottom:8% !important;
+  }
+  .product_icon{
+    width:40px !important;
+  }
+  .ul_product{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .figcaption_product{
+    font-size:14px !important;
+  }
+  .product_1{
+    left: 0px !important;
+    bottom: 50px !important;
+  }
+  .product_2{
+    bottom: 107px !important;
+    right: 70px !important;
+  }
+  .product_3{
+    bottom: 74px !important;
+    right: 109px !important;
+  }
+  .product_4{
+    right: 120px !important;
+    bottom: 50px !important;
+  }
+  .accessories_content{
+    font-size:10px !important;
+  }
+}
+@media only screen and (min-width:1024px){
+  .col_banner1{
+    margin-top:0% !important;
+  }
+  .s8_device{
+    width:30% !important;
+    top: calc((100% - 400px) / 2) !important;
+  }
+  .s8_background{
+    width: 100%;
+    height: auto !important;
+  }
+  .s8_text{
+    font-size:25px !important;
+    margin: 15px !important;
+  }
+  .do_bigger_thing{
+    font-size:70px !important;
+    bottom:calc((100% -  81px) / 2) !important;
+  }
+  .s_pen{
+    margin-top:5% !important;
+    font-size:60px !important;
+  }
+  .s_pen_line_2{
+    font-size:30px !important;
+    width:100% !important;
+  }
+  .s_pen_content{
+    font-size:20px !important;
+    width:100% !important;
+    padding:0 20% !important;
+  }
+  .s_pen_section{
+    top:0 !important;
+  }
+  .ul_spen{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .s_pen_icon{
+    width:60px !important;
+  }
+  .figcapture_spen{
+    font-size:15px !important;
+  }
+  .portrait_s8_device{
+    width:45% !important;
+  }
+  .s8_animation{
+    bottom:10% !important;
+  }
+  .here_we_go{
+    font-size:20px !important;
+    left:-150px !important;
+    right:0 !important;
+    margin:auto !important;
+    bottom:50px !important;
+  }
+  .s8_hand_camera{
+    width:100% !important;
+  }
+  .text_camera_white{
+    font-size:70px !important;
+    width:100% !important;
+    margin-top:10% !important;
+    margin-bottom:0 !important;
+  }
+  .big_text_camera_white{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .content_camera_white{
+    font-size:16px !important;
+    width:100% !important;
+    font-weight: normal !important;
+  }
+  .animation_s8_camera{
+    top:0 !important;
+  }
+  .ul_camera{
+    display: inline-flex;
+    padding:0 !important;
+  }
+  .camera_icon{
+    width:60px !important;
+    margin-bottom:1rem;
+  }
+  .figcaption_camera{
+    font-size:15px !important;
+  }
+  .s8_performance{
+    width:700px !important;
+  }
+  .performance_line1{
+    font-size:60px !important;
+    width:100% !important;
+    margin-top:10%;
+  
+  }
+  .performance_line2{
+    font-size:25px !important;
+    width:100% !important;
+  
+  }
+  .performance_line3{
+    font-size:17px !important;
+    width:100% !important;
+    font-weight:normal;
+  }
+  .remark_text{
+    font-size:12px !important;
+    font-weight: normal !important;
+  }
+  .animation_performance{
+    top:0 !important;
+  }
+  .animation_performance_phone{
+    bottom:5% !important;
+  }
+  .design_line1{
+    font-size:60px !important;
+    width:100% !important;
+  }
+  .design_line2{
+    font-size:25px !important;
+    width:100% !important;
+  }
+  .design_content{
+    font-size:17px !important;
+    width:100% !important;
+  }
+  .ul_display{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .display_icon{
+    width:50px !important;
+  }
+  .figcaption_display{
+    font-size:14px !important;
+  }
+  .animation_design{
+    bottom:8% !important;
+  }
+  .product_icon{
+    width:50px !important;
+  }
+  .ul_product{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .figcaption_product{
+    font-size:14px !important;
+  }
+  .product_1{
+    left: 0px !important;
+    bottom: 50px !important;
+    margin:50px auto !important;
+  }
+  .product_2{
+    bottom: 107px !important;
+    right: 70px !important;
+    margin:50px auto !important;
+  }
+  .product_3{
+    bottom: 74px !important;
+    right: 109px !important;
+    margin:50px auto !important;
+  }
+  .product_4{
+    right: 120px !important;
+    bottom: 50px !important;
+    margin:50px auto !important;
+  }
+  .accessories_content{
+    font-size:17px !important;
+
+  }
+}
+@media only screen and (min-width:1440px){
+  .col_banner1{
+    margin-top:0% !important;
+  }
+  .s8_device{
+    width:400px !important;
+    top: calc((100% - 400px) / 2) !important;
+  }
+  .s8_background{
+    width: 100%;
+    height: auto !important;
+  }
+  .s8_text{
+    font-size:25px !important;
+    margin: 25px !important;
+  }
+  .do_bigger_thing{
+    font-size:100px !important;
+    bottom:calc((100% -  101px) / 2) !important;
+  }
+  .s_pen{
+    margin-top:5% !important;
+    font-size:60px !important;
+  }
+  .s_pen_line_2{
+    font-size:40px !important;
+    width:100% !important;
+  }
+  .s_pen_content{
+    font-size:20px !important;
+    width:100% !important;
+  }
+  .s_pen_section{
+    top:0 !important;
+  }
+  .ul_spen{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .s_pen_icon{
+    width:80px !important;
+  }
+  .figcapture_spen{
+    font-size:20px !important;
+  }
+  .portrait_s8_device{
+    width:800px !important;
+  }
+  .s8_animation{
+    bottom:10% !important;
+  }
+  .here_we_go{
+    font-size:25px !important;
+    left:-180px !important;
+    right:0 !important; 
+    margin:auto !important;
+    bottom:60px !important;
+  }
+  .s8_hand_camera{
+    width:1240px !important;
+  }
+  .text_camera_white{
+    font-size:80px !important;
+    width:100% !important;
+    margin-top:10% !important;
+    margin-bottom:0 !important;
+  }
+  .big_text_camera_white{
+    font-size:25px !important;
+    width:100% !important;
+  }
+  .content_camera_white{
+    font-size:18px !important;
+    width:100% !important;
+    font-weight: normal !important;
+    padding:0 20% !important;
+  }
+  .animation_s8_camera{
+    top:0 !important;
+  }
+  .ul_camera{
+    display: inline-flex;
+    padding:0 !important;
+  }
+  .camera_icon{
+    width:80px !important;
+    margin-bottom:1rem;
+  }
+  .figcaption_camera{
+    font-size:20px !important;
+  }
+  .s8_performance{
+    width:70% !important;
+  }
+  .performance_line1{
+    font-size:70px !important;
+    width:100% !important;
+    margin-top:10%;
+  
+  }
+  .performance_line2{
+    font-size:25px !important;
+    width:100% !important;
+  
+  }
+  .performance_line3{
+    font-size:20px !important;
+    width:100% !important;
+    font-weight:normal;
+    padding:0 20% !important;
+  }
+  .remark_text{
+    font-size:13px !important;
+    margin-top:5% !important;
+    font-weight: normal !important;
+  }
+  .animation_performance{
+    top:0 !important;
+  }
+  .animation_performance_phone{
+    bottom:5% !important;
+  }
+  .design_line1{
+    font-size:70px !important;
+    width:100% !important;
+  }
+  .design_line2{
+    font-size:25px !important;
+    width:100% !important;
+  }
+  .design_content{
+    font-size:20px !important;
+    padding:0 20% !important;
+    width:100% !important;
+  }
+  .ul_display{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .display_icon{
+    width:70px !important;
+  }
+  .figcaption_display{
+    font-size:20px !important;
+  }
+  .animation_design{
+    bottom:8% !important;
+  }
+  .product_icon{
+    width:70px !important;
+  }
+  .ul_product{
+    display:inline-flex;
+    padding:0 !important;
+  }
+  .figcaption_product{
+    font-size:20px !important;
+  }
+  .product_1{
+    left: 0px !important;
+    bottom: 50px !important;
+    margin:150px auto !important;
+  }
+  .product_2{
+    bottom: 107px !important;
+    right: 70px !important;
+    margin:150px auto !important;
+  }
+  .product_3{
+    bottom: 74px !important;
+    right: 109px !important;
+    margin:150px auto !important;
+  }
+  .product_4{
+    right: 120px !important;
+    bottom: 50px !important;
+    margin:150px auto !important;
+  }
+  .accessories_content{
+    font-size:20px !important;
+  }
+}

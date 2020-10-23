@@ -1,0 +1,629 @@
+
+:root {
+    --toshiba-color: #DA2A2A;
+  }
+  
+
+.toshiba-color{
+    color:var(--toshiba-color) !important;
+}
+.container-fluid.p-lg-5.mt-7{
+    overflow: hidden;
+}
+
+.my-a{
+    letter-spacing: 5px;
+    display: block;
+    width:fit-content;
+    color: var(--toshiba-color);
+    position:relative;
+}
+
+
+@media only screen and (max-width:575.98px){
+
+    .mt-xs-8{
+        margin-top:8px;
+    }
+    
+    .margin-from-navbar{
+        margin-top:50px;
+    }
+    .row.banner-lg{
+        display:none;
+    }
+    .row.banner-xs{
+        display:flex;
+    }
+    .block_h1-xs{
+        margin:30px auto;
+        flex:0 0 100%;
+        max-width: 100%;
+        height:250px;
+        padding:10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .h1-xs{
+        font-size:30px;
+        font-weight: 600;
+        margin-bottom:0.85rem;
+        position: relative;
+    }
+    .h1-xs::after{
+        content:"";
+        background: var(--toshiba-color);
+        height: 2px;
+        position: absolute;
+        left: 3px;
+        bottom:-5px;
+        margin:auto;
+        width:60px;
+    }
+    .block_h1-xs > strong > .strong-p{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .block_h1-xs > .h1-content{
+        font-size:13px;
+    }
+    .xs-column-reverse{
+        flex-direction: column-reverse;
+    }
+    .flex-half{
+        margin:30px auto;
+    }
+    .flex-half.content{
+        padding:10px 20px;
+    }
+    .h2-xs{
+        color:var(--toshiba-color);
+        font-size:40px;
+        font-weight: 500;
+        margin-bottom:0.85rem;
+    }
+    .strong-p-product_detail-xs{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .p-product_detail-xs{
+        font-size:13px;
+    }
+    .my-a{
+        font-size:13px;
+    }
+    .my-a:hover{
+        color:var(--toshiba-color);
+    }
+    .underline-animation::after{
+        background-color: var(--toshiba-color) ;
+        height:1.2px ;
+        bottom:-7px;
+    }
+    .underline-animation:hover::after{
+        width:60%;
+    }
+    .arror-right{
+        position:relative;
+    }
+    .arror-right::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+    .arror-left::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .margin-from-navbar{
+        margin-top:50px;
+    }
+    .row.banner-lg{
+        display:none;
+    }
+    .row.banner-xs{
+        display:flex;
+    }
+    .block_h1-xs{
+        margin:30px auto;
+        flex:0 0 100%;
+        max-width: 100%;
+        height:250px;
+        padding:10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .h1-xs{
+        font-size:30px;
+        font-weight: 600;
+        margin-bottom:0.85rem;
+        position: relative;
+    }
+    .h1-xs::after{
+        content:"";
+        background: var(--toshiba-color);
+        height: 2px;
+        position: absolute;
+        left: 3px;
+        bottom:-5px;
+        margin:auto;
+        width:60px;
+    }
+    .block_h1-xs > strong > .strong-p{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .block_h1-xs > .h1-content{
+        font-size:13px;
+    }
+    .xs-column-reverse{
+        flex-direction: column-reverse;
+    }
+    .flex-half{
+        margin:30px auto;
+    }
+    .flex-half.content{
+        padding:10px 20px;
+    }
+    .h2-xs{
+        color:var(--toshiba-color);
+        font-size:40px;
+        font-weight: 500;
+        margin-bottom:0.85rem;
+    }
+    .strong-p-product_detail-xs{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .p-product_detail-xs{
+        font-size:13px;
+    }
+    .my-a{
+        font-size:13px;
+    }
+    .my-a:hover{
+        color:var(--toshiba-color);
+    }
+    .underline-animation::after{
+        background-color: var(--toshiba-color) ;
+        height:1.2px ;
+        bottom:-7px;
+    }
+    .underline-animation:hover::after{
+        width:60%;
+    }
+    .arror-right{
+        position:relative;
+    }
+    .arror-right::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+    .arror-left::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .margin-from-navbar{
+        margin-top:50px;
+    }
+    .row.banner-lg{
+        display:none;
+    }
+    .row.banner-xs{
+        display:flex;
+    }
+    .block_h1-xs{
+        margin:30px auto;
+        flex:0 0 100%;
+        max-width: 100%;
+        height:250px;
+        padding:10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .h1-xs{
+        font-size:30px;
+        font-weight: 600;
+        margin-bottom:0.85rem;
+        position: relative;
+    }
+    .h1-xs::after{
+        content:"";
+        background: var(--toshiba-color);
+        height: 2px;
+        position: absolute;
+        left: 3px;
+        bottom:-5px;
+        margin:auto;
+        width:60px;
+    }
+    .block_h1-xs > strong > .strong-p{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .block_h1-xs > .h1-content{
+        font-size:13px;
+    }
+    .xs-column-reverse{
+        flex-direction: column-reverse;
+    }
+    .flex-half{
+        margin:30px auto;
+    }
+    .flex-half.content{
+        padding:10px 20px;
+    }
+    .product-image-block{
+        width:500px;
+    }
+    .h2-xs{
+        color:var(--toshiba-color);
+        font-size:40px;
+        font-weight: 500;
+        margin-bottom:0.85rem;
+    }
+    .strong-p-product_detail-xs{
+        font-size:16px;
+        margin-bottom:0.5rem;
+    }
+    .p-product_detail-xs{
+        font-size:13px;
+    }
+    .my-a{
+        font-size:13px;
+    }
+    .my-a:hover{
+        color:var(--toshiba-color);
+    }
+    .underline-animation::after{
+        content: "" ;
+        background-color: var(--toshiba-color) ;
+        height: 1.2px ;
+        position: absolute;
+        bottom: -7px;
+        transition: 0.6s;
+        left: 0;
+        width: 0;
+    }
+    .underline-animation:hover::after{
+        width:60%;
+    }
+    .arror-right{
+        position:relative;
+    }
+    .arror-right::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+    .arror-left::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .row.banner-lg{
+        display:flex;
+    }
+    .row.banner-xs{
+        display:none;
+    }
+    .block_h1{
+        width:1000px;
+        height:400px;
+        padding:20px 80px;
+        background: rgba(255, 255, 255, 0.637);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: calc((100% - 400px) / 2);
+
+    }
+    .h1{
+        font-size:80px;
+        font-weight: 600;
+        margin-bottom:1.5rem;
+    }
+    .strong-p{
+        font-size:25px;
+    }
+    .h1-content{
+        font-size:16px;
+    }
+    .h1-redtab{
+        position: relative;
+    }
+    .h1-redtab::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:20px;
+        width:50px;
+        position: absolute;
+        left: -80px;
+        top: calc((100% - 20px) / 2);
+
+    }
+    .h2-redtab-left{
+        position: relative;
+    }
+    .h2-redtab-left::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:15px;
+        width:50px;
+        position: absolute;
+        left: -120px;
+        top: calc((100% - 15px) / 2);
+    }
+    .h2-redtab-right{
+        position: relative;
+    }
+    .h2-redtab-right::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:15px;
+        width:50px;
+        position: absolute;
+        right: -120px;
+        top: calc((100% - 15px) / 2);
+    }
+    .margin-from-navbar{
+        margin-top:65px;
+    }
+    
+    .flex-half{
+        display: flex;
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .flex-half.content{
+        flex-direction: column;
+        justify-content: center;
+        padding:20px 80px;
+    }
+    h2{
+        font-size:60px;
+        color: var(--toshiba-color);
+        font-weight: 600;
+        margin-bottom:1.25rem;
+    }
+    .mt-7{
+        margin-top:100px;
+    }
+    .strong-p-product_detail{
+        font-size:25px;
+    }
+    .p-product_detail{
+        font-size:15px;
+    }
+    .product-image-block{
+        width:700px;
+        height: auto;
+        margin:auto;
+    }
+    .lg-row-reverse{
+        flex-direction: row-reverse;
+    }
+    .lg-row-reverse > .flex-half.content{
+        align-items:flex-end;
+    }
+    .lg-row-reverse > .flex-half.content > strong >.strong-p-product_detail ,
+    .lg-row-reverse > .flex-half.content >.p-product_detail{
+        text-align: right;
+    }
+
+
+    .my-a{
+        font-size:14px;
+    }
+    .my-a:hover{
+        color:var(--toshiba-color);
+    }
+    .underline-animation::after{
+        content: "" ;
+        background-color: var(--toshiba-color);
+        height: 1.2px ;
+        position: absolute;
+        bottom: -7px;
+        transition: 0.6s;
+        left: 0;
+        width: 0;
+    }
+    .underline-animation:hover::after{
+        width:60%;
+    }
+    .container-fluid.mt-7 > .row:not(:first-child){
+        margin-top:50px;
+    }
+    .arror-right{
+        position:relative;
+    }
+    .arror-right::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+    .arror-left::before{
+        content:"<";
+        color:var(--toshiba-color);
+        position: absolute;
+        left: -20px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .row.banner-lg{
+        display:flex;
+    }
+    .row.banner-xs{
+        display:none;
+    }
+    .block_h1{
+        width:1000px;
+        height:400px;
+        padding:20px 80px;
+        background: rgba(255, 255, 255, 0.637);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: calc((100% - 400px) / 2);
+
+    }
+    .h1{
+        font-size:80px;
+        font-weight: 600;
+        margin-bottom:1.5rem;
+    }
+    .strong-p{
+        font-size:25px;
+    }
+    .h1-content{
+        font-size:16px;
+    }
+    .h1-redtab{
+        position: relative;
+    }
+    .h1-redtab::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:20px;
+        width:50px;
+        position: absolute;
+        left: -80px;
+        top: calc((100% - 20px) / 2);
+
+    }
+    .h2-redtab-left{
+        position: relative;
+    }
+    .h2-redtab-left::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:15px;
+        width:50px;
+        position: absolute;
+        left: -120px;
+        top: calc((100% - 15px) / 2);
+    }
+    .h2-redtab-right{
+        position: relative;
+    }
+    .h2-redtab-right::after{
+        content: "";
+        background:var(--toshiba-color);
+        height:15px;
+        width:50px;
+        position: absolute;
+        right: -120px;
+        top: calc((100% - 15px) / 2);
+    }
+    .margin-from-navbar{
+        margin-top:65px;
+    }
+    
+    .flex-half{
+        display: flex;
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .flex-half.content{
+        flex-direction: column;
+        justify-content: center;
+        padding:20px 80px;
+    }
+    h2{
+        font-size:60px;
+        color: var(--toshiba-color);
+        font-weight: 600;
+        margin-bottom:1.25rem;
+    }
+    .mt-7{
+        margin-top:100px;
+    }
+    .strong-p-product_detail{
+        font-size:25px;
+    }
+    .p-product_detail{
+        font-size:15px;
+    }
+    .product-image-block{
+        width:700px;
+        height: auto;
+        margin:auto;
+    }
+    .lg-row-reverse{
+        flex-direction: row-reverse;
+    }
+    .lg-row-reverse > .flex-half.content{
+        align-items:flex-end;
+    }
+    .lg-row-reverse > .flex-half.content > strong >.strong-p-product_detail ,
+    .lg-row-reverse > .flex-half.content >.p-product_detail{
+        text-align: right;
+    }
+
+
+    .my-a{
+        font-size:14px;
+    }
+    .my-a:hover{
+        color:var(--toshiba-color);
+    }
+    .underline-animation::after{
+        content: "" ;
+        background-color: var(--toshiba-color);
+        height: 1.2px ;
+        position: absolute;
+        bottom: -7px;
+        transition: 0.6s;
+        left: 0;
+        width: 0;
+    }
+    .underline-animation:hover::after{
+        width:60%;
+    }
+    .container-fluid.mt-7 > .row:not(:first-child){
+        margin-top:50px;
+    }
+    .arror-right{
+        position:relative;
+    }
+    .arror-right::before{
+        content:">";
+        color:var(--toshiba-color);
+        position: absolute;
+        right: -20px;
+    }
+    .arror-left::before{
+        content:"<";
+        color:var(--toshiba-color);
+        position: absolute;
+        left: -20px;
+    }
+}

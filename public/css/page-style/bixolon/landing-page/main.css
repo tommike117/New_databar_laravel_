@@ -1,0 +1,285 @@
+
+.btn-outline-primary{
+    width: 180px;
+    border-color: #1d2d5a;
+    color: #1d2d5a;
+    font-size: 1rem;
+}
+.btn-outline-primary:hover{
+    background-color: #e76614;
+    color: white;
+    border-color: #dedede;
+}
+
+.btn-outline-primary:active{
+    background-color: #e76614 !important;
+    color: white;
+    border-color: #dedede;
+}
+.btn-outline-primary:focus{
+    box-shadow:none !important;
+}
+
+.header-product{
+    margin: 80px 0px 30px 0px;
+    letter-spacing: 2px;
+    font-size: 35px;
+
+}
+.header-product > a{
+    display:flex;
+    align-items: center;
+    width:fit-content;
+}
+.header-product > a:hover{
+    text-decoration: none;
+}
+.header-product > a > h2{
+    margin:auto;
+}
+/* .arrow{
+    background:black;
+    -webkit-mask: url('../../facebook-f-brands.svg') no-repeat;
+    width:50px;
+    height:50px;
+
+} */
+.head_banner{
+    display: block;
+}
+.head_banner_tablet{
+    display: none;
+}
+.head_banner_mobile{
+    display: none;
+}
+
+.header-product a{
+    color: #e76614;
+    transition: 0.3s;
+}
+.header-product a:hover{
+    color: #e76614;
+}
+
+#Layer_1{
+    width: 40px;
+    height: 35px;
+}
+#Layer_2{
+    width: 40px;
+    height: 35px;
+}
+.st0{
+    fill:none;stroke:#e76614;stroke-width:3;stroke-miterlimit:10;
+}
+.st1{
+    fill:none;stroke:#e76614;stroke-width:4;stroke-miterlimit:10;
+}
+
+
+.header-product h2{
+    line-height: 1.5;
+    /* font-size: 2rem; */
+}
+
+.img-banner{
+    padding: 0;
+    width: 100%
+}
+.img-figure{
+    width: 100%;
+    height: auto;
+}
+
+.text-header{
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 355px;
+    margin-left: 200px;
+}
+.text-header h1{
+    font-size: 5rem;
+
+}
+.text-header p{
+    margin: 0;
+    /* font-size: 16px; */
+
+}
+
+h5{
+    color: #e76614;
+    padding: 5px 0;
+}
+p{
+    margin-bottom: 24px;
+}
+
+.border-top{
+    padding: 13px 0;
+}
+
+.product_name{
+    font-size: 28px;
+    padding: 15px 0;
+    color: #e76614;
+    margin: 0;
+}
+
+.text-muted{
+    font-size: 13px;
+}
+
+.text-detail{
+    font-size: 14px;
+    width: 380px;
+    text-align: justify;
+}
+.btn-outline-databar{
+    border-radius: 25px;
+    width: 180px;
+}
+
+.text-manage{
+    padding: 8%;
+}
+
+.text-manage-2{
+    padding: 8%;
+    margin-left: 8%;
+}
+
+.text-description p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section{
+    padding: 50px 10px;
+}
+
+
+
+.btn-outline-databar:hover{
+    background-color: #e76614;
+    border-color: #dedede;
+}
+.btn-outline-databar:active{
+    background-color: #e76614 !important;
+}
+.underline-link::after{
+    content: "";
+    background: #e76614;
+    display:block;
+    width: 0;
+    height: 4px;
+    transition: 0.3s;
+}
+.underline-link:hover::after{
+    width: 100%;
+}
+
+.block_product_image{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+
+/* mobile */
+@media (max-width: 767.98px) {
+
+    .head_banner{
+        display: none;
+    }
+    .head_banner_tablet{
+        display: none;
+    }
+    .head_banner_mobile{
+        display: block;
+    }
+
+    .container-fluid {
+        padding: 0 15px;
+    }
+    .text-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .text-manage{
+        text-align: center;
+        padding: 0;
+    }
+    .text-manage-2{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text-header {
+        position: absolute;
+        top: 20%;
+        color: white;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .text-header p{
+        display: none;
+    }
+
+    .text-header h1{
+        text-align: center;
+    }
+
+    .block_product_image{
+        width: 260px;
+        height: auto;
+        margin: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* tablet */
+@media (min-width: 768px) and  (max-width: 991.98px) {
+    .head_banner{
+        display: none;
+    }
+    .head_banner_tablet{
+        display: block;
+    }
+
+
+    .container-fluid {
+        padding: 0 15px;
+    }
+    .text-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .text-manage{
+        text-align: center;
+        padding: 0;
+    }
+    .text-manage-2{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text-header {
+
+        margin-left: 50px;
+    }
+
+
+}
+

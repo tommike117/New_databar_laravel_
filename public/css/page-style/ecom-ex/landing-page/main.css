@@ -1,0 +1,117 @@
+.img-banner{
+    background-image:url("/images/ecom-ex/landing-page/rev-slider_eDS_home.png");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.text-banner{
+    padding: 0 5%;
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+.text-banner h1{
+    font-size: 4rem;
+}
+.text-banner p{
+    width: 400px;
+    font-size: 15px;
+}
+
+.text-manage h2{
+    padding: 2% 0;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+
+.text-manage{
+    padding: 5% 0;
+}
+
+/* .underline-animation{
+    color: #568993;
+}
+
+.underline-animation::after{
+    background-color: #568993;
+} */
+.underline-animation{
+    color: #568993;
+}
+.underline-animation::after{
+    content: "";
+    background: #568993;
+    display:block;
+    width: 0;
+    height: 4px;
+    transition: 0.4s;
+    bottom:0px;
+    left:2px;
+}
+.underline-animation:hover::after{
+    width: 25%;
+
+}
+
+.underline-none:hover{
+    text-decoration: none;
+}
+
+.overlay{
+    background-color:  rgba(0,0,0,0.5);
+    height: 200px;
+    padding: 20px;
+    width: 450px;
+}
+
+
+@media (max-width: 575.98px) {
+    .overlay{
+        height: 170px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .block-bg{
+        position: relative;
+    }
+    .img-banner{
+        height: 200px;
+        background-position: center;
+    }
+    .text-banner{
+        width: 300px;
+    }
+    .text-banner h1{
+        font-size: 30px;
+    }
+    .text-banner p{
+        font-size: 14px;
+        width: 260px;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .underline-none h2{
+        font-size: 21px;
+        padding: 20px 0;
+    }
+    p{
+        font-size: 14px;
+    }
+    .underline-animation::after{
+        display: none;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .underline-animation::after{
+        display: none;
+    }
+    .underline-none h2{
+        padding: 20px 0;
+    }
+}

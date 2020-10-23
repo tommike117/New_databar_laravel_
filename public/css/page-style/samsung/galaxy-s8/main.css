@@ -1,0 +1,775 @@
+.image_hover:hover{
+    transform: scale(1.3);
+    transition-property: transform;
+    transition-duration: 9s;
+    transition-timing-function: ease-in-out;
+}
+.block_image{
+  overflow:hidden;
+}
+li{
+  list-style-type: none;
+}
+.gif_pic{
+  margin: auto;
+}
+.block .content{
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  top: 0;
+  margin: auto;
+  right: 100px;
+  top: calc((100% - 700px) / 2);
+}
+#backgroundcar:hover{
+  transition-property: transform;
+  transform: scale(1.05);
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
+#landscape{
+  text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 3%;
+}
+
+@media only screen and (min-width:320px){
+  .first_banner{
+    margin-top:15%;
+  }
+  .s8_text{
+    font-size:12px !important;
+    margin: 15px auto !important;
+  }
+  .s8_model{
+    width:50px !important;
+    top:calc((100% - 100px) / 2) !important;
+  }
+  .unbox{
+    font-size:20px !important;
+    position:absolute !important;
+    margin:auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:calc((100% - 40px) / 2) !important;
+  }
+  .big_font{
+    font-size:15px !important;
+  }
+  .big_font:first-child{
+    margin-top:50px !important;
+    font-size:15px !important;
+  }
+  .head_text{
+    font-size:40px !important;
+  }
+  .s8_landscape{
+    width:40% !important;
+  }
+  .landscape{
+    top:10px !important;
+  }
+  .small_text{
+    font-size:12px !important;
+  }
+  .small_text.camera{
+    margin-top:0px !important;
+  }
+  .small_text.moment{
+    margin-top:0px !important;
+  }
+  .small_text.capturelife{
+    font-size:9px !important;
+    margin-top:0px !important;
+  }
+  .s8_security{
+    width:30% !important;
+  }
+  .security_image_phone{
+    position: relative;
+    bottom:40%;
+  }
+  .security_content{
+    margin-top:50% !important;
+  }
+  .prying{
+    margin-top:20px !important;
+  }
+  .landscape_car{
+    width:40% !important;
+  }
+  section.car{
+    margin-top:100%;
+  }
+  
+  .small_text.car{
+    font-size:15px !important;
+    color:black !important;
+  }
+  .head_text.car{
+    font-size:20px !important;
+    color:black !important;
+  }
+  .small_text.car2{
+    font-size:10px !important;
+    color:black !important;
+  }
+  .carcol{
+    margin-top:0 !important;
+    margin:20px auto !important;
+  }
+  .small_text.wall{
+    font-size:15px !important;
+    color:black !important;
+    margin-top:10% !important;
+  }
+  .head_text.wall{
+    color:black !important;
+    font-size:30px !important;
+  }
+  .remark.wall{
+    color:black !important;
+  }
+  .head_text_white{
+    color:white !important;
+    font-size:20px !important;
+  }
+  .small_text_white{
+    font-size:10px !important;
+  }
+  .camera{
+    width:60px !important;
+  }
+  .phone{
+    width:100px !important;
+  }
+  .vr{
+    width:100px !important;
+    margin-top: 95%;
+  }
+  .showvr{
+    height:400px !important;
+  }
+  .remark_text{
+    font-size:10px !important;
+  }
+  .col_accessories{
+    text-align:center;
+  }
+  .col_accessibility{
+    margin-bottom:100px !important;
+  }
+  .smartswitch{
+    margin-top:10%; 
+  }
+}
+@media only screen and (min-width:370px){
+  .first_banner{
+    margin-top:10%;
+  }
+}
+@media only screen and (min-width:425px){
+  .first_banner{
+    margin-top:10%;
+  }
+  .s8_text{
+    font-size:15px !important;
+    margin: 20px !important;
+  }
+  .s8_model{
+    width:130px !important;
+    top:calc((100% - 270px) / 2) !important;
+  }
+  .unbox{
+    font-size:30px !important;
+    position:absolute !important;
+    margin:auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:calc((100% - 50px) / 2) !important;
+  }
+  .big_font{
+    font-size:20px !important;
+  }
+  .big_font:first-child{
+    margin-top:50px !important;
+    font-size:15px !important;
+  }
+  .head_text{
+    font-size:40px !important;
+  }
+  .s8_landscape{
+    width:40% !important;
+  }
+  .landscape{
+    top:10px !important;
+  }
+  .small_text{
+    font-size:15px !important;
+  }
+  .small_text.camera{
+    margin-top:0px !important;
+  }
+  .small_text.moment{
+    margin-top:0px !important;
+  }
+  .small_text.capturelife{
+    font-size:13px !important;
+    margin-top:0px !important;
+  }
+  .s8_security{
+    width:30% !important;
+  }
+  .security_image_phone{
+    position: relative;
+    bottom:40%;
+  }
+  .security_content{
+    margin-top:50% !important;
+  }
+  .prying{
+    margin-top:20px !important;
+  }
+  .landscape_car{
+    width:40% !important;
+  }
+  section.car{
+    margin-top:100%;
+  }
+  
+  .small_text.car{
+    font-size:15px !important;
+    color:black !important;
+  }
+  .head_text.car{
+    font-size:20px !important;
+    color:black !important;
+  }
+  .small_text.car2{
+    font-size:13px !important;
+    color:black !important;
+  }
+  .carcol{
+    margin-top:0 !important;
+    margin:20px auto !important;
+  }
+  .small_text.wall{
+    font-size:15px !important;
+    color:black !important;
+    margin-top:10% !important;
+  }
+  .head_text.wall{
+    color:black !important;
+    font-size:30px !important;
+  }
+  .remark.wall{
+    color:black !important;
+  }
+  .head_text_white{
+    color:white !important;
+    font-size:20px !important;
+  }
+  .small_text_white{
+    font-size:13px !important;
+  }
+  .camera{
+    width:60px !important;
+  }
+  .phone{
+    width:100px !important;
+  }
+  .vr{
+    width:100px !important;
+    margin-top: 95%;
+  }
+  .showvr{
+    height:400px !important;
+  }
+  .remark_text{
+    font-size:10px !important;
+  }
+  .col_accessories{
+    text-align:center;
+  }
+  .col_accessibility{
+    margin-bottom:100px !important;
+  }
+  .smartswitch{
+    margin-top:10%; 
+  }
+}
+@media only screen and (min-width:765px){
+  .first_banner{
+    margin-top:0%;
+  }
+  .s8_text{
+    font-size:15px !important;
+    margin: 20px !important;
+  }
+  .s8_model{
+    width:120px !important;
+    top:calc((100% - 200px) / 2) !important;
+  }
+  .unbox{
+    font-size:50px !important;
+    position:absolute !important;
+    margin:auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:calc((100% - 70px) / 2) !important;
+  }
+  .big_font{
+    font-size:20px !important;
+  }
+  .big_font:first-child{
+    margin-top:50px !important;
+    font-size:30px !important;
+  }
+  .design_content{
+    font-size:12px !important;
+  }
+  .head_text{
+    font-size:40px !important;
+  }
+  .s8_landscape{
+    width:40% !important;
+  }
+  .landscape{
+    top:10px !important;
+  }
+  .small_text{
+    font-size:25px !important;
+  }
+  .small_text.camera{
+    margin-top:0px !important;
+  }
+  .small_text.moment{
+    margin-top:0px !important;
+  }
+  .small_text.capturelife{
+    font-size:17px !important;
+    margin-top:0px !important;
+  }
+  .s8_security{
+    width:100% !important;
+  }
+  .security_image_phone{
+    position: absolute;
+    bottom:0%;
+  }
+  .security_content{
+    margin-top:0% !important;
+  }
+  .big_font.security{
+    font-size:20px !important;
+  }
+  .prying{
+    margin-top:20px !important;
+    font-size:15px !important;
+  }
+  .landscape_car{
+    width:50% !important;
+  }
+  section.car{
+    margin-top:0%;
+  }
+  
+  .small_text.car{
+    font-size:15px !important;
+    color:white !important;
+  }
+  .head_text.car{
+    font-size:20px !important;
+    color:white !important;
+  }
+  .small_text.car2{
+    font-size:13px !important;
+    color:white !important;
+  }
+  .carcol{
+    margin-top:0 !important;
+    margin:20px auto !important;
+    position: absolute;
+  }
+  .small_text.wall{
+    font-size:20px !important;
+    color:black !important;
+    margin-top:5% !important;
+  }
+  .head_text.wall{
+    color:black !important;
+    font-size:40px !important;
+  }
+  .remark.wall{
+    color:black !important;
+  }
+  .head_text_white{
+    color:white !important;
+    font-size:25px !important;
+  }
+  .small_text_white{
+    font-size:15px !important;
+  }
+  .camera{
+    width:60px !important;
+  }
+  .phone{
+    width:100px !important;
+  }
+  .vr{
+    width:100px !important;
+    margin-top: 95%;
+  }
+  .showvr{
+    height:400px !important;
+  }
+  .remark_text{
+    font-size:12px !important;
+  }
+  .col_accessories{
+    text-align:center;
+  }
+  .col_accessibility{
+    margin-bottom:100px !important;
+  }
+  .smartswitch{
+    margin-top:10%; 
+  }
+  .smartswitch_content{
+    font-size:14px !important;
+  }
+  .row_access{
+    padding-top:100px !important;
+  }
+  .access_content{
+    font-size:14px !important;
+  }
+  .small_text_accessories{
+    font-size:15px !important;
+  }
+}
+@media only screen and (min-width:1024px){
+  .first_banner{
+    margin-top:0%;
+  }
+  .s8_text{
+    font-size:20px !important;
+    margin: 25px !important;
+  }
+  .s8_model{
+    width:180px !important;
+    top:calc((100% - 320px) / 2) !important;
+  }
+  .unbox{
+    font-size:70px !important;
+    position:absolute !important;
+    margin:auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:calc((100% - 100px) / 2) !important;
+  }
+  .big_font{
+    font-size:20px !important;
+  }
+  .big_font:first-child{
+    margin-top:50px !important;
+    font-size:40px !important;
+  }
+  .design_content{
+    font-size:18px !important;
+  }
+  .head_text{
+    font-size:40px !important;
+  }
+  .s8_landscape{
+    width:40% !important;
+  }
+  .landscape{
+    top:10px !important;
+  }
+  .small_text{
+    font-size:25px !important;
+  }
+  .small_text.camera{
+    margin-top:0px !important;
+    font-size:30px !important;
+  }
+  .small_text.moment{
+    margin-top:0px !important;
+  }
+  .small_text.capturelife{
+    font-size:20px !important;
+    margin-top:0px !important;
+  }
+  .s8_security{
+    width:100% !important;
+  }
+  .security_image_phone{
+    position: absolute;
+    bottom:0%;
+  }
+  .security_content{
+    margin-top:0% !important;
+  }
+  .big_font.security{
+    font-size:40px !important;
+  }
+  .prying{
+    margin-top:20px !important;
+    font-size:20px !important;
+  }
+  .landscape_car{
+    width:50% !important;
+  }
+  section.car{
+    margin-top:0%;
+  }
+  
+  .small_text.car{
+    font-size:20px !important;
+    color:white !important;
+  }
+  .head_text.car{
+    font-size:30px !important;
+    color:white !important;
+  }
+  .small_text.car2{
+    font-size:20px !important;
+    color:white !important;
+  }
+  .carcol{
+    margin-top:0 !important;
+    margin:20px auto !important;
+    position: absolute;
+  }
+  .small_text.wall{
+    font-size:20px !important;
+    color:black !important;
+    margin-top:5% !important;
+  }
+  .head_text.wall{
+    color:black !important;
+    font-size:40px !important;
+  }
+  .remark.wall{
+    color:black !important;
+  }
+  .head_text_white{
+    color:white !important;
+    font-size:25px !important;
+  }
+  .small_text_white{
+    font-size:15px !important;
+  }
+  .camera{
+    width:120px !important;
+  }
+  .phone{
+    width:200px !important;
+  }
+  .vr{
+    width:200px !important;
+    margin-top: 95%;
+  }
+  .showvr{
+    height:1000px !important;
+  }
+  
+  .remark_text{
+    font-size:15px !important;
+  }
+  .col_accessories{
+    text-align:center;
+  }
+  .col_accessibility{
+    margin-bottom:100px !important;
+  }
+  .smartswitch{
+    margin-top:10%; 
+  }
+  .smartswitch_content{
+    font-size:20px !important;
+  }
+  .row_access{
+    padding-top:100px !important;
+  }
+  .access_content{
+    font-size:20px !important;
+  }
+  .small_text_accessories{
+    font-size:20px !important;
+  }
+}
+@media only screen and (min-width:1440px){
+  .first_banner{
+    margin-top:0%;
+  }
+  .s8_text{
+    font-size:23px !important;
+    margin: 30px !important;
+  }
+  .s8_model{
+    width:250px !important;
+    top:calc((100% - 460px) / 2) !important;
+  }
+  .unbox{
+    font-size:90px !important;
+    position:absolute !important;
+    margin:auto !important;
+    left:0 !important;
+    right:0 !important;
+    top:calc((100% - 120px) / 2) !important;
+  }
+  .big_font{
+    font-size:20px !important;
+  }
+  .big_font:first-child{
+    margin-top:50px !important;
+    font-size:30px !important;
+  }
+  .design_content{
+    font-size:20px !important;
+  }
+  .head_text{
+    font-size:40px !important;
+  }
+  .s8_landscape{
+    width:40% !important;
+  }
+  .landscape{
+    top:10px !important;
+  }
+  .small_text{
+    font-size:25px !important;
+  }
+  .small_text.camera{
+    margin-top:0px !important;
+    font-size:30px !important;
+  }
+  .small_text.moment{
+    margin-top:0px !important;
+  }
+  .small_text.capturelife{
+    font-size:20px !important;
+    margin-top:0px !important;
+  }
+  .s8_security{
+    width:100% !important;
+  }
+  .security_image_phone{
+    position: absolute;
+    bottom:0%;
+  }
+  .security_content{
+    margin-top:0% !important;
+  }
+  .big_font.security{
+    font-size:50px !important;
+  }
+  .prying{
+    margin-top:20px !important;
+    font-size:30px !important;
+  }
+  .landscape_car{
+    width:50% !important;
+  }
+  section.car{
+    margin-top:0%;
+  }
+  
+  .small_text.car{
+    font-size:25px !important;
+    color:white !important;
+  }
+  .head_text.car{
+    font-size:40px !important;
+    color:white !important;
+  }
+  .small_text.car2{
+    font-size:25px !important;
+    color:white !important;
+  }
+  .carcol{
+    margin-top:0 !important;
+    margin:20px auto !important;
+    position: absolute;
+  }
+  .small_text.wall{
+    font-size:25px !important;
+    color:white !important;
+    margin-top:5% !important;
+  }
+  .head_text.wall{
+    color:white !important;
+    font-size:50px !important;
+  }
+  .remark.wall{
+    color:white !important;
+    font-size:13px !important;
+  }
+  .head_text_white{
+    color:white !important;
+    font-size:30px !important;
+  }
+  .small_text_white{
+    font-size:20px !important;
+  }
+  .camera{
+    width:120px !important;
+  }
+  .phone{
+    width:200px !important;
+  }
+  .vr{
+    width:200px !important;
+    margin-top: 95%;
+  }
+  .showvr{
+    height:1000px !important;
+  }
+  
+  .remark_text{
+    font-size:15px !important;
+  }
+  .col_accessories{
+    text-align:center;
+  }
+  .col_accessibility{
+    margin-bottom:100px !important;
+  }
+  .smartswitch{
+    margin-top:10%; 
+  }
+  .smartswitch_content{
+    font-size:20px !important;
+  }
+  .row_access{
+    padding-top:100px !important;
+  }
+  .access_content{
+    font-size:20px !important;
+  }
+  .small_text_accessories{
+    font-size:20px !important;
+  }
+  .col_intelligence{
+    position: absolute;
+    bottom:60px;
+  }
+  .big_font_smartswitch{
+    font-size:50px !important;
+    margin-top:10% !important;
+  }
+  .big_font_access{
+    font-size:50px !important;
+    margin-top:10% !important;
+  }
+  .big_font_accessories{
+    font-size:50px !important;
+    margin-top:10% !important;
+  }
+}

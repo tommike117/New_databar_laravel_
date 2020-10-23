@@ -1,0 +1,640 @@
+body{
+  background:black;
+}
+.header-depth{
+  text-align: left;
+}
+@media only screen and (min-width: 320px) {
+  .banner1 {
+    margin-top: 20%;
+  }
+
+  #s10phone {
+    width: 100px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 150px) / 2);
+    left: calc((100% - 180px) / 2)
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.6) translateY(50px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.8) translateY(25px);
+    width: 100%;
+  }
+
+  .text-section1 {
+    font-size: 20px !important;
+  }
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+    font-size:15px !important;
+    margin:50px auto;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-150px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-70px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:-10px !important;
+  }
+  .banner_content{
+    font-size:20px !important;
+  }
+  .banner_content_text{
+    font-size:15px !important;
+    font-weight: normal !important;
+  }
+  .banner_content_text_charging{
+    font-size:10px !important;
+    margin:40% auto;
+  }
+  .banner_content_text_game{
+    font-size:10px !important;
+  }
+  .s10plus{
+    font-size:10px;
+    right:22% !important;
+  }
+  .s10{
+    font-size:10px;
+    right:17% !important;
+  }
+  .s10e{
+    font-size:10px;
+    right:9.3% !important;
+    margin: 42.4% auto !important;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .banner1 {
+    margin-top: 20%;
+  }
+
+  #s10phone {
+    width: 100px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 150px) / 2);
+    left: calc((100% - 215px) / 2)
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.7) translateY(45px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.96 ) translateY(25px);
+    width: 100%;
+  }
+
+  .text-section1 {
+    font-size: 20px !important;
+  }
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-200px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-100px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:-10px !important;
+  }
+  .banner_content{
+    font-size:20px !important;
+  }
+  .banner_content_text{
+    font-size:15px !important;
+    font-weight: normal !important;
+  }
+  .banner_content_text_charging{
+    font-size:10px !important;
+    margin:40% auto;
+  }
+  .banner_content_text_game{
+    font-size:10px !important;
+  }
+  .s10plus{
+    font-size:10px;
+    right:22% !important;
+  }
+  .s10{
+    font-size:10px;
+    right:17% !important;
+  }
+  .s10e{
+    font-size:10px;
+    right:9.3% !important;
+    margin: 42.4% auto !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .banner1 {
+    margin-top: 20%;
+  }
+
+  #s10phone {
+    width: 250px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 300px) / 2);
+    left: calc((100% - 390px) / 2)
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.55) translateY(45px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.7 ) translateY(25px);
+    width: 100%;
+  }
+
+  .text-section1 {
+    font-size: 20px !important;
+  }
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-300px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-150px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:0px !important;
+  }
+  .banner_content{
+    font-size:20px !important;
+  }
+  .banner_content_text{
+    font-size:15px !important;
+  }
+  .banner_content_text_charging{
+    font-size:20px !important;
+    margin:10% auto;
+  }
+  .banner_content_text_game{
+    font-size:20px !important;
+    text-align:left;
+  }
+  .s10plus{
+    font-size:10px;
+    right:22% !important;
+  }
+  .s10{
+    font-size:10px;
+    right:17% !important;
+  }
+  .s10e{
+    font-size:10px;
+    right:9.3% !important;
+    margin: 42.4% auto !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .banner1 {
+    margin-top: 0%;
+  }
+
+  #s10phone {
+    width: 400px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 650px) / 2);
+    left: calc((100% - 515px) / 2)
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.45) translateY(85px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.6) translateY(20px);
+    width: 100%;
+  }
+
+  
+  .text-section1 {
+    font-size: 50px !important;
+    padding:0 60px;
+  }
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+    font-size:22px !important;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-400px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-200px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:0px !important;
+  }
+  .banner_content{
+    font-size:40px !important;
+  }
+  .banner_content_text{
+    font-size:14px !important;
+  }
+  .banner_content_text_charging{
+    font-size:20px !important;
+    margin:10% auto;
+  }
+  .banner_content_text_game{
+    font-size:20px !important;
+    text-align:left;
+  }
+  .s10plus{
+    font-size:15px;
+    right:15.5% !important;
+  }
+  .s10{
+    font-size:15px;
+    right:14% !important;
+  }
+  .s10e{
+    font-size:15px;
+    right:9.3% !important;
+    margin: 44.4% auto !important;
+  }
+}
+@media only screen and (min-width: 1360px) {
+  .banner1 {
+    margin-top: 0%;
+  }
+
+  #s10phone {
+    width: 500px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 650px) / 2);
+    left: calc((100% - 685px) / 2)
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.5) translateY(-60px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.6) translateY(-120px);
+    width: 100%;
+  }
+
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-400px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-200px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:0px !important;
+  }
+  .banner_content{
+    font-size:40px !important;
+  }
+  .banner_content_text{
+    font-size:14px !important;
+  }
+  .banner_content_text_charging{
+    font-size:20px !important;
+    margin:10% auto;
+  }
+  .banner_content_text_game{
+    font-size:20px !important;
+    text-align:left;
+  }
+  .s10plus{
+    font-size:15px;
+    right:15.5% !important;
+  }
+  .s10{
+    font-size:15px;
+    right:14% !important;
+  }
+  .s10e{
+    font-size:15px;
+    right:9.3% !important;
+    margin: 44.4% auto !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .banner1 {
+    margin-top: 0%;
+  }
+
+  #s10phone {
+    width: 600px !important;
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  figure.phone {
+    position: absolute;
+    top: calc((100% - 650px) / 2);
+    left: calc((100% - 755px) / 2);
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation] {
+    transform: scale(0.5) translateY(-200px);
+    width: 100%;
+
+  }
+
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    transform: scale(0.6) translateY(-230px);
+    width: 100%;
+  }
+
+  .col-xs-12.col-sm-12.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    text-align: center !important;
+  }
+
+  .shape-samsung-content {
+    padding: 0 !important;
+  }
+  [data-aos^=phone_1][data-aos^=phone_1] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_1][data-aos^=phone_1].aos-animate {
+    opacity: 1;
+    transform: translateX(-500px);
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2] {
+    opacity: 1;
+  
+  }
+  
+  [data-aos^=phone_2][data-aos^=phone_2].aos-animate {
+    opacity: 1;
+    transform: translateX(-240px);
+  }
+  .model_s10 > img{
+    top:-20px !important;
+  }
+  .model_s10e > img{
+    top:0px !important;
+  }
+  .banner_content{
+    font-size:40px !important;
+  }
+  .banner_content_text{
+    font-size:14px !important;
+    text-align:left !important;
+  }
+  .banner_content_text_charging{
+    font-size:20px !important;
+    margin:10% auto;
+  }
+  .banner_content_text_game{
+    font-size:15px !important;
+    text-align:left;
+    font-weight:400;
+  }
+  .s10plus{
+    font-size:15px;
+    right:15.5% !important;
+  }
+  .s10{
+    font-size:15px;
+    right:14% !important;
+  }
+  .s10e{
+    font-size:15px;
+    right:9.3% !important;
+    margin: 44.4% auto !important;
+  }
+  .text-section1{
+    font-size:50px !important;
+    padding:0 60px;
+  }
+}

@@ -1,0 +1,507 @@
+@media screen and (min-width: 992px){
+    .desktop-none{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/samsung/smartphones/bg_product-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .text-section-1{
+        text-align: center;
+        color: #3399ff;
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .text-section-1 h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 0px 100px 0px 135px;
+    }
+    .pic-sec-1{
+        /* margin-top: 3%; */
+        /* padding: 0 6% 0 8%; */
+        margin: 0;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 18px;
+    }
+    .text-product{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        padding-left: 4%;
+        margin-top: 15px;
+    }
+    .text-product > a{
+        font-size: 1.2vw;
+        color: #4d4d4d !important;
+        margin: 0px 40px;
+    }
+
+    .hover-sec-1:hover{
+        text-decoration: none !important;
+        font-weight: 600 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .hover-sec-2:hover{
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .text-all-product{
+        text-align: center;
+        /* padding-top: 2%; */
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 1%;
+        color: #4d4d4d;
+        padding-left: 1%;
+        margin-top: 5%;
+
+    }
+    .section-2{
+        padding: 0 6% 0 8%;
+        position: relative;;
+    }
+    .flex-25{
+        max-width: 23%;
+        flex: 0 0 23%;
+    }
+    .box-product{
+        height: 500px;
+        width: 100%;
+        background-color: #f1f1f185;
+        flex: 0 0 23%;
+        max-width: 23%;
+        margin: 1%;
+        transition: 0.3s;
+    }
+    .box-product:hover{
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+    }
+    .box-product > figure{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+    .box-product > h2{
+        text-align: center;
+        font-size: 25px;
+        color: #4d4d4d;
+        font-weight: 500;
+        margin: 10%;
+    }
+    .box-product > div{
+        text-align: center;
+    }
+
+    .btn-banner{
+        margin-top: 2%;
+        width: 137px;
+        height: 40px;
+        border-radius: 25px;
+        border: solid 1px #4d4d4d;
+        color: #4d4d4d;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        transition: 0.3s;
+        font-family: poppins;
+        font-weight: 300;
+    }
+    .btn-banner:hover{
+        background-color: #3399ff;
+        color: white;
+        border: none;
+    }
+    .flex-100{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .tap-mobile-none{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/armor-x/bg_product1920.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .text-section-1{
+        text-align: center;
+        color: #3399ff;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 9%;
+    }
+    .text-section-1 > h1 {
+        font-size: 1.8rem;
+    }
+    .pic-sec-1{
+        margin-top: 3%;
+        padding: 0 5% 0 11%;
+    }
+    .text-product{
+        padding: 3% 10% 0 50%;
+        position: fixed;
+        z-index: 1;
+    }
+    .text-product > a{
+        font-size: 1.6vw;
+        color: #4d4d4d !important;
+        margin: 0px 25px;
+    }
+
+    .hover-sec-1:hover{
+        text-decoration: none !important;
+        font-weight: 600 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .hover-sec-2:hover{
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .text-all-product{
+        text-align: center;
+        padding-top: 2%;
+        font-size: 20px;
+        padding-bottom: 1%;
+        color: #4d4d4d;
+        padding-left: 1%;
+    }
+    .section-2{
+        padding: 0 5% 0 11%;
+        position: relative;;
+    }
+    .flex-25{
+        max-width: 47%;
+        flex: 0 0 47%;
+    }
+    .box-product{
+        height: 500px;
+        width: auto;
+        background-color: #f1f1f185;
+        margin: 1%;
+    }
+    .box-product > figure{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+    .box-product > h2{
+        text-align: center;
+        font-size: 25px;
+        color: #4d4d4d;
+        font-weight: 500;
+        margin: 10%;
+    }
+    .box-product > div{
+        text-align: center;
+    }
+
+    .btn-banner{
+        margin-top: 2%;
+        width: 137px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        background-color: #b9b9b936;
+        color: #3399ff;
+        font-size: 16px;
+        font-family: quicksand;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .flex-100{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .tap-mobile-none{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/armor-x/bg_product1920.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .text-section-1{
+        text-align: center;
+        color: #3399ff;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 9%;
+    }
+    .text-section-1 > h1 {
+        font-size: 1.6rem;
+    }
+    .pic-sec-1{
+        margin-top: 3%;
+        padding:0 5% 0 11%;
+    }
+    .text-product{
+        padding: 3% 10% 0 47%;
+        position: fixed;
+        z-index: 1;
+    }
+    .text-product > a{
+        font-size: 1.6vw;
+        color: #4d4d4d !important;
+        margin: 0px 25px;
+    }
+
+    .hover-sec-1:hover{
+        text-decoration: none !important;
+        font-weight: 600 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .hover-sec-2:hover{
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .text-all-product{
+        text-align: center;
+        padding-top: 2%;
+        font-size: 20px;
+        padding-bottom: 1%;
+        color: #4d4d4d;
+        padding-left: 1%;
+    }
+    .section-2{
+        padding:0 5% 0 11%;
+        position: relative;;
+    }
+    .flex-25{
+        max-width: 47%;
+        flex: 0 0 47%;
+    }
+    .box-product{
+        height: 500px;
+        width: auto;
+        background-color: #f1f1f185;
+        margin: 1%;
+    }
+    .box-product > figure{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+    .box-product > h2{
+        text-align: center;
+        font-size: 25px;
+        color: #4d4d4d;
+        font-weight: 500;
+        margin: 10%;
+    }
+    .box-product > div{
+        text-align: center;
+    }
+
+    .btn-banner{
+        margin-top: 2%;
+        width: 137px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        background-color: #b9b9b936;
+        color: #3399ff;
+        font-size: 16px;
+        font-family: quicksand;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .flex-100{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 598px){
+    .tap-mobile-none{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/armor-x/bg_product1920.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-1{
+        text-align: center;
+        color: #3399ff;
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 12%;
+    }
+    .text-section-1 > h1 {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .pic-sec-1{
+        margin-top: 3%;
+        padding:0 5% 0 11%;
+    }
+    .text-product{
+        padding: 3% 10% 0 29%;
+        position: fixed;
+        z-index: 1;
+    }
+    .text-product > a{
+        font-size: 1.6vw;
+        color: #4d4d4d !important;
+        margin: 0px 17px;
+    }
+
+    .hover-sec-1:hover{
+        text-decoration: none !important;
+        font-weight: 600 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .hover-sec-2:hover{
+        text-decoration: none !important;
+        font-weight: 500 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+    .text-all-product{
+        text-align: center;
+        padding-top: 2%;
+        font-size: 12px;
+        padding-bottom: 1%;
+        color: #4d4d4d;
+        padding-left: 1%;
+    }
+    .section-2{
+        padding: 0 5% 0 19%;
+        position: relative;;
+    }
+    .flex-25{
+        max-width: 92%;
+        flex: 0 0 92%;
+    }
+    .box-product{
+        height: 386px;
+        width: auto;
+        background-color: #f1f1f185;
+        margin: 1%;
+    }
+    .box-product > figure{
+        height: 260px;
+        width: 260px;
+        margin: auto;
+    }
+    .box-product > h2{
+        text-align: center;
+        font-size: 17px;
+        color: #4d4d4d;
+        font-weight: 500;
+        margin: 4%;
+    }
+    .box-product > div{
+        text-align: center;
+    }
+
+    .btn-banner{
+        margin-top: 2%;
+        width: 98px;
+        height: 30px;
+        border-radius: 25px;
+        border: none;
+        background-color: #b9b9b936;
+        color: #3399ff;
+        font-size: 12px;
+        font-family: quicksand;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .flex-100{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .section-3{
+        text-align: -webkit-right;
+        padding: 0 10%;
+        margin: 5% 0;
+        font-size: 10px;
+    }
+    .section-3 > a {
+        color: #6d6c6c;
+    }
+    .section-3 > a:hover {
+        color: #2e2d2d;
+        font-weight: 500;
+    }
+}

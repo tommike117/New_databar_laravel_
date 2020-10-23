@@ -1,0 +1,39 @@
+.banner-header{
+
+	height:60vh;	
+	background: url('../images/123.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom; 
+
+	.title-header{
+		display:flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		height:60vh;
+		color: #fff;
+	}
+}
+.section-img{
+	padding: 3% 0;
+	.border-img{
+		border: 1px solid #eee;
+		.box-img{
+			width:100%;
+			@media screen and (min-width: 950px){
+				height: 200px;
+			}
+			@media screen and (max-width: 950px){
+				height: 100px;
+			}
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+		}
+	}
+}
+
+

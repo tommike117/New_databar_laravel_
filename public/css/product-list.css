@@ -1,0 +1,204 @@
+.breadcrumb {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    margin: 20px;
+    top: 7px;
+  }
+  
+  .block-product-img{
+    width:100%;
+  }
+  .block-product{
+    margin:20px auto;
+  }
+  
+  .block-product-img img{
+    width:100%;
+    /* margin:15px; */
+    padding:15px;
+  }
+  .filter {
+    margin: 30px auto;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    background: white;
+    border: none;
+    color: black;
+  }
+  
+  .filter_text {
+    cursor: pointer;
+  }
+  
+  .filter_list {
+    height: auto;
+  }
+  
+  .more {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin-right: 30px;
+  }
+  
+  .product_row1 {
+    text-align: center;
+    margin-top: 30px !important;
+  }
+
+  
+  @media (max-width: 767.98px) {
+    .block-product-img{
+      width: 100%;
+      max-width:400px;
+      min-width:300px;
+    height: auto;
+    margin: auto;
+    }
+    .text_product_name{
+      font-size:20px;
+      font-weight: bold;
+    }
+    .text_product_line{
+      font-size:14px;
+      font-weight: 400;
+    }
+   
+    nav#breadcrumb {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width:768px) and (max-width:1023.98px){
+    .block-product-img{
+      width: 100%;
+      max-width:400px;
+      min-width:200px;
+    height: auto;
+    margin: auto;
+    }
+    .text_product_name{
+      font-size:18px;
+      font-weight: bold;
+    }
+    .text_product_line{
+      font-size:14px;
+      font-weight: 400;
+    }
+    .row-product-list{
+      border-top:1px solid lightgrey;
+    }
+
+    .col-md-4:nth-of-type(3n+1){
+      /* border-top:1px solid lightgrey; */
+      border-right:1px solid lightgrey;
+      border-bottom:1px solid lightgrey;
+    }
+    .col-md-4:nth-of-type(3n+2){
+      /* border-top:1px solid lightgrey; */
+      border-right:1px solid lightgrey;
+      border-bottom:1px solid lightgrey;
+    }
+    .col-md-4:nth-of-type(3n+3){
+        /* border-top:1px solid lightgrey; */
+        border-bottom:1px solid lightgrey;
+        border-left:none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .row-product-list{
+      border-top:1px solid lightgrey;
+    }
+
+    .col-md-4:nth-of-type(3n+1){
+      /* border-top:1px solid lightgrey; */
+      border-right:1px solid lightgrey;
+      border-bottom:1px solid lightgrey;
+    }
+    .col-md-4:nth-of-type(3n+2){
+      /* border-top:1px solid lightgrey; */
+      border-right:1px solid lightgrey;
+      border-bottom:1px solid lightgrey;
+    }
+    .col-md-4:nth-of-type(3n+3){
+        /* border-top:1px solid lightgrey; */
+        border-bottom:1px solid lightgrey;
+        border-left:none;
+    }
+    .image_banner {
+      background-image: url("/images/ikey/oil&gas/slk-102-hero.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 400px;
+    }
+    nav#breadcrumb {
+      display: block !important;
+    }
+    .col-md-4 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .product_image {
+      width: 300px;
+      height: 200px;
+    }
+    .block-product-img{
+      width: 100%;
+      max-width:400px;
+      min-width:300px;
+    height: auto;
+    margin: auto;
+    }
+    .product_name {
+      width: 100%;
+      height: 100px;
+      overflow: hidden;
+    }
+    .text_product_name {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .text_product_line{
+      margin: 14px auto;
+    font-size: 13px;
+    font-weight: 400;
+    }
+    .text_product_detail {
+      font-size: 13px;
+      font-weight: normal;
+      color: #acacac;
+    }
+  }
+  
+  .product_row2 {
+    text-align: center;
+  }
+  
+  .learnmore {
+    font-size: 15px;
+    width: 160px;
+    margin: 30px auto;
+  }
+  
+  #more {
+    margin-top: 30px;
+    margin-right: 0 !important;
+  }
+  
+  .product_image img {
+    width: 100%;
+  }
+  /*# sourceMappingURL=main.css.map */

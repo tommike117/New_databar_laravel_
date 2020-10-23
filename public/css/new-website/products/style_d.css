@@ -1,0 +1,138 @@
+
+@media (min-width: 992px){
+
+    .img-bg{
+            background-image: url('/images/new-website/products/Bg_productพื้นขาว-01.png');
+            width: 100%;
+            height: 100vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .bg-section-banner{
+            background:rgba(213, 213, 213, 0.6);
+            margin-top: 60px;
+            height: calc(100vh - 60px);
+        }
+        .section-1 .col-md-2{
+            flex: 0 0 17.6666666667%;
+            max-width: 17.6666666667%;
+        }
+        .section-1 .col-md-10{
+            flex: 0 0 82.3333333333%;
+            max-width: 82.3333333333%;
+        }
+        .section-brand{
+            padding: 20px 20px;
+            overflow: scroll;
+            height: 90vh;
+        }
+        .brand{
+            color: #4d4d4d;
+            margin-bottom: 0.4rem;
+            display: block;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .brand:hover{
+            color: #3399ff;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .banner-brand{
+            background-color: #d5d5d5;
+            height: calc(60vh - 20px);
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+        .middle {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        hr {
+            margin: auto;
+            width: 40%;
+        }
+        .catagories{
+            font-size: 17px;
+            margin: 0 0;
+        }
+        .section-brand a{
+            font-family: quicksand;
+            width: fit-content;
+        }
+
+    * { box-sizing: border-box; }
+
+
+    .carousel {
+      background: #EEE;
+    }
+
+    .carousel-cell {
+        width: 45%;
+        height: 200px;
+        /* margin-right: 10px; */
+        border-radius: 5px;
+        opacity: 0.2;
+    }
+    .image-img img{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .carousel-cell.is-selected {
+        /* background: #ED2; */
+        opacity: 1;
+    }
+
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
+      line-height: 200px;
+      font-size: 80px;
+      color: white;
+    }
+    .flickity-prev-next-button.previous {
+        left: -20px;
+        background: none;
+    }
+    .flickity-prev-next-button.next {
+        right: -20px;
+        background: none;
+
+    }
+    .slide-carou{
+        padding: 15px;
+        background:rgba(213, 213, 213, 0);
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 4px;
+        padding-top: 50px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: none;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(205 205 205);
+        border-radius: 25px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: none;
+    }
+    ::-webkit-scrollbar-corner  {
+        background: none;
+    }
+}
+

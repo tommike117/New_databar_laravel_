@@ -1,0 +1,41 @@
+.icon {
+    // display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: black;
+    mask-size: cover;
+    display: flex;
+    margin: auto;
+
+  }
+
+  .icon-menu {
+    mask: url('/images/_icon/icon_menu.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+  .background-animate{
+      mask: url('/images/_icon/Gooey-8.3-1084px.svg');
+      mask-repeat: no-repeat;
+      mask-position: center;
+  }
+  .icon-plus{
+    mask: url('/images/_icon/plus.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+  .fa-plus{
+    mask: url('/images/_icon/arowknox1-01.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+  .fa-minus{
+    mask: url('/images/_icon/arowknox2-01.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+  .icon-play{
+    mask: url('/images/_icon/play-circle-solid.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }

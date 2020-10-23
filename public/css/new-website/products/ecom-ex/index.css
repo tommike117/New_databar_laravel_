@@ -1,0 +1,661 @@
+@media screen and (min-width: 992px){
+    .section-1{
+
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 56vw;
+        width: auto;
+    }
+    .section-2{
+        height: 100vh;
+        width: auto;
+        padding-right: 5%;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-2{
+        text-align: -webkit-right;
+        padding-top: 6%;
+    }
+    .text-section-2 > h2{
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        width: fit-content;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 1.0vw;
+        width: 40%;
+        line-height: 1.5;
+        padding-top: 1%;
+        color: #707070;
+    }
+    .section-3{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: right;
+    }
+    .text-section-3{
+        width: 50%;
+        padding: 8% 0% 0 9%;
+        text-align: left;
+    }
+    .text-section-3 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+    .flex-sec-3{
+        display: flex;
+        width: 100%;
+        padding-top: 5%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .flex-sec-3 > div > figure{
+        height: 65%;
+        margin: 0;
+    }
+    .pic-1{
+        width: 40% !important;
+    }
+    .flex-sec-3 > div > h2{
+        font-size: 1.2vw;
+        color: #3399ff;
+        font-weight: 400;
+    }
+    .flex-sec-3 > div > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 0.8vw;
+    }
+    .tab-mobile-none{
+        display: none;
+    }
+    .section-4{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-4{
+        width: 100%;
+        padding: 6% 5% 0 52%;
+        text-align: right;
+    }
+    .text-section-4 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+    .text-section-4 > a{
+        padding-left: 8%;
+    }
+    .btn-banner{
+        width: 105px;
+        height: 28px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .section-5{
+        height: 100vh;
+        width: auto;
+    }
+    .bg-section-5{
+        background-image: url("/images/new-website/products/armor-x/1920x1080-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-5 {
+        padding-top: 6%;
+        text-align: center;
+    }
+    .text-section-5 > h2{
+        color: #3399ff;
+        font-weight: 600
+    }
+    .text-section-5 > p{
+        color: #4d4d4d;
+        font-size: 1.0vw;
+        padding-top: 3%;
+        padding: 1% 17%;
+    }
+    .text-section-5 > figure{
+        padding-top: 2%;
+    }
+    .text-product{
+        padding-top: 3%;
+    }
+    .text-product > a{
+        font-size: 1.2vw;
+        color: #4d4d4d !important;
+        padding: 0px 40px;
+    }
+    .hover-sec-5:hover{
+        text-decoration: none !important;
+        font-weight: 600 !important;
+        transition: 0.4s !important;
+        color: #3399ff !important;
+    }
+
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/ecom-ex/750px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 1350px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .section-3{
+        height: 1585px;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-family: quicksand;
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 7%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+
+    .pic-1{
+        width: 51.5% !important;
+    }
+    .pic-2{
+        width: 100% !important
+    }
+    .section-4{
+        height: 1639px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 10% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .pic-3{
+        width: 76.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .bg-footer {
+        width: 90% !important;
+        height: 190px !important;
+        margin-left: 61px !important;
+        border-radius: 40px 40px 0 0 !important;
+        margin-top: 5% !important;
+    }
+
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/ecom-ex/750px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 1100px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .section-3{
+        height: 1330px;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 14%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .pic-1{
+        width: 50.5% !important;
+    }
+    .pic-2{
+        width: 100% !important
+    }
+    .section-4{
+        height: 1420px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 12% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .pic-3{
+        width: 76.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 598px){
+    .section-1{
+        height: 730px;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/ecom-ex/750px-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 740px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/ecom-ex/1920x1080-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .section-3{
+        height: 900px;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 14%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .pic-1{
+        width: 45.5% !important;
+    }
+    .pic-2{
+        width: 90% !important
+    }
+    .section-4{
+        height: 950px;
+        width:auto;
+    }
+    .bg-section-4{
+        background-image: url("/images/new-website/products/ecom-ex/pic750px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-4{
+        text-align:end;
+        padding: 12% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .pic-3{
+        width: 76.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .btn-banner{
+        width: 82px;
+        height: 26px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}

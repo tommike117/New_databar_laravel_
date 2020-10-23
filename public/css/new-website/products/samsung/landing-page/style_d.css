@@ -1,0 +1,338 @@
+@media screen and (min-width: 992px){
+    .mobile{
+    display:none;
+    }
+    .tablet{
+        display: none;
+    }
+    .bg-section1{
+        background-image: url('/images/new-website/products/samsung/landing-page/bg_samsung_web-01.jpg');
+        height: 100vh;
+        background-size: contain;
+        padding-top: 65px;
+        padding-left: 15%;
+        background-repeat: no-repeat;
+    }
+    .bg-section2{
+        background-image: url('/images/new-website/products/samsung/landing-page/bg_samsung_web-02.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-section3{
+        background-image: url('/images/new-website/products/samsung/landing-page/bg_samsung_web-03.jpg');
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .video-banner{
+        width: 100%;
+        height: 80vh;
+        background-color:#747373;
+        align-items: flex-end;
+        display: flex;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    .video-banner p{
+        color: white;
+        font-family: poppins;
+        font-weight: 300;
+        font-size: 16px;
+        margin-right: 5% !important;
+        margin-bottom: 3% !important;
+    }
+   .text-all-samsung{
+        text-align: right;
+        margin: 2%;
+   }
+   .bord{
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+   }
+   .text-all-samsung a{
+        padding: 0 3.5%;
+        text-decoration: none;
+        font-size: 20px !important;
+        color: #4d4d4d;
+        font-weight: 300;
+        font-family: poppins;
+        transition: 0.3s;
+    }
+    .text-all-samsung a:hover{
+        color: #3399ff;
+        font-weight: 300;
+    }
+
+    .block1-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-01.jpg');
+        height: 70vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 65%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .block2-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-02.jpg');
+        height: 70vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 50%;
+        display: flex;
+        align-items: flex-end;
+
+    }
+    .block3-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-03.jpg');
+        height: 70vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: 100%;
+
+    }
+    .icon{
+        background: #eee;
+    }
+    .img-ontop{
+        width: 80%;
+        transition: 0.4s;
+    }
+    .img-ontop:hover{
+        width: 90%;
+    }
+    .flex-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        padding: 0 8%;
+    }
+    .flex-4{
+        flex:0 0 33.33%;
+        max-width: 33.33%;
+        padding: 4%;
+    }
+    .flex-4 p{
+        margin-top: 8px !important;
+        font-size: 22px;
+        color: #4d4d4d;
+        line-height: 30px;
+        font-weight: 600;
+        font-family: poppins;
+    }
+    .bg-section3 h2{
+        text-align: right;
+        padding-top: 8%;
+        padding-right: 5%;
+        font-weight: 600;
+        font-size: 35px;
+        color: #4d4d4d;
+    }
+    .block-sec3{
+        width: 100%;
+        height: 32vh;
+        background-color: #eee;
+        border-radius: 25px;
+    }
+    .btn-databar{
+        width: 135px;
+        height: 35px;
+    }
+    .bg-section3 .flex-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        padding: 0 5%;
+    }
+    .bg-section3 .flex-4 p{
+        padding-left: 5%;
+    }
+
+    .footer-home{
+        padding: 0 35px;
+    }
+    .bg-footer{
+        background-color:  #4d4d4d;
+        width: 100%;
+        height: 200px;
+        margin-left: 15px;
+    }
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin: 5px;
+    }
+
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:50%;
+        margin:auto;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: end;
+        font-size: 11px;
+        color: white !important;
+        width: 74%;
+    }
+    .footer-desktop{
+        display: flex;
+        padding: 0 40px 0 142px;
+        margin-top: 40px;
+
+    }
+    .footer-flex-icon{
+        width: 67%;
+    }
+    .footer-flex-50{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .footer-flex-50 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-50 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-50 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .footer-flex-30 > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #b3b3b3;
+        margin-left: 7px;
+    }
+    .footer-flex-20{
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+    .footer-flex-20 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-20 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-20 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-18{
+        max-width: 18%;
+        flex: 0 0 18%;
+    }
+
+    .footer-flex-6{
+        max-width: 6%;
+        flex: 0 0 6%;
+    }
+    /* modal-pop-up */
+    .modal-dialog{
+        max-width: 283px !important ;
+        margin: 1.75rem auto !important;
+        margin-top: 10% !important;
+    }
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.3rem !important;
+        outline: 0;
+    }
+    .modal-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom:  0 !important;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    }
+    .modal-title{
+        margin-bottom: 0;
+        line-height: 1.6;
+        width: 100%;
+        font-weight: 600;
+    }
+    .modal-footer{
+        display: contents !important;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        border-top: 0 !important;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .modal-footer > p{
+        color: #3399ff;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-copyright{
+        border-top: solid 1px #dedede;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 35px;
+        display: flex;
+        padding-top: 9px;
+    }
+    .footer-copyright > h2{
+        font-size: 11px;
+        margin: 0;
+        color: #b3b3b3;
+    }
+    .footer-link > a:visited{
+        color: #b3b3b3;
+    }
+
+    a:hover {
+        font-weight: 800;
+        color: #2e2c2c;
+        text-decoration: none;
+    }
+    .mob{
+        display: none;
+    }
+    .bg-section3-mobile{
+        display: none;
+    }
+}

@@ -1,0 +1,586 @@
+
+
+@media (max-width: 991.98px) {
+    .samsung-banner{
+        display: none;
+    }
+    .banner-mobile{
+        width: 100%;
+    }
+    .display-none-mobile{
+        display: none;
+    }
+    .p-section1 h1{
+        font-size:25px;
+
+    }
+    .section-3{
+        margin-top: 100px;
+    }
+    .h2-section-3{
+        font-family: 'Samsung Sharp Sans Bold';
+        font-size:20px;
+        letter-spacing: 1px;
+        padding-top: 25px;
+    }
+    .h3-section-3{
+        font-size:25px;
+        font-family: 'Samsung Sharp Sans Bold';
+        margin:10px auto;
+        padding-bottom: 25px;
+    }
+
+    .section-4{
+        padding-bottom: 60px
+    }
+    .section-6-figure:first-of-type{
+        margin-top:0 !important;
+    }
+    .section-6-figure{
+        width:310px;
+        height: auto;
+        margin:5% auto;
+    }
+    .section-6-figure img{
+        width:100%;
+    }
+    .block-figure-section-6{
+        width: 45%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0;
+    }
+    .figure-section-9-image1{
+        width: 100px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+    .figure-section-9-image2{
+        width: 200px;
+        margin-top: -11%;
+        position: absolute;
+        top: 0;
+        margin-right: -4%;
+        right: 0;
+        z-index: 1;
+    }
+    .block-figure-section-9{
+        width: 100%;
+        height: 450px;
+        margin-top: 30%;
+        position: relative;
+    }
+    .figcaption-note10{
+        width: 110px;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        /* right: 45%; */
+        /* margin: auto; */
+        top: 10%;
+        /* font-family: 'Samsung Sharp Sans Bold'; */
+    }
+    .figcaption-note10plus{
+        width: 110px;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        /* right: 0; */
+        /* margin-right: 5%; */
+        top: 40%;
+        z-index: 3;
+        /* font-family: 'Samsung Sharp Sans Bold'; */
+    }
+    .ul-section-7 > li > p {
+        font-family: 'SamsungOne 700';
+        font-size:12px;
+    }
+    .ul-section-7 > li > .p-big{
+        font-family: 'Samsung Sharp Sans Bold';
+        font-size:30px;
+    }
+    .block-section-7-left{
+        display: flex;
+        flex:0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding:20px;
+        border-radius: 25px;
+        background: rgb(255, 240, 242);
+    }
+
+    .fix-img-note10{
+        width: 340px;
+        position: relative;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width:992px){
+    .banner-mobile{
+        display: none;
+    }
+
+    .display-none-desktop{
+        display:none;
+    }
+
+    .pr-md-10p{
+        padding-right:10%;
+    }
+    .pl-md-10p{
+        padding-left:10%;
+    }
+
+    .margin-from-nav{
+        margin-top:150px;
+    }
+    .block-banner{
+        display: flex;
+        max-width: 100%;
+        flex: 0 0 100%;
+        position: relative;
+        height: 500px;
+        width:100%;
+        margin-left: -25px;
+    }
+    .samsung-banner{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+    .samsung-banner> figure{
+        position: absolute;
+        padding:0;
+    }
+    .text-galaxy{
+        width: 22%;
+        height: auto;
+        z-index: 1;
+        top:0;
+        left:0;
+        position: absolute;
+        margin-left: 22%;
+        margin-top: -1%;
+    }
+    .text-note10{
+        width: 22%;
+        height: auto;
+        z-index: 4;
+        position: absolute;
+        right: 0;
+        margin-top: 14%;
+        margin-right: 20%;
+        top: 0;
+    }
+    .note-10-shadow{
+        width: 49%;
+        margin:auto;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+        transform: translate(10px,60px);
+
+    }
+    .note-10-phone-big{
+        width:50%;
+        margin: auto;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+    }
+    .note-10-phone-small{
+        width:50%;
+        margin: auto;
+        height: auto;
+        z-index: 3;
+        position: absolute;
+        transform: translate(40px, -30px);
+    }
+    .note-10-shadow > img,
+    .note-10-phone-big >img,
+    .note-10-phone-small >img
+    {
+        width:100%;
+    }
+    .text-galaxy > img{
+        width: 100%;
+    }
+    .text-note10 > img{
+        width:440px;
+    }
+
+
+
+    .content-container{
+        max-width: 1380px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+
+
+    .section{
+        margin:100px auto !important;
+    }
+    .section-1-article{
+        display: flex;
+    width: 83%;
+    margin: auto;
+    height: 350px;
+    align-items: center;
+    }
+    .p-section1{
+        font-size:50px;
+        font-weight: 300;
+        font-family: 'samsungOne 400';
+        text-align: center;
+    }
+
+    .p-section1 h1{
+        margin: 0;
+        line-height: 1.6;
+        font-size:50px;
+        font-weight: 300;
+        font-family: 'samsungOne 400';
+        text-align: center;
+    }
+
+    .gallery-cell{
+        width:100%;
+    }
+
+    .main-gallery{
+        height:800px;
+    }
+    .flickity-viewport{
+        height:100% !important;
+    }
+    .flickity-page-dots{
+        bottom:60px;
+    }
+    .flickity-page-dots .dot{
+        background: #fff;
+    }
+    .block-video{
+        position: relative;
+        height:100%;
+        margin:50px auto;
+    }
+
+    .detail-video{
+        position: absolute;
+        height: 200px;
+        top: calc((100% - 200px) / 2);
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-family: 'Samsung Sharp Sans Bold';
+    }
+    .video-text-size{
+        font-size:40px;
+    }
+    .fa-play-circle::before{
+        font-size:130px;
+        color:white;
+    }
+    i.far.fa-play-circle{
+        transition: 0.6s;
+    }
+    i.far.fa-play-circle:hover{
+        transform: scale(1.07,1.07);
+    }
+    .mfp-content{
+        text-align:center;
+    }
+
+    .h2-section-3{
+        font-family: 'Samsung Sharp Sans Bold';
+        font-size:20px;
+        letter-spacing: 1px;
+    }
+    .section-3-article{
+        height:250px;
+    }
+    .h3-section-3{
+        font-size:60px;
+        font-family: 'Samsung Sharp Sans Bold';
+        margin:10px auto;
+    }
+
+    .block-radius{
+        overflow: hidden;
+        display: flex;
+        flex:0 0 100%;
+        max-width: 100%;
+        width:100%;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    .section-4-article{
+        display: flex;
+        flex: 0 0 30%;
+        max-width: 30%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+        left: 100px;
+        top: 10%;
+        color: white;
+        text-align: left;
+    }
+    .section-4-article > span > h4{
+        width:100%;
+        font-size:40px;
+        font-family: 'Samsung Sharp Sans Bold';
+    }
+    .section-4-article > span > p{
+        font-size:20px;
+        font-family: 'SamsungOne 400';
+        margin-top:1.5rem;
+    }
+
+    .flex-left-article-section-5{
+        flex:0 0 40%;
+        max-width:40%;
+        display:flex;
+        justify-content: center;
+
+    }
+    .flex-right-article-section-5{
+        flex:0 0 60%;
+        max-width:60%;
+        display:flex;
+
+    }
+
+    .section-5-h4{
+        font-size:30px;
+        font-family: 'Samsung Sharp Sans Bold';
+    }
+    .section-5-p{
+        font-size:16px;
+        font-family: 'SamsungOne 400';
+    }
+    .block-figure-section-6{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-6-figure:first-of-type{
+        margin-top:0 !important;
+    }
+    .section-6-figure{
+        width:400px;
+        height: auto;
+        margin:5% auto;
+    }
+    .section-6-figure img{
+        width:100%;
+    }
+
+
+    .block-section-7-left{
+        display: flex;
+        flex:0 0 50%;
+        max-width: 50%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding:100px;
+        background: rgb(255, 240, 242);
+    }
+    .block-section-7-left > h4{
+        font-size:50px;
+        font-family: 'Samsung Sharp Sans Bold';
+        margin-top:1.2rem;
+        line-height: 85px;
+    }
+    .ul-section-7{
+        margin-top:50px;
+    }
+    .ul-section-7 > li > p {
+        font-family: 'SamsungOne 700';
+        font-size:14px;
+    }
+    .ul-section-7 > li > .p-big{
+        font-family: 'Samsung Sharp Sans Bold';
+        font-size:40px;
+    }
+
+
+
+    .block-section-7-right{
+        display: flex;
+        flex:0 0 50%;
+        max-width: 50%;
+        background:rgb(255, 240, 242);
+        align-items:center;
+    }
+
+    .section-7-figure{
+        width:700px;
+        margin-left: auto;
+    }
+
+
+    .section-7-figure img{
+        width:100%;
+    }
+
+
+    .flex-left-article-section-9{
+        display: flex;
+        flex:0 0 50%;
+        max-width:50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px 60px;
+    }
+    .flex-right-article-section-9{
+        display: flex;
+        flex:0 0 50%;
+        max-width:50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px 60px;
+    }
+    .section-9-h4{
+        font-size: 35px;
+        line-height: 50px;
+        font-family: 'SamsungOne 700';
+    }
+    .section-9-p{
+        font-size:18px;
+        font-family: 'SamsungOne 400';
+    }
+    .block-figure-section-9{
+        width:100%;
+        height: 1000px;
+        margin-top:5%;
+        position: relative;
+    }
+    .figure-section-9-image1{
+        width: 250px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+    .figure-section-9-image2{
+        width: 500px;
+        margin-top: -8%;
+        position: absolute;
+        top: 0;
+        margin-right: 9%;
+        right: 0;
+        z-index: 1;
+    }
+    .figcaption-note10{
+        width: 200px;
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 45%;
+        margin: auto;
+        top: 10%;
+        font-family: 'Samsung Sharp Sans Bold';
+    }
+    .figcaption-note10plus{
+        width: 200px;
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        top: 10%;
+        z-index: 3;
+        font-family: 'Samsung Sharp Sans Bold';
+    }
+    .fix-img-note10{
+        width: 992px;
+        position: relative;
+        margin: auto;
+    }
+    .h1-block{
+        display: flex;
+        flex:0 0 100%;
+        max-width:100%;
+        width:100%;
+        margin:auto;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+
+    [data-aos^=fade-shadow][data-aos^=fade-shadow]{
+        opacity: 0 !important;
+        transition-property:opacity,transform !important;
+        transition-delay: 0.5s;
+        transition-duration: 0.6s;
+        transform: translateY(15px);
+      }
+      [data-aos^=fade-shadow][data-aos^=fade-shadow].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(40px);
+    }
+
+    [data-aos^=small-phone-animation][data-aos^=small-phone-animation]{
+        opacity: 0 !important;
+        transition-property:opacity,transform !important;
+        transition-delay: 1s;
+        transition-duration: 0.6s;
+      }
+      [data-aos^=small-phone-animation][data-aos^=small-phone-animation].aos-animate {
+        opacity: 1 !important;
+    }
+
+    [data-aos^=change-color][data-aos^=change-color]{
+        transition-duration: 0.8s;
+        color:black;
+        transition-delay: 2s;
+      }
+      [data-aos^=change-color][data-aos^=change-color].aos-animate {
+        color:white;
+    }
+}

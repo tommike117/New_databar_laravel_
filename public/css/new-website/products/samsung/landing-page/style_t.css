@@ -1,0 +1,358 @@
+
+    @media screen and (min-width: 784px) and (max-width: 991px) {
+
+        .bg-section1{
+            padding-top: 65px;
+            padding-left: 12%;
+        }
+        .bg-section2{
+            background-image: url('/images/new-website/products/samsung/landing-page/bg-home_phone750-01.jpg');
+            height: auto;
+            background-attachment: fixed;
+            background-size: contain;
+            background-position-x: 30px;
+            background-repeat: no-repeat;
+        }
+        .bg-section3{
+            display: none;
+        }
+        .video-banner{
+            width: 100%;
+            height: 30vh;
+            background-color:#747373;
+            align-items: flex-end;
+            display: flex;
+            text-align: right;
+            justify-content: flex-end;
+        }
+        .video-banner p{
+            color: white;
+            font-family: poppins;
+            font-weight: 300;
+            font-size: 13px;
+            margin-right: 5%;
+            margin-bottom: 3%;
+        }
+        .text-all-samsung{
+            text-align: center;
+            margin: 2%;
+       }
+       .text-all-samsung a{
+            margin: 0 2%;
+            text-decoration: none;
+            font-size: 15px;
+            color: #4d4d4d;
+            font-weight: 300;
+            transition: 0.3s;
+        }
+
+        .block-sec2{
+            width: 100%;
+            height: 55vh;
+            background-color: #eee;
+            border-radius: 25px;
+        }
+        .flex-12{
+            flex: 0 0 100%;
+            max-width: 100%;
+            display: block;
+            padding: 0px 5% 0 20%;
+        }
+        .flex-4{
+            flex:0 0 100%;
+            max-width: 100%;
+            padding: 4%;
+        }
+        .flex-4 p{
+            font-size: 25px;
+            color: #4d4d4d;
+            margin-top: 5%;
+            text-align: right;
+        }
+        .btn-tablet{
+            text-align: right;
+        }
+        .block1-sec2{
+            background-image: url('/images/new-website/products/samsung/landing-page/Session2-01.jpg');
+            height: 72vh;
+            width: 100%;
+            border-radius: 25px;
+            background-size: cover;
+            background-position-x: 65%;
+            display: flex;
+            align-items: flex-end;
+        }
+        .block2-sec2{
+            background-image: url('/images/new-website/products/samsung/landing-page/Session2-02.jpg');
+            height: 72vh;
+            width: 100%;
+            border-radius: 25px;
+            background-size: cover;
+            background-position-x: 50%;
+            display: flex;
+            align-items: flex-end;
+
+        }
+        .block3-sec2{
+            background-image: url('/images/new-website/products/samsung/landing-page/Session2-03.jpg');
+            height: 72vh;
+            width: 100%;
+            border-radius: 25px;
+            background-size: cover;
+            background-position-x: 50%;
+            background-position-y: 100%;
+
+        }
+    /* footer */
+    .footer-home{
+        padding: 0 35px;
+        }
+        .bg-footer{
+            background-color:  #4d4d4d;
+            width: 100%;
+            height: 200px;
+            margin-left: 15px;
+        }
+        .bg-footer > p{
+            font-family: quicksand;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            margin: 5px;
+        }
+
+        .footer-section{
+            text-align: center;
+            padding-top: 10px;
+            margin: 0;
+        }
+        .footer-section > img{
+            width:50%;
+            margin:auto;
+        }
+        .footer-link{
+            font-family: Poppins;
+            line-height: 1.5;
+            text-align: end;
+            font-size: 11px;
+            color: white !important;
+            width: 74%;
+        }
+        .footer-desktop{
+            display: flex;
+            padding: 0 40px 0 142px;
+            margin-top: 40px;
+
+        }
+        .footer-flex-icon{
+            width: 67%;
+        }
+        .footer-flex-50{
+            max-width: 50%;
+            flex: 0 0 50%;
+        }
+        .footer-flex-50 > h2{
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 14px;
+            font-weight: 700;
+            color: #3f3d3d;
+        }
+        .footer-flex-50 > ul{
+            list-style-type: none;
+            padding-inline-start: 0;
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 10px;
+        }
+        .footer-flex-50 > ul > li > a{
+            color: #4d4d4d ;
+        }
+        .footer-flex-30{
+            max-width: 30%;
+            flex: 0 0 30%;
+        }
+        .footer-flex-30 > p{
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 14px;
+            color: #b3b3b3;
+            margin-left: 7px;
+        }
+        .footer-flex-20{
+            max-width: 20%;
+            flex: 0 0 20%;
+        }
+        .footer-flex-20 > h2{
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 14px;
+            font-weight: 700;
+            color: #3f3d3d;
+        }
+        .footer-flex-20 > ul{
+            list-style-type: none;
+            padding-inline-start: 0;
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 10px;
+        }
+        .footer-flex-20 > ul > li > a{
+            color: #4d4d4d ;
+        }
+        .footer-flex-18{
+            max-width: 18%;
+            flex: 0 0 18%;
+        }
+
+        .footer-flex-6{
+            max-width: 6%;
+            flex: 0 0 6%;
+        }
+        /* modal-pop-up */
+        .modal-dialog{
+            max-width: 283px !important ;
+            margin: 1.75rem auto !important;
+            margin-top: 10% !important;
+        }
+        .modal-content{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 1.3rem !important;
+            outline: 0;
+        }
+        .modal-header{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 1rem 1rem;
+            border-bottom:  0 !important;
+            border-top-left-radius: 0.3rem;
+            border-top-right-radius: 0.3rem;
+        }
+        .modal-title{
+            margin-bottom: 0;
+            line-height: 1.6;
+            width: 100%;
+            font-weight: 600;
+        }
+        .modal-footer{
+            display: contents !important;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 1rem;
+            border-top: 0 !important;
+            border-bottom-right-radius: 0.3rem;
+            border-bottom-left-radius: 0.3rem;
+        }
+        .modal-footer > p{
+            color: #3399ff;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .footer-copyright{
+            border-top: solid 1px #dedede;
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            height: 35px;
+            display: flex;
+            padding-top: 9px;
+        }
+        .footer-copyright > h2{
+            font-size: 11px;
+            margin: 0;
+            color: #b3b3b3;
+        }
+        .footer-link > a:visited{
+            color: #b3b3b3;
+        }
+
+        a:hover {
+            font-weight: 800;
+            color: #2e2c2c;
+            text-decoration: none;
+        }
+        .footer-desktop-none{
+            display: none !important;
+        }
+        .footer-link {
+            font-family: Poppins;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 11px;
+            color: white !important;
+            width: 100%;
+        }
+        .footer-link a{
+            color: white;
+            text-decoration: none;
+        }
+        .bg-section3-mobile {
+            background-image: url('/images/new-website/products/samsung/landing-page/bg-home_phone750-05.jpg');
+            background-size: cover;
+            background-position-y: 45%;
+            background-repeat: no-repeat;
+        }
+        .bg-section3-mobile h2{
+            text-align: right;
+            padding-top: 8%;
+            padding-right: 5%;
+            font-weight: 600;
+            font-size: 30px;
+            color: #4d4d4d;
+            padding: 7% 5%;
+        }
+
+    /* slider - mobile*/
+
+    .carousel {
+        background: #EEE;
+    }
+
+    .carousel-cell {
+        width: 66%;
+        height: 230px;
+        margin-right: 10px;
+        background: #c2c2c2;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+        display: block;
+        text-align: center;
+        content: counter(carousel-cell);
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+    }
+    .flickity-prev-next-button.next {
+        right: 10px;
+        background: none;
+    }
+    .flickity-prev-next-button.previous {
+        left: 10px;
+        background: none;
+    }
+    .flickity-enabled.is-draggable {
+        padding: 0px 0 3% 0;
+        margin: 0 0 10% 0;
+        background: none;
+    }
+    .video-news{
+        padding: 20px;
+    }
+    .flickity-page-dots {
+        bottom: -20px;
+    }
+}

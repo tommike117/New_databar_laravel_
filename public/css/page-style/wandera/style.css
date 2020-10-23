@@ -1,0 +1,827 @@
+.section3_text_line1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.15);
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+}
+
+.section3_text_line2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(25, 175, 25);
+}
+
+.section3_text_line3 {
+    font-size: 16px;
+    padding: 0 20%;
+}
+
+.section4_text_line1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+.section4_text_line2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 5%;
+}
+
+.section5_text_line1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+.section5_text_line2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 5%;
+}
+
+.section6_text_line1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 0 0 5%;
+}
+
+.section6_text_line2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 5%;
+}
+
+.section6_text_line3 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 5%;
+}
+
+.section7_text_line1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icon_content_line1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon_content_line2 {
+    font-size: 15px;
+    padding: 0 20% 0 0;
+}
+
+.logo_wandera {
+    position: absolute;
+    right: 0%;
+    left: calc((100% - 600px) / 2);
+    margin: auto;
+    top: calc((100% - 100px) / 2);
+}
+
+.banner_2 {
+    position: absolute;
+    right: 0;
+    margin: auto;
+    top: calc((100% - 550px) / 2);
+}
+
+
+.banner_background {
+    background: url('../../../images/wandera/banner_1.jpg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_4 {
+    background: url('../../../images/wandera/banner_4.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.range_threat {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin: 100px auto;
+    margin-bottom: 0;
+}
+
+.range_threat_line1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ul_range_threat {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 150px;
+    padding: 0;
+}
+
+.ul_range_threat_line2 {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 50px 100px 0 100px;
+}
+
+.ul_range_threat>li>figure {
+    margin: 0px 200px 1rem !important;
+}
+
+.ul_range_threat>li>figure>img {
+    width: 60px;
+}
+
+.ul_range_threat_line2>li>figure {
+    margin: 0px 200px 1rem !important;
+}
+
+.ul_range_threat_line2>li>figure>img {
+    width: 60px;
+}
+
+.figcaption_line1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.figcaption_line2 {
+    color: white;
+    font-size: 15px;
+    padding: 0 10%;
+}
+
+.figcaption_section2_line1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.figcaption_section2_line2 {
+    color: white;
+    font-size: 15px;
+    padding: 0 20%;
+}
+
+.icon_wandera1 {
+    width: 150px;
+}
+
+.icon_wandera2 {
+    width: 250px;
+}
+
+.icon:hover {
+    transition-property: transform;
+    transform: scale(1.05, 1.05);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.row_icon {
+    margin: 20px auto;
+}
+
+.ul_icon {
+    list-style: none;
+}
+
+.icon_mtd {
+    width: 40px;
+}
+
+@media only screen and (min-width:320px) {
+    .banner_background {
+        height: 800px !important;
+    }
+
+    .logo_wandera {
+        left: calc((100% - 320px) / 2) !important;
+    }
+
+    .logo_wandera>img {
+        width: 330px !important;
+    }
+
+    .banner_2 {
+        text-align: center;
+        left: 0;
+    }
+
+    .banner_2>img {
+        width: 300px !important;
+    }
+
+    .banner_2_content {
+        position: absolute;
+        left: 5%;
+        margin: auto;
+        bottom: 50px;
+        text-align: left;
+
+    }
+    .banner_2_content h2{
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        line-height: 1.5em;
+    }
+
+    .banner_2_content>label {
+        font-size: 23px !important;
+        padding: 0 !important;
+    }
+
+    .banner_2_content>p {
+        font-size: 12px !important;
+    }
+
+    .icon_wandera2 {
+        margin: 40px auto;
+    }
+
+    .section3_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section3_text_line2 {
+        font-size: 20px !important;
+    }
+
+    .section3_text_line3 {
+        font-size: 14px !important;
+        padding: 0;
+    }
+
+    .section4_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section4_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section5_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section5_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section6_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line3 {
+        font-size: 14px !important;
+    }
+
+    .section7_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .row_col_icon {
+        margin: 0 !important;
+        margin: 50px auto !important;
+    }
+
+    .row_col_icon>div>div>div {
+        text-align: center;
+    }
+
+    .icon_content_line1 {
+        font-size: 23px !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_content_line2 {
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+
+    .ul_range_threat {
+        display: block !important;
+    }
+
+    .ul_range_threat>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .range_threat_line1 {
+        font-size: 23px !important;
+    }
+
+    .figcaption_line1 {
+        font-size: 23px !important;
+    }
+
+    .figcaption_line2 {
+        font-size: 14px !important;
+    }
+
+    .ul_range_threat_line2 {
+        margin: 0 !important;
+        display: block !important;
+    }
+
+    .ul_range_threat_line2>li>figure {
+        margin: 50px 100px 0 100px !important
+    }
+
+    .banner_4 {
+        height: 1600px !important;
+    }
+
+    .figcaption_section2_line2 {
+        padding: 0 !important;
+    }
+
+    .figcaption_line2 {
+        padding: 0 !important;
+    }
+}
+@media only screen and (min-width:768px) {
+    .col_design{
+        margin:0 !important;
+    }
+    .banner_background {
+        height: 800px !important;
+    }
+
+    .logo_wandera {
+        left: calc((100% - 600px) / 2) !important;
+    }
+
+    .logo_wandera>img {
+        width: 600px !important;
+    }
+
+    .banner_2 {
+        text-align: center;
+        left: 0;
+    }
+
+    .banner_2>img {
+        width: 350px !important;
+    }
+
+    .banner_2_content {
+        position: absolute;
+        left: 5%;
+        margin: auto;
+        bottom: 50px;
+        text-align: left;
+
+    }
+
+    .banner_2_content>label {
+        font-size: 25px !important;
+        padding: 0 !important;
+    }
+
+    .banner_2_content>p {
+        font-size: 13px !important;
+    }
+
+    .icon_wandera2 {
+        margin: 0px auto;
+    }
+
+    .section3_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section3_text_line2 {
+        font-size: 20px !important;
+    }
+
+    .section3_text_line3 {
+        font-size: 14px !important;
+        padding: 0;
+    }
+
+    .section4_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section4_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section5_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section5_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section6_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line3 {
+        font-size: 14px !important;
+    }
+
+    .section7_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .row_col_icon {
+        margin: 0 !important;
+        margin: 50px auto !important;
+    }
+
+    .row_col_icon>div>div>div {
+        text-align: center;
+    }
+
+    .icon_content_line1 {
+        font-size: 17px !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_content_line2 {
+        font-size: 12px !important;
+        padding: 0 !important;
+    }
+
+    .ul_range_threat {
+        display: block !important;
+    }
+
+    .ul_range_threat>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .range_threat_line1 {
+        font-size: 30px !important;
+    }
+
+    .figcaption_line1 {
+        font-size: 23px !important;
+    }
+
+    .figcaption_line2 {
+        font-size: 14px !important;
+    }
+
+    .ul_range_threat_line2 {
+        margin: 0 !important;
+        display: block !important;
+    }
+
+    .ul_range_threat_line2>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .banner_4 {
+        height: 1600px !important;
+    }
+
+    .figcaption_section2_line2 {
+        padding: 0 !important;
+    }
+
+    .figcaption_line2 {
+        padding: 0 !important;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .col_design{
+        margin:0 !important;
+    }
+    .banner_background {
+        height: 700px !important;
+    }
+
+    .logo_wandera {
+        left: calc((100% - 600px) / 2) !important;
+    }
+
+    .logo_wandera>img {
+        width: 600px !important;
+    }
+
+    .banner_2 {
+        text-align:inherit !important;
+
+        left: 5%;
+    }
+
+    .banner_2>img {
+        width: 350px !important;
+    }
+
+    .banner_2_content {
+        position: absolute;
+        right: 0;
+        margin: 50px auto;
+        top: calc((100% - 550px) / 2);
+        width:60%;
+        left: inherit !important;
+    }
+
+    .banner_2_content>label {
+        font-size: 30px !important;
+        padding: 0 10% !important;
+    }
+
+    .banner_2_content>p {
+        font-size: 15px !important;
+    }
+
+    .icon_wandera2 {
+        margin: 0px auto;
+    }
+
+    .section3_text_line1 {
+        font-size: 30px !important;
+    }
+
+    .section3_text_line2 {
+        font-size: 18px !important;
+    }
+
+    .section3_text_line3 {
+        font-size: 16px !important;
+        padding: 0 10%;
+    }
+
+    .section4_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section4_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section5_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section5_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section6_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line3 {
+        font-size: 14px !important;
+    }
+
+    .section7_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .row_col_icon {
+        margin: 0 !important;
+        margin: 50px auto !important;
+    }
+
+    .row_col_icon>div>div>div {
+        text-align: center;
+    }
+
+    .icon_content_line1 {
+        font-size: 17px !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_content_line2 {
+        font-size: 12px !important;
+        padding: 0 !important;
+    }
+
+    .ul_range_threat {
+        display: block !important;
+    }
+
+    .ul_range_threat>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .range_threat_line1 {
+        font-size: 30px !important;
+    }
+
+    .figcaption_line1 {
+        font-size: 23px !important;
+    }
+
+    .figcaption_line2 {
+        font-size: 14px !important;
+    }
+
+    .ul_range_threat_line2 {
+        margin: 0 !important;
+        display: block !important;
+    }
+
+    .ul_range_threat_line2>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .banner_4 {
+        height: 1600px !important;
+    }
+
+    .figcaption_section2_line2 {
+        padding: 0 !important;
+    }
+
+    .figcaption_line2 {
+        padding: 0 !important;
+    }
+}
+@media only screen and (min-width:1300px) {
+    .col_design{
+        margin:0 !important;
+    }
+    .banner_background {
+        height: 700px !important;
+    }
+
+    .logo_wandera {
+        left: calc((100% - 700px) / 2) !important;
+    }
+
+    .logo_wandera>img {
+        width: 700px !important;
+    }
+
+    .banner_2 {
+        text-align:inherit !important;
+
+        left: 5%;
+    }
+
+    .banner_2>img {
+        width: 500px !important;
+    }
+
+    .banner_2_content {
+        position: absolute;
+        right: 0;
+        margin: 50px auto;
+        top: calc((100% - 550px) / 2);
+        width:60%;
+        padding:0 60px;
+        left: inherit !important;
+    }
+
+    .banner_2_content>label {
+        font-size: 40px !important;
+        padding: 0 10% !important;
+    }
+
+    .banner_2_content>p {
+        font-size: 18px !important;
+    }
+
+    .icon_wandera2 {
+        margin: 8px auto !important;
+    }
+
+    .section3_text_line1 {
+        font-size: 40px !important;
+    }
+
+    .section3_text_line2 {
+        font-size: 20px !important;
+    }
+
+    .section3_text_line3 {
+        font-size: 16px !important;
+        padding: 0 10%;
+    }
+
+    .section4_text_line1 {
+        font-size: 30px !important;
+    }
+
+    .section4_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section5_text_line1 {
+        font-size: 23px !important;
+    }
+
+    .section5_text_line2 {
+        font-size: 14px !important;
+    }
+
+    .section6_text_line1 {
+        font-size: 40px !important;
+    }
+
+    .section6_text_line2 {
+        font-size: 16px !important;
+    }
+
+    .section6_text_line3 {
+        font-size: 16px !important;
+    }
+
+    .section7_text_line1 {
+        font-size: 40px !important;
+    }
+
+    .row_col_icon {
+        margin: 100px 0 0 150px !important;
+    }
+
+    .row_col_icon>div>div>div {
+        text-align: left;
+    }
+
+    .icon_content_line1 {
+        font-size: 20px !important;
+        width: 100%;
+        text-align: left;
+    }
+
+    .icon_content_line2 {
+        font-size: 14px !important;
+        padding: 0 50px 0 0 !important;
+    }
+
+    .ul_range_threat {
+        display: inline-flex !important;
+    }
+
+    .ul_range_threat>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .range_threat_line1 {
+        font-size: 40px !important;
+    }
+
+    .figcaption_line1 {
+        font-size: 23px !important;
+    }
+
+    .figcaption_line2 {
+        font-size: 14px !important;
+        padding:0 10% !important;
+    }
+
+    .ul_range_threat_line2 {
+        margin: 0 !important;
+        display: inline-flex !important;
+    }
+
+    .ul_range_threat_line2>li>figure {
+        margin: 0 0 1rem !important;
+    }
+
+    .banner_4 {
+        height: 800px !important;
+    }
+
+    .figcaption_section2_line2 {
+        padding: 0 20% !important;
+    }
+
+}

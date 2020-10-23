@@ -1,0 +1,15 @@
+$($('.li-product')[0]).on('click',()=>{
+    $("#t20").removeAttr('src').attr('src','/images/Caterpillar/tablet/t20.jpg')
+})
+$($('.li-product')[1]).on('click',()=>{
+    $("#t20").removeAttr('src').attr('src','/images/Caterpillar/tablet/t20_2.jpg')
+})
+$($('.li-product')[2]).on('click',()=>{
+    $("#t20").removeAttr('src').attr('src','/images/Caterpillar/tablet/t20_3.jpg')
+})
+$($('.li-product')[3]).on('click',()=>{
+    $("#t20").removeAttr('src').attr('src','/images/Caterpillar/tablet/t20_4.jpg')
+})
+$($('.li-product')[4]).on('click',()=>{
+    $("#t20").removeAttr('src').attr('src','/images/Caterpillar/tablet/t20_5.jpg')
+})

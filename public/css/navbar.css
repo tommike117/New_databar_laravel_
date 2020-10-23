@@ -1,0 +1,621 @@
+.navbar-light .navbar-nav .nav-item::after {
+    display: none !important;
+}
+.icon.fa-chevron-down,
+.icon.fa-chevron-up{
+    width:20px;
+    height:20px;
+    background-color:#626262;
+}
+.block-inside-products > .d-flex:hover{
+    cursor:pointer;
+}
+.my-icon{
+    display:none;
+}
+
+.burger-menu{
+    justify-content: center;
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.burger-menu:hover{
+    cursor: pointer;
+}
+.left-15{
+    left:15px;
+}
+.burger-menu > .icon{
+    width:17px;
+    background-color:#0066cc;
+    position: relative;
+    margin:0;
+}
+.burger-menu > p {
+    color:#9e9e9e;
+}
+
+.card-product{
+    border-top: 4px solid #0066cc;
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 63px;
+    background: whitesmoke;
+    display:none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index:2;
+}
+
+.card-product::-webkit-scrollbar {
+    width: 7px;
+}
+
+.card-product::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #818181; 
+    border-radius: 0 0 10px 10px;
+}
+
+.card-product::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 10px 10px #0066cc; 
+}
+
+.product-text,.category-text{
+    font-size:15px;
+    margin:14px auto !important;
+    transition: 0.3s;
+    color:#9e9e9e;
+    width:fit-content;
+    margin-left: 0 !important;
+}
+.category-text:hover{
+    color:#0066cc;
+}
+.icon.myfa-chevron-right{
+    width:15px;
+    height:15px;
+    background-color:#0066cc;
+}
+.block-inside-products{
+    padding:10px 30px 10px 30px;
+}
+
+.product-category{
+    position: absolute;
+    top: 63px;
+    right: 0;
+    max-width: 350px;
+    width: 0;
+    height: 300px;
+    background: whitesmoke;
+    left:350px;
+    transition: 0.4s;
+    transition-property: translate;
+    z-index:1;
+    border-top:4px solid #0066cc;
+}
+
+@media (max-width: 991.98px) {
+
+    #menu-product{
+        display:none;
+    }
+    #list-product{
+        display:none;
+    }
+
+    .icon-bars-solid{
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+    }
+    .nav-item.dropdown.dmenu {
+        transition-property: margin;
+        transition: 0.5s;
+    }
+
+    .position-xs-relative {
+        position: relative !important;
+    }
+
+    .icon-products {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        height: 61px;
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-products>.fa-chevron-down::before {
+        color: #1d2d5a;
+    }
+
+    .navbar-collapse.show {
+        background-color: white;
+        height: calc(100% - 71px);
+        overflow: auto;
+        -webkit-overflow: scroll !important;
+        -webkit-overflow-scrolling:touch;
+        position: fixed;
+        /* position: -webkit-fixed; */
+        top:calc(71px);
+        width:100%;
+        left:0;
+    }
+
+    .t-depth {
+        color: #1d2d5a !important;
+    }
+
+    .dropdown-list {
+        text-align: center;
+        display: block !important;
+    }
+
+    .col-mobile-hidden {
+        display: none;
+    }
+
+    .list_scanner {
+        display: none;
+    }
+
+    .navbar-collapse {
+        padding: 20px;
+        padding-top: 0;
+        background-color: white;
+    }
+
+    .navbar-desktop {
+        height: 72px;
+    }
+
+    .bg-white {
+        border-bottom: none !important;
+    }
+
+    .fa.fa-caret-down {
+        display: none !important;
+    }
+
+    .non-samsung {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .border-right-light {
+        border-right: none;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        border-bottom: 1px solid lightgrey;
+        background: white;
+    }
+
+    .dropdown-menu.sm-menu.w-100 {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: auto;
+        height: auto;
+    }
+
+    .dropdown-menu.sm-menu.w-100::-webkit-scrollbar {
+        width: 0px;
+        display: none;
+
+    }
+
+    .menu-section-center {
+        justify-content: flex-start;
+        flex:0 0 100% !important;
+        max-width:100% !important;
+    }
+
+    .menu-section-center>.menu-section-detail {
+        margin-left: 0px !important;
+        height: auto !important;
+    }
+
+    .menu-section-center>.menu-section-detail>a {
+        width: 100% !important;
+    }
+
+    .menu-section-center>.menu-section-detail>a:hover {
+        text-decoration: none;
+        border: none !important;
+    }
+
+    .header-depth {
+        text-align: center;
+    }
+
+    .p-xs-5 {
+        padding: 5px;
+    }
+
+    body {
+        padding: 0px;
+    }
+
+    .navbar-brand.logo-laptop {
+        display: none;
+    }
+
+    .navbar-brand.logo-mobile {
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 17.5px;
+        right: 20px;
+    }
+
+    .navbar-light .navbar-toggler {
+        /* background-color: #0066cc; */
+        border: #1d2d5a;
+    }
+
+    .navbar-light .navbar-toggler:focus {
+        outline: none !important;
+    }
+
+    .navbar-expand-lg {
+        background-color: #0066cc !important;
+    }
+
+    .menu-section-center {
+        display: block;
+        /* justify-content:center; */
+    }
+    .logo-mobile > figure{
+        width:150px;
+        height:auto;
+        margin:auto;
+    }
+    .logo-mobile > figure > img{
+        width:100%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbar-desktop{
+        height:62px;
+    }
+
+    #menu-product{
+        display:flex;
+    }
+    #list-product{
+        display:block;
+    }
+
+    .icon-products {
+        display: none;
+    }
+
+
+    .non-samsung {
+        max-width: 20% !important;
+        flex: 0 0 20% !important;
+    }
+
+    .border-right-light {
+        border-right: 1px solid #dedede;
+        max-width: 16%;
+    }
+
+    .navbar-brand.logo-laptop {
+        display: block;
+    }
+
+    .navbar-brand.logo-mobile {
+        display: none;
+    }
+
+    .navbar-expand-lg {
+        background-color: #fff !important;
+    }
+
+    .underline-animation.navbar::after {
+        background: #1d2d5a;
+        bottom: 0;
+        height: 2px;
+    }
+
+    .navbar-desktop > .navbar-expand-lg {
+        height: 62px;
+        box-shadow: 0px 0px 10px 0px #ddd;
+    }
+
+    .menu-section-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropdown-menu.sm-menu.w-100 {
+        height: 600px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+
+    .dropdown-menu.sm-menu.w-100::-webkit-scrollbar {
+        width: 6px;
+        background-color: lightgrey;
+        border-radius: 25px;
+
+    }
+
+    .dropdown-menu.sm-menu.w-100::-webkit-scrollbar-thumb {
+        width: 6px;
+        background-color: #1d2d5a;
+        border-radius: 25px;
+
+    }
+
+    .t-depth {
+        color: #1d2d5a;
+    }
+
+    .height-10 {
+        height: 200px;
+    }
+    .logo-laptop > figure{
+        width:150px;
+        height:auto;
+        margin:0;
+    }
+    .logo-laptop > figure > img{
+        width:100%;
+    }
+}
+
+
+
+#datalogic_more {
+        font-size: 15px;
+        position: absolute;
+        top: calc((100% - 75px) / 2);
+        right: 0;
+    }
+
+    #datalogic_more:hover {
+        transform: scale(1.2, 1.2);
+        cursor: pointer;
+    }
+
+    #koamtac_more {
+        font-size: 15px;
+        position: absolute;
+        top: calc((100% - 75px) / 2);
+        right: calc((100% - 150px) / 2);
+    }
+
+    #koamtac_more:hover {
+        transform: scale(1.2, 1.2);
+        cursor: pointer;
+    }
+
+
+    #myTab {
+        border: none;
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        border-bottom: 4px solid transparent;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+
+
+
+
+    .navbar-light .navbar-nav .nav-item:hover::after {
+        width: 100%;
+        color: #1d2d59;
+    }
+
+    .navbar-light .navbar-nav .nav-item:hover a.nav-linka.nav-link {
+        color: #1d2d59;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        /* display: inline-block; */
+        text-decoration: none;
+    }
+
+    .navbar-light .navbar-nav .nav-item::after {
+        content: '';
+        display: block;
+        margin: auto;
+        width: 0;
+        height: 4px;
+        background: #1d2d59;
+        transition: width .3s;
+    }
+
+    .bg-white {
+        background-color: #fff;
+        border-bottom: 1px solid white;
+    }
+
+    .header-depth {
+        height: 30px;
+        margin: 20px 0 10px;
+    }
+
+    .t-depth {
+        padding: 0px;
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        padding: 25px 25px 15px;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .nav-item a {
+        font-size: 13px;
+        font-weight: 500;
+        background: transparent;
+    }
+
+    .dropdown-list {
+        display: table;
+        color: black;
+        font-weight: normal;
+        border-bottom: 2px solid transparent;
+        margin: 10px 0;
+        padding: 0 0 2px;
+    }
+
+    .dropdown-list:hover {
+        color: black;
+        text-decoration: none;
+        border-bottom: 2px solid black;
+    }
+
+    .dropdown-item:hover {
+        background: transparent;
+    }
+
+    .dropdown {
+        position: static;
+        border-radius: 0;
+        border: 0;
+    }
+
+    .list-menu {
+        position: relative;
+    }
+
+    .dropdown-item a:hover {
+        background: transparent;
+        /* color: */
+    }
+
+    .dropdown-menu {
+        /* position: static; */
+        background: #fff;
+        /* min-height:30vh; */
+        border: 0;
+        border-top: 1px solid #dadada;
+
+        border-bottom: 1px solid #dadada;
+        top: 98%;
+        border-radius: 0px;
+    }
+
+    .dropdown-menu a {
+        font-weight: normal;
+    }
+
+
+    #modal-options {
+        z-index: 1031 !important;
+    }
+
+    .samsungproduct img:hover {
+        transition-timing-function: ease-in-out;
+        transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+        transition: 0.8s;
+        transition-property: transform;
+        transform: scale(1.05, 1.05);
+        transition-duration: 1.7s;
+    }
+
+    .col-xs-12.col-sm-12.col-md-3.samsungproduct {
+        overflow: hidden;
+        padding: 10px;
+        padding-left: 0px;
+    }
+
+    .samsungproduct:hover {
+        box-shadow: 0px 0px 10px 0px lightgrey;
+    }
+
+    .nav-tabs .nav-link {
+        border-radius: 0;
+    }
+
+    .rowaccessories {
+        margin-top: 40px;
+    }
+
+    .accessories {
+        background: black;
+        color: white;
+        padding: 15px;
+    }
+
+    .text_accessories {
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        left: 100px;
+    }
+
+    .samsungproduct>a>.col-xs-12.col-sm-12.col-md-12>img {
+        padding: 10px;
+    }
+
+    .nav-item:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .product_type {
+        height: 40px;
+        transition-property: height;
+        transition-duration: 1s;
+        position: absolute;
+        bottom: 0;
+        color: black;
+    }
+
+    .product_type:hover {
+        height: 100%;
+        color: white;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .text_model {
+        font-weight: bold;
+        position: absolute;
+        top: calc((100% - 30px) / 2);
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .text_type {
+        margin-top: 15px;
+        position: absolute;
+        top: calc((100% + 50px) / 2);
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-weight: bold;
+    }

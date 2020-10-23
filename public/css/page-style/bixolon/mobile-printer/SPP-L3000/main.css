@@ -1,0 +1,40 @@
+.thumbnails{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+}
+.ul-product{
+    display: block;
+    width:18%;
+}
+.li-product{
+    margin: 15px auto;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+.li-product>img{
+    width:100%;
+    border:1px solid lightgrey;
+}
+li{
+    font-size:16px;
+}
+label{
+    font-size: 16px;
+}
+.product_name{
+    font-size:20px;
+    font-weight: bold;
+}
+#breadcrumb{
+    position:relative;
+    top:70px;
+    z-index:1;
+    margin:20px;
+}
+.small{
+    font-size:13px;
+}

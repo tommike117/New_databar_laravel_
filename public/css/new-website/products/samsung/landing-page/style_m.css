@@ -1,0 +1,196 @@
+@media (max-width: 767.98px) {
+
+
+    .bg-section1{
+        padding-top: 65px;
+    }
+    .bg-section2{
+        background-image: url('/images/new-website/products/samsung/landing-page/bg-home_phone750-01.jpg');
+        height: auto;
+        background-attachment: fixed;
+        background-size: contain;
+        background-position-x: 30px;
+        background-repeat: no-repeat;
+    }
+    .bg-section3{
+        display: none;
+    }
+    .bg-section3-mobile h2{
+        text-align: right;
+        padding-top: 8%;
+        padding-right: 5%;
+        font-weight: 600;
+        font-size: 24px;
+        color: #4d4d4d;
+        padding: 7% 5%;
+    }
+    .video-banner{
+        width: 100%;
+        height: 30vh;
+        background-color:#747373;
+        align-items: flex-end;
+        display: flex;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    .video-banner p{
+        color: white;
+        font-family: poppins;
+        font-weight: 300;
+        font-size: 11px;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    .text-all-samsung{
+        text-align: center;
+        margin: 2%;
+   }
+   .text-all-samsung a{
+        margin: 0 3%;
+        text-decoration: none;
+        font-size: 15px;
+        color: #4d4d4d;
+        font-weight: 300;
+        transition: 0.3s;
+    }
+
+    .block1-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-01.jpg');
+        height: 72vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 65%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .block2-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-02.jpg');
+        height: 72vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 50%;
+        display: flex;
+        align-items: flex-end;
+
+    }
+    .block3-sec2{
+        background-image: url('/images/new-website/products/samsung/landing-page/Session2-03.jpg');
+        height: 72vh;
+        width: 100%;
+        border-radius: 25px;
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: 100%;
+
+    }
+    .flex-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: block;
+        padding: 0 10%;
+    }
+    .flex-4{
+        flex:0 0 100%;
+        max-width: 100%;
+        padding: 15% 4%;
+    }
+    .flex-4 p{
+        font-size: 22px;
+        color: #4d4d4d;
+        text-align: right;
+        margin-top: 5%;
+    }
+
+    .footer-home{
+        padding: 0 35px;
+        margin-top: 50px;
+    }
+    .bg-footer{
+        background-color:  #4d4d4d;
+        width: auto;
+        height: 130px;
+        margin-left: 30px;
+    }
+
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin: 5px;
+    }
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:60%;
+        margin:auto;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 11px;
+        padding: 0 5px
+    }
+    .footer-desktop-none{
+        display: none !important;
+    }
+    .footer-link a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* slider - mobile*/
+
+    .carousel {
+        background: #EEE;
+    }
+
+    .carousel-cell {
+        width: 66%;
+        height: 200px;
+        margin-right: 10px;
+        background: #c2c2c2;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+        display: block;
+        text-align: center;
+        content: counter(carousel-cell);
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+    }
+    .flickity-prev-next-button.next {
+        right: 10px;
+        background: none;
+    }
+    .flickity-prev-next-button.previous {
+        left: 10px;
+        background: none;
+    }
+    .btn-tablet{
+        text-align: right;
+    }
+    .bg-section3-mobile {
+        background-image: url('/images/new-website/products/samsung/landing-page/bg-home_phone750-05.jpg');
+        background-size: cover;
+        background-position-y: 40%;
+        background-repeat: no-repeat;
+    }
+    .flickity-viewport {
+        height: 500px !important;
+    }
+    .video-news{
+        padding: 130px;
+    }
+}

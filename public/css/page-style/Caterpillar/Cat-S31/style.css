@@ -1,0 +1,380 @@
+#breadcrumb{
+    z-index:1;
+    margin:20px;
+}
+@media only screen and (min-width:320px){
+    body{
+        overflow-x: hidden;
+    }
+    .bannner_image_s31{
+        background-image: url('/images/Caterpillar/Cat-S31/screen_warranty_banners_header_s31.jpg');
+        background-position: 0 50px;
+        background-size: 650px 170px;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+    .firstrow {
+        margin-top: 0% !important;
+        text-align: center;
+    }
+    .firstrow > img{
+        width:70% !important;
+    }
+    .ul-product{
+        list-style-type: none;
+    }
+    .thumbnails {
+        right: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        font-size: 0;
+    }
+    .ul-product {
+        display: block;
+        width: 18%;
+    }
+    .li-product {
+        margin: 15px auto;
+        cursor: pointer;
+        position: relative;
+        right: 20px;
+    }
+    
+    .li-product>img {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .product-name{
+        font-size:16px;
+        font-weight: bold;
+    }
+    .product-detail{
+        font-size:13px;
+        font-weight:normal;
+        color:#7a7a7a;
+        text-align: left;
+    }
+    .list_spec{
+        font-size:13px;
+        font-weight: normal;
+    }
+    .title{
+        color:white;
+        font-size:20px;
+        padding-left:0px;
+    }
+    .block_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width:100%;
+        top: calc((100% - 40px) / 2);
+    }
+    .flex-1{
+        display:flex;
+        flex:1;
+        justify-content: center;
+        margin:20px auto;
+    }
+    .flex-1.product-image.no-margin{
+        margin:0;
+    }
+    .flex-1.product-image.no-margin.left{
+        justify-content: left;
+    }
+    .head_text{
+        font-size:30px;
+        font-weight: bold;
+    }
+    .head_text.no-padding{
+        padding:0 15px;
+    }
+    .content_text{
+        font-size:13px;
+        padding:0 15px;
+    }
+    .bottomborder::after{
+        content: "";
+        bottom: 0;
+        left:0;
+        border-bottom: 4px solid;
+        position: absolute;
+        width: 25%;
+    }
+    .feature_row_icon{
+        justify-content: center;
+        margin-bottom:20%;
+    }
+    .block-feature-icon{
+        align-items: baseline;
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-feature-icon > img{
+        width:100%;
+        margin:auto;
+    }
+    figcaption{
+        font-size:17px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .banner_2{
+        background-image: url('/images/Caterpillar/Cat-S31/banner_2.jpg');
+        background-attachment: inherit;
+        height:400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .banner_2 >.block_title{
+        position:inherit;
+        top:inherit;
+        justify-content: center;
+        padding:0 30px;
+    }
+    .banner_2 >.block_title > .title{
+        font-size:30px;
+    }
+    .banner2_content{
+        font-size:13px;
+        color:white;
+    }
+    .product-block{
+        display:flex;
+        width:100%;
+    }
+    .product-odd-row{
+        flex-direction: column;
+    }
+    .product-even-row{
+        flex-direction:column;
+        padding:20px;
+    }
+    .flex-1.product-image{
+        flex:0 0 40%;
+        max-width:100%
+    }
+    .flex-1.product-detail-flex{
+        flex:0 0 60%;
+        max-width:100%;
+        flex-wrap: wrap;
+        justify-content: left;
+        display:block;
+    }
+    .product > img{
+        width:100%;
+    }
+    .product-detail-head{
+        margin: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .banner_3{
+        background: url('/images/Caterpillar/Cat-S31/banner_3.jpg');
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
+        height:400px;
+        background-repeat: no-repeat;
+    
+    }
+    .banner_3 > .block_title{
+        position:inherit;
+        top:inherit;
+        justify-content: center;
+        padding:0 30px;
+        align-items: baseline;
+    }
+    .banner_3 > .block_title > .title{
+        font-size:30px;
+    }
+}
+@media only screen and (min-width:600px){
+    .bannner_image_s31{
+        background-image: url('/images/Caterpillar/Cat-S31/screen_warranty_banners_header_s31.jpg');
+        background-position: 0 50px;
+        background-size: cover;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (min-width:1024px){
+    .bannner_image_s31{
+        background-image: url('/images/Caterpillar/Cat-S31/screen_warranty_banners_header_s31.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    .firstrow {
+        margin-top: 0% !important;
+        text-align: center;
+    }
+    .firstrow > img{
+        width:70% !important;
+    }
+    .ul-product{
+        list-style-type: none;
+    }
+    .thumbnails {
+        right: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        font-size: 0;
+    }
+    .ul-product {
+        display: block;
+        width: 18%;
+    }
+    .li-product {
+        margin: 15px auto;
+        cursor: pointer;
+        position: relative;
+        right: 20px;
+    }
+    
+    .li-product>img {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .product-name{
+        font-size:16px;
+        font-weight: bold;
+    }
+    .product-detail{
+        font-size:13px;
+        font-weight:normal;
+        color:#7a7a7a;
+        text-align: left;
+    }
+    .list_spec{
+        font-size:13px;
+        font-weight: normal;
+    }
+    .banner_3 > .block_title{
+        padding:0 10%;
+    }
+    .title{
+        color:white;
+        font-size:50px;
+    }
+    .block_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width:100%;
+        top: calc((100% - 200px) / 2);
+    }
+    .flex-1{
+        display:flex;
+        flex:1;
+        justify-content: center;
+        margin:50px auto;
+    }
+    .flex-1.product-image.no-margin{
+        margin:0;
+    }
+    .flex-1.product-image.no-margin.left{
+        justify-content: left;
+    }
+    .head_text{
+        font-size:50px;
+        font-weight: bold;
+        padding:0 10% 0 0;
+    }
+    .head_text.no-padding{
+        padding:0;
+    }
+    .content_text{
+        font-size:15px;
+        padding:0 20% 0 0;
+    }
+    .bottomborder::after{
+        content: "";
+        bottom: 0;
+        left:0;
+        border-bottom: 4px solid;
+        position: absolute;
+        width: 25%;
+    }
+    .feature_row_icon{
+        justify-content: center;
+        margin-bottom:20%;
+    }
+    .block-feature-icon{
+        align-items: baseline;
+        display: flex;
+        flex: 0 0 20%;
+        max-width: 20%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-feature-icon > img{
+        width:100%;
+        margin:auto;
+    }
+    figcaption{
+        font-size:17px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .banner_2{
+        background-image: url('/images/Caterpillar/Cat-S31/banner_2.jpg');
+        background-attachment: fixed;
+        height:400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .banner2_content{
+        font-size:13px;
+        color:white;
+    }
+    .product-block{
+        display:flex;
+        width:100%;
+    }
+    .product-odd-row{
+        flex-direction: row;
+    }
+    .product-even-row{
+        flex-direction: row-reverse;
+        padding:0px 0px 0px 14%;
+    }
+    .flex-1.product-image{
+        flex:0 0 40%;
+        max-width:100%
+    }
+    .flex-1.product-detail-flex{
+        flex:0 0 60%;
+        max-width:100%;
+        flex-wrap: wrap;
+        justify-content: left;
+        display: flex;
+    }
+    .product > img{
+        width:500px;
+    }
+    .product-detail-head{
+        margin: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .banner_3{
+        background: url('/images/Caterpillar/Cat-S31/banner_3.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height:400px;
+        background-repeat: no-repeat;
+    
+    }
+}

@@ -1,0 +1,797 @@
+figure {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width:320px){
+  .banner_first {
+    margin-top: 10% !important;
+  }
+  
+  .an_s7_title {
+    top:10% !important;
+  }
+  
+  .an_s7_content {
+    top: 15% !important;
+  }
+  
+  .s7_title {
+    font-size: 10px !important;
+  }
+  
+  .s7_content {
+    font-size: 10px !important;
+  }
+  
+  .section1_text_line1 {
+    font-size: 23px !important;
+  }
+  
+  .section1_text_line2 {
+    font-size: 13px !important;
+  }
+  
+  .section2_text_line1 {
+    font-size: 23px !important;
+  }
+  
+  .section2_text_line2 {
+    font-size: 13px !important;
+  }
+  
+  .section3_text_line1 {
+    font-size: 23px !important;
+  }
+  
+  .section3_text_line2 {
+    font-size: 13px !important;
+    padding: 0 !important;
+  }
+  
+  .section4_text_line1 {
+    font-size: 15px !important;
+  }
+  
+  .section4_text_line2 {
+    font-size: 8px !important;
+    padding: 0 !important;
+  }
+  
+  .section4_text_line3 {
+    font-size: 5px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .section5_text_line1 {
+    padding-top:15% !important;
+    font-size: 23px !important;
+  }
+  
+  .section5_text_line2 {
+    font-size: 13px !important;
+    padding: 0 15px !important;
+  }
+  .section6_text_line1 {
+    padding-top:15% !important;
+    font-size: 23px !important;
+    line-height: 50px !important;
+  }
+  
+  .section6_text_line2 {
+    font-size: 13px !important;
+    padding: 0 15px !important;
+  }
+  .section7_text_line1 {
+    padding-top:15% !important;
+    font-size: 23px !important;
+    line-height: 50px !important;
+  }
+  
+  .section7_text_line2 {
+    font-size: 13px !important;
+    padding: 0 !important;
+  }
+  .section8_text_line1 {
+    padding-top:15% !important;
+    font-size: 23px !important;
+    line-height: 50px !important;
+  }
+  
+  .section8_text_line2 {
+    font-size: 13px !important;
+    padding: 0 !important;
+  }
+  
+  .section9_text_line2{
+    font-size:13px !important;
+  }
+  
+  .camera {
+    position: inherit !important;
+    width: 100% !important;
+    left: 30px !important;
+    top: -20px !important;
+  }
+  
+  .ar {
+    position: relative !important;
+    width: 100% !important;
+    top: 20px !important;
+    right: 10px !important;
+  }
+  
+  .knox{
+    position: relative !important;
+    width:100% !important;
+    top:10% !important;
+  }
+  
+  .knox > p{
+    color: black !important;
+    padding:0 15px !important;
+  }
+  
+  .smartswitch{
+    position: relative !important;
+    width:100% !important;
+  }
+  .smartswitch > p{
+    color: black !important;
+    padding:0 15px !important;
+    font-size:13px !important;
+    top:10% !important;
+  }
+  
+  .accessories{
+    margin-top:200px !important;
+    padding:0 !important;
+  }
+  .rowsmartswitch{
+    margin-top:20% !important;
+  }
+  
+  .phone {
+    position: relative !important;
+    width: 100% !important;
+    right: 40px !important;
+    bottom: 27px !important;
+    margin:0 !important;
+  }
+  
+  .bg_mask {
+    width: 26% !important;
+    position: relative !important;
+  }
+  .ani_bg_mask{
+    left:10px !important;
+  }
+  
+  .ani_zoom>figure>img {
+    width: 150px !important;
+  }
+  
+  .ani_zoom {
+    z-index: 1 !important;
+    top: calc((100% - 150px) / 2) !important;
+  }
+  
+  .ani_starwar {
+    top: 0 !important;
+  }
+  .ani_resistance{
+    position: relative !important;
+  }
+  .zoom_content {
+    font-size: 13px !important;
+    padding: 0 !important;
+  }
+  
+  .starwar_last_content {
+    bottom: 0 !important;
+  }
+}
+@media only screen and (min-width:500px){
+  .bg_mask {
+    width: 26% !important;
+    position: relative !important;
+  }
+  .ani_bg_mask{
+    left:calc((100% - 490px) / 2) !important
+  }
+}
+@media only screen and (min-width:768px){
+  .banner_first {
+    margin-top: 10% !important;
+  }
+  
+  .an_s7_title {}
+  
+  .an_s7_content {
+    top: calc((100% - 50%) / 2) !important;
+  }
+  
+  .s7_title {
+    font-size: 30px !important;
+  }
+  
+  .s7_content {
+    font-size: 30px !important;
+  }
+  
+  .section1_text_line1 {
+    font-size: 30px !important;
+  }
+  
+  .section1_text_line2 {
+    font-size: 17px !important;
+    padding:0 10% !important;
+  }
+  
+  .section2_text_line1 {
+    font-size: 30px !important;
+    
+  }
+  
+  .section2_text_line2 {
+    font-size: 17px !important;
+  }
+  
+  .section3_text_line1 {
+    font-size: 30px !important;
+  }
+  
+  .section3_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line1 {
+    font-size: 20px !important;
+  }
+  
+  .section4_text_line2 {
+    font-size: 13px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line3 {
+    font-size: 6px !important;
+    padding: 10px 20% !important;
+    margin: 0 !important;
+  }
+  
+  .section5_text_line1 {
+    padding-top:15% !important;
+    font-size: 30px !important;
+  }
+  
+  .section5_text_line2 {
+    font-size: 17px !important;
+    padding: 0 15px !important;
+  }
+  .section6_text_line1 {
+    padding-top:15% !important;
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+  
+  .section6_text_line2 {
+    font-size: 17px !important;
+    padding: 0 15px !important;
+  }
+  .section7_text_line1 {
+    padding-top:15% !important;
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+  
+  .section7_text_line2 {
+    font-size: 17px !important;
+    padding: 0 !important;
+  }
+  .section8_text_line1 {
+    padding-top:15% !important;
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+  
+  .section8_text_line2 {
+    font-size: 17px !important;
+    padding: 0 !important;
+  }
+  
+  .section9_text_line2{
+    font-size:17px !important;
+  }
+  
+  .camera {
+    position: inherit !important;
+    width: 80% !important;
+    left: 30px !important;
+    top: -20px !important;
+  }
+  
+  .ar {
+    position: relative !important;
+    width: 100% !important;
+    top: 20px !important;
+    right: 10px !important;
+  }
+  .phone {
+    position: relative !important;
+    width: 80% !important;
+    right: 40px !important;
+    bottom: 27px !important;
+    margin:0 !important;
+  }
+  
+  .knox{
+    position: absolute !important;
+    top:10% !important;
+    right: 0 !important;
+    width: 50% !important; 
+  }
+  
+  .knox > p{
+    color: white !important;
+    padding:0 15px !important;
+  }
+  
+  .smartswitch{
+    width: 60% !important;
+    position: absolute !important;
+  }
+  .smartswitch > p{
+    position: relative !important;
+    top: 60px  !important;
+    height: 0 !important;
+    padding: 0 15% !important ;
+    font-size: 17px !important;
+  }
+  
+  .accessories{
+    margin-top:500px !important;
+    padding:0 !important;
+  }
+  .rowsmartswitch{
+    margin-top:20% !important;
+    height: 400px !important;
+  }
+  
+ 
+  
+  .bg_mask {
+    width: 40% !important;
+    position: inherit !important;
+  }
+  .ani_bg_mask{
+    left:calc(39% / 2) !important;
+  }
+  
+  .ani_zoom>figure>img {
+    width: 300px !important;
+  }
+  
+  .ani_zoom {
+    z-index: 1 !important;
+    top: calc((100% - 300px) / 2) !important;
+  }
+  
+  .ani_starwar {
+    top: 10% !important;
+  }
+  .ani_resistance{
+    position: relative !important;
+  }
+  .zoom_content {
+    font-size: 17px !important;
+    padding: 0 !important;
+  }
+  
+  .starwar_last_content {
+    bottom: 0 !important;
+  }
+}
+@media only screen and (min-width:1024px){
+  .banner_first {
+    margin-top: 0% !important;
+  }
+  
+  .an_s7_title {}
+  
+  .an_s7_content {
+    top: calc((100% - 50%) / 2) !important;
+  }
+  
+  .s7_title {
+    font-size: 50px !important;
+  }
+  
+  .s7_content {
+    font-size: 30px !important;
+  }
+  
+  .section1_text_line1 {
+    font-size: 40px !important;
+  }
+  
+  .section1_text_line2 {
+    font-size: 17px !important;
+    padding:0 10% !important;
+  }
+  
+  .section2_text_line1 {
+    font-size: 50px !important;
+    
+  }
+  
+  .section2_text_line2 {
+    font-size: 17px !important;
+  }
+  
+  .section3_text_line1 {
+    font-size: 50px !important;
+  }
+  
+  .section3_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line1 {
+    font-size: 30px !important;
+  }
+  
+  .section4_text_line2 {
+    font-size: 20px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line3 {
+    font-size: 13px !important;
+    padding: 10px 10% !important;
+    margin: 0 !important;
+  }
+  
+  .section5_text_line1 {
+    padding-top:15% !important;
+    font-size: 50px !important;
+  }
+  
+  .section5_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  .section6_text_line1 {
+    padding-top:15% !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  
+  .section6_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  .section7_text_line1 {
+    padding-top:15% !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  
+  .section7_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  .section8_text_line1 {
+    padding-top:15% !important;
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  
+  .section8_text_line2 {
+    font-size: 17px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section9_text_line2{
+    font-size:17px !important;
+  }
+  
+  .camera {
+    position: inherit !important;
+    width: 80% !important;
+    left: 30px !important;
+    top: -20px !important;
+  }
+  
+  .ar {
+    position: relative !important;
+    width: 100% !important;
+    top: 20px !important;
+    right: 10px !important;
+  }
+  .phone {
+    position: relative !important;
+    width: 80% !important;
+    right: 40px !important;
+    bottom: 50px !important;
+    margin:0 !important;
+  }
+  
+  .knox{
+    position: absolute !important;
+    top:10% !important;
+    right: 0 !important;
+    width: 50% !important; 
+  }
+  
+  .knox > p{
+    color: white !important;
+    padding:0 15px !important;
+  }
+  
+  .smartswitch{
+    width: 60% !important;
+    position: absolute !important;
+  }
+  .smartswitch > p{
+    position: relative !important;
+    top: 60px  !important;
+    height: 0 !important;
+    padding: 0 15% !important ;
+    font-size: 17px !important;
+  }
+  
+  .accessories{
+    margin-top:700px !important;
+    padding:0 !important;
+  }
+  .rowsmartswitch{
+    margin-top:10% !important;
+    height: 400px !important;
+  }
+  
+ 
+  
+  .bg_mask {
+    width: 53.5% !important;
+    position: inherit !important;
+  }
+  .ani_bg_mask{
+    left:280px !important;
+  }
+  
+  .ani_zoom>figure>img {
+    width: 300px !important;
+  }
+  
+  .ani_zoom {
+    z-index: 1 !important;
+    top: calc((100% - 300px) / 2) !important;
+  }
+  
+  .ani_starwar {
+    top: 10% !important;
+  }
+  .ani_resistance{
+    position: relative !important;
+  }
+  .zoom_content {
+    font-size: 17px !important;
+    padding: 0 !important;
+  }
+  
+  .starwar_last_content {
+    bottom: 0 !important;
+  }
+}
+@media only screen and (min-width:1300px){
+  .banner_first {
+    margin-top: 0% !important;
+  }
+  
+  .an_s7_title {
+    top:15% !important;
+  }
+  
+  .an_s7_content {
+    top: calc((100% - 40%) / 2) !important;
+  }
+  
+  .s7_title {
+    font-size: 80px !important;
+  }
+  
+  .s7_content {
+    font-size: 30px !important;
+  }
+  
+  .section1_text_line1 {
+    font-size: 80px !important;
+  }
+  
+  .section1_text_line2 {
+    font-size: 20px !important;
+    padding:0 10% !important;
+  }
+  
+  .section2_text_line1 {
+    font-size: 80px !important;
+    
+  }
+  
+  .section2_text_line2 {
+    font-size: 20px !important;
+  }
+  
+  .section3_text_line1 {
+    font-size: 80px !important;
+  }
+  
+  .section3_text_line2 {
+    font-size: 20px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line1 {
+    font-size: 80px !important;
+  }
+  
+  .section4_text_line2 {
+    font-size: 20px !important;
+    padding: 0 10% !important;
+  }
+  
+  .section4_text_line3 {
+    font-size: 13px !important;
+    padding: 10px 10% !important;
+    margin: 0 !important;
+  }
+  
+  .section5_text_line1 {
+    padding-top:15% !important;
+    font-size: 80px !important;
+  }
+  
+  .section5_text_line2 {
+    font-size: 20px !important;
+    padding: 0 10% !important;
+  }
+  .section6_text_line1 {
+    padding-top:15% !important;
+    font-size: 80px !important;
+    line-height: 50px !important;
+  }
+  
+  .section6_text_line2 {
+    font-size: 20px !important;
+    margin-top:5% !important;
+    padding: 0 10% !important;
+  }
+  .section7_text_line1 {
+    padding-top:15% !important;
+    font-size: 80px !important;
+    line-height: 50px !important;
+  }
+  
+  .section7_text_line2 {
+    font-size: 20px !important;
+    margin-top:5% !important;
+    padding: 0 10% !important;
+  }
+  .section8_text_line1 {
+    padding-top:15% !important;
+    font-size: 80px !important;
+    line-height: 50px !important;
+  }
+  
+  .section8_text_line2 {
+    font-size: 20px !important;
+    margin-top:5% !important;
+    padding: 0 10% !important;
+  }
+  
+  .section9_text_line2{
+    font-size:17px !important;
+  }
+  
+  .camera {
+    position: inherit !important;
+    width: 80% !important;
+    left: 30px !important;
+    top: -20px !important;
+  }
+  
+  .ar {
+    position: relative !important;
+    width: 100% !important;
+    top: 20px !important;
+    right: 10px !important;
+  }
+  .phone {
+    position: relative !important;
+    width: 80% !important;
+    right: 40px !important;
+    bottom: 50px !important;
+    margin:0 !important;
+  }
+  
+  .knox{
+    position: absolute !important;
+    top:20% !important;
+    right: 0 !important;
+    width: 50% !important; 
+  }
+  
+  .knox > p{
+    font-size:20px !important;
+    color: white !important;
+    padding:0 10% !important;
+  }
+  
+  .smartswitch{
+    width: 60% !important;
+    position: absolute !important;
+  }
+  .smartswitch > p{
+    position: relative !important;
+    top: 100px  !important;
+    height: 0 !important;
+    padding: 0 15% !important ;
+    font-size: 20px !important;
+  }
+  
+  .accessories{
+    margin-top:1000px !important;
+    padding:0 !important;
+  }
+  .rowsmartswitch{
+    margin-top:10% !important;
+    height: 400px !important;
+    margin-bottom:100px !important;
+  }
+  
+ 
+  
+  .bg_mask {
+    width: 332px !important;
+    position: inherit !important;
+  }
+  .ani_bg_mask{
+    left:calc((100% - 300px) / 2) !important;
+  }
+  
+  .ani_zoom>figure>img {
+    width: 500px !important;
+  }
+  
+  .ani_zoom {
+    z-index: 1 !important;
+    top: calc((100% - 300px) / 2) !important;
+  }
+  
+  .ani_starwar {
+    top: 10% !important;
+  }
+  .ani_resistance{
+    position: relative !important;
+  }
+  .zoom_content {
+    font-size: 20px !important;
+    padding: 0 10% !important;
+  }
+  
+  .starwar_last_content {
+    bottom: 0 !important;
+  }
+}
+@media only screen and (min-width:1440px){
+  .bg_mask {
+    width: 79% !important;
+    position: inherit !important;
+  }
+  .ani_bg_mask{
+    left:calc((100% - 490px) / 2) !important
+  }
+}

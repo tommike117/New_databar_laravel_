@@ -1,0 +1,15 @@
+    .icon {
+    // display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: black;
+    mask-size: cover;
+    display: flex;
+    margin: auto;
+
+  }
+  .icon-menu {
+    mask: url('/images/_icon/icon_menu.svg');
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }

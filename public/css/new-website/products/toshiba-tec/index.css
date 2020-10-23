@@ -1,0 +1,605 @@
+@media screen and (min-width: 992px){
+    .section-1{
+
+    }
+    .only-mobile{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/toshiba-tec/toshiba1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 56vw;
+        width: auto;
+    }
+    .section-2{
+        height: 100vh;
+        width: auto;
+        padding-right: 5%;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/toshiba-tec/toshiba1920-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-2{
+        text-align: -webkit-right;
+        padding-top: 10%;
+    }
+    .text-section-2 > h2{
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        width: fit-content;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 1.2vw;
+        width: 36%;
+        line-height: 1.5;
+        color: #707070;
+    }
+    .text-sec-2{
+        margin-bottom: 0;
+        color: #4d4d4d !important;
+        font-size: 1vw !important;
+    }
+    .text-color-1{
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 300;
+    }
+    .section-3{
+        height: 100vh;
+        width:auto;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/toshiba-tec/toshiba1920-03.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: right;
+    }
+    .text-section-3{
+        width: 50%;
+        padding: 6% 0% 0 9%;
+        text-align: left;
+    }
+    .text-section-3 > h2{
+        font-size: 2.1vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 1.0vw;
+    }
+    .flex-sec-3{
+        display: flex;
+        width: 100%;
+        padding-top: 5%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .koamtac-layout{
+        margin-left: 45%;
+    }
+    .flex-sec-3 > div > figure{
+        height: 65%;
+        margin: 0;
+    }
+    .pic-1{
+        width: 70% !important;
+    }
+    .pic-2{
+        width: 77% !important;
+    }
+    .flex-sec-3 > div > h2{
+        font-size: 1.2vw;
+        color: #3399ff;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .flex-sec-3 > div > p{
+        font-family: quicksand;
+        color: #707070;
+        font-size: 0.8vw;
+        padding-left: 10%;
+    }
+    .tab-mobile-none{
+        display: none;
+    }
+    .btn-banner{
+        width: 105px;
+        height: 28px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .button-head{
+        margin-left: 0 !important;
+    }
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .desktop-none{
+        display: none;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/toshiba-tec/750-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+    }
+    .section-1{
+        height: 100vh;
+    }
+    .section-2{
+        height: 1100px;
+        width: auto;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/toshiba-tec/750-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 3.2vw;
+        line-height: 1.5;
+        padding-top: 1%;
+        color: #707070;
+    }
+    .text-sec-2{
+        margin-bottom: 0;
+        color: #4d4d4d !important;
+        font-size: 2.5vw !important;
+    }
+    .text-p-sec-2{
+        font-size: 2.2vw !important;
+    }
+    .text-color-1{
+        font-size: 4.8vw;
+        color: #3399ff;
+        font-weight: 300;
+    }
+    .section-3{
+        height: auto;
+        width:auto;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-family: quicksand;
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 7%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .pic-1{
+        width: 70% !important;
+    }
+    .pic-2{
+        width: 70% !important
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .pic-3{
+        width: 100% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .pic-5{
+        width: 70%;
+    }
+    .pic-6{
+        width: 70%;
+    }
+    .bg-footer {
+        width: 90% !important;
+        height: 190px !important;
+        margin-left: 61px !important;
+        border-radius: 40px 40px 0 0 !important;
+        margin-top: 5% !important;
+    }
+
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100vh;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/toshiba-tec/750-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+    }
+    .section-2{
+        height: 1050px;
+        width: auto;
+    }
+    .img-koamtac{
+        width: 55%;
+        margin: 55% 0% 0% 44%;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/toshiba-tec/750-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-sec-2{
+        margin-bottom: 0;
+        color: #4d4d4d !important;
+        font-size: 2.5vw !important;
+    }
+    .text-color-1{
+        font-size: 3.8vw;
+        color: #3399ff;
+        font-weight: 300;
+    }
+    .section-3{
+        height: 1400px;
+        width:auto;
+    }
+
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 7%;
+    }
+    .flex-sec-3 > div{
+        width: 50%;
+        padding: 0 2%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .pic-1{
+        width: 70% !important;
+    }
+    .pic-2{
+        width: 70% !important
+    }
+    .section-4{
+        height: 1400px;
+        width:auto;
+    }
+
+    .text-section-4{
+        text-align:end;
+        padding: 12% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .pic-3{
+        width: 76.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .pic-5{
+        width: 55% !important;
+    }
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+    }
+
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 598px){
+    .section-1{
+        height: 730px;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/toshiba-tec/750-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 650px;
+        width: auto;
+    }
+    .img-koamtac{
+        width: 62%;
+        margin: 70% 0% 0% 35%;
+    }
+    .bg-section-2{
+        background-image: url("/images/new-website/products/toshiba-tec/750-02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        background-position: bottom;
+    }
+    .text-section-2{
+        text-align:end;
+        padding: 10% 10% 0 27%;
+    }
+    .text-section-2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-2 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-sec-2{
+        margin-bottom: 0;
+        color: #4d4d4d !important;
+        font-size: 2.5vw !important;
+    }
+    .text-color-1{
+        font-size: 3.8vw;
+        color: #3399ff;
+        font-weight: 300;
+    }
+    .section-3{
+        height: auto;
+        width: 100%;
+    }
+    .text-section-3{
+        text-align:end;
+        padding:15% 10% 0 20%;
+    }
+    .text-section-3 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-3 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .flex-sec-3 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-top: 7%;
+    }
+    .flex-sec-3 > div{
+        width: 53%;
+    }
+    .flex-sec-3 > div > h2 {
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .flex-sec-3 > div > p {
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .pic-1{
+        width: 70% !important;
+    }
+    .pic-2{
+        width: 70% !important;
+    }
+    .section-4{
+        height: auto;
+        width: 100%;
+    }
+
+    .text-section-4{
+        text-align:end;
+        padding: 12% 12% 0 17%;
+    }
+    .text-section-4 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-section-4 > p{
+        font-family: quicksand;
+        font-size: 2.5vw;
+        line-height: 1.5;
+        padding-top: 3%;
+        color: #707070;
+    }
+    .text-section-4 > a{
+        padding-left: 43%;
+    }
+    .pic-3{
+        width: 76.5% !important;
+    }
+    .pic-4{
+        width: 75% !important
+    }
+    .pic-5{
+        width: 55%;
+    }
+    .section-5{
+        height: 905px;
+        width: 100%;
+    }
+    .btn-banner{
+        width: 82px;
+        height: 26px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}

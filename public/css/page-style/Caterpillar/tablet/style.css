@@ -1,0 +1,224 @@
+.header-banner {
+  height: 60vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ul-product {
+  list-style-type: none;
+}
+
+.thumbnails {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  font-size: 0;
+}
+
+.ul-product {
+  display: block;
+  width: 20%;
+}
+
+.li-product {
+  margin: 15px auto;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+}
+
+.li-product>img {
+  width: 60%;
+  border: 1px solid lightgrey;
+}
+.img-t20 {
+  background: url('/images/Caterpillar/tablet/cat-t20-dust-1920x480px.jpg') no-repeat;
+  background-size: cover;
+}
+
+.product-detail {
+  margin: 5em 0;
+}
+
+.product-detail .box-detail {
+  background: #f5f5f5;
+  width: 100%;
+  height: 70vh;
+}
+
+.features {
+  margin: 5em 0 0;
+}
+
+.features .icon-feature img {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.img-rugged {
+  background: url("/images/Caterpillar/tablet/cat-t20-rugged-1920x480px.jpg") no-repeat;
+  background-size: cover;
+}
+
+.banner-rugged {
+  margin: 5em 0 0;
+  height: 60vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-rugged .title-banner-rugged {
+  color: #fff;
+}
+
+.drop-test {
+  margin: 5em 0 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  
+  .drop-test {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  h3{
+    font-size:1.45rem;
+  }
+  .small{
+    font-size: 13px;
+  }
+  h5{
+    font-size:0.95rem;
+  }
+  #t20{
+    width:60%;
+    margin:auto;
+  }
+  .thumbnails {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+  }
+  
+  .ul-product {
+    display: block;
+    width: 20%;
+  }
+}
+
+@media(min-width:577px) and (max-width:767.98px){
+  .thumbnails {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+  }
+  
+  .ul-product {
+    display: block;
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .drop-test {
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  h3{
+    font-size:1.45rem;
+  }
+  .small{
+    font-size: 13px;
+  }
+  h5{
+    font-size:0.95rem;
+  }
+  .col-md-5{
+flex:0 0 100%;
+max-width:100%;
+  }
+  .col-md-7{
+    flex:0 0 100%;
+    max-width:100%;
+  }
+  .ul-product {
+    display: block;
+    width: 100px;
+  }
+}
+
+@media (min-width:1024px){
+  .col-md-5{
+    flex:0 0 50%;
+    max-width:50%
+      }
+      .col-md-7{
+        flex:0 0 50%;
+        max-width:50%;
+      }
+      .ul-product {
+        display: block;
+        width: 100px;
+      }
+}
+
+@media (min-width:1200px){
+  .ul-product {
+    display: block;
+    width: 130px;
+  }
+}
+
+.drop-test .title-drop-test {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+}
+
+.drop-test .img-drop-test {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.drop-test .img-drop-test img {
+  width: 100%;
+}

@@ -1,0 +1,202 @@
+.thumbnails {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+}
+ul > li > label{
+    font-size:13px;
+}
+.ul-product {
+    display: block;
+    width: 18%;
+}
+
+.li-product {
+    margin: 15px auto;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+.li-product>img {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.py-4 {
+    visibility: hidden !important;
+}
+.product_name{
+    font-size:18px;
+    font-weight: 600;
+    margin:0;
+}
+@media only screen and (min-width:320px) {
+    .firstrow {
+        margin-top: 20% !important;
+        padding:0;
+    }
+    .bettergrip{
+        max-width:49%;
+        padding:0;
+    }
+    .bettergrip > img{
+        width:30%;
+    }
+    .ip68{
+        max-width:49%;
+        padding:0;
+    }
+    .ip68 > img{
+        width:30%;
+    }
+    .text-section1{
+        font-size:23px !important;
+    }
+    .content_text{
+        font-size:13px !important;
+    }
+    .col-xs-12.col-sm-12.col-md-12{
+        padding:0;
+    }
+    .remark{
+        font-size:7px !important;
+        text-align:center !important;
+        margin-top:5% !important;
+        padding:0 10% !important;
+        margin-bottom:0 !important;
+    }
+    .remark:not(first-child){
+        margin:0 !important;
+    }
+    .slide{
+        margin-top:0 !important;
+    }
+}
+
+@media only screen and (min-width:370px) {
+    .firstrow {
+        margin-top: 20% !important;
+        padding:0;
+    }
+    .bettergrip{
+        max-width:49%;
+        padding:0;
+    }
+    .bettergrip > img{
+        width:30%;
+    }
+    .ip68{
+        max-width:49%;
+        padding:0;
+    }
+    .ip68 > img{
+        width:30%;
+    }
+    .text-section1{
+        font-size:30px !important;
+    }
+    .content_text{
+        font-size:15px;
+    }
+}
+@media only screen and (min-width:320px) {
+    .firstrow {
+        margin-top: 15% !important;
+    }
+    .content_text{
+        font-size:13px !important;
+        padding:0 15px !important;
+        width:100% !important;
+    } 
+    .col-md-12{
+        padding-top:0 !important;
+    }
+    .text-section1{
+        font-size:23px !important;
+    }
+    .remark{
+        font-size:10px !important;
+        text-align:center !important;
+        margin-top:5% !important;
+        padding:0 10% !important;
+        margin-bottom:0 !important;
+    }
+    .remark:not(first-child){
+        margin:0 !important;
+    }
+    .slide{
+        margin-top:100px !important;
+    }
+}
+@media only screen and (min-width:768px) {
+    .firstrow {
+        margin-top: 10% !important;
+    }
+    .content_text{
+        font-size:13px !important;
+        padding:0 15px !important;
+        width:100% !important;
+    } 
+    .col-md-12{
+        padding-top:0 !important;
+    }
+    .text-section1{
+        font-size:23px !important;
+    }
+    .remark{
+        font-size:10px !important;
+        text-align:center !important;
+        margin-top:5% !important;
+        padding:0 10% !important;
+        margin-bottom:0 !important;
+    }
+    .remark:not(first-child){
+        margin:0 !important;
+    }
+    .slide{
+        margin-top:100px !important;
+    }
+    .half_content{
+        margin:100px auto !important;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .firstrow {
+        margin-top: 0% !important;
+    }
+    .content_text{
+        font-size:20px !important;
+        padding:0 10% !important;
+    } 
+    .text-section1{
+        font-size:60px !important;
+    }
+    .remark{
+        font-size:10px !important;
+        text-align:center !important;
+        margin-top:5% !important;
+        padding:0 10% !important;
+        margin-bottom:0 !important;
+    }
+    .remark:not(first-child){
+        margin:0 !important;
+    }
+    .slide{
+        margin-top:100px !important;
+    }
+    .rowblack{
+        padding:5% 0 0 0 !important;
+    }
+    .half_content{
+        margin:200px auto !important;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .ul-product {
+        width: 20% !important;
+    } 
+}

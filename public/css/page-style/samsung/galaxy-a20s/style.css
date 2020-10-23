@@ -1,0 +1,57 @@
+.ghz{
+    font-size: 35px;
+    font-weight: 600;
+}
+.border-right-solid{
+    border-right: solid 1px #b5b5b5;
+    padding: 30px;
+}
+.extra-line{
+    font-size: 10px;
+    text-align: center;
+}
+.section3_text_line1{
+    text-align: left;
+    font-size: 40px;
+}
+.set-middle{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+.section1_text_line_svg{
+    text-align: center;
+}
+.flex-full{
+    flex-direction: row;
+    display: flex;
+    flex:0 0 50%;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }
+  .svg_camera_size{
+    width:150px;
+    height: auto;
+    padding:20px;
+    margin:auto;
+    cursor: pointer;
+  }
+  .svg_camera_size > img{
+    width:100%;
+  }
+  .svg_camera_wide_size{
+    width:200px;
+    height: auto;
+    padding:20px;
+    margin:auto;
+    cursor: pointer;
+  }
+  .svg_camera_wide_size > img{
+    width:60%;
+  }
+.long-text{
+    padding:100px;
+}

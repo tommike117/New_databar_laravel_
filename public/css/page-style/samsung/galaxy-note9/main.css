@@ -1,0 +1,564 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  transition: background 1s ease-in-out;
+  background:rgb(53, 84, 172);
+}
+.slide .inside {
+  display: table;
+  height: auto;
+  width: 100%;
+  padding: 0 3em;
+}
+.slide .inside p {
+  display: table-cell;
+  width: 100%;
+  clear: both;
+  vertical-align: middle;
+  text-align: center;
+}
+footer.py-4{
+  display: none;
+}
+/* [data-aos=fade-up-right]{
+  transform: rotateX(45deg);
+} */
+label{
+  color: white !important;
+}
+.col-md-4{
+  border-right:1px solid
+}
+#carouselExampleIndicators{
+  height: 490px !important;
+  width:900px;
+}
+.carousel-control-prev{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+}
+.carousel-control-next{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  right: 0px;
+}
+.carousel-indicators{
+  bottom:-70px !important;
+}
+.carousel-control-next, .carousel-control-prev {
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  transition: opacity .15s ease;
+  top: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width:320px){
+
+[data-aos^=new-animation][data-aos^=new-animation]{
+  opacity: 1 !important;
+  transition-property:opacity,transform !important;
+  
+}
+[data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+  opacity: 1 !important;
+  transform:translateX(430px) !important;
+}
+  .capture_camera_block{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    right: 0;
+    margin: auto;
+  }
+  .capture_camera{
+    content: "";
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    
+  }
+  .camera_image > img{
+    max-width: 200px;
+    width:100%;
+    height: 200px;
+  }
+  .intelligence_camera{
+    right:50px;
+  }
+  .text-section1:first-child{
+    font-size: 20px !important;
+  }
+  .text-section1:nth-child(2){
+    font-size: 30px !important;
+  }
+  .text-section2{
+    font-size: 18px !important;
+    position:  relative !important;
+    top: 30px !important;
+  }
+  .section2-grid{
+    text-align: center !important;
+    border-bottom:1px solid !important;
+  }
+  .text-section3_1{
+    font-size: 40px !important;
+    font-weight:bold;
+  }
+  .text-section3_2{
+    font-size: 15px !important;
+  }
+  #carouselExampleControls{
+    height:200px !important;
+  }
+  .video1{
+    height:200px !important;
+  }
+  .video2{
+    height:200px !important;
+  }
+  .text-section4_2{
+    font-size:15px !important;
+  }
+  .svg_six{
+    left:calc((100% - 120px) / 2) !important;
+  }
+  .battery1{
+    background-image: url('/images/samsung/galaxy-note9/galaxy-note9_battery_img02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .battery2{
+    background-image: url('/images/samsung/galaxy-note9/galaxy-note9_battery_img01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 28px;
+    position: absolute;
+    top: calc(100% - 100px);
+    bottom: 0;
+    left: calc((100% - 220px) / 2);
+  }
+  .alldaybat{
+    text-align:center;
+  }
+  .text-section5_2{
+    font-size:15px !important;
+  }
+  .text-section9_1{
+    font-size: 13px !important;
+  }
+  .text-section9_2{
+    font-size: 13px !important;
+  }
+  .svg_ten{
+    left:calc((100% - 120px) / 2) !important;
+  }
+  .video_game_note_9{
+    position: absolute;
+    top:0;
+  }
+  .performance{
+    border-radius:25px !important;
+    color:white !important;
+  }
+  .head_text_design{
+    position: relative;
+    font-size: 30px !important;
+    right: 50px;
+    top: 7px;
+  }
+  .svg_thirtheen{
+    left: -30px !important;
+    position: relative !important;
+    top: 0 !important;
+  }
+  .text_small{
+    font-size: 15px !important;
+  }
+  .remark_text{
+    font-size:12px !important;
+  }
+  button.design{
+    position: relative;
+    border-radius: 25px;
+    color: white;
+    border-color: white;
+margin-bottom:15px;
+margin-left:5px;
+  }
+  .svg_seventheen{
+    left: calc((100% - 120px) / 2) !important;
+  }
+  #note_9_device{
+    width:100% !important;
+    margin:30% auto !important;
+  }
+  #line-s-pen{
+    width:70% !important;
+  }
+  #s-pen{
+    width: 40% !important;
+    transform: translateY(-45px);
+    margin-right: 34% !important;
+  }
+  .line-spen{
+    position: relative;
+    bottom:calc(50% + 10px);
+  }
+  .spen{
+    position: absolute;
+    top: 0;
+  }
+  .s9_withspen{
+    margin-top:90% !important;
+  }
+  .svg_twenty{
+    left:-26px !important;
+  }
+  .slide{
+    margin:100px auto;
+  }
+  .slide-one{
+    height:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slide-six{
+    height:500px;
+  }
+}
+@media only screen and (min-width:425px){
+  .svg_six{
+    left:4px !important;
+  }
+}
+@media only screen and (min-width:768px){
+  .camera_image > img{
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+  }
+  .text-section1:first-child{
+    font-size: 20px !important;
+  }
+  .text-section1:nth-child(2){
+    font-size: 30px !important;
+  }
+  .s9_withspen{
+    margin-top:0 !important;
+  }
+  .svg_seventheen{
+    left:4px !important;
+  }
+  .text-section2{
+    font-size: 18px !important;
+    position:  relative !important;
+    top: 40px !important;
+  }
+  .section2-grid{
+    text-align: center !important;
+    border-bottom:0px solid !important;
+  }
+  .text-section3_1{
+    font-size: 40px !important;
+  }
+  .text-section3_2{
+    font-size: 20px !important;
+  }
+  #carouselExampleControls{
+    height:400px !important;
+  }
+  .video1{
+    height:400px !important;
+  }
+  .video2{
+    height:400px !important;
+  }
+  .capture_camera_block{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    right: 0;
+    margin: auto;
+  }
+  #s-pen{
+    width: 40% !important;
+    transform: translateY(-75px);
+    margin-right: 30% !important;
+  }
+  .spen{
+    top:35px;
+  }
+  .svg_ten{
+    left:4px !important;
+  }
+  .battery1{
+    width:350px !important;
+  }
+  .battery2{
+    background-image: url('/images/samsung/galaxy-note9/galaxy-note9_battery_img01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: calc(100% - 100px);
+    bottom: 0;
+    left: calc((100% - 350px) / 2);
+  }
+}
+
+
+@media only screen and (min-width:992px){
+  #s-pen{
+    transform: translateY(10px);
+    margin-right: 18% !important;
+  }
+}
+@media only screen and (min-width:1024px){
+  .text-section1:first-child{
+    font-size: 30px !important;
+  }
+  .text-section1:nth-child(2){
+    font-size: 40px !important;
+  }
+  .text-section3_1{
+    font-size: 80px !important;
+  }
+  .text-section3_2{
+    font-size: 30px !important;
+  }
+  #carouselExampleControls{
+    height:490px !important;
+    width: 80% !important;
+  }
+  .video1{
+    height:500px !important;
+    
+  }
+  .video2{
+    height:500px !important;
+    
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  #s-pen{
+    width:58% !important;
+    transform: translateY(-10px);
+    margin-right: 2% !important;
+  }
+  .battery1{
+    background-image: url('/images/samsung/galaxy-note9/galaxy-note9_battery_img02.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .battery2{
+    background-image: url('/images/samsung/galaxy-note9/galaxy-note9_battery_img01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 73px;
+    position: absolute;
+    top: calc(100% - 200px);
+    bottom: 0;
+    left: calc(0px + 240px);
+  }
+  .text-section9_1{
+    font-size:13px !important;
+  }
+  .text-section9_2{
+    font-size:13px !important;
+  }
+  #video_game_show{
+    position: relative !important;
+    width: 85% !important;
+    top: 0px !important;
+    z-index: -1 !important;
+    left: 20px !important;
+  }
+  .svg_ten{
+    left:4px !important;
+  }
+  .label_performance{
+    font-size: 60px !important;
+  }
+  button.performance{
+    position: relative;
+    width: 180px;
+    border-radius: 25px;
+    color: white;
+    border-color: white;
+    bottom: 10px;
+    left: 30px;
+    height: 50px;
+  }
+  button.design{
+    position: relative;
+    width: 180px;
+    border-radius: 25px;
+    color: white;
+    border-color: white;
+    bottom: 10px;
+    left: 30px;
+    height: 50px;
+  }
+  button.performance:hover{
+    background: rgb(255,255,255);
+    color: black;
+  }
+  button.design:hover{
+    background: rgb(255,255,255);
+    color: black;
+  }
+  .btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle{
+    background: rgb(255,255,255);
+    color: black;
+  }
+  .label_design{
+    font-size:50px;
+    color:white;
+  }
+  .model_note9_purple{
+    position: relative !important;
+    left: calc((100% + 300px) / 2) !important;
+  }
+  .model_note9_black{
+    position: relative !important;
+    left: calc((100% + 300px) / 2) !important;
+  }
+  .model_note9_blue{
+    position: relative !important;
+    left: calc((100% + 300px) / 2) !important;
+  }
+  
+  .capture_camera{
+    content: "";
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    
+  }
+  .svg_seventheen{
+    left:4px !important;
+  }
+  [data-aos^=new-animation][data-aos^=new-animation]{
+    opacity: 1 !important;
+    transition-property:opacity,transform !important;
+    
+  }
+  [data-aos^=new-animation][data-aos^=new-animation].aos-animate {
+    opacity: 1 !important;
+    transform:translateX(430px) !important;
+}
+.svg_six{
+  left:4px !important;
+}
+.s9_withspen{
+  margin-top:0 !important;
+}
+.battery1{
+  width:600px !important;
+}
+.spen{
+  top:-8% !important;
+}
+}
+@media only screen and (min-width:1200px){
+  .camera_image > img{
+    max-width: 370px;
+    width: 100%;
+    height: 370px;
+  }
+  .capture_camera_block{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+  }
+  .battery2{
+    width:160px;
+  }
+  .slide{
+    margin:100px auto;
+  }
+  .slide-one{
+    height:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slide-six{
+    height:500px;
+  }
+  #s-pen{
+    transform: translateY(60px);
+    margin-right: -7% !important;
+  }
+}
+
+

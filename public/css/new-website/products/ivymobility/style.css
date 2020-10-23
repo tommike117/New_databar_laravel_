@@ -1,0 +1,516 @@
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-image: url(../../../../images/ivymobility/landing-page/enabling-sales.png); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+
+    display: flex;
+}
+
+@media (min-width: 992px){
+    .hidden-desktop{
+        display: none;
+    }
+    .img-banner{
+        background-image: url('/images/new-website/products/ivymobility/ivy 1920-banner.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-bg{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .bg-body{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        /* background-size: cover; */
+        background-size: contain;
+    }
+    .img-bg2 > div > .content-box{
+        padding-bottom: 75px !important;
+    }
+
+    .img-bg1{ background-image: url('/images/new-website/products/ivymobility/phone 1920-02.png'); }
+    .img-bg2{ background-image: url('/images/new-website/products/ivymobility/phone 1920-03.png'); }
+    .img-bg3{ background-image: url('/images/new-website/products/ivymobility/phone 1920-04.png'); }
+    .img-bg4{ background-image: url('/images/new-website/products/ivymobility/bg_1920.jpg'); }
+
+    .block-60{
+        width: 55%;
+        padding-right: 10%;
+        margin-left: auto;
+        text-align: right;
+    }
+    .img-bg1 >.block-60 > h3{
+        padding-top: 18%;
+    }
+    .header-text {
+        /* font-size: 28px; */
+        /* padding-bottom: 50px;
+        padding-top: 100px; */
+        /* font-weight: 400; */
+        /* color: #3399ff; */
+        /* font-size: 30px; */
+        font-weight: 700;
+
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-box {
+        font-weight: 400;
+        padding-bottom: 135px;
+        font-family: quicksand;
+        color: #707070;
+        line-height: 1.5;
+        font-size: 1.0vw;
+    }
+    .img-bg3 > div > .header-text{
+        margin-top: 100px;
+    }
+    .text-box {
+        padding-bottom: 30px;
+    }
+
+    .text-box p {
+        padding-top: 1%;
+    }
+    .text-box .header-hov{
+        font-size: 1.2vw;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .img-bg3 .content-box h3{
+        font-size: 19px;
+    }
+    .img-bg3 .content-box p{
+        font-size: 13px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+        .block-60{
+            margin-top: 5%;
+        }
+        .img-bg{
+            padding-right: 3%;
+        }
+        .img-banner{
+            background-image: url('/images/new-website/products/ivymobility/ivy 1920-banner.jpg');
+            width: 100%;
+            height: 50vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .img-m-sec1{
+            background-image: url('/images/new-website/products/ivymobility/ivy _750-02.jpg');
+            width: 100%;
+            height: 50vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .img-m-sec2{
+            background-image: url('/images/new-website/products/ivymobility/ivy _750-03.jpg');
+            width: 100%;
+            height: 50vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .img-m-sec3{
+            background-image: url('/images/new-website/products/ivymobility/ivy _750-04.jpg');
+            width: 100%;
+            height: 50vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .img-bg2 .text-box h3{
+            font-size: 21px;
+            padding-left: 15%;
+            font-weight: 300;
+        }
+        .img-bg2 .header-text{
+            font-size: 25px;
+            color: #3399ff;
+        }
+        .img-bg2{
+            text-align: right;
+        }
+        .img-bg1{
+            text-align: right;
+        }
+        .img-bg1 .text-box h3{
+            font-size: 21px;
+            padding-left: 15%;
+            font-weight: 300;
+        }
+        .img-bg1 .header-text{
+            font-size: 25px;
+            color: #3399ff;
+        }
+        .img-bg1 .content-box p{
+            padding-left: 30%;
+        }
+        .img-bg3{
+            text-align: right;
+        }
+        .img-bg3 .text-box h3{
+            font-size: 21px;
+            padding-left: 15%;
+            font-weight: 300;
+        }
+        .img-bg3 .header-text{
+            font-size: 25px;
+            color: #3399ff;
+        }
+        .img-bg3 .content-box h3{
+            font-size: 18px;
+        }
+        .img-bg3 .content-box h3:hover{
+            color: #3399ff;
+        }
+        .content-box{
+            padding-left: 15px;
+        }
+        .sec-3-m{
+            display: none;
+        }
+        .desktop-slide{
+            display: none;
+        }
+        .flickity-viewport{
+            height: 521px !important;
+        }
+        /* Flickity */
+        .carousel-cell{
+            width: 75%;
+            height: 468px !important;
+            margin-right: 20px !important;
+            margin-bottom: 10px;
+            background: rgb(179, 179, 179) !important;
+            border-radius: 14px !important;
+            counter-increment: carousel-cell;
+        }
+        .carousel-cell-1{
+            width: 100%;
+            height: 468px !important;
+            margin-right: 20px !important;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            /* background-image: url("/images/new-website/partners/pic_partner-01.png") !important; */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 14px !important;
+            counter-increment: carousel-cell;
+        }
+        .carousel-cell-2{
+            width: 100%;
+            height: 468px !important;
+            margin-right: 20px !important;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            /* background-image: url("/images/new-website/partners/pic_partner-02.png") !important; */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 14px !important;
+            counter-increment: carousel-cell;
+            left: 80.14% !important;
+        }
+        .carousel-cell-3{
+            width: 100%;
+            height: 468px !important;
+            margin-right: 20px !important;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            /* background-image: url("/images/new-website/partners/pic_partner-03.png") !important; */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 14px !important;
+            counter-increment: carousel-cell;
+            left: 159.28% !important;
+        }
+        .carousel-cell-4{
+            width: 100%;
+            height: 468px !important;
+            margin-right: 20px !important;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            /* background-image: url("/images/new-website/partners/pic_partner-04.png") !important; */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 14px !important;
+            counter-increment: carousel-cell;
+            left: 238.78% !important;
+        }
+        /* Hover */
+        .block-hover-1{
+            width: 75%;
+            height: 100%;
+            /* background: rgb(1,55,144); */
+            /* background: linear-gradient(0deg, rgba(1,55,144,0.85) 0%, rgba(23,71,179,0.5) 23%,rgba(1,148,134,0.17) 58%,rgba(0,255,205,0.01) 87%); */
+            transition: height 1s;
+            position:absolute;
+            bottom:0;
+            overflow:hidden;
+            border-radius: 14px ;
+            padding: 25px;
+            box-shadow: 4px 9px 19px 2px #c2c2c28c;
+        }
+        /* .block-hover-1:hover{
+            height: 530px;
+        } */
+        .block-hover-1 > h2{
+            font-family: quicksand;
+            line-height: 1.5;
+            font-size: 25px;
+            font-weight: 800;
+            color: white;
+            margin-top: 171px;
+        }
+        .block-hover-1 > p{
+            line-height: 1.5;
+            font-size: 16px;
+            color: #b3b3b3;
+            text-align: center;
+            font-family: quicksand;
+
+        }
+        .carousel{
+            background: none !important;
+            margin-bottom: 30px;
+            counter-reset: carousel-cell;
+        }
+        .flickity-slider{
+            /* left: 5% !important; */
+            width: 50% !important;
+        }
+        .carousel--show-several .carousel-cell{
+            width: 26% !important;
+        }
+        .flickity-page-dots{
+            width: 57% !important;
+            bottom: 0px !important;
+            left: 25%  !important;
+        }
+
+}
+
+@media (max-width: 767.98px) {
+    .img-banner{
+        background-image: url('/images/new-website/products/ivymobility/ivy 750-01.jpg');
+        height: 85vh;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .img-m-sec1{
+        background-image: url('/images/new-website/products/ivymobility/ivy _750-02.jpg');
+        width: 100%;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-m-sec2{
+        background-image: url('/images/new-website/products/ivymobility/ivy _750-03.jpg');
+        width: 100%;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-m-sec3{
+        background-image: url('/images/new-website/products/ivymobility/ivy _750-04.jpg');
+        width: 100%;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-bg2 .text-box h3{
+        font-size: 21px;
+        padding-left: 15%;
+        font-weight: 300;
+    }
+    .img-bg2 .header-text{
+        font-size: 25px;
+        color: #3399ff;
+    }
+    .img-bg2{
+        text-align: right;
+    }
+    .img-bg1{
+        text-align: right;
+    }
+    .img-bg1 .text-box h3{
+        font-size: 21px;
+        padding-left: 15%;
+        font-weight: 300;
+    }
+    .img-bg1 .header-text{
+        font-size: 25px;
+        color: #3399ff;
+    }
+    .img-bg3{
+        text-align: right;
+    }
+    .img-bg3 .text-box h3{
+        font-size: 21px;
+        padding-left: 15%;
+        font-weight: 300;
+    }
+    .img-bg3 .header-text{
+        font-size: 25px;
+        color: #3399ff;
+    }
+    .img-bg3 .content-box h3{
+        font-size: 18px;
+    }
+    .img-bg3 .content-box h3:hover{
+        color: #3399ff;
+    }
+    .content-box{
+        padding-left: 15px;
+    }
+    .sec-3-m{
+        display: none;
+    }
+    .desktop-slide{
+        display: none;
+    }
+    .flickity-viewport{
+        height: 521px !important;
+    }
+    /* Flickity */
+    .carousel-cell{
+        width: 74%;
+        height: 468px !important;
+        margin-right: 20px !important;
+        margin-bottom: 10px;
+        background: rgb(179, 179, 179) !important;
+        border-radius: 14px !important;
+        counter-increment: carousel-cell;
+    }
+    .carousel-cell-1{
+        width: 74%;
+        height: 468px !important;
+        margin-right: 20px !important;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        /* background-image: url("/images/new-website/partners/pic_partner-01.png") !important; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 14px !important;
+        counter-increment: carousel-cell;
+    }
+    .carousel-cell-2{
+        width: 74%;
+        height: 468px !important;
+        margin-right: 20px !important;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        /* background-image: url("/images/new-website/partners/pic_partner-02.png") !important; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 14px !important;
+        counter-increment: carousel-cell;
+        left: 80.14% !important;
+    }
+    .carousel-cell-3{
+        width: 74%;
+        height: 468px !important;
+        margin-right: 20px !important;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        /* background-image: url("/images/new-website/partners/pic_partner-03.png") !important; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 14px !important;
+        counter-increment: carousel-cell;
+        left: 159.28% !important;
+    }
+    .carousel-cell-4{
+        width: 74%;
+        height: 468px !important;
+        margin-right: 20px !important;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        /* background-image: url("/images/new-website/partners/pic_partner-04.png") !important; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 14px !important;
+        counter-increment: carousel-cell;
+        left: 238.78% !important;
+    }
+    /* Hover */
+    .block-hover-1{
+        width: 265px;
+        height: 100%;
+        /* background: rgb(1,55,144); */
+        /* background: linear-gradient(0deg, rgba(1,55,144,0.85) 0%, rgba(23,71,179,0.5) 23%,rgba(1,148,134,0.17) 58%,rgba(0,255,205,0.01) 87%); */
+        transition: height 1s;
+        position:absolute;
+        bottom:0;
+        overflow:hidden;
+        border-radius: 14px ;
+        padding: 25px;
+        box-shadow: 4px 9px 19px 2px #c2c2c28c;
+    }
+    /* .block-hover-1:hover{
+        height: 530px;
+    } */
+    .block-hover-1 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        margin-top: 171px;
+    }
+    .block-hover-1 > p{
+        line-height: 1.5;
+        font-size: 16px;
+        color: #b3b3b3;
+        text-align: center;
+        font-family: quicksand;
+
+    }
+    .carousel{
+        background: none !important;
+        margin-bottom: 30px;
+        counter-reset: carousel-cell;
+    }
+    .flickity-slider{
+        left: 5% !important;
+    }
+    .carousel--show-several .carousel-cell{
+        width: 26% !important;
+    }
+    .flickity-page-dots{
+        width: 57% !important;
+        bottom: 0px !important;
+        left: 25%  !important;
+    }
+}

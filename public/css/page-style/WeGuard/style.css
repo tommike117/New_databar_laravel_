@@ -1,0 +1,480 @@
+.marginfromnav{
+    margin-top:65px;
+}
+.text-weguard-h1{
+    color:#1d2d5a;
+}
+.my-color-grey{
+    color:#6f6f6f;
+}
+.my-color-lightgrey{
+    color:#959595;
+}
+figure{
+    margin:0;
+}
+.font-400{
+    font-weight: 400;
+}
+li{
+    list-style: none !important;
+}
+
+
+@media (max-width: 575.98px) {
+    .banner-weguard-flex{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .logo-weguard{
+        width:40px;
+        height:auto;
+        margin:10px auto;
+    }
+    .background-banner-weguard{
+        background-image:url('/images/WeGuard/mdm.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:180px;
+        width:100%;
+    }
+    .section-mobile{
+        display:block;
+    }
+    .section-laptop{
+        display: none;
+    }
+    
+    
+    .text-weguard-h1{
+        font-size:18px;
+        font-weight: bold;
+    }
+    .font20{
+        font-size:12px;
+    }
+    .flex-half{
+        display:flex;
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .half-image-size{
+        width:100%;
+        margin:auto;
+    }
+    .flex-half.content{
+        padding:15px;
+        margin-top:10px;
+        text-align: center;
+    }
+    .underline{
+        position: relative;
+    }
+    .underline::after{
+        position: absolute;
+    border-bottom: 3px solid;
+    content: "";
+    width: 60px;
+    bottom: -5px;
+    left: 7px;
+    }
+    .font-md-20{
+        font-size:13px;
+    }
+    .tablet-preview{
+        width: 300px;
+    margin: auto;
+    padding:50px;
+    }
+    .icon-platform.left,.icon-platform.right{
+        width:56px;
+        height:auto;
+        margin:20px auto;
+    }
+    .col-xs-12.col-sm-12{
+        text-align:center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .banner-weguard-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo-weguard{
+        width:40px;
+        height:auto;
+        margin:10px auto;
+    }
+    .background-banner-weguard{
+        background-image:url('/images/WeGuard/mdm.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:200px;
+        width:100%;
+    }
+    .section-mobile{
+        display:block;
+    }
+    .section-laptop{
+        display: none;
+    }
+    
+    .text-weguard-h1{
+        font-size:20px;
+    }
+    .font20{
+        font-size:13px;
+    }
+    .flex-half{
+        display:flex;
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .half-image-size{
+        width:100%;
+        margin:auto;
+    }
+    .flex-half.content{
+        padding:15px;
+        margin-top:10px;
+        text-align: center;
+    }
+    .underline{
+        position: relative;
+    }
+    .underline::after{
+        position: absolute;
+    border-bottom: 3px solid;
+    content: "";
+    width: 60px;
+    bottom: -5px;
+    left: 7px;
+    }
+    .font-md-20{
+        font-size:13px;
+    }
+    .tablet-preview{
+        width: 300px;
+    margin: auto;
+    padding:50px;
+    }
+    .icon-platform.left,.icon-platform.right{
+        width:56px;
+        height:auto;
+        margin:20px auto;
+    }
+    .col-xs-12.col-sm-12{
+        text-align:center;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner-weguard-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo-weguard{
+        width:60px;
+        height:auto;
+        margin:10px auto;
+    }
+    .background-banner-weguard{
+        background-image:url('/images/WeGuard/mdm.jpg');
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:220px;
+        width:100%;
+    }
+    .section-mobile{
+        display:block;
+    }
+    .section-laptop{
+        display: none;
+    }
+    
+    .text-weguard-h1{
+        font-size:20px;
+    }
+    .font20{
+        font-size:13px;
+    }
+    .flex-half{
+        display:flex;
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .half-image-size{
+        width:100%;
+        margin:auto;
+    }
+    .flex-half.content{
+        padding:15px;
+        margin-top:10px;
+        text-align: center;
+    }
+    .underline{
+        position: relative;
+    }
+    .underline::after{
+        position: absolute;
+    border-bottom: 3px solid;
+    content: "";
+    width: 60px;
+    bottom: -5px;
+    left: 7px;
+    }
+    .font-md-20{
+        font-size:13px;
+    }
+    .tablet-preview{
+        width: 300px;
+    margin: auto;
+    padding:50px;
+    }
+    .icon-platform.left,.icon-platform.right{
+        width:56px;
+        height:auto;
+        margin:20px auto;
+    }
+    .col-xs-12.col-sm-12{
+        text-align:center;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner-weguard-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo-weguard{
+        width:60px;
+        height:auto;
+        margin:10px auto;
+    }
+    .background-banner-weguard{
+        background-image:url('/images/WeGuard/mdm.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:500px;
+        width:100%;
+    }
+    .section-mobile{
+        display:none;
+    }
+    .section-laptop{
+        display: block;
+    }
+    
+    .m-md-50-auto{
+        margin:50px auto;
+    }
+
+    
+    .font20{
+        font-size:20px;
+        font-weight: 400;
+        padding:0 10%;
+    }
+    .flex-half{
+        display:flex;
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .flex-half.content{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .padding-side-md-10p{
+        padding:0 10%;
+    }
+    .half-image-size{
+        width:700px;
+    }
+    .font-md-20{
+        font-size:20px;
+    }
+    .detail-platform{
+        font-size:14px;
+    }
+    .sec-3{
+        margin:50px auto !important;
+    }
+    .sec-2{
+        margin:400px auto;
+    }
+    .underline{
+        position: relative;
+    }
+    .underline::after{
+        position: absolute;
+    border-bottom: 3px solid;
+    content: "";
+    width: 60px;
+    bottom: -5px;
+    left: 7px;
+    }
+    .background-for-platform{
+        background-image: url('/images/WeGuard/background13.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height:600px;
+        background-position: bottom;
+    }
+    .tablet-preview{
+        width:300px;
+        height:auto;
+        margin:auto;
+    }
+    .mt-6 {
+        margin-top:60px;
+    }
+    .mb-6{
+        margin-bottom:60px;
+    }
+    .icon-platform.left,.icon-platform.right{
+        width:56px;
+        height:auto;
+        margin-left:auto;
+    }
+    .head-platform{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .icon6{
+        position:relative;
+        left:10px;
+        bottom:5px;
+    }
+ }
+
+@media only screen and (min-width:1200px){
+    .banner-weguard-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo-weguard{
+        width:80px;
+        height:auto;
+        margin:10px auto;
+    }
+    .background-banner-weguard{
+        background-image:url('/images/WeGuard/mdm.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:500px;
+        width:100%;
+    }
+    .section-mobile{
+        display:none;
+    }
+    .section-laptop{
+        display: block;
+    }
+    
+    .m-md-50-auto{
+        margin:50px auto;
+    }
+    
+    
+    .font20{
+        font-size:20px;
+        font-weight: 400;
+        padding:0 10%;
+    }
+    .flex-half{
+        display:flex;
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .flex-half.content{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .padding-side-md-10p{
+        padding:0 10%;
+    }
+    .half-image-size{
+        width:700px;
+    }
+    .font-md-20{
+        font-size:20px;
+    }
+    .detail-platform{
+        font-size:14px;
+    }
+    .sec-3{
+        margin:50px auto !important;
+    }
+    .sec-2{
+        margin:400px auto;
+    }
+    .underline{
+        position: relative;
+    }
+    .underline::after{
+        position: absolute;
+    border-bottom: 3px solid;
+    content: "";
+    width: 60px;
+    bottom: -5px;
+    left: 7px;
+    }
+    .background-for-platform{
+        background-image: url('/images/WeGuard/background13.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        height:600px;
+        background-position: bottom;
+    }
+    .tablet-preview{
+        width:300px;
+        height:auto;
+        margin:auto;
+    }
+    .mt-6 {
+        margin-top:60px;
+    }
+    .mb-6{
+        margin-bottom:60px;
+    }
+    .icon-platform.left,.icon-platform.right{
+        width:56px;
+        height:auto;
+        margin-left:auto;
+    }
+    .head-platform{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .icon6{
+        position:relative;
+        left:10px;
+        bottom:5px;
+    }
+}

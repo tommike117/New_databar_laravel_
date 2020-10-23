@@ -1,0 +1,122 @@
+@media (max-width: 767.98px) {
+    #nav-black-mobile{
+        left: -65px;
+        transition: left 0.3s;
+    }
+    #nav-white-mobile{
+        transition: left 0.3s;
+    }
+
+    .nav-desktop{
+        display: none !important;
+    }
+    .img-databar-m{
+        display: block;
+
+    }
+    .img-databar-t{
+        display: none;
+    }
+    .img-databar-m img{
+        width: 37px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .nav-mobile{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        right: 0;
+        top: 0;
+        /* overflow: hidden; */
+        z-index: 99;
+    }
+
+    .nav-toggle{
+        background-color:#3399ff;
+        height:70px;
+        width:50px
+    }
+
+
+    .nav-slide-down {
+        height: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: url("/images/new-website/Bg_phone-m-01.jpg");
+        background-color: white;
+        width: 100%;
+        overflow-y: hidden;
+        transition: 0.5s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 85%;
+    }
+
+    .nav-slide-down-content {
+        position: relative;
+        top: 6%;
+        width: 100%;
+        text-align: right;
+        margin-top: 30px;
+        padding-right: 25px;
+    }
+
+    .nav-slide-down a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #4d4d4d;
+        display: block;
+        transition: 0.3s;
+        padding-top: 3px;
+        font-family: quicksand;
+    }
+
+    .nav-slide-down a:hover, .nav-slide-down a:focus {
+        color: #3399ff;
+    }
+
+    .nav-slide-down .closebtn {
+        position: absolute;
+        top: -5px;
+        right: 30px;
+        font-size: 40px;
+    }
+    .nav-top2{
+        display: none;
+    }
+    @media screen and (max-height: 450px) {
+        .nav-slide-down {overflow-y: auto;}
+        .nav-slide-down a {font-size: 20px}
+        .nav-slide-down .closebtn {
+        top: -5px;
+        right: 10px;
+        font-size: 40px;
+        }
+    }
+
+    .nav-span{
+        font-size:30px;cursor:pointer;
+        color:white;
+        background-color:#3399ff;
+        width: 40px;
+        text-align: center;
+        padding-top: 7px;
+        margin-right: 25px;
+    }
+    .icon-menu{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+    }
+    .rotate-txt {
+        margin-bottom: 24px;
+        color: #3399ff;
+        padding: 65px 0px 0px 50px;
+        transform: rotate(90deg);
+    }
+}

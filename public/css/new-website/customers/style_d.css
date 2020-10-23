@@ -1,0 +1,151 @@
+
+@media (min-width: 992px) {
+
+
+
+    .text-banner{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .text-banner h2{
+        font-family: quicksand;
+        color: white;
+        font-size: 53px;
+        font-weight: 600;
+        text-shadow: 2px 2px 8px #2c2b2b;
+    }
+    .text-banner h3{
+        font-family: quicksand;
+        color: white;
+        font-size: 38px;
+        font-weight: 500;
+        text-shadow: 2px 2px 8px #2c2b2b;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .btn-banner{
+        width: 220px;
+        height: 45px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: #00ffff;
+        font-size: 18px;
+        font-family: quicksand;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        box-shadow: 3px 3px 7px 2px #3333335c;
+        transition: 0.4s;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: white;
+        box-shadow: 3px 3px 7px 2px #3333337a
+    }
+    .bg-cus{
+        background-image: url('/images/new-website/customers/Web_customer_1080.jpg');
+        background-size: contain;
+        height: auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .text-vertacal{
+        text-align: right;
+        padding-top: 2%;
+        padding-right: 6%;
+    }
+    .text-vertacal h2{
+        font-family: quicksand;
+        font-size: 40px;
+        color: #4d4d4d;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .text-vertacal p{
+        font-family: quicksand;
+        color: #b3b3b3;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .flex-12{
+        display: flex;
+        padding: 0px 12%;
+        margin: 10% 0 0 0;
+    }
+    .flex-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 100%;
+        height: 65vh;
+        background-color: #eeeeeedb;
+        margin: 15px;
+        margin-bottom: 10%;
+        box-shadow: 4px 4px 14px #00000033;
+    }
+    .header-brand {
+        height: auto;
+        font-family: quicksand;
+
+    }
+    .header-brand h3{
+        font-size: 2.575rem;
+        color: #3399ff;
+        text-align: center;
+        /* font-family: quicksand; */
+        margin-top: 5%;
+    }
+    .flex-2{
+        flex:0 0 16.667%;
+        max-width: 16.667%;
+    }
+    .brand-img{
+        margin: 30px 10px;
+        filter: grayscale(1);
+    }
+    .brand-img:hover{
+        filter: grayscale(0);
+    }
+    .copy-right{
+        text-align: right;
+        height: 50px;
+        background-color: #4d4d4d;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+    }
+    .copy-right p{
+        color: #f2f2f2;
+        margin: 0;
+        margin-right: 3%;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+    }
+    .text-cus{
+        text-align: center;
+    }
+    .text-cus h3{
+        font-family: quicksand;
+        color: #4d4d4d;
+    }
+    .text-cus p{
+        font-family: quicksand;
+        color: #909090;
+        text-align: center;
+        padding: 0 12%;
+    }
+    .img-banner{
+        background-image: url('/images/new-website/customers/Bg_customer_edit.jpg');
+        width: 100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+    }
+    .icon-cus{
+        padding: 60px 20%;
+    }
+}

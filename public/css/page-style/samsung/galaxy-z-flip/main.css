@@ -1,0 +1,349 @@
+figure{
+    margin:0;
+}
+
+.bg-black{
+    background-color:black;
+}
+.bg-section2{
+    background-color:rgb(224, 224, 224);
+}
+.section.section-1{
+    height:900px;
+}
+.block-image-z-flip{
+    margin-left: 10%;
+}
+.title-h1{
+    display: flex;
+    flex:100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 0;
+}
+.title-h1 > h1{
+    font-size:22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.block-h2{
+    display:flex;
+    flex:0 0 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.block-h2 > h2{
+    color:white;
+    font-size:85px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding:0 30px;
+}
+.block-h2 > p{
+    color:white;
+    font-size:15px;
+    width:65%;
+    text-align: center;
+}
+.section-2{
+    height:400px;
+}
+.block-h2-section2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex:100%;
+    padding-top:10%;
+}
+.block-h2-section2 > h2{
+    font-size:17.5px;
+    font-weight: bold;
+}
+.block-h3-section2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex:100%;
+}
+.block-h3-section2 > h3{
+    font-size:36px;
+    font-weight: bold;
+    padding-top:20px;
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+}
+.block-content{
+    display: flex;
+    flex-direction: column;
+    flex:40%;
+    max-width: 40%;
+    width:100%;
+    padding:60px;
+    position: relative;
+    left:5%;
+}
+.block-content > h3{
+    font-size:40px;
+    font-weight: bold;
+}
+.figure-image-disign{
+    min-width: 600px;
+    max-width: 900px;
+    width: 100%;
+    margin:auto;
+}
+.section-4{
+    background-color:rgb(252,250,255);
+    height:1400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5{
+    position: relative;
+    height: 800px;
+    display: flex;
+    background-color:rgb(229,229,227);
+    align-items: flex-end;
+}
+.text-flow{
+    position: absolute;
+    top: 140px;
+    right: calc((100% - 500px) / 3);
+    width: 300px;
+}
+.text-flow > h3{
+    font-size:30px;
+    font-weight: bold;
+}
+.text-flow > p{
+    font-size:16px;
+}
+.section-6{
+    display: flex;
+    flex-direction: row;
+    height:900px;
+    flex-direction: row;
+    background-color:rgb(254,250,255);
+    justify-content: center;
+    align-items: center;
+}
+.block-video{
+    flex:0 0 60%;
+    max-width:60%;
+    width:100%;
+}
+.video-section-6{
+    width:65%;
+}
+.block-text-section-6{
+    flex:0 0 40%;
+    max-width: 40%;
+    width:100%;
+    padding:0 10% 0 0;
+}
+.block-text-section-6 > h3{
+    font-size:30px;
+    font-weight: bold;
+}
+.section-7{
+    background-color:rgb(254,250,255);
+}
+.block-section-7{
+    display: flex;
+    flex-direction: row;
+    height:900px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.block-text-section-7{
+    flex:0 0 30%;
+    max-width:30%;
+    width:100%;
+}
+.block-text-section-7.left > h3{
+    text-align: left;
+    font-size:30px;
+    font-weight: bold;
+    padding:0 100px;
+}
+.block-text-section-7.right{
+    padding:0 60px;
+}
+.block-text-section-7.right > p:first-child{
+    font-size:16px;
+}
+.block-text-section-7.right > :nth-child(2){
+    font-size:60px;
+    font-weight: bold;
+    margin-bottom:0;
+}
+.block-video-section-7{
+    flex:0 0 40%;
+    max-width: 40%;
+    width:100%;
+}
+.block-video-section-7 > video{
+    width:100%;
+}
+.text-flow-2{
+    position: absolute;
+    top: 0;
+    /* padding: 290px 50px 0px 870px; */
+    max-width: 80%;
+}
+.text-flow-2 > h6{
+    font-size:40px;
+    font-weight: bold;
+    padding: 300px 25px 30px 162px;
+    width: 40%;
+}
+.text-flow-2 > p{
+    font-size:20px;
+    padding: 0px 0px 0px 965px;
+}
+.text-flow-2 > h7{
+    font-size:50px;
+    font-weight: bold;
+    margin-left: 80%;
+}
+.block-h8{
+
+}
+.figure-image-section-8{
+    margin-left: 20%;
+    padding-top: 150px;
+}
+.text-flow-3{
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.section-8{
+    position: relative;
+    flex-direction: row;
+    padding: 0px 0 0px 0;
+}
+.text-flow-3 > h2{
+    font-size:17.5px;
+    font-weight: bold;
+    color: white;
+}
+.text-flow-3 > h3{
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: white;
+}
+.text-flow-4{
+    display: block;
+    margin: auto;
+    padding-right: 10%;
+}
+.text-flow-4 > h9{
+    font-size:50px;
+    font-weight: bold;
+
+}
+.text-flow-5{
+    display: block;
+    margin: auto;
+    padding-right: 10%;
+}
+.text-flow-5 > h10{
+    font-size:40px;
+    font-weight: bold;
+}
+.text-flow-6{
+    position: relative;
+    flex-direction: row;
+    max-width: 100%;
+    text-align: left;
+}
+.text-flow-6 > h11{
+    font-size:40px;
+    font-weight: bold;
+    padding: 0px;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.text-flow-6 > p{
+    position: absolute;
+    top: 0;
+    font-size:20px;
+    padding: 0px 0px 0px 965px;
+}
+.section-13{
+    position: relative;
+    flex-direction: row;
+}
+.text-flow-7{
+    position: absolute;
+    top: 0;
+    width: 65%;
+    padding: 500px 0px 0px 600px;
+}
+.text-flow-7 > h12{
+    font-size:30px;
+    font-weight: bold;
+}
+.text-flow-7 > p{
+    font-size:20px;
+}
+.video-section-8{
+    width:100%;
+}
+.block-text-section-12{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+    margin-top:5%;
+}
+.block-h3,
+.block-p{
+    flex:0 0 50%;
+    max-width:50%;
+    width:100%;
+}
+.block-h3{
+    padding:0 100px;
+}
+.block-h3 > h3{
+    font-size:30px;
+    font-weight: bold;
+    text-align: left;
+}
+.block-p > p{
+    text-align: left;
+}
+.block-p{
+    padding:0 150px 0 0;
+}
+.text-flow-8{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-flow-9{
+    text-align: center;
+}
+.text-flow-9 > h14{
+    font-size:30px;
+    font-weight: bold;
+}
+.text-flow-9 > p{
+    font-size: 20px;
+    width: 75%;
+    padding-left: 25%;
+}

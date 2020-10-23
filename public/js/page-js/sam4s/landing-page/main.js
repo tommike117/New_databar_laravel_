@@ -1,0 +1,3 @@
+$('#carouselExampleInterval').carousel({
+  touch:true,
+});

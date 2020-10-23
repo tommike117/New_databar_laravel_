@@ -1,0 +1,795 @@
+
+
+@media (min-width: 992px){
+
+    .img-banner{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/banner 1920-01.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-banner .text-banner{
+        position: absolute;
+        right: 7%;
+        text-align: right;
+        top: 79%;
+        width: 60%;
+
+    }
+    .text-banner h1{
+        color: #4e4e4e;
+        font-size: 30px;
+    }
+    .text-banner p{
+        color: #707070;
+        font-size: 13.5px;
+    }
+    .img-bg1 .text-box ul{
+        margin-top: 1.5rem;
+    }
+    .img-bg1 ul li{
+        list-style-type: none;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    .img-bg{
+        background-image: url("/images/new-website/products/ivymobility/sales-force/bg_1920.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+    .bg-body{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        /* background-size: cover; */
+        background-size: contain;
+    }
+
+
+    .sec-2{
+        margin-top: 5%;
+    }
+    .sec-2 p{
+        margin: 3% 0;
+        color: #707070;
+    }
+    .text-feature{
+        text-align: center;
+    }
+    .flex-12{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .flex-4{
+        flex: 1 0 25%;
+        margin: 40px;
+        height: 60vh;
+    }
+
+    .bg-gray{
+        background-color: #f7f7f7d1;
+        border-radius: 25px;
+        transition: 0.4s;
+    }
+    .bg-gray:hover{
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+    }
+    .bg-gray h3{
+        color: #3399ff;
+        font-family: quicksand;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .bg-gray p{
+        color: #707070;
+        font-family: quicksand;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .sec-2 .setup-img{
+        width: 100px;
+        height: 120px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+
+
+
+
+
+    .img-bg2 > div > .content-box{
+        padding-bottom: 75px !important;
+    }
+    .img-bg2 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg3 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg4 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg5 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg6 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg7 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg1{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .content-box{
+        padding-left: 15%;
+    }
+    .img-bg2{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+     }
+    .img-bg3{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg4{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-4.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg5{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-5.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg6{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-6.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg7{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-7.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .block-60{
+        width: 55%;
+        padding-right: 10%;
+        margin-left: auto;
+        text-align: right;
+    }
+    .img-bg1 >.block-60 > h3{
+        padding-top: 18%;
+    }
+    .header-text {
+        /* font-size: 28px; */
+        /* padding-bottom: 50px;
+        padding-top: 100px; */
+        /* font-weight: 400; */
+        /* color: #3399ff; */
+        /* font-size: 30px; */
+        font-weight: 700;
+
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-box {
+        font-weight: 400;
+        padding-bottom: 135px;
+        font-family: quicksand;
+        color: #707070;
+        line-height: 1.5;
+        font-size: 1.0vw;
+    }
+    .img-bg1 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg2 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg3 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg4 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg5 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg6 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg7 > div > .header-text{
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+    .text-box {
+        padding-bottom: 30px;
+    }
+
+    .text-box p {
+        padding-top: 1%;
+    }
+    .text-box .header-hov{
+        font-size: 1.2vw;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .img-bg3 .content-box h3{
+        font-size: 19px;
+    }
+    .img-bg3 .content-box p{
+        font-size: 13px;
+
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .m-none{
+        display: none;
+    }
+    .img-banner{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/ivy product_750-01.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-banner .text-banner{
+        position: absolute;
+        right: 7%;
+        text-align: right;
+        top: 80%;
+        width: 80%;
+
+    }
+    .text-banner h1{
+        color: #4e4e4e;
+        font-size: 30px;
+    }
+    .text-banner p{
+        color: #707070;
+        font-size: 13.5px;
+    }
+    .img-bg1 .text-box ul{
+        margin-top: 1.5rem;
+    }
+    .img-bg1 ul li{
+        list-style-type: none;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    .img-bg{
+        background-image: url("/images/new-website/products/ivymobility/sales-force/bg_1920.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+    .bg-body{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        /* background-size: cover; */
+        background-size: contain;
+    }
+
+
+    .sec-2{
+        margin-top: 5%;
+        padding-left: 12%;
+        padding-right: 5%;
+    }
+    .sec-2 p{
+        margin: 3% 0;
+        color: #707070;
+    }
+    .text-feature{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .flex-12{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .flex-4{
+        flex: 1 0 30%;
+        margin: 30px 50px 30px 0;
+        height: 40vh;
+    }
+
+    .bg-gray{
+        background-color: #f7f7f7d1;
+        border-radius: 25px;
+        transition: 0.4s;
+    }
+    .bg-gray:hover{
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+    }
+    .bg-gray h3{
+        color: #3399ff;
+        font-family: quicksand;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .bg-gray p{
+        color: #707070;
+        font-family: quicksand;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .sec-2 .setup-img{
+        width: 100px;
+        height: 120px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+
+
+
+
+
+    .img-bg2 > div > .content-box{
+        padding-bottom: 75px !important;
+    }
+    .img-bg2 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg3 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg4 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg5 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg6 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg7 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg1{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        height: 50vh;
+    }
+    .content-box{
+        padding-left: 15%;
+    }
+    .img-bg2{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+     }
+    .img-bg3{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg4{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-4.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg5{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-5.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg6{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-6.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg7{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-7.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .block-60{
+        width: 55%;
+        padding-right: 10%;
+        margin-left: auto;
+        text-align: right;
+    }
+    .img-bg1 >.block-60 > h3{
+        padding-top: 18%;
+    }
+    .header-text {
+        /* font-size: 28px; */
+        /* padding-bottom: 50px;
+        padding-top: 100px; */
+        /* font-weight: 400; */
+        /* color: #3399ff; */
+        /* font-size: 30px; */
+        font-weight: 700;
+
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-box {
+        font-weight: 400;
+        padding-bottom: 135px;
+        font-family: quicksand;
+        color: #707070;
+        line-height: 1.5;
+        font-size: 1.0vw;
+    }
+    .img-bg1 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg2 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg3 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg4 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg5 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg6 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg7 > div > .header-text{
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+    .text-box {
+        padding-bottom: 30px;
+    }
+
+    .text-box p {
+        padding-top: 1%;
+    }
+    .text-box .header-hov{
+        font-size: 1.2vw;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .img-bg3 .content-box h3{
+        font-size: 19px;
+    }
+    .img-bg3 .content-box p{
+        font-size: 13px;
+
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+    .m-none{
+        display: none;
+    }
+    .img-banner{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/ivy product_750-01.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .img-banner .text-banner{
+        position: absolute;
+        right: 7%;
+        text-align: right;
+        top: 60%;
+        width: 80%;
+
+    }
+    .text-banner h1{
+        color: #4e4e4e;
+        font-size: 30px;
+    }
+    .text-banner p{
+        color: #707070;
+        font-size: 13.5px;
+    }
+    .img-bg1 .text-box ul{
+        margin-top: 1.5rem;
+    }
+    .img-bg1 ul li{
+        list-style-type: none;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    .img-bg{
+        background-image: url("/images/new-website/products/ivymobility/sales-force/bg_1920.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+    .bg-body{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        /* background-size: cover; */
+        background-size: contain;
+    }
+
+
+    .sec-2{
+        margin-top: 5%;
+        padding-left: 12%;
+    }
+    .sec-2 p{
+        margin: 3% 0;
+        color: #707070;
+    }
+    .text-feature{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .flex-12{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-right: 15px;
+    }
+    .flex-4{
+        flex: 1 0 100%;
+        margin: 30px 0 30px 0;
+        height: 50vh;
+    }
+
+    .bg-gray{
+        background-color: #f7f7f7d1;
+        border-radius: 25px;
+        transition: 0.4s;
+    }
+    .bg-gray:hover{
+        box-shadow: 0px 4px 21px 9px #d8d8d869;
+    }
+    .bg-gray h3{
+        color: #3399ff;
+        font-family: quicksand;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .bg-gray p{
+        color: #707070;
+        font-family: quicksand;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .sec-2 .setup-img{
+        width: 100px;
+        height: 120px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+
+
+
+
+
+    .img-bg2 > div > .content-box{
+        padding-bottom: 75px !important;
+    }
+    .img-bg2 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg3 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg4 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg5 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg6 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg7 >.block-60 > h3 {
+        padding-top: 18%;
+    }
+    .img-bg1{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 50vh;
+    }
+    .content-box{
+        padding-left: 15%;
+    }
+    .img-bg2{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+     }
+    .img-bg3{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg4{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-4.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 20%;
+        height: 75vh;
+    }
+    .img-bg5{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-5.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg6{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-6.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .img-bg7{
+        background-image: url('/images/new-website/products/ivymobility/sales-force/sale-7.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: 5%;
+        height: 70vh;
+    }
+    .block-60{
+        width: 55%;
+        padding-right: 10%;
+        margin-left: auto;
+        text-align: right;
+    }
+    .img-bg1 >.block-60 > h3{
+        padding-top: 18%;
+    }
+    .header-text {
+        /* font-size: 28px; */
+        /* padding-bottom: 50px;
+        padding-top: 100px; */
+        /* font-weight: 400; */
+        /* color: #3399ff; */
+        /* font-size: 30px; */
+        font-weight: 700;
+
+        font-size: 2.4vw;
+        color: #3399ff;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-box {
+        font-weight: 400;
+        padding-bottom: 135px;
+        font-family: quicksand;
+        color: #707070;
+        line-height: 1.5;
+        font-size: 1.0vw;
+    }
+    .img-bg1 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg2 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg3 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg4 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg5 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg6 > div > .header-text{
+        margin-top: 100px;
+    }
+    .img-bg7 > div > .header-text{
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+    .text-box {
+        padding-bottom: 30px;
+    }
+
+    .text-box p {
+        padding-top: 1%;
+    }
+    .text-box .header-hov{
+        font-size: 1.2vw;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .img-bg3 .content-box h3{
+        font-size: 19px;
+    }
+    .img-bg3 .content-box p{
+        font-size: 13px;
+
+    }
+}

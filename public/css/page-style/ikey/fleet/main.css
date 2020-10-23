@@ -1,0 +1,125 @@
+.breadcrumb{
+    position: relative;
+    padding-top:0;
+    padding-bottom: 0;
+    font-size: 15px;
+    margin: 20px;
+    top: 7px;
+}
+.filter{
+    margin: 30px auto;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    background: white;
+    border: none;
+    color: black
+}
+.filter_text{
+    cursor: pointer;
+}
+.filter_list{
+    height: auto;
+}
+.more{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin-right:30px;
+}
+.product_row1{
+    text-align: center;
+    margin-top:30px !important;
+}
+@media (min-width: 768px){
+    .product_row1 {
+        border-right: 1px solid lightgray !important;
+        border-top: 1px solid lightgray !important;
+        border-bottom: 0px solid !important; 
+    }
+    
+    .product_row1:nth-child(3n+0){
+        border-right: 0px solid !important;
+    }
+    .product_row2 {
+        border-right: 1px solid lightgray !important;
+        border-top: 1px solid lightgray !important;
+        border-bottom: 0px solid !important; 
+    }
+    .product_row2:nth-child(3n+0){
+        border-right: 0px solid !important;
+    }
+}
+@media (min-width: 320px){
+    .product_row1 {
+        /* border-bottom: 1px solid lightgray; */
+        border-top: 1px solid lightgray;
+    }
+    .product_row1:last-child{
+        border-right: 0px solid
+    }
+    .product_row2 {
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+    }
+    .product_row2:last-child{
+        border-right: 0px solid
+    }
+    nav#breadcrumb{
+        display: none !important;
+    }
+    .text_product_detail{
+        font-size:13px;
+        font-weight: normal;
+        color:rgb(172, 172, 172);
+    }
+}
+@media (min-width: 1024px){
+    .image_banner{
+        background-image: url('/images/ikey/fleet/fleet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    nav#breadcrumb{
+        display: block !important;
+    }
+    .col-md-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product_image{
+        width: 300px;
+        height:200px;
+    }
+    .product_name{
+        width:100%;
+        height:100px;
+        overflow: hidden;
+    }
+    .text_product_name{
+        font-size:16px;
+        font-weight: normal;
+    }
+    .text_product_detail{
+        font-size:13px;
+        font-weight: normal;
+        color:rgb(172, 172, 172);
+    }
+}
+
+.product_row2{
+    text-align: center;
+}
+.learnmore{
+    border-radius: 25px;
+    font-size: 15px;
+    width:140px;
+    margin-bottom: 30px;
+}
+#more{
+    margin-top:30px;
+    margin-right:0 !important;
+}

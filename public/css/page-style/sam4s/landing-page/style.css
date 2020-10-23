@@ -1,0 +1,550 @@
+.carousel-1,.carousel-2{
+    width:100%;
+}
+.carousel-item{
+    height:auto !important;
+    min-height: inherit !important;
+}
+.flickity-page-dots .dot{
+    background: white;
+}
+.my-nav-link{
+    color:rgb(175, 175, 175);
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+.my-nav-link:hover{
+    text-decoration: none;
+    color: black;
+}
+.my-nav-link.active{
+   color: black;
+}
+.a-seeall{
+    font-size:13px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:black;
+    margin:50px auto;
+}
+.a-seeall:hover{
+    text-decoration: none;
+    color:black;
+}
+.row.product-block{
+    flex:0 0 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.flex-product-block{
+    flex:0 0 33%;
+    max-width: 33%;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding:10px;
+}
+#myTab{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767.98px) {
+
+    .flickity-viewport{
+        height:50vw;
+    }
+    .flickity-slider,
+    .carousel-1, .carousel-2{
+        height:100%;
+    }
+    .carousel-1 > img,
+    .carousel-2 > img{
+        height:100%;
+    }
+    .mobile-flex:first-child{
+        border-right:1px solid lightgrey;
+    }
+   #myTab{
+       margin:0 0 30px 0;
+   }
+   .show-only-desktop{
+       display: none;
+   }
+
+    .flex-product-block{
+        flex:0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding: 7%;
+
+    }
+    .product-image-size{
+        width:250px;
+    }
+    .h2-content{
+        padding: 15px;
+        text-align: center;
+    }
+    .row{
+        margin: 0;
+    }
+    h2{
+        font-size: 1rem;
+        color: #0a278b;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 14px;
+        color: gray;
+        font-weight: 400;
+    }
+    .sub-product-type{
+        text-align: center;
+    }
+    .mobile-flex{
+        flex:0 0 50%;
+        max-width: 50%;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        padding: 3%;
+        text-align: center;
+    }
+    .my-nav-link{
+        font-size: 15px;
+    
+    }
+    .flickity-button{
+        display: none;
+    }
+    .flickity-page-dots .dot{
+        
+        z-index: 999;
+        background: white;
+    }
+    .flickity-page-dots{
+        /* top: 50%; */
+        bottom: 10px;
+    }
+    .container-fluid{
+        padding: 0;
+        margin: 0;
+    }
+    .manage-mobile{
+        padding: 7%;
+    }
+    .logo_sam4s{
+        position: absolute;
+        top: calc(1rem);
+        left: 20px;
+        width: 70px;
+    }
+    .banner_content > .banner_content-line2:last-child::after{
+        content:"";
+        position: absolute;
+        background: rgba(255, 255, 255, 0.753);
+        width: 200px;
+        height: 3px;
+        bottom: -10px;
+        left: calc((100% - 250px) / 2);
+    }
+    li.my-nav-item.border-right::after {
+        content: "";
+        width: 40px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        background: #464646;
+        right: -80px;
+        top: 50%;
+        transform: rotateZ(90deg);
+    }
+    
+
+    .banner_content{
+        position: absolute;
+        top: calc(50px + 1rem);
+        left: 20px;
+        width: 250px;
+        color: white;
+    }
+    .container-fluid{
+        margin: 50px 0;
+
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .my-nav-item{
+        margin:100px 4%;
+        position: relative;
+        left: 4.5%; 
+    }
+    .flickity-page-dots{
+        bottom:7% !important;
+    }
+    .product-image-size{
+        width:200px;
+        height: auto;
+        margin: auto;
+    }
+    .product-type{
+        font-size:15px;
+        font-weight: 600;
+        color:#0A278B;
+        margin-top:10px;
+        margin-bottom:0;
+    }
+    .product-name{
+        font-size:18px;
+        font-weight: bold;
+        color:rgb(41, 41, 41);
+        margin:15px auto;
+    }
+    .sub-product-type{
+        font-size:13px;
+        font-weight: 400;
+        color:grey;
+        margin-bottom:10px;
+    }
+    .first_banner{
+        margin-top:0 !important;
+    }
+    .block{
+        top:calc((100% - 220px) / 2) !important;
+    }
+    .h1-content{
+        width:70%;
+        text-align:center;
+        margin:20px auto;
+    }
+    h1{
+        margin-top:0px;
+    }
+    .banner_content{
+        position: absolute;
+        top: calc((100% - 200px) / 2);
+        left: 0;
+        right:0;
+        margin: auto;
+        color:white;
+        text-align: center;
+    }
+    .banner_content > label{
+        font-weight: 300;
+        line-height: 1.5em;
+        font-size:45px;
+    }
+    .logo_sam4s{
+        position: absolute;
+        top: 40px;
+        left:5%;
+        width:100px;
+        height: 50px;
+    }
+    .banner_content > .banner_content-line2:last-child::after{
+        content:"";
+        position: absolute;
+        background: rgba(255, 255, 255, 0.753);
+        width: 200px;
+        height: 3px;
+        bottom: -40px;
+        left: calc((100% - 200px) / 2);
+    }
+    li.my-nav-item.border-right::after {
+        content: "";
+        width: 40px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        background: #464646;
+        right: -80px;
+        top: 50%;
+        transform: rotateZ(90deg);
+    }
+    .h2-content{
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        font-size:16px;
+    }
+    #myTab{
+        position: relative;
+    }
+    #myTab::after{
+        content: "";
+        width: 100px;
+        position: absolute;
+        height: 1px;
+        background: lightgrey;
+        bottom: 0;
+        top: 50%;
+        transform: rotate(90deg);
+    }
+    .block > label{
+        left:calc((100% - 360px) / 2) !important;
+        font-size:110px !important;
+    }
+    .my-nav-link{
+        font-size:18px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .show-only-desktop{
+        display: inline-flex;
+    }
+    .my-nav-item{
+        margin:100px 4%;
+        position: relative;
+        left: 3%;
+    }
+    .flickity-page-dots{
+        bottom:7% !important;
+    }
+    .product-image-size{
+        width:300px;
+        height: auto;
+        margin: auto;
+    }
+    .product-type{
+        font-size:16px;
+        font-weight: 600;
+        color:#0A278B;
+        margin-top:10px;
+        margin-bottom:0;
+    }
+    .product-name{
+        font-size:20px;
+        font-weight: bold;
+        color:rgb(41, 41, 41);
+        margin:15px auto;
+    }
+    .sub-product-type{
+        font-size:14px;
+        font-weight: 400;
+        color:grey;
+        margin-bottom:10px;
+    }
+    .first_banner{
+        margin-top:0 !important;
+    }
+    .block{
+        top:calc((100% - 220px) / 2) !important;
+    }
+    .h1-content{
+        width:70%;
+        text-align:center;
+        margin:20px auto;
+    }
+    h1{
+        margin-top:0px;
+    }
+    .banner_content{
+        position: absolute;
+        top: calc((100% - 200px) / 2);
+        left: 0;
+        right:0;
+        margin: auto;
+        color:white;
+        text-align: center;
+    }
+    .banner_content > label{
+        font-weight: 300;
+        line-height: 1.5em;
+        font-size:45px;
+    }
+    .logo_sam4s{
+        position: absolute;
+        top: 40px;
+        left:5%;
+        width:100px;
+        height: 50px;
+    }
+    .banner_content > .banner_content-line2:last-child::after{
+        content:"";
+        position: absolute;
+        background: rgba(255, 255, 255, 0.753);
+        width: 200px;
+        height: 3px;
+        bottom: -40px;
+        left: calc((100% - 200px) / 2);
+    }
+    li.my-nav-item.border-right::after {
+        content: "";
+        width: 40px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        background: #464646;
+        right: -80px;
+        top: 50%;
+        transform: rotateZ(90deg);
+    }
+    .h2-content{
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        font-size:16px;
+    }
+    #myTab{
+        position: relative;
+    }
+    #myTab::after{
+        content: "";
+        width: 100px;
+        position: absolute;
+        height: 1px;
+        background: lightgrey;
+        bottom: 0;
+        top: 50%;
+        transform: rotate(90deg);
+    }
+    .block > label{
+        left:calc((100% - 360px) / 2) !important;
+        font-size:110px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flickity-viewport{
+        height:600px !important;
+    }
+    .flickity-slider{
+        height:100%;
+    }
+    .carousel-1, .carousel-2{
+        height:100%;
+    }
+    .show-only-desktop{
+        display: inline-flex;
+    }
+    .my-nav-item{
+        margin:100px 4%;
+        position: relative;
+        left: 3%;
+    }
+    .flickity-page-dots{
+        bottom:7% !important;
+    }
+    .product-image-size{
+        width:300px;
+        height: auto;
+        margin: auto;
+    }
+    .product-type{
+        font-size:16px;
+        font-weight: 600;
+        color:#0A278B;
+        margin-top:10px;
+        margin-bottom:0;
+    }
+    .product-name{
+        font-size:20px;
+        font-weight: bold;
+        color:rgb(41, 41, 41);
+        margin:15px auto;
+    }
+    .sub-product-type{
+        font-size:14px;
+        font-weight: 400;
+        color:grey;
+        margin-bottom:10px;
+    }
+    .first_banner{
+        margin-top:0 !important;
+    }
+    .block{
+        top:calc((100% - 220px) / 2) !important;
+    }
+    .h1-content{
+        width:70%;
+        text-align:center;
+        margin:20px auto;
+    }
+    h1{
+        margin-top:0px;
+    }
+    .banner_content{
+        position: absolute;
+        top: calc((100% - 200px) / 2);
+        left: 0;
+        right:0;
+        margin: auto;
+        color:white;
+        text-align: center;
+    }
+    .banner_content > label{
+        font-weight: 300;
+        line-height: 1.5em;
+        font-size:45px;
+    }
+    .logo_sam4s{
+        position: absolute;
+        top: 40px;
+        left:5%;
+        width:100px;
+        height: 50px;
+    }
+    .banner_content > .banner_content-line2:last-child::after{
+        content:"";
+        position: absolute;
+        background: rgba(255, 255, 255, 0.753);
+        width: 200px;
+        height: 3px;
+        bottom: -40px;
+        left: calc((100% - 200px) / 2);
+    }
+    li.my-nav-item.border-right::after {
+        content: "";
+        width: 40px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        background: #464646;
+        right: -80px;
+        top: 50%;
+        transform: rotateZ(90deg);
+    }
+    .h2-content{
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        font-size:16px;
+    }
+    #myTab{
+        position: relative;
+    }
+    #myTab::after{
+        content: "";
+        width: 100px;
+        position: absolute;
+        height: 1px;
+        background: lightgrey;
+        bottom: 0;
+        top: 50%;
+        transform: rotate(90deg);
+    }
+    .block > label{
+        left:calc((100% - 360px) / 2) !important;
+        font-size:110px !important;
+    }
+}
+
+
+

@@ -1,0 +1,1488 @@
+.thumbnails{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+}
+body{
+    overflow-x: hidden; 
+}
+.ul-product{
+    display: block;
+    width:18%;
+}
+ul > li > label{
+    font-size:13px;
+}
+.li-product_color1{
+    margin: 15px auto;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+.li-product_color1>img{
+    width:100%;
+    border:1px solid lightgrey;
+}
+.li-product_color2{
+    margin: 15px auto;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    display:none;
+}
+.li-product_color2 >img{
+    width:100%;
+    border:1px solid lightgrey;
+}
+.li-product_color3{
+    margin: 15px auto;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    display:none;
+}
+.li-product_color3 >img{
+    width:100%;
+    border:1px solid lightgrey;
+}
+.color{
+    display:inline-flex;
+}
+.color2{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    background: rgb(218, 185, 168);
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.color3{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    background: #f010a4;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.color1{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.color1:hover{
+    transform: scale(1.05,1.05);
+}
+.color2:hover{
+    transform: scale(1.05,1.05);
+}
+.color3:hover{
+    transform: scale(1.05,1.05);
+}
+.product_name{
+    font-size:20px;
+    font-weight: 600;
+}
+@media only screen and (min-width:320px){
+    .ul-product{
+        width:10% !important;
+        margin-left:10% !important;
+    }
+    .banner-first{
+        margin-top:15% !important;
+    }
+    .section1_text_line1{
+        font-size:20px !important;
+    }
+    .section1_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+    }
+    .section2_text_line1{
+        font-size:20px !important;
+    }
+    .section2_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+    }
+    .section3_text_line1{
+        font-size:20px !important;
+    }
+    .section3_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+    }
+    .section4_text_line1{
+        font-size:20px !important;
+    }
+    .section4_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+    }
+    .section5_text_line1{
+        font-size:20px !important;
+    }
+    .section5_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+    }
+    .section6_text_line1{
+        font-size:20px !important;
+        color:black !important;
+    }
+    .section6_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+    }
+    .section7_text_line1{
+        font-size:20px !important;
+        color:black !important;
+        line-height: 15px !important;
+        margin-top:20% !important;
+        
+    }
+    .section7_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+        
+    }
+    .section8_text_line1{
+        font-size:20px !important;
+        color:black !important;
+        
+    }
+    .section8_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+        
+    }
+    .section9_text_line1{
+        font-size:20px !important;
+        color:black !important;
+        
+    }
+    .section9_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+        
+    }
+    .section10_text_line1{
+        font-size:20px !important;
+        
+    }
+    .section10_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+        
+    }
+    .section11_text_line1{
+        font-size:20px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section11_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section12_text_line1{
+        font-size:20px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section12_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line1{
+        font-size:20px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line1{
+        margin-top:10% !important;
+        font-size:20px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .ip68{
+        font-size:50px !important;
+        bottom:300px !important;
+    }
+    .remark{
+        font-size:8px !important;
+    }
+    ul{
+        padding-left:0 !important;
+    }
+    figcaption{
+        font-size:9px !important;
+    }
+    figure.a5_show.black{
+        background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show:hover{
+        background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold{
+        background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold:hover{
+        background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud{
+        background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud:hover{
+        background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue{
+        background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue:hover{
+        background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    .thumbnail-nav{
+        overflow: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        max-width: 300px;
+        display: -webkit-box;
+    }
+    .usb{
+        width:190px !important;
+    }
+    .anima_capture{
+        position: relative !important;
+    }
+    .anima_safeguarded{
+        position: relative !important;
+        width:100% !important;
+        text-align: center !important;
+        margin:0 !important;
+    }
+    .anima_safeandsound{
+        position: relative !important;
+        padding:0 !important;
+    }
+    .anima_allwithin{
+        position: relative !important;
+        padding:0 !important;
+        margin-top:30% !important;
+    }
+}
+@media only screen and (min-width:425px){
+    .ul-product{
+        width:10% !important;
+        margin-left:10% !important;
+    }
+    .banner-first{
+        margin-top:15% !important;
+    }
+    .section1_text_line1{
+        font-size:23px !important;
+    }
+    .section1_text_line2{
+        font-size:15px !important;
+        padding:0 !important;
+    }
+    .section2_text_line1{
+        font-size:23px !important;
+    }
+    .section2_text_line2{
+        font-size:15px !important;
+        padding:0 !important;
+    }
+    .section3_text_line1{
+        font-size:23px !important;
+    }
+    .section3_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+    }
+    .section4_text_line1{
+        font-size:23px !important;
+    }
+    .section4_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+    }
+    .section5_text_line1{
+        font-size:23px !important;
+    }
+    .section5_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+    }
+    .section6_text_line1{
+        font-size:23px !important;
+        color:black !important;
+    }
+    .section6_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+    }
+    .section7_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        line-height: 15px !important;
+        margin-top:20% !important;
+        
+    }
+    .section7_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+        
+    }
+    .section8_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        
+    }
+    .section8_text_line2{
+        font-size:15px !important;
+        padding:0 !important;
+        
+    }
+    .section9_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        
+    }
+    .section9_text_line2{
+        font-size:15px !important;
+        padding:0 !important;
+        
+    }
+    .section10_text_line1{
+        font-size:23px !important;
+        
+    }
+    .section10_text_line2{
+        font-size:13px !important;
+        padding:0 !important;
+        
+    }
+    .section11_text_line1{
+        font-size:25px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section11_text_line2{
+        font-size:13px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section12_text_line1{
+        font-size:23px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section12_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line1{
+        font-size:23px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line1{
+        margin-top:10% !important;
+        font-size:23px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line2{
+        font-size:15px !important;
+        padding:0 15px !important;
+        text-align: center !important;
+        
+    }
+    .ip68{
+        font-size:80px !important;
+        bottom:350px !important;
+    }
+    .remark{
+        font-size:10px !important;
+    }
+    ul{
+        padding-left:0 !important;
+    }
+    figcaption{
+        font-size:9px !important;
+    }
+    figure.a5_show.black{
+        background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show:hover{
+        background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold{
+        background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold:hover{
+        background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud{
+        background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud:hover{
+        background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue{
+        background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue:hover{
+        background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px !important;
+        height:100px !important;
+        background-position: center;
+    }
+    .thumbnail-nav{
+        overflow: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        max-width: 300px;
+        display: -webkit-box;
+    }
+    .usb{
+        width:250px !important;
+    }
+    .anima_capture{
+        position: relative !important;
+    }
+    .anima_safeguarded{
+        position: relative !important;
+        width:100% !important;
+        text-align: center !important;
+        margin:0 !important;
+    }
+    .anima_safeandsound{
+        position: relative !important;
+        padding:0 !important;
+    }
+    .anima_allwithin{
+        position: relative !important;
+        padding:0 !important;
+        margin-top:30% !important;
+    }
+}
+@media only screen and (min-width:768px){
+    .ul-product{
+        width:12% !important;
+        margin-left:10% !important;
+    }
+    .banner-first{
+        margin-top:10% !important;
+    }
+    .section1_text_line1{
+        font-size:23px !important;
+    }
+    .section1_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section2_text_line1{
+        font-size:23px !important;
+    }
+    .section2_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section3_text_line1{
+        font-size:23px !important;
+    }
+    .section3_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section4_text_line1{
+        font-size:23px !important;
+    }
+    .section4_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section5_text_line1{
+        font-size:23px !important;
+    }
+    .section5_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section6_text_line1{
+        font-size:23px !important;
+        color:black !important;
+    }
+    .section6_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+    }
+    .section7_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        line-height: 15px !important;
+        margin-top:20% !important;
+        
+    }
+    .section7_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+        
+    }
+    .section8_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        
+    }
+    .section8_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        
+    }
+    .section9_text_line1{
+        font-size:23px !important;
+        color:black !important;
+        
+    }
+    .section9_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        
+    }
+    .section10_text_line1{
+        font-size:23px !important;
+        
+    }
+    .section10_text_line2{
+        font-size:13px !important;
+        padding:0 10%!important;
+        
+    }
+    .section11_text_line1{
+        font-size:25px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section11_text_line2{
+        font-size:13px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line1{
+        font-size:23px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section13_text_line1{
+        font-size:23px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line1{
+        margin-top:10% !important;
+        font-size:23px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .ip68{
+        font-size: 200px !important;
+        bottom: 550px !important;
+    }
+    .remark{
+        font-size:10px !important;
+    }
+    ul{
+        padding-left:0 !important;
+    }
+    figcaption{
+        font-size:12px !important;
+    }
+    figure.a5_show.black{
+        background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show:hover{
+        background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold{
+        background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold:hover{
+        background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud{
+        background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud:hover{
+        background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue{
+        background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue:hover{
+        background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:120px !important;
+        height:120px !important;
+        background-position: center;
+    }
+    .thumbnail-nav{
+        overflow: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        max-width: 300px;
+        display: -webkit-box;
+    }
+    .usb{
+        width:450px !important;
+    }
+    .anima_capture{
+        position: relative !important;
+    }
+    .anima_safeguarded{
+        position: relative !important;
+        width:100% !important;
+        text-align: center !important;
+        margin:0 !important;
+    }
+    .anima_safeandsound{
+        position: relative !important;
+        padding:0 !important;
+    }
+    .anima_allwithin{
+        position: relative !important;
+        padding:0 !important;
+        margin-top:30% !important;
+    }
+}
+@media only screen and (min-width:1024px){
+    .ul-product{
+        width:12% !important;
+        margin-left:10% !important;
+    }
+    .banner-first{
+        margin-top:5% !important;
+    }
+    .section1_text_line1{
+        font-size:30px !important;
+    }
+    .section1_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section2_text_line1{
+        font-size:30px !important;
+    }
+    .section2_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section3_text_line1{
+        font-size:30px !important;
+    }
+    .section3_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section4_text_line1{
+        font-size:30px !important;
+    }
+    .section4_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section5_text_line1{
+        font-size:30px !important;
+    }
+    .section5_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+    }
+    .section6_text_line1{
+        font-size:30px !important;
+        color:black !important;
+    }
+    .section6_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+    }
+    .section7_text_line1{
+        font-size:30px !important;
+        color:black !important;
+        line-height: 15px !important;
+        margin-top:20% !important;
+        
+    }
+    .section7_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+        
+    }
+    .section8_text_line1{
+        font-size:30px !important;
+        color:black !important;
+        
+    }
+    .section8_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        
+    }
+    .section9_text_line1{
+        font-size:30px !important;
+        color:black !important;
+        
+    }
+    .section9_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        
+    }
+    .section10_text_line1{
+        font-size:30px !important;
+        
+    }
+    .section10_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        
+    }
+    .section11_text_line1{
+        font-size:30px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section11_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line1{
+        font-size:30px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section13_text_line1{
+        font-size:30px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line1{
+        margin-top:10% !important;
+        font-size:30px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line2{
+        font-size:15px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .ip68{
+        font-size: 200px !important;
+    bottom: 620px !important;
+    left:40px !important;
+    }
+    .remark{
+        font-size:10px !important;
+    }
+    ul{
+        padding-left:0 !important;
+    }
+    figcaption{
+        font-size:15px !important;
+    }
+    figure.a5_show.black{
+        background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show:hover{
+        background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold{
+        background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold:hover{
+        background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud{
+        background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud:hover{
+        background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue{
+        background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue:hover{
+        background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:170px !important;
+        height:170px !important;
+        background-position: center;
+    }
+    .thumbnail-nav{
+        overflow: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        max-width: 300px;
+        display: -webkit-box;
+    }
+    .usb{
+        width:600px !important;
+    }
+    .anima_capture{
+        position: relative !important;
+    }
+    .anima_safeguarded{
+        position: relative !important;
+        width:100% !important;
+        text-align: center !important;
+        margin:0 !important;
+    }
+    .anima_safeandsound{
+        position: relative !important;
+        padding:0 !important;
+    }
+    .anima_allwithin{
+        position: relative !important;
+        padding:0 !important;
+        margin-top:30% !important;
+    }
+}
+@media only screen and (min-width:1200px){
+    .ul-product{
+        width:12% !important;
+        margin-left:10% !important;
+    }
+    .banner-first{
+        margin-top:5% !important;
+    }
+    .section1_text_line1{
+        font-size:40px !important;
+    }
+    .section1_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+    }
+    .section2_text_line1{
+        font-size:40px !important;
+    }
+    .section2_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+    }
+    .section3_text_line1{
+        font-size:40px !important;
+    }
+    .section3_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+    }
+    .section4_text_line1{
+        font-size:40px !important;
+    }
+    .section4_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+    }
+    .section5_text_line1{
+        font-size:40px !important;
+    }
+    .section5_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+    }
+    .section6_text_line1{
+        font-size:40px !important;
+        color:black !important;
+    }
+    .section6_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+    }
+    .section7_text_line1{
+        font-size:40px !important;
+        color:black !important;
+        line-height: 15px !important;
+        margin-top:20% !important;
+        
+    }
+    .section7_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        color:black !important;
+        position: relative !important;
+        width:100% !important;
+        
+    }
+    .section8_text_line1{
+        font-size:40px !important;
+        color:black !important;
+        
+    }
+    .section8_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        
+    }
+    .section9_text_line1{
+        font-size:40px !important;
+        color:black !important;
+        
+    }
+    .section9_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        
+    }
+    .section10_text_line1{
+        font-size:40px !important;
+        
+    }
+    .section10_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        
+    }
+    .section11_text_line1{
+        font-size:40px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section11_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line1{
+        font-size:40px !important;
+        width: 100% !important;
+        padding:0 0 0 10% !important;
+        text-align: left !important;
+        
+    }
+    .section12_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        text-align: left !important;
+        
+    }
+    .section13_text_line1{
+        font-size:40px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section13_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line1{
+        margin-top:10% !important;
+        font-size:40px !important;
+        width: 100% !important;
+        text-align: center !important;
+        
+    }
+    .section14_text_line2{
+        font-size:18px !important;
+        padding:0 10%!important;
+        text-align: center !important;
+        
+    }
+    .ip68{
+        font-size: 200px !important;
+    bottom: 800px !important;
+    left:120px !important;
+    }
+    .remark{
+        font-size:10px !important;
+    }
+    ul{
+        padding-left:0 !important;
+    }
+    figcaption{
+        font-size:15px !important;
+    }
+    figure.a5_show.black{
+        background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show:hover{
+        background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold{
+        background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.gold:hover{
+        background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud{
+        background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.cloud:hover{
+        background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue{
+        background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    figure.a5_show.blue:hover{
+        background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:250px !important;
+        height:250px !important;
+        background-position: center;
+    }
+    .thumbnail-nav{
+        overflow: hidden;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        max-width: 300px;
+        display: -webkit-box;
+    }
+    .usb{
+        width:800px !important;
+    }
+    .anima_capture{
+        position: inherit !important;
+    }
+    .anima_safeguarded{
+        position: relative !important;
+        width:100% !important;
+        text-align: center !important;
+        margin:0 !important;
+    }
+    .anima_safeandsound{
+        position: relative !important;
+        padding:0 !important;
+    }
+    .anima_allwithin{
+        position: relative !important;
+        padding:0 !important;
+        margin-top:30% !important;
+    }
+}
+.py-4{
+    visibility: hidden !important; 
+}
+.content-block{
+    position: absolute;
+    top: calc((100% - 140px) / 2);
+    margin-left: 7%;
+}
+figure{
+    margin-bottom:0;
+}
+.block-content-banner2{
+    position: absolute;
+    top:10%;
+    margin: auto;
+    left:0;
+    right:0;
+    text-align: center;
+
+}
+#finger{
+    cursor: pointer;
+}
+#face{
+    cursor: pointer;
+}
+figure.a5_show.black{
+    background: url('/images/samsung/galaxy-a5/a5_black.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show:hover{
+    background: url('/images/samsung/galaxy-a5/a5_black_hover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.gold{
+    background: url('/images/samsung/galaxy-a5/a5_gold.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.gold:hover{
+    background: url('/images/samsung/galaxy-a5/a5_gold_hover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.cloud{
+    background: url('/images/samsung/galaxy-a5/a5_cloud.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.cloud:hover{
+    background: url('/images/samsung/galaxy-a5/a5_cloud_hover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.blue{
+    background: url('/images/samsung/galaxy-a5/a5_blue.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+figure.a5_show.blue:hover{
+    background: url('/images/samsung/galaxy-a5/a5_blue_hover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:400px;
+    background-position: center;
+}
+.thumbnail-nav{
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    max-width: 1024px;
+    display: -webkit-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    
+    border-radius: 10px;
+  }
+  .thumbnail-nav > figure >img{
+      cursor:pointer;
+  }
+  

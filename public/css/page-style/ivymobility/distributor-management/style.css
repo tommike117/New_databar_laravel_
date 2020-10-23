@@ -1,0 +1,831 @@
+.content {
+    padding: 0 10%;
+  }
+
+  .text-green {
+    color: rgb(54, 176, 54);
+  }
+
+  .text-grey {
+    color: #8f8f8f
+  }
+
+  .font-weight-3 {
+    font-weight: 300 !important;
+  }
+
+  .font-13 {
+    font-size: 13px;
+  }
+
+  .font-weight-6 {
+    font-weight: 600 !important;
+  }
+
+  .margin-auto-20 {
+    margin: 20px auto;
+  }
+
+  .fa-check {
+    color: white;
+    background: rgb(54, 176, 54);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .fa-check::before {
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    top: 2px;
+  }
+
+  .head_conter {
+    margin: 20px auto;
+  }
+
+  .background-text {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .banner_image {
+    background-image: url('../../../../images/ivymobility/distributor-management/banner_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .block_percentage {
+    border: 1px solid #eee;
+    padding: 0 20px;
+  }
+
+  .flex {
+    align-items: center;
+    display: flex;
+    flex: 1 1 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .background-text>h1 {
+    font-size: 3.5em;
+    margin:auto;
+  }
+
+  figcaption {
+    margin: 20px auto;
+    font-weight: 400;
+
+  }
+
+  .circle-yes {
+    margin: 20px auto;
+  }
+
+  .block_icon {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    margin: 0px;
+    flex-direction: column
+  }
+
+  @media (max-width: 575.98px) {
+    .my_span_text_small {
+      font-size: 12px;
+      font-weight: 300;
+      margin: 15px auto;
+    }
+
+    .banner_image {
+      background-image: url('../../../../images/ivymobility/distributor-management/banner_image.jpg');
+      background-attachment: none;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 250px;
+      box-shadow: none;
+    }
+
+    .block_percentage {
+      max-width: 50%;
+      margin: 50px auto;
+      flex: 0 0 50%;
+    }
+
+    .block_percentage>.slide {
+      position: relative;
+      top: 6px;
+    }
+
+    .margin-from-navbar {
+      margin-top: 25px;
+    }
+
+    .small_background_text {
+      font-size: 12px;
+      margin: 10px auto;
+    }
+
+    h1 {
+      position: relative;
+      top: 5px;
+      font-size: 20px !important;
+    }
+
+    .background-text {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: calc((100% - 100px) / 2);
+    }
+
+    .small {
+      font-size: 13px;
+    }
+
+    .flex>.image_banner {
+      padding: 0;
+    }
+
+    .flex-row-reverse>.image_banner {
+      padding: 0;
+    }
+
+    .flex {
+      margin: 30px auto;
+      flex-direction: column;
+    }
+
+    .flex-row-reverse {
+      flex-direction: column !important;
+    }
+
+    .banner_1>img,
+    .banner_2>img,
+    .banner_3>img,
+    .banner_4>img,
+    .banner_5>img,
+    .banner_6>img,
+    .banner_7>img {
+      width: 250px;
+      margin: auto;
+    }
+
+
+    .content_banner_1 {
+      padding: 0 40px;
+      margin: 30px auto;
+    }
+
+    .content_banner_1 label {
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    .content_banner_1 p {
+      margin: 15px auto;
+    }
+
+    .circle-yes {
+      font-size: 70px;
+    }
+
+    .block_1,
+    .block_2,
+    .block_3,
+    .block_4,
+    .block_5,
+    .block_6 {
+      max-width: 100%;
+      padding: 0 100px;
+    }
+
+    .block_6 {
+      margin-bottom: 80px;
+    }
+
+    figcaption {
+      text-align: center;
+      display: flex;
+      height: auto;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+
+    .my_small_text {
+      font-size: 12px;
+      word-break: break-all;
+    }
+
+    .circle-yes {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      align-items: center;
+        justify-content: center;
+        display: flex;
+
+
+    }
+
+    .circle-yes:before {
+      position: relative;
+      top: 25px;
+    }
+   .last_row{
+     margin-bottom:50px;
+   }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .my_span_text_small{
+      font-size:12px;
+    }
+    .margin-from-navbar {
+      margin-top: 25px;
+    }
+
+    .block_percentage {
+      max-width: 50%;
+      margin: 50px auto;
+      flex: 0 0 50%;
+    }
+
+    .block_percentage>.slide {
+      position: relative;
+      top: 6px;
+    }
+
+    .banner_image {
+      background-image: url('../../../../images/ivymobility/distributor-management/banner_image.jpg');
+      background-attachment: none;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 250px;
+      box-shadow: none;
+    }
+
+    .background-text {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: calc((100% - 150px) / 2);
+    }
+
+    .small {
+      font-size: 13px;
+    }
+    .small_background_text {
+      font-size: 12px;
+      margin: 10px auto;
+    }
+
+    h1 {
+      position: relative;
+      top: 5px;
+      font-size: 20px !important;
+    }
+
+
+    .flex>.image_banner {
+      padding: 0;
+    }
+
+    .flex-row-reverse>.image_banner {
+      padding: 0;
+    }
+
+    .flex {
+      margin: 30px auto;
+      flex-direction: column;
+    }
+
+    .flex-row-reverse {
+      flex-direction: column !important;
+    }
+
+    .banner_1>img,
+    .banner_2>img,
+    .banner_3>img,
+    .banner_4>img,
+    .banner_5>img,
+    .banner_6>img,
+    .banner_7>img {
+      width: 250px;
+      margin: auto;
+    }
+
+
+    .content_banner_1 {
+      padding: 0 50px;
+      margin: 30px auto;
+    }
+
+    .content_banner_1 label {
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    .content_banner_1 p {
+      margin: 15px auto;
+    }
+
+    .circle-yes {
+      font-size: 70px;
+    }
+
+    .block_1,
+    .block_2,
+    .block_3,
+    .block_4,
+    .block_5,
+    .block_6 {
+      max-width: 100%;
+      padding: 0 100px;
+    }
+
+    figcaption {
+      text-align: center;
+      display: flex;
+      height: auto;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+
+    .my_small_text {
+      font-size: 12px;
+    }
+
+    .circle-yes {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .circle-yes:before {
+      position: relative;
+      top: 25px;
+    }
+    .last_row{
+      margin-bottom:50px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .block_percentage>.slide {
+      position: relative;
+      top: 6px;
+    }
+
+    .block_percentage {
+      max-width: 50%;
+      margin: 50px auto;
+      flex: 0 0 50%;
+    }
+
+    .justify-content-center>.row {
+      flex-direction: column;
+    }
+
+    .margin-from-navbar {
+      margin-top: 25px;
+    }
+
+    h1 {
+      font-size: 25px !important;
+    }
+
+    .banner_image {
+      background-image: url('../../../../images/ivymobility/distributor-management/banner_image.jpg');
+      background-attachment: none;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 300px;
+      box-shadow: none;
+    }
+    .small_background_text {
+      font-size: 12px;
+      margin: 10px auto;
+    }
+
+    .background-text {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: calc((100% - 150px) / 2);
+    }
+
+    .small {
+      font-size: 13px;
+    }
+
+    .flex>.image_banner {
+      padding: 0;
+    }
+
+    .flex-row-reverse>.image_banner {
+      padding: 0;
+    }
+
+    .flex {
+      margin: 30px auto;
+      flex-direction: column;
+    }
+
+    .flex-row-reverse {
+      flex-direction: column !important;
+    }
+
+    .banner_1>img,
+    .banner_2>img,
+    .banner_3>img,
+    .banner_4>img,
+    .banner_5>img,
+    .banner_6>img,
+    .banner_7>img {
+      width: 250px;
+      margin: auto;
+    }
+
+
+    .content_banner_1 {
+      padding: 0 50px;
+      margin: 30px auto;
+    }
+
+    .content_banner_1 label {
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    .content_banner_1 p {
+      margin: 15px auto;
+    }
+
+    .circle-yes {
+      font-size: 70px;
+    }
+
+    .block_1,
+    .block_2,
+    .block_3,
+    .block_4,
+    .block_5,
+    .block_6 {
+      max-width: 100%;
+      padding: 0 100px;
+    }
+
+    figcaption {
+      text-align: center;
+      display: flex;
+      height: auto;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+
+    .my_small_text {
+      font-size: 12px;
+    }
+
+    .circle-yes {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .circle-yes:before {
+      position: relative;
+      top: 25px;
+    }
+    .my_span_text_small{
+      font-size:12px;
+    }
+    .last_row{
+      margin-bottom:50px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .justify-content-center>.row {
+      flex-direction: column;
+    }
+
+    .block_percentage {
+      max-width: inherit;
+      margin: 10px;
+      flex: inherit;
+
+    }
+
+    .block_percentage>.slide {
+      position: relative;
+      top: 6px;
+    }
+
+    .block_percentage:first-of-type {
+      margin-left: 80px;
+    }
+
+    .margin-from-navbar {
+      margin-top: 25px;
+    }
+
+    .small_background_text {
+      font-size: 12px;
+      margin: 10px auto;
+    }
+
+    h1 {
+      position: relative;
+      top: 5px;
+      font-size: 25px !important;
+    }
+
+    .banner_image {
+      background-image: url('../../../../images/ivymobility/distributor-management/banner_image.jpg');
+      background-attachment: none;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 300px;
+      box-shadow: none;
+    }
+
+
+    .background-text {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: calc((100% - 150px) / 2);
+    }
+
+    .small {
+      font-size: 13px;
+    }
+
+    .flex>.image_banner {
+      padding: 0;
+    }
+
+    .flex-row-reverse>.image_banner {
+      padding: 0;
+    }
+
+    .flex {
+      margin: 30px auto;
+      flex-direction: column;
+    }
+
+    .flex-row-reverse {
+      flex-direction: column !important;
+    }
+
+    .banner_1>img,
+    .banner_2>img,
+    .banner_3>img,
+    .banner_4>img,
+    .banner_5>img,
+    .banner_6>img,
+    .banner_7>img {
+      width: 250px;
+      margin: auto;
+    }
+
+
+    .content_banner_1 {
+      padding: 0 50px;
+      margin: 30px auto;
+    }
+
+    .content_banner_1 label {
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    .content_banner_1 p {
+      margin: 15px auto;
+    }
+
+    .circle-yes {
+      font-size: 70px;
+    }
+
+    .block_1,
+    .block_2,
+    .block_3,
+    .block_4,
+    .block_5,
+    .block_6 {
+      max-width: 100%;
+      padding: 0 100px;
+    }
+
+    figcaption {
+      text-align: center;
+      display: flex;
+      height: auto;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+
+    .my_small_text {
+      font-size: 12px;
+      word-break: break-word;
+    }
+
+    .circle-yes {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .circle-yes:before {
+      position: relative;
+      top: 25px;
+    }
+  }
+
+  @media only screen and (min-width:1200px) {
+    .percent {
+      font-size: 50px;
+      margin-left: 10px;
+      font-weight: 300;
+    }
+
+    .block_percentage {
+      width: 300px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 20px;
+    }
+
+    .block_percentage:first-of-type {
+      margin-left: 260px;
+    }
+
+    .count {
+      font-size: 50px;
+      font-weight: 300;
+    }
+
+    .count_2 {
+      font-size: 50px;
+      font-weight: 300;
+    }
+
+    .my_span_text_small {
+      font-size: 14px;
+      font-weight: 300;
+      margin: 15px auto;
+    }
+
+    .banner_image {
+      background-attachment: fixed;
+      background-size: 100%;
+      height: 800px;
+      box-shadow: 0px 0px 200px 40px #000 inset;
+    }
+
+    .margin-from-navbar {
+      margin-top: 0px;
+    }
+
+    .background-text {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: calc((100% - 150px) / 2);
+    }
+
+    .small_background_text {
+      font-size: 20px;
+      margin-top: 15px
+    }
+
+    .block_icon {
+      flex-direction: row;
+      margin: 50px auto;
+    }
+
+    .flex>.image_banner {
+      padding: 0 0px 0 100px;
+    }
+
+    .flex-row-reverse>.image_banner {
+      padding: 0 100px 0 0px;
+    }
+
+    .flex {
+      margin: 30px auto;
+    }
+
+    .banner_1>img {
+      width: 600px;
+      margin: auto;
+    }
+
+    .banner_2>img {
+      width: 400px;
+      margin: auto;
+    }
+
+    .content_banner_1 {
+      padding: 0 100px;
+      margin: 0px;
+    }
+
+    .content_banner_1 label {
+      font-weight: 400;
+      font-size: 25px;
+    }
+
+    .content_banner_1 p {
+      margin: 15px auto;
+    }
+
+    .circle-yes {
+      font-size: 50px;
+    }
+
+
+    .block_1,
+    .block_2,
+    .block_3,
+    .block_4,
+    .block_5,
+    .block_6 {
+      max-width: 30%;
+      padding: 0 100px;
+    }
+
+    figcaption {
+      text-align: center;
+      display: flex;
+      height: auto;
+      font-weight: bold;
+      font-size: 20px;
+      align-items: center;
+    }
+
+    .my_small_text {
+      font-size: 12px;
+      word-break: break-word;
+    }
+    .small{
+      font-size:15px;
+    }
+
+    .circle-yes {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .circle-yes:before {
+      position: relative;
+      top: 35px;
+    }
+  }

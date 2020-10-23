@@ -1,0 +1,109 @@
+
+///// Function Media Screen  ///////
+@mixin screen-xs() {
+    @media (max-width: 575.98px) {
+        @content;
+    }
+}
+
+@mixin screen-sm() {
+    @media (min-width: 576px)  {
+        @content;
+    }
+}
+
+@mixin screen-md() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin screen-lg() {
+    @media (min-width: 992px) {
+        @content;
+    }
+    
+}
+
+@mixin screen-xl() {
+    @media (min-width: 1200px)  {
+        @content;
+    }
+}
+
+//Banner Header
+.banner-header{
+    background: url('../images/dt-5k-hero.jpg') no-repeat 0 50%;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.3;
+    }
+    .banner-detail{
+        color:#fff;
+        z-index: 10;
+    }
+
+}
+
+//Why IKEY
+.why-ikey{
+    margin: 5em 0;
+}
+
+// My Style
+.section-menu-list{
+    @include screen-xs()
+    {
+        flex-direction: column;
+    }
+    @include screen-md()
+    {
+        flex-direction: row;
+    }
+    display:flex;
+    flex-wrap: wrap;
+    margin:0px;
+    padding:0px;
+    .menu-list-mg{
+        position: relative;
+        flex:1;
+        .title-menu{
+            position: absolute;
+            width: 100%;
+            top:50%;
+            left:0;
+            text-align: center;
+            color:#fff;
+            z-index: 10;
+        }
+        img{
+            width:100%;
+            height: 100%;
+        }
+
+        .overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            background: #444;
+            opacity: 0;
+            transition: .5s ease;
+        }
+        
+    }
+    .menu-list-mg:hover .overlay{
+        opacity: 0.5;
+    }
+}

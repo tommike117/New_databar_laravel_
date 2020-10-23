@@ -1,0 +1,654 @@
+
+#breadcrumb{
+    z-index:1;
+    margin:20px;
+}
+@media only screen and (min-width:320px) {
+    body{
+        overflow-x: hidden;
+    }
+    .bannner_image_s61 {
+        background-image: url('/images/Caterpillar/Cat-S61/s61_product_page_header_image.jpg');
+        background-position: top;
+        background-size: 880px 30vh;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .firstrow {
+        margin-top: 0% !important;
+        text-align: center;
+    }
+
+    .firstrow>img {
+        width: 50% !important;
+    }
+
+    .ul-product {
+        list-style-type: none;
+    }
+
+    .thumbnails {
+        right: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        font-size: 0;
+    }
+
+    .ul-product {
+        display: block;
+        width: 18%;
+    }
+
+    .li-product {
+        margin: 15px auto;
+        cursor: pointer;
+        position: relative;
+        right: 20px;
+    }
+
+    .li-product>img {
+        width: 60%;
+        border: 1px solid lightgrey;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .product-detail {
+        font-size: 13px;
+        font-weight: normal;
+        color: #7a7a7a;
+    }
+
+    .list_spec {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .title {
+        color: white;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .block_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: calc((100% - 30px) / 2);
+    }
+
+    .flex-1 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .head_text {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .content_text {
+        font-size: 13px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .bottomborder::after {
+        content: "";
+        border-bottom: 4px solid;
+        position: absolute;
+        width: 25%;
+        bottom:0;
+        left:0;
+    }
+
+    .feature_row_icon {
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+
+    .block-feature-icon {
+        align-items: baseline;
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .block-feature-icon>img {
+        width: 50%;
+        margin: auto;
+    }
+
+    figcaption {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .banner_2 {
+        background-image: url('/images/Caterpillar/Cat-S61/thermal-camera-cat-s61.jpg');
+        background-attachment:inherit;
+        height: 400px;
+        background-position: center;
+        background-size: 550px 340px;
+        background-repeat: no-repeat;
+    }
+
+    .row.banner_2>.block_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: inherit;
+    top: inherit;
+    }
+
+    .row.banner_2>.block_title > .title{
+        text-align: center;
+    }
+
+    .ul_banner2 {
+        color: white;
+        padding: 0 10%;
+    }
+
+    .li_banner2 {
+        font-size: 13px;
+    }
+
+    .product-block {
+        display: flex;
+        width: 100%;
+    }
+
+    .product-odd-row {
+        flex-direction: column;
+    }
+
+    .product-even-row {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .flex-1.product-image {
+        flex: 0 0 40%;
+        max-width: 100%
+    }
+
+    .flex-1.product-detail-flex {
+        flex: 0 0 20%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: left;
+        display: block;
+        margin:50px auto;
+    }
+
+    .product>img {
+        width: 300px;
+    }
+
+    .product-detail-head {
+        margin: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .banner_3 {
+        background: url('/images/Caterpillar/Cat-S61/banner_3.jpg');
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 2420px 550px;
+    height: 230px;
+    background-repeat: no-repeat;
+
+    }
+    .banner_3 > .block_title {
+        position: inherit;
+        top: inherit;
+        justify-content: center;
+    }
+    .product-even-row > .flex-1.product-detail-flex{
+        margin-top:0;
+    }
+}
+@media only screen and (min-width:500px){
+    .bannner_image_s61 {
+        background-image: url('/images/Caterpillar/Cat-S61/s61_product_page_header_image.jpg');
+        background-position: top;
+        background-size: 880px 30vh;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .firstrow {
+        margin-top: 0% !important;
+        text-align: center;
+    }
+
+    .firstrow>img {
+        width: 40% !important;
+    }
+
+    .ul-product {
+        list-style-type: none;
+    }
+
+    .thumbnails {
+        right: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        font-size: 0;
+    }
+
+    .ul-product {
+        display: block;
+        width: 18%;
+    }
+
+    .li-product {
+        margin: 15px auto;
+        cursor: pointer;
+        position: relative;
+        right: 20px;
+    }
+
+    .li-product>img {
+        width: 60%;
+        border: 1px solid lightgrey;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .product-detail {
+        font-size: 13px;
+        font-weight: normal;
+        color: #7a7a7a;
+    }
+
+    .list_spec {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .title {
+        color: white;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .block_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: calc((100% - 30px) / 2);
+    }
+
+    .flex-1 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .head_text {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        width:100%;
+    }
+
+    .content_text {
+        font-size: 13px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .bottomborder::after {
+        content: "";
+        border-bottom: 4px solid;
+        position: absolute;
+        width: 25%;
+        bottom:0;
+        left:0;
+    }
+
+    .feature_row_icon {
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+
+    .block-feature-icon {
+        align-items: baseline;
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .block-feature-icon>img {
+        width: 50%;
+        margin: auto;
+    }
+
+    figcaption {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .banner_2 {
+        background-image: url('/images/Caterpillar/Cat-S61/thermal-camera-cat-s61.jpg');
+        background-attachment:inherit;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .row.banner_2>.block_title {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        position: inherit;
+    top: inherit;
+    }
+
+    .row.banner_2>.block_title > .title{
+        text-align: center;
+        padding-left:10%;
+    }
+
+    .ul_banner2 {
+        color: white;
+        padding: 0 10%;
+    }
+
+    .li_banner2 {
+        font-size: 13px;
+    }
+
+    .product-block {
+        display: flex;
+        width: 100%;
+    }
+
+    .product-odd-row {
+        flex-direction: column;
+    }
+
+    .product-even-row {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .flex-1.product-image {
+        flex: 0 0 40%;
+        max-width: 100%
+    }
+
+    .flex-1.product-detail-flex {
+        flex: 0 0 20%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: left;
+        display: block;
+        margin:50px auto;
+    }
+
+    .product>img {
+        width: 500px;
+    }
+
+    .product-detail-head {
+        margin: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .banner_3 {
+        background: url('/images/Caterpillar/Cat-S61/banner_3.jpg');
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 2420px 550px;
+    height: 230px;
+    background-repeat: no-repeat;
+
+    }
+    .banner_3 > .block_title {
+        position: inherit;
+        top: inherit;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .banner_3 > .block_title > .title{
+        padding-left:10%;
+    }
+    .product-even-row > .flex-1.product-detail-flex{
+        margin-top:0;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .row.banner_2>.block_title > .title{
+        text-align: left;
+    }
+    .bannner_image_s61 {
+        background-image: url('/images/Caterpillar/Cat-S61/s61_product_page_header_image.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .firstrow {
+        margin-top: 0% !important;
+        text-align: center;
+    }
+
+    .firstrow>img {
+        width: 40% !important;
+    }
+
+    .ul-product {
+        list-style-type: none;
+    }
+
+    .thumbnails {
+        right: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        font-size: 0;
+    }
+
+    .ul-product {
+        display: block;
+        width: 18%;
+    }
+
+    .li-product {
+        margin: 15px auto;
+        cursor: pointer;
+        position: relative;
+        right: 20px;
+    }
+
+    .li-product>img {
+        width: 60%;
+        border: 1px solid lightgrey;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .product-detail {
+        font-size: 13px;
+        font-weight: normal;
+        color: #7a7a7a;
+    }
+
+    .list_spec {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .title {
+        color: white;
+        font-size: 50px;
+        padding-left: 50px;
+    }
+
+    .block_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: calc((100% - 200px) / 2);
+    }
+
+    .flex-1 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .head_text {
+        font-size: 50px;
+        font-weight: bold;
+        padding: 0 10% 0 0;
+        text-align: left;
+    }
+
+    .content_text {
+        font-size: 15px;
+        padding: 0 20% 0 0;
+        text-align: left;
+    }
+
+    .bottomborder::after {
+        content: "";
+        border-bottom: 4px solid;
+        position: absolute;
+        width: 25%;
+        bottom:0;
+        left:0;
+    }
+
+    .feature_row_icon {
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+
+    .block-feature-icon {
+        align-items: baseline;
+        display: flex;
+        flex: 0 0 20%;
+        max-width: 20%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .block-feature-icon>img {
+        width: 100%;
+        margin: auto;
+    }
+
+    figcaption {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .banner_2 {
+        background-image: url('/images/Caterpillar/Cat-S61/thermal-camera-cat-s61.jpg');
+        background-attachment: fixed;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .ul_banner2 {
+        color: white;
+        padding: 0 10%;
+    }
+
+    .li_banner2 {
+        font-size: 13px;
+    }
+
+    .product-block {
+        display: flex;
+        width: 100%;
+    }
+
+    .product-odd-row {
+        flex-direction: row;
+    }
+
+    .product-even-row {
+        flex-direction: row-reverse;
+        padding-left: 14%;
+    }
+
+    .flex-1.product-image {
+        flex: 0 0 40%;
+        max-width: 100%
+    }
+
+    .flex-1.product-detail-flex {
+        flex: 0 0 60%;
+        max-width: 60%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: left;
+    }
+
+    .product>img {
+        width: 500px;
+    }
+
+    .product-detail-head {
+        margin: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .banner_3 {
+        background: url('/images/Caterpillar/Cat-S61/banner_3.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+
+    }
+}
