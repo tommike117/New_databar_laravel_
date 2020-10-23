@@ -1,0 +1,92 @@
+@media screen and (min-width: 992px){
+
+    .btn-banner{
+        width: 105px;
+        height: 28px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .button-head{
+        margin-left: 0 !important;
+    }
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+
+    .bg-footer {
+        width: 90% !important;
+        height: 190px !important;
+        margin-left: 61px !important;
+        border-radius: 40px 40px 0 0 !important;
+        margin-top: 5% !important;
+    }
+
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+
+    .btn-banner{
+        width: 116px;
+        height: 29px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+    }
+
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 598px){
+
+    .btn-banner{
+        width: 82px;
+        height: 26px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        transition: 0.4s;
+    }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #707070;
+    }
+
+    .bg-footer {
+        width: 90% !important;
+        margin-left: 32px !important;
+        border-radius: 20px 20px 0 0 !important;
+        margin-top: 5%;
+    }
+}
