@@ -1,17 +1,51 @@
 @media screen and (min-width: 992px){
+    .tab-mobile-only{
+        display: none;
+    }
+    .flex-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
 
+    }
+    .flex-6{
+        flex: 1 0 50%;
+        max-width: 50%;
+        text-align: right;
+        font-size: 14px;
+    }
+    .flex-text{
+        margin-top: 15%;
+        padding: 0 5%;
+    }
+    .flex-text h2{
+        color: #3399ff;
+        font-weight: 600;
+    }
+
+    .sec-3 .flex-text{
+        margin-top: 7%;
+        padding: 0 5%;
+    }
+    .sec-5 .flex-text img{
+        padding-left: 50%;
+    }
+    .sec-5 .flex-text{
+        margin-top: 5%;
+        padding: 0 5%;
+    }
     .btn-banner{
-        width: 105px;
-        height: 28px;
+        width: 146px;
+        height: 41px;
         border-radius: 25px;
         border: none;
         background-color: #3399ff;
         color: white;
-        font-size: 11px;
+        font-size: 18px;
         font-weight: 500;
         letter-spacing: 0.5px;
         margin-top: 2%;
-        margin-left: 10%;
+        margin-right: 2.5%;
     }
     .btn-banner:hover{
         background-color: #d8d8d86b;
@@ -22,7 +56,52 @@
     }
 }
 @media screen and (min-width: 784px) and (max-width: 991px){
+    .desktop-only{
+        display: none;
+    }
 
+    .sec-2{
+        width: 100%;
+        height: 1280px;
+    }
+    .bg-sec-2{
+        background-image: url("/images/new-website/products/xciel/X_750-02.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        height: 100%;
+    }
+    .flex-text{
+        text-align: right;
+        padding: 15% 7% 0% 26%;
+    }
+    .flex-text h2{
+        font-size: 5.5vw;
+    }
+    .flex-text p {
+        font-size: 2.9vw;
+    }
+
+    .btn-banner{
+        width: 146px;
+        height: 41px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-top: 2%;
+        margin-right: 2.5%;
+    }
+    .btn-banner:hover{
+        background-color: #d8d8d86b;
+        color: #4d4d4d;
+    }
+    .button-head{
+        margin-left: 0 !important;
+    }
     .bg-footer {
         width: 90% !important;
         height: 190px !important;
@@ -33,6 +112,30 @@
 
 }
 @media screen and (min-width: 599px) and (max-width: 783px){
+    .desktop-only{
+        display: none;
+    }
+    .sec-2{
+        width: 100%;
+        height: 1100px;
+    }
+    .bg-sec-2{
+        background-image: url("/images/new-website/products/xciel/X_750-02.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        height: 100%;
+    }
+    .flex-text{
+        text-align: right;
+        padding: 15% 7% 0% 20%;
+    }
+    .flex-text h2{
+        font-size: 5.5vw;
+    }
+    .flex-text p {
+        font-size: 2.9vw;
+    }
 
     .btn-banner{
         width: 116px;
@@ -62,6 +165,30 @@
     }
 }
 @media screen and (max-width: 598px){
+    .desktop-only{
+        display: none;
+    }
+    .sec-2{
+        width: 100%;
+        height: 750px;
+    }
+    .bg-sec-2{
+        background-image: url("/images/new-website/products/xciel/X_750-02.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        height: 100%;
+    }
+    .flex-text{
+        text-align: right;
+        padding: 15% 7% 0% 26%;
+    }
+    .flex-text h2{
+        font-size: 5.5vw;
+    }
+    .flex-text p {
+        font-size: 2.9vw;
+    }
 
     .btn-banner{
         width: 82px;
