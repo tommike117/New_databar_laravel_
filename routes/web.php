@@ -267,6 +267,11 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/unitech/enterprise-tablet');
         });
     });
+    Route::group(['prefix' => '/wandera'], function () {
+        Route::get('/', function () {
+            return view('/pages/products/wandera/index');
+        });
+    });
 });
 
 

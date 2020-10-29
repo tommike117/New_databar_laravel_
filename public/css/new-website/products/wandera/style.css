@@ -1,0 +1,2572 @@
+@media screen and (min-width: 992px){
+    .mobile-tab-only{
+        display: none;
+    }
+    .section-1 {
+        height: 100%;
+        width: auto;
+    }
+    .section-2{
+        height: 100vh;
+        width: 100%;
+    }
+    .bg-2{
+        background-image: url("/images/new-website/products/wandera/1920-02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .text-2{
+        text-align:end;
+        padding: 8% 7% 0 50%;
+    }
+    .text-2 > h2{
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-2 > p {
+        font-family: quicksand;
+        font-size: 1.2vw;
+        line-height: 1.5;
+        color: #707070;
+        margin: 0;
+    }
+    .text-2 > p2{
+        font-family: quicksand;
+        font-size: 0.9vw;
+        line-height: 1.5;
+        color: #707070;
+    }
+    .flex-6{
+        height: auto;
+        max-width: 65%;
+        flex: 0 0 65%;
+    }
+    .flex-6 > figure > img{
+        width: 95%;
+        height: 91vh;
+        padding: 110px 0 0 100px;
+    }
+    .text-section-2{
+        padding-top: 80px;
+        text-align: end;
+        padding-right: 7%;
+    }
+    .text-section-2 > h2{
+        font-size: 3vw;
+        font-weight: 600;
+        color: #4d4d4d;
+        padding-left: 14%;
+    }
+    .text-section-2 > p {
+        color: #9e9d9d;
+        font-size: 1vw;
+        font-weight: 200;
+    }
+    .text-section-2 > p2 {
+        color: #9e9d9d;
+        font-size: 0.74vw;
+        font-weight: 400;
+        padding-left: 4%;
+
+    }
+    .section-3{
+        padding-top: 10vh;
+        height: 100vh;
+        width: auto;
+    }
+
+    .text-section-3>h2{
+        font-size: 40px;
+        font-weight: 600;
+        color: #4d4d4d;
+        text-align: center;
+    }
+    .flex-text{
+        display: flex;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    .flex-text > p{
+        width: 150px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+        color: #b3b3b3 ;
+        margin: 0 30px;
+    }
+    .show:hover{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .actived{
+        color: #272626 !important;
+        text-decoration: none;
+        font-weight: 600 !important;
+
+    }
+    /* .flex-text > p:hover.actived{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+    } */
+
+    .selected-bold{
+        font-weight: 600;
+    }
+    .text-sup-3{
+        padding: 0 45px;
+    }
+    .text-sup-3 > h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #3399ff;
+    }
+    .text-sup-3 > p {
+        color: #b3b3b3;
+        font-size: 1vw;
+    }
+    .flex-3{
+        max-width:33.33333333333333% ;
+        flex: 0 0 33.33333333333333%;
+    }
+    .flex-2{
+        max-width:50% ;
+        flex: 0 0 50%;
+    }
+    .sup-text{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .build-trust{
+        display: flex;
+        padding-left: 111px;
+    }
+    .maintain-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .prove-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .make-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .show-flex{
+        display: flex ;
+        padding-left: 111px;
+
+    }
+    .flex{
+        display: flex;
+    }
+    .none{
+        display: none;
+    }
+    .section-5{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        padding: 0px 100px 0px 173px;
+    }
+    .top-padding-sec5{
+        padding-top: 50px;
+    }
+    .section-5 > figure > h2{
+        font-size: 37px;
+        font-weight: 600;
+        position: absolute;
+        top: 163px;
+        color: white;
+        right: 9%;
+        left: 51%;
+    }
+    .section-5 > figure > p{
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 247px;
+        color: white;
+        text-align: left;
+        right: 9%;
+        left: 51%;
+    }
+    .section-5 > figure > img{
+        height: 65vh;
+    }
+    .text-section-5{
+        margin-top: 35px;
+        text-align: center;
+    }
+    .text-section-5 > h2{
+        color: #4d4d4d;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text-section-5 > p {
+        color: #929191;
+        font-size: 1.15vw;
+        font-weight: 300;
+        padding: 0 50px;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .section-6{
+        height: 76vh;
+        width: 100%;
+        display: flex;
+        padding:0px 100px 0 175px;
+        text-align: center;
+    }
+    .text-section-6{
+        padding-top: 30px;
+    }
+    .text-section-6 > h2{
+        font-weight: 600;
+
+    }
+    .text-section-6 > p{
+        color: #8e8e8e;
+        padding: 0 27px;
+        font-weight: 300;
+    }
+    .text-section-6 > div> a{
+        font-size: 12px;
+    }
+    .text-section-6 > div > a:hover{
+        text-decoration: none;
+        color: #4d4d4d;
+        font-weight: 400;
+    }
+    .text-section-6 > .box-border{
+        margin: auto;
+    }
+    .box-border{
+        background-color: #00000012;
+        width: 181px;
+        height: 28px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-desktop{
+        display: flex;
+        padding: 0 40px 0 142px;
+        margin-top: 40px;
+
+    }
+    .footer-flex-icon{
+        width: 67%;
+    }
+    .footer-flex-50{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .footer-flex-50 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-50 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-50 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .footer-flex-30 > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #b3b3b3;
+        margin-left: 7px;
+    }
+    .footer-flex-20{
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+    .footer-flex-20 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-20 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-20 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-18{
+        max-width: 18%;
+        flex: 0 0 18%;
+    }
+
+    .footer-flex-6{
+        max-width: 6%;
+        flex: 0 0 6%;
+    }
+    .footer-copyright{
+        border-top: solid 1px #dedede;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 35px;
+        display: flex;
+        padding-top: 9px;
+   }
+   .footer-copyright > h2{
+        font-size: 11px;
+        margin: 0;
+        color: #b3b3b3;
+   }
+   .footer-link > a:visited{
+         color: #b3b3b3;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: end;
+        font-size: 11px;
+        color: white !important;
+        width: 74%;
+    }
+    a:hover {
+        font-weight: 800;
+        color: #2e2c2c;
+        text-decoration: none;
+      }
+      /* modal-pop-up */
+   .modal-dialog{
+    max-width: 283px !important ;
+    margin: 1.75rem auto !important;
+    margin-top: 10% !important;
+    }
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.3rem !important;
+        outline: 0;
+    }
+    .modal-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom:  0 !important;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    }
+    .modal-title{
+        margin-bottom: 0;
+        line-height: 1.6;
+        width: 100%;
+        font-weight: 600;
+    }
+    .modal-footer{
+        display: contents !important;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        border-top: 0 !important;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .modal-footer > p{
+        color: #3399ff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-home{
+        padding: 0 35px;
+    }
+    .bg-footer{
+        background-color:  #4d4d4d;
+        width: 100%;
+        height: 200px;
+        margin-left: 15px;
+    }
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin: 5px;
+    }
+
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:50%;
+        margin:auto;
+    }
+    .mobile{
+        display:none ;
+    }
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .desktop-none{
+        display: none !important;
+    }
+    .tablet{
+        display: block;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/samsung/knox/bg_phone 3new-03.jpg");
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-attachment: fixed;
+        height: auto;
+        width: 100%;
+        background-position-y: -137px;
+        background-position-x: 70px;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 100px 0px 100px;
+    }
+    .section-1 > h2{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .banner-1{
+
+    }
+    .text-banner-1{
+        color: white;
+        position: absolute;
+        top: 155px;
+        padding-left: 35px;
+    }
+    .text-banner-1 > h2{
+        font-size: 3.6vw;
+        font-weight: 600;
+    }
+    .text-banner-1 > p{
+        font-size: 1.8vw;
+        width: 79%;
+        font-weight: 600;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 17px;
+        font-weight: 300;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        padding-top: 23px;
+        position: fixed;
+        width: inherit;
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .reverse-block{
+        display: block;
+    }
+    .flex-6{
+        height: auto;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .flex-6 > figure > img{
+        width: 95%;
+        height: auto;
+        padding: 0 0 0 11%;
+    }
+    .text-section-2{
+        text-align: center;
+        padding-right: 5%;
+        padding-top: 6%;
+    }
+    .text-section-2 > h2{
+        font-size: 3.6vw;
+        font-weight: 600;
+        color: #4d4d4d;
+        padding-left: 7%;
+    }
+    .text-section-2 > p {
+        color: #9e9d9d;
+        font-size: 1.9vw;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 9% 0 15%;
+    }
+    .text-section-2 > p2 {
+        color: #9e9d9d;
+        font-size: 0.74vw;
+        font-weight: 400;
+        padding-left: 4%;
+
+    }
+    .section-3{
+        margin-top: 20px;
+        height: auto;
+        width:100%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/samsung/knox/bg_tap768px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 995px;
+        background-position-y: 50%;
+    }
+    .text-tablet-mobile{
+        color: #4d4d4dd1;
+        text-align: right;
+        padding: 0px 11% 0 22%;
+        padding-top: 8%;
+        font-size: 17px;
+
+    }
+    /* .section3-text-line1{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .section3-text-line2{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    } */
+    .section3_text_line3{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .layer1 {
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        margin: 200px auto;
+      }
+    .layer2 {
+        position: absolute;
+        z-index: 2;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer3 {
+        position: absolute;
+        z-index: 3;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer4 {
+        position: absolute;
+        z-index: 4;
+        left: 33%;
+        margin: 200px auto;
+    }
+    #image_layer4{
+        width: 130% !important;
+    }
+    #image_layer3{
+        width: 130% !important;
+    }
+    #image_layer2{
+        width: 130% !important;
+    }
+    #image_layer1{
+        width: 130% !important;
+    }
+    .layer_height{
+        padding-top:11% !important;
+        padding-left: 5%;
+    }
+    .layout-layer{
+        right: 10%;
+    }
+    [data-aos^=layer1][data-aos^=layer1] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer1][data-aos^=layer1].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(0px) !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-50px) !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-100px) !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-150px) !important;
+    }
+    .detail_layer4 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer3 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer2 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer1 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    /* .sup1{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup2{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup3 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup4:visited {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    } */
+    .fa-plus,
+    .fa-minus {
+        background-color: #3399ff;
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        transition: 0.7s;
+
+    }
+    .col_content_layer_knox{
+        padding-left: 3%;
+    }
+    .knox_layer_head {
+        font-size: 14px !important;
+        margin:20px;
+      }
+    .section-3{
+        height: auto;
+        width: 100%;
+    }
+    /* .bg-tablet-sec4{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .section4_text_line1{
+        color: #4d4d4d;
+        padding: 5% 11% 0 16% !important;
+    }
+    .section4_text_line2{
+        color: #9e9d9d;
+        font-size: 1.98vw;
+        padding: 0 11% 0 18%
+    }
+
+    .text-section-3>h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: #4d4d4d;
+        text-align: center;
+    }
+    .flex-text{
+        display: flex;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    .flex-text > p{
+        width: 150px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 8px;
+        text-align: center;
+        width: fit-content;
+    }
+    .show:hover{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .actived{
+        color: #272626 !important;
+        text-decoration: none;
+        font-weight: 600 !important;
+        border-bottom: solid 1px #4e4e4e;
+    }
+    /* .flex-text > p:hover.actived{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+    } */
+
+    .selected-bold{
+        font-weight: 600;
+    }
+    .text-sup-3{
+        padding: 0 45px;
+        padding-bottom: 8%;
+    }
+    .text-sup-3 > h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #3399ff;
+    }
+    .text-sup-3 > p {
+        color: #959191;
+        font-size: 2.1vw;
+        width: 80%;
+    }
+    .flex-3{
+        max-width:100% ;
+        flex: 0 0 100%;
+    }
+    .flex-33{
+        max-width:33.33333333333333% ;
+        flex: 0 0 33.33333333333333%;
+    }
+    .sup-text{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .build-trust{
+        padding-left: 111px;
+    }
+    .maintain-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .prove-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .make-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .show-flex{
+        padding-left: 111px;
+
+    }
+    .flex{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .section-5{
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 0px 100px 0px 130px;
+    }
+
+    .section-5 > figure > h2{
+        font-size: 27px;
+        font-weight: 600;
+        position: absolute;
+        top: 60px;
+        color: white;
+        right: 9%;
+        left: 51%;
+    }
+    .section-5 > figure > p{
+        font-size: 12px;
+        font-weight: 300;
+        position: absolute;
+        top: 100px;
+        color: white;
+        text-align: left;
+        right: 14%;
+        left: 51%;
+    }
+    .mobile-none{
+        display:none;
+    }
+    .top-padding-sec5{
+        padding-top: 8%;
+    }
+    .section-5 > figure > img{
+        height: 100%;
+        width: 100%;
+    }
+    .text-section-5{
+        padding-top: 6%;
+        text-align: center;
+    }
+    .text-section-5 > h2{
+        color: #4d4d4d;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text-section-5 > p {
+        color: #929191;
+        font-size: 2.15vw;
+        font-weight: 300;
+        padding: 0 13px;
+        text-align: left;
+    }
+    .section-6{
+        height: auto;
+        width: 100%;
+        padding:0px 100px 0 175px;
+        text-align: center;
+    }
+    /* .bg-tablet-sec6{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .resolution{
+        width: 80% !important;
+    }
+    .padding-section-6{
+        padding: 50px 0;
+    }
+    .text-section-6{
+        padding-top: 30px;
+    }
+    .text-section-6 > h2{
+        font-weight: 600;
+
+    }
+    .text-section-6 > p{
+        color: #8e8e8e;
+        padding: 0 27px;
+        font-weight: 300;
+    }
+    .text-section-6 > div> a{
+        font-size: 12px;
+    }
+    .text-section-6 > div > a:hover{
+        text-decoration: none;
+        color: #4d4d4d;
+        font-weight: 400;
+    }
+    .text-section-6 > .box-border{
+        margin: auto;
+    }
+    .box-border{
+        background-color: #00000012;
+        width: 181px;
+        height: 28px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-desktop{
+        display: flex;
+        padding: 0 40px 0 142px;
+        margin-top: 40px;
+
+    }
+    .footer-flex-icon{
+        width: 67%;
+    }
+    .footer-flex-50{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .footer-flex-50 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-50 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-50 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .footer-flex-30 > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #b3b3b3;
+        margin-left: 7px;
+    }
+    .footer-flex-20{
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+    .footer-flex-20 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-20 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-20 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-18{
+        max-width: 18%;
+        flex: 0 0 18%;
+    }
+
+    .footer-flex-6{
+        max-width: 6%;
+        flex: 0 0 6%;
+    }
+    .footer-copyright{
+        border-top: solid 1px #dedede;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 35px;
+        display: flex;
+        padding-top: 9px;
+   }
+   .footer-copyright > h2{
+        font-size: 11px;
+        margin: 0;
+        color: #b3b3b3;
+   }
+   .footer-link > a:visited{
+         color: #b3b3b3;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: end;
+        font-size: 11px;
+        color: white !important;
+        width: 74%;
+    }
+    a:hover {
+        font-weight: 800;
+        color: #2e2c2c;
+        text-decoration: none;
+      }
+      /* modal-pop-up */
+   .modal-dialog{
+    max-width: 283px !important ;
+    margin: 1.75rem auto !important;
+    margin-top: 10% !important;
+    }
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.3rem !important;
+        outline: 0;
+    }
+    .modal-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom:  0 !important;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    }
+    .modal-title{
+        margin-bottom: 0;
+        line-height: 1.6;
+        width: 100%;
+        font-weight: 600;
+    }
+    .modal-footer{
+        display: contents !important;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        border-top: 0 !important;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .modal-footer > p{
+        color: #3399ff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-home{
+        padding: 0 35px;
+    }
+    .bg-footer{
+        background-color:  #4d4d4d;
+        width: 96%;
+        height: 200px;
+        margin-left: 34px;
+    }
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin: 5px;
+    }
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:65%;
+        margin:auto;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white !important;
+        width: auto;
+    }
+    .footer-desktop-none{
+        display: none !important;
+    }
+    /* a:hover */
+    .footer-link > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .footer-link > a:link{
+        color: white;
+    }
+    .footer-link > a:visited{
+        color: white;
+    }
+
+
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .desktop-none{
+        display: none !important;
+    }
+    .tablet{
+        display: block;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/samsung/knox/bg_phone 3new-03.jpg");
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-attachment: fixed;
+        height: auto;
+        width: 100%;
+        background-position-y: -137px;
+        background-position-x: 70px;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 100px 0px 100px;
+    }
+    .section-1 > h2{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .banner-1{
+
+    }
+    .text-banner-1{
+        color: white;
+        position: absolute;
+        top: 155px;
+        padding-left: 35px;
+    }
+    .text-banner-1 > h2{
+        font-size: 3.6vw;
+        font-weight: 600;
+    }
+    .text-banner-1 > p{
+        font-size: 1.8vw;
+        width: 79%;
+        font-weight: 600;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        padding-top: 23px;
+        position: fixed;
+        width: inherit;
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .reverse-block{
+        display: block;
+    }
+    .flex-6{
+        height: auto;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .flex-6 > figure > img{
+        width: 95%;
+        height: auto;
+        padding: 0 0 0 11%;
+    }
+    .text-section-2{
+        text-align: center;
+        padding-right: 5%;
+        padding-top: 6%;
+    }
+    .text-section-2 > h2{
+        font-size: 3.6vw;
+        font-weight: 600;
+        color: #4d4d4d;
+        padding-left: 7%;
+    }
+    .text-section-2 > p {
+        color: #959191;
+        font-size: 1.9vw;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 9% 0 15%;
+    }
+    .text-section-2 > p2 {
+        color: #9e9d9d;
+        font-size: 0.74vw;
+        font-weight: 400;
+        padding-left: 4%;
+    }
+    .section-3{
+        margin-top: 20px;
+        height: auto;
+        width:100%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/samsung/knox/bg_tap768px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1200px;
+        background-position-y: 50%;
+    }
+    .text-tablet-mobile{
+        color: #959191;
+        text-align: right;
+        padding: 0px 11% 0 22%;
+        padding-top: 8%;
+        font-size: 17px;
+
+    }
+    /* .section3-text-line1{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .section3-text-line2{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    } */
+    .section3_text_line3{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .layer1 {
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        margin: 200px auto;
+      }
+    .layer2 {
+        position: absolute;
+        z-index: 2;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer3 {
+        position: absolute;
+        z-index: 3;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer4 {
+        position: absolute;
+        z-index: 4;
+        left: 33%;
+        margin: 200px auto;
+    }
+    #image_layer4{
+        width: 100% !important;
+    }
+    #image_layer3{
+        width: 100% !important;
+    }
+    #image_layer2{
+        width: 100% !important;
+    }
+    #image_layer1{
+        width: 100% !important;
+    }
+    .layer_height{
+        padding-top:2% !important;
+    }
+    .layout-layer{
+        right: 10%;
+        height: 383px
+    }
+    [data-aos^=layer1][data-aos^=layer1] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer1][data-aos^=layer1].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(0px) !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-50px) !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-100px) !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-150px) !important;
+    }
+    .detail_layer4 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer3 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer2 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer1 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    /* .sup1{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup2{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup3 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup4:visited {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    } */
+    .fa-plus,
+    .fa-minus {
+        background-color: #3399ff;
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        transition: 0.7s;
+
+    }
+    .col_content_layer_knox{
+        padding-left: 25%;
+        margin: 0 !important;
+    }
+    .knox_layer_head {
+        font-size: 14px !important;
+        margin:20px;
+      }
+    .section-3{
+        height: auto;
+        width: 100%;
+    }
+    /* .bg-tablet-sec4{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .section4_text_line1{
+        color: #4d4d4d;
+        padding: 5% 11% 0 16% !important;
+    }
+    .section4_text_line2{
+        color: #9e9d9d;
+        font-size: 1.98vw;
+        padding: 0 11% 0 18%
+    }
+
+    .text-section-3>h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: #4d4d4d;
+        text-align: center;
+    }
+    .flex-text{
+        display: flex;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    .flex-text > p{
+        width: 150px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 8px;
+        text-align: center;
+        width: fit-content;
+    }
+    .show:hover{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .actived{
+        color: #272626 !important;
+        text-decoration: none;
+        font-weight: 600 !important;
+        border-bottom: solid 1px #4e4e4e;
+    }
+    /* .flex-text > p:hover.actived{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+    } */
+
+    .selected-bold{
+        font-weight: 600;
+    }
+    .text-sup-3{
+        padding: 0 45px;
+        padding-bottom: 8%;
+    }
+    .text-sup-3 > h2 {
+        font-size: 15px;
+        font-weight: 500;
+        color: #3399ff;
+    }
+    .text-sup-3 > p {
+        color: #959191;
+        font-size: 2.5vw;
+        width: 80%;
+    }
+    .flex-3{
+        max-width:100% ;
+        flex: 0 0 100%;
+    }
+    .flex-33{
+        max-width:33.33333333333333% ;
+        flex: 0 0 33.33333333333333%;
+    }
+    .sup-text{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .build-trust{
+        padding-left: 111px;
+    }
+    .maintain-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .prove-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .make-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .show-flex{
+        padding-left: 111px;
+
+    }
+    .flex{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .section-5{
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 0px 100px 0px 130px;
+    }
+
+    .section-5 > figure > h2{
+        font-size: 27px;
+        font-weight: 600;
+        color: #4d4d4d;
+    }
+    .section-5 > figure > p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #9e9d9d;
+        text-align: left;
+    }
+    .top-padding-sec5{
+        padding-top: 8%;
+    }
+    .section-5 > figure > img{
+        height: 100%;
+        width: 110%;
+    }
+    .text-section-5{
+        padding-top: 6%;
+        text-align: center;
+    }
+    .text-section-5 > h2{
+        color: #4d4d4d;
+        font-weight: 600;
+    }
+    .text-section-5 > p {
+        color: #929191;
+        font-size: 2.15vw;
+        font-weight: 300;
+    }
+    .section-5 > figure > h2{
+        font-size: 19px;
+        font-weight: 600;
+        color: #3399ff;
+        padding-top: 7%;
+    }
+    .section-5 > figure > p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #9e9d9d;
+        text-align: left;
+    }
+
+    .mobile-none{
+        display: none !important;
+    }
+    .section-6{
+        height: auto;
+        width: 100%;
+        padding:0px 100px 0 175px;
+        text-align: center;
+    }
+    /* .bg-tablet-sec6{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .resolution{
+        width: 80% !important;
+    }
+    .padding-section-6{
+        padding: 50px 0;
+    }
+    .text-section-6{
+        padding-top: 30px;
+    }
+    .text-section-6 > h2{
+        font-weight: 600;
+
+    }
+    .text-section-6 > p{
+        color: #8e8e8e;
+        padding: 0 27px;
+        font-weight: 300;
+    }
+    .text-section-6 > div> a{
+        font-size: 12px;
+    }
+    .text-section-6 > div > a:hover{
+        text-decoration: none;
+        color: #4d4d4d;
+        font-weight: 400;
+    }
+    .text-section-6 > .box-border{
+        margin: auto;
+    }
+    .box-border{
+        background-color: #00000012;
+        width: 181px;
+        height: 28px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-desktop{
+        display: flex;
+        padding: 0 40px 0 142px;
+        margin-top: 40px;
+
+    }
+    .footer-flex-icon{
+        width: 67%;
+    }
+    .footer-flex-50{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .footer-flex-50 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-50 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-50 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .footer-flex-30 > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #b3b3b3;
+        margin-left: 7px;
+    }
+    .footer-flex-20{
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+    .footer-flex-20 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-20 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-20 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-18{
+        max-width: 18%;
+        flex: 0 0 18%;
+    }
+
+    .footer-flex-6{
+        max-width: 6%;
+        flex: 0 0 6%;
+    }
+    .footer-copyright{
+        border-top: solid 1px #dedede;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 35px;
+        display: flex;
+        padding-top: 9px;
+   }
+   .footer-copyright > h2{
+        font-size: 11px;
+        margin: 0;
+        color: #b3b3b3;
+   }
+   .footer-link > a:visited{
+         color: #b3b3b3;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: end;
+        font-size: 11px;
+        color: white !important;
+        width: 74%;
+    }
+    a:hover {
+        font-weight: 800;
+        color: #2e2c2c;
+        text-decoration: none;
+      }
+      /* modal-pop-up */
+   .modal-dialog{
+    max-width: 283px !important ;
+    margin: 1.75rem auto !important;
+    margin-top: 10% !important;
+    }
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.3rem !important;
+        outline: 0;
+    }
+    .modal-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom:  0 !important;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    }
+    .modal-title{
+        margin-bottom: 0;
+        line-height: 1.6;
+        width: 100%;
+        font-weight: 600;
+    }
+    .modal-footer{
+        display: contents !important;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        border-top: 0 !important;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .modal-footer > p{
+        color: #3399ff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-home{
+        padding: 0 35px;
+    }
+    .bg-footer{
+        background-color: #4d4d4d;
+        width: 92%;
+        height: 153px;
+        margin-left: 41px;
+    }
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin: 5px;
+    }
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:55%;
+        margin:auto;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+        color: white !important;
+        width: auto;
+    }
+    .footer-desktop-none{
+        display: none !important;
+    }
+    /* a:hover */
+    .footer-link > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .footer-link > a:link{
+        color: white;
+    }
+    .footer-link > a:visited{
+        color: white;
+    }
+
+
+}
+@media screen and (max-width: 598px){
+    .desktop-none{
+        display: none !important;
+    }
+    .tablet{
+        display: block;
+    }
+    .bg-section-1{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: auto;
+        width: 100%;
+        background-position-y: -137px;
+        background-position-x: 30px;
+    }
+    .section-1{
+        height: auto;
+        width: 100%;
+        padding: 55px 30px 0px 30px;
+    }
+    .section-1 > h2{
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 600;
+        color: #3399ff;
+        text-align: center;
+    }
+    .section-1 > figure > img{
+        height: auto;
+        padding-top: 13px;
+    }
+    .banner-1{
+
+    }
+    .text-banner-1{
+        color: white;
+        position: absolute;
+        top: 130px;
+        padding-left: 27px;
+    }
+    .text-banner-1 > h2{
+        font-size: 3.9vw;
+        font-weight: 600;
+    }
+    .text-banner-1 > p{
+        font-size: 2.3vw;
+        width: 70%;
+        font-weight: 600;
+    }
+    .text-all-samsung{
+        font-family: poppins;
+        font-size: 11px;
+        font-weight: 300;
+        color: #4d4d4d;
+        display: flex;
+        justify-content: center;
+        padding-top: 23px;
+        position: fixed;
+        width: inherit;
+    }
+    .text-all-samsung > a {
+        color: #4d4d4d ;
+        transition: 0.2s;
+    }
+    .text-all-samsung > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .text-all-samsung > p {
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .reverse-block{
+        display: block;
+    }
+    .flex-6{
+        height: auto;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .flex-6 > figure > img{
+        width: 95%;
+        height: auto;
+        padding: 0 0 0 11%;
+    }
+    .text-section-2{
+        text-align: center;
+        padding-right: 5%;
+        padding-top: 6%;
+    }
+    .text-section-2 > h2{
+        font-size: 3.9vw;
+        font-weight: 600;
+        color: #4d4d4d;
+        padding-left: 7%;
+    }
+    .text-section-2 > p {
+        color: #9e9d9d;
+        font-size: 1.9vw;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 9% 0 15%;
+    }
+    .text-section-2 > p2 {
+        color: #9e9d9d;
+        font-size: 0.74vw;
+        font-weight: 400;
+        padding-left: 4%;
+    }
+    .section-3{
+        margin-top: 20px;
+        height: auto;
+        width:100%;
+    }
+    .bg-section-3{
+        background-image: url("/images/new-website/products/samsung/knox/bg_tap768px-04.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 825px;
+        background-position-y: 50%;
+    }
+    .text-tablet-mobile{
+        color: #9e9d9d;
+        text-align: right;
+        padding: 0px 11% 0 22%;
+        padding-top: 5%;
+        font-size: 11px;
+    }
+
+    /* .section3-text-line1{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .section3-text-line2{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    } */
+    .section3_text_line3{
+        color: #9e9d9d;
+        font-size: 0.98vw;
+        padding: 0 20%;
+    }
+    .layer1 {
+        position: absolute;
+        z-index: 1;
+        left: 33%;
+        margin: 200px auto;
+      }
+    .layer2 {
+        position: absolute;
+        z-index: 2;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer3 {
+        position: absolute;
+        z-index: 3;
+        left: 33%;
+        margin: 200px auto;
+    }
+    .layer4 {
+        position: absolute;
+        z-index: 4;
+        left: 33%;
+        margin: 200px auto;
+    }
+    #image_layer4{
+        width: 100% !important;
+    }
+    #image_layer3{
+        width: 100% !important;
+    }
+    #image_layer2{
+        width: 100% !important;
+    }
+    #image_layer1{
+        width: 100% !important;
+    }
+    .layer_height{
+        padding-top:5% !important;
+    }
+    .layout-layer{
+        right: 10%;
+        height: 315px
+    }
+    [data-aos^=layer1][data-aos^=layer1] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer1][data-aos^=layer1].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(0px) !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer2][data-aos^=layer2].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-50px) !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer3][data-aos^=layer3].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-100px) !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4] {
+        opacity: 1 !important;
+        transition-property: opacity, transform !important;
+    }
+    [data-aos^=layer4][data-aos^=layer4].aos-animate {
+        opacity: 1 !important;
+        transform: translateY(-150px) !important;
+    }
+    .detail_layer4 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer3 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer2 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    .detail_layer1 {
+        font-size: 11px;
+        color: #9e9d9d;
+        padding: 0 20% 0 5%;
+        display: none;
+    }
+    /* .sup1{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup2{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup3 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    }
+    .sup4:visited {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        transition: 0.5s;
+    } */
+    .fa-plus,
+    .fa-minus {
+        background-color: #3399ff;
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        transition: 0.7s;
+
+    }
+    .col_content_layer_knox{
+        padding-left: 12%;
+        margin: 0 !important;
+
+    }
+    .knox_layer_head {
+        font-size: 10px !important;
+        margin:7px;
+      }
+    .section-3{
+        height: auto;
+        width: 100%;
+    }
+    /* .bg-tablet-sec4{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .section4_text_line1{
+        color: #4d4d4d;
+        font-size: 21px !important;
+        font-weight: bold;
+        padding: 5% 11% 0 16% !important;
+    }
+    .section4_text_line2{
+        color: #9e9d9d;
+        font-size: 1.98vw;
+        padding: 0 11% 0 18%
+    }
+
+    .text-section-3>h2{
+        font-size: 21px;
+        font-weight: 600;
+        color: #4d4d4d;
+        text-align: center;
+        padding-left: 9%;
+    }
+    .flex-text{
+        display: flex;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    .flex-text > p{
+        width: 150px;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 300;
+        margin: 0 8px;
+        text-align: center;
+        width: fit-content;
+    }
+    .show:hover{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .actived{
+        color: #272626 !important;
+        text-decoration: none;
+        font-weight: 600 !important;
+        border-bottom: solid 1px #4e4e4e;
+    }
+    /* .flex-text > p:hover.actived{
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 600;
+    } */
+
+    .selected-bold{
+        font-weight: 600;
+    }
+    .text-sup-3{
+        padding-bottom: 8%;
+    }
+    .text-sup-3 > h2 {
+        font-size: 15px;
+        font-weight: 500;
+        color: #3399ff;
+    }
+    .text-sup-3 > p {
+        color: #959191;
+        font-size: 2.5vw;
+        width: 80%;
+    }
+    .flex-3{
+        max-width:100% ;
+        flex: 0 0 100%;
+    }
+    .flex-33{
+        max-width:33.33333333333333% ;
+        flex: 0 0 33.33333333333333%;
+    }
+    .sup-text{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .build-trust{
+        padding-left: 111px;
+    }
+    .maintain-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .prove-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .make-trust{
+        display: none;
+        padding-left: 111px;
+    }
+    .show-flex{
+        padding-left: 111px;
+
+    }
+    .flex{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .section-5{
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 0px 30px 0px 70px;
+    }
+
+    .section-5 > figure > h2{
+        font-size: 19px;
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-5 > figure > p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #9e9d9d;
+        text-align: left;
+    }
+    .top-padding-sec5{
+        padding-top: 8%;
+    }
+    .section-5 > figure > img{
+        height: 100%;
+        width: 100%;
+    }
+    .text-section-5{
+        padding-top: 20%;
+        text-align: -webkit-right;
+    }
+    .text-section-5 > h2{
+        color: #4d4d4d;
+        font-size: 21px;
+        font-weight: 600;
+        padding: 0px 13px 0 82px;
+    }
+    .text-section-5 > p {
+        color: #929191;
+        font-size: 2.9vw;
+        font-weight: 300;
+        padding: 0px 13px 0 49px;
+        text-align: -webkit-right;
+    }
+    .tablet-none{
+        display: none;
+    }
+    .section-6{
+        height: auto;
+        width: 100%;
+        padding: 0px 30px 0 70px;
+        text-align: center;
+    }
+    /* .bg-tablet-sec6{
+        background-image: url("/images/new-website/products/samsung/knox/bg-home_phone750-04.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        height: 100%;
+        background-position-x: 10px;
+    } */
+    .resolution{
+        width: 80% !important;
+    }
+    .padding-section-6{
+        padding: 50px 0;
+    }
+    .text-section-6{
+        padding-top: 30px;
+    }
+    .text-section-6 > h2{
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+    .text-section-6 > p{
+        color: #8e8e8e;
+        padding: 0 27px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .text-section-6 > div> a{
+        font-size: 12px;
+    }
+    .text-section-6 > div > a:hover{
+        text-decoration: none;
+        color: #4d4d4d;
+        font-weight: 400;
+    }
+    .text-section-6 > .box-border{
+        margin: auto;
+    }
+    .box-border{
+        background-color: #00000012;
+        width: 181px;
+        height: 28px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-desktop{
+        display: flex;
+        padding: 0 40px 0 142px;
+        margin-top: 40px;
+
+    }
+    .footer-flex-icon{
+        width: 67%;
+    }
+    .footer-flex-50{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .footer-flex-50 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-50 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-50 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .footer-flex-30 > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #b3b3b3;
+        margin-left: 7px;
+    }
+    .footer-flex-20{
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+    .footer-flex-20 > h2{
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3f3d3d;
+    }
+    .footer-flex-20 > ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+        font-family: quicksand;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    .footer-flex-20 > ul > li > a{
+        color: #4d4d4d ;
+    }
+    .footer-flex-18{
+        max-width: 18%;
+        flex: 0 0 18%;
+    }
+
+    .footer-flex-6{
+        max-width: 6%;
+        flex: 0 0 6%;
+    }
+    .footer-copyright{
+        border-top: solid 1px #dedede;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 35px;
+        display: flex;
+        padding-top: 9px;
+   }
+   .footer-copyright > h2{
+        font-size: 11px;
+        margin: 0;
+        color: #b3b3b3;
+   }
+   .footer-link > a:visited{
+         color: #b3b3b3;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: end;
+        font-size: 11px;
+        color: white !important;
+        width: 74%;
+    }
+    a:hover {
+        font-weight: 800;
+        color: #2e2c2c;
+        text-decoration: none;
+      }
+      /* modal-pop-up */
+   .modal-dialog{
+    max-width: 283px !important ;
+    margin: 1.75rem auto !important;
+    margin-top: 10% !important;
+    }
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.3rem !important;
+        outline: 0;
+    }
+    .modal-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom:  0 !important;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+    }
+    .modal-title{
+        margin-bottom: 0;
+        line-height: 1.6;
+        width: 100%;
+        font-weight: 600;
+    }
+    .modal-footer{
+        display: contents !important;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem;
+        border-top: 0 !important;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .modal-footer > p{
+        color: #3399ff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-home{
+        padding: 0 35px;
+    }
+    .bg-footer{
+        background-color: #4d4d4d;
+        width: 93%;
+        height: 110px;
+        margin-left: 32px;
+    }
+    .bg-footer > p{
+        font-family: quicksand;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 11px;
+        color: white;
+        margin: 5px;
+    }
+    .footer-section{
+        text-align: center;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .footer-section > img{
+        width:65%;
+        margin:auto;
+    }
+    .footer-link{
+        font-family: Poppins;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 11px;
+        color: white !important;
+        width: auto;
+    }
+    .footer-link > a:hover{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    .footer-link > a:link{
+        color: white;
+    }
+    .footer-link > a:visited{
+        color: white;
+    }
+    .footer-desktop-none{
+        display: none !important;
+    }
+    /* a:hover */
+    /* a:link {
+        color: white;
+      }
+      a:visited {
+        color:white;
+      }
+    a:hover {
+        color: #3399ff;
+        text-decoration: none;
+      } */
+
+}

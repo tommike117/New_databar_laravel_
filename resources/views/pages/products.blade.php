@@ -41,9 +41,9 @@ services')
                             <a class="brand" href="/products/xciel">Xciel</a>
                         <div class="catagories">Software</div>
                             <a class="brand" href="/products/ivymobility">Ivy Mobility</a>
-                            <a class="brand" href="#">Samsung Knox</a>
+                            <a class="brand" href="/products/samsung/knox">Samsung Knox</a>
                             <a class="brand" href="/products/star2star">Star2Star</a>
-                            <a class="brand" href="#">Wandera</a>
+                            <a class="brand" href="/products/wandera">Wandera</a>
                             <a class="brand" href="#">WeGuard</a>
                             <a class="brand" href="#">42Gears</a>
                         <div class="catagories">Accessories</div>
