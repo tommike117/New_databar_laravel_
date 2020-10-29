@@ -256,6 +256,17 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/toshiba-tec/label-printers');
         });
     });
+    Route::group(['prefix' => '/unitech'], function () {
+        Route::get('/', function () {
+            return view('/pages/products/unitech/index');
+        });
+        Route::get('/mobile-computer', function () {
+            return view('/pages/products/unitech/mobile-computer');
+        });
+        Route::get('/enterprise-tablet', function () {
+            return view('/pages/products/unitech/enterprise-tablet');
+        });
+    });
 });
 
 

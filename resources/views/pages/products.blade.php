@@ -37,7 +37,7 @@ services')
                             <a class="brand" href="/products/koamtac">Koamtac</a>
                             <a class="brand" href="/products/sam4s">Sam4s</a>
                             <a class="brand" href="/products/toshiba-tec">Toshiba TEC</a>
-                            <a class="brand" href="#">Unitech</a>
+                            <a class="brand" href="/products/unitech">Unitech</a>
                             <a class="brand" href="/products/xciel">Xciel</a>
                         <div class="catagories">Software</div>
                             <a class="brand" href="/products/ivymobility">Ivy Mobility</a>
