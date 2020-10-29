@@ -64,77 +64,91 @@ services')
         </section>
     <section class="section-3 bg-tablet-sec3">
             <div class="mobile tablet" style="text-align:right; ">
-                <label class="section4_text_line1" style="color:#4d4d4d;font-size:30px;font-weight:bold;padding: 0 11% 0 16%;" for="">Knox mobile security <br> solution:
-                    Protection from the chip up</label><br>
-                <p class="section3_text_line2" ">Anchored in Samsung smartphone, tablet and
-                    wearable hardware, the Samsung Knox enterprise mobile security solution is also integrated
-                    throughout the software layers to separate data and constantly check the integrity of the
-                    device. These defense layers detect any tampering and ensure data is secure. Explore the
-                    layers below or download the whitepaper.</p>
+                <label class="section4_text_line1" style="color:#4d4d4d;font-size:30px;font-weight:bold;padding: 0 11% 0 16%;" for="">Unified cloud security by Wandera
             </div>
             <div class="text-section-3" style="padding-top: 5%">
-                <h2>Knox security philosophy</h2>
+                <h2>Unified cloud security by Wandera</h2>
             </div>
             <div class="mobile tablet">
                 <div id="trust"class="flex-text">
-                    <p class="show sup1 actived" >BUILD TRUST</p>
-                    <p class="show sup2">MAINTAIN TRUST</p>
-                    <p class="show sup3">PROVE TRUST</p>
+                    <p class="show sup1 actived">Private Access</p>
+                    <p class="show sup2">Threat Defense</p>
+                    <p class="show sup3">Data Policy</p>
                 </div>
                 <div class="sup-text">
                     <div id="sup1"class="build-trust">
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Chipset
-                            </h2>
+                        <div class="flex-2 text-sup-3">
                             <p>
-                                The Knox platform ensures only approved versions of system-critical software are loaded. As the platform is built-in, the trust starts in the hardware, with unique certificates burnt into the chipset of each device.
+                                Prevent non-business data use from impacting
+                                productivity, causing bill shock and increasing
+                                legal risk. Control how, when and where your data
+                                is used. Enforce acceptable use, eliminate shadow
+                                IT and optimize data utilization in the cloud.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time
+                                    analytics and detailed reporting.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with
+                                acceptable use and content filtering rules.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage
+                                via capping and roaming policies.
+                            </p2>
                         </div>
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Knox warranty fuse
-                            </h2>
-                            <p>
-                                With these unique certificates, the Knox mobile security platform can verify each piece of software that loads. If verification fails, Knox either records the tampering by flipping a one-time fuse called the Knox Warranty Bit, or prevents further booting. Devices with compromised Knox Warranty Bits cannot use certain Knox features or services, such as Knox Workspace or Samsung Pay.
-                            </p>
+                        <div class="flex-2 text-sup-3">
+                            <img src="/images/new-website/products/wandera/Private access.webp" width="100%" class="" alt="bg-desktop">
                         </div>
-
                     </div>
                     <div id="sup2" class="maintain-trust">
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Mobile security software
-                            </h2>
+                        <div class="flex-2 text-sup-3">
                             <p>
-                                Without Knox security loaded, verified software can still be modified by the user, either intentionally or unintentionally. For example, by downloading a malicious app or malware.
+                                Protect against all cyber threats, from device
+                                vulnerabilities to phishing to malicious or risky
+                                apps, with multi-level cloud and endpoint security.
+                                Manage risks with MI:RIAM, our advanced threat
+                                intelligence engine.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Highly effective endpoint security.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Real-time prevention of network attacks.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Adaptive access to your cloud applications based on risk.
+                            </p2>
                         </div>
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Device monitoring
-                            </h2>
-                            <p>
-                                The Knox advanced mobile security platform ensures that system-critical software is not modified once loaded. The enterprise mobile security platform uses a set of technologies to protect the device kernel - the core of the operating system. It also protects applications and their data during runtime to detect malicious attacks as well as monitoring policy settings to quickly isolate any threat.
-                            </p>
+                        <div class="flex-2 text-sup-3">
+                            <img src="/images/new-website/products/wandera/2.jpg" width="100%" class="" alt="bg-desktop">
                         </div>
                     </div>
                     <div id="sup3" class="prove-trust">
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Device attestation
-                            </h2>
+                        <div class="flex-2 text-sup-3">
                             <p>
-                                For IT admins intending to manage mobile devices with an EMM (Enterprise Mobility Management) solution, Knox-enabled devices can provide you with an attestation, which lets you see if a device has been tampered with or not. Based on that, you can decide if the device can be trusted, and if it is allowed to receive sensitive corporate data.
+                                Prevent non-business data use from impacting
+                                productivity, causing bill shock and increasing legal
+                                risk. Control how, when and where your data is used.
+                                Enforce acceptable use, eliminate shadow IT and
+                                optimize data utilization in the cloud.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time analytics
+                                and detailed reporting.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with acceptable
+                                use and content filtering rules.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage via
+                                capping and roaming policies.
+                            </p2>
                         </div>
-                        <div class="flex-3 text-sup-3">
-                            <h2>
-                                Software approval
-                            </h2>
-                            <p>
-                                The Knox enterprise mobile security platform only loads and runs approved system-critical software on a device and can prove this to a third-party when requested.
-                            </p>
+                        <div class="flex-2 text-sup-3">
+                            <img src="/images/new-website/products/wandera/3.jpg" width="100%" class="" alt="bg-desktop">
                         </div>
                     </div>
                 </div>
@@ -149,89 +163,91 @@ services')
                 <div class="sup-text">
                     <div id="suptab1"class="build-trust">
                         <div class="flex-2 text-sup-3">
-                            <h2>
-                                Private Access
-                            </h2>
                             <p>
                                 Prevent non-business data use from impacting
                                 productivity, causing bill shock and increasing
                                 legal risk. Control how, when and where your data
                                 is used. Enforce acceptable use, eliminate shadow
-                                IT and optimize data utilization in the cloud. <br>
-                                > Get a firm grip on data consumption with real-time
-                                    analytics and detailed reporting. <br>
-
-                                > Prevent data leaks and minimize legal liability with
-                                acceptable use and content filtering rules. <br>
-
-                                > Avoid bill shock by limiting non-business data usage
-                                via capping and roaming policies.
+                                IT and optimize data utilization in the cloud.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time
+                                    analytics and detailed reporting.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with
+                                acceptable use and content filtering rules.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage
+                                via capping and roaming policies.
+                            </p2>
                         </div>
                         <div class="flex-2 text-sup-3">
-                            <img src="/images/new-website/products/wandera/1.jpg" width="100%" class="" alt="bg-desktop">
+                            <img src="/images/new-website/products/wandera/Private access.webp" width="100%" class="" alt="bg-desktop">
                         </div>
 
                     </div>
                     <div id="suptab2" class="maintain-trust">
                         <div class="flex-2 text-sup-3">
-                            <h2>
-                                Mobile security software
-                            </h2>
                             <p>
-                                Without Knox security loaded, verified software can still be modified by the user, either intentionally or unintentionally. For example, by downloading a malicious app or malware.
+                                Protect against all cyber threats, from device
+                                vulnerabilities to phishing to malicious or risky
+                                apps, with multi-level cloud and endpoint security.
+                                Manage risks with MI:RIAM, our advanced threat
+                                intelligence engine.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Highly effective endpoint security.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Real-time prevention of network attacks.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Adaptive access to your cloud applications based on risk.
+                            </p2>
                         </div>
                         <div class="flex-2 text-sup-3">
-                            <h2>
-                                Device monitoring
-                            </h2>
-                            <p>
-                                The Knox advanced mobile security platform ensures that system-critical software is not modified once loaded. The enterprise mobile security platform uses a set of technologies to protect the device kernel - the core of the operating system. It also protects applications and their data during runtime to detect malicious attacks as well as monitoring policy settings to quickly isolate any threat.
-                            </p>
+                            <img src="/images/new-website/products/wandera/2.jpg" width="100%" class="" alt="bg-desktop">
                         </div>
 
                     </div>
                     <div id="suptab3" class="prove-trust">
                         <div class="flex-2 text-sup-3">
-                            <h2>
-                                Device attestation
-                            </h2>
                             <p>
-                                For IT admins intending to manage mobile devices with an EMM (Enterprise Mobility Management) solution, Knox-enabled devices can provide you with an attestation, which lets you see if a device has been tampered with or not. Based on that, you can decide if the device can be trusted, and if it is allowed to receive sensitive corporate data.
+                                Prevent non-business data use from impacting
+                                productivity, causing bill shock and increasing legal
+                                risk. Control how, when and where your data is used.
+                                Enforce acceptable use, eliminate shadow IT and
+                                optimize data utilization in the cloud.
                             </p>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time analytics
+                                and detailed reporting.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with acceptable
+                                use and content filtering rules.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage via
+                                capping and roaming policies.
+                            </p2>
                         </div>
                         <div class="flex-2 text-sup-3">
-                            <h2>
-                                Software approval
-                            </h2>
-                            <p>
-                                The Knox enterprise mobile security platform only loads and runs approved system-critical software on a device and can prove this to a third-party when requested.
-                            </p>
+                            <img src="/images/new-website/products/wandera/3.jpg" width="100%" class="" alt="bg-desktop">
                         </div>
                     </div>
                 </div>
             </div>
     </section>
 
-    <section class="section-5">
-        <figure class="top-padding-sec5">
-            <img src="/images/new-website/products/samsung/knox/pic-4.jpg" class=" tablet-none" width="100%"  alt="Banner-5">
-            <img src="/images/new-website/products/samsung/knox/knox-3.png" class="mobile-none" width="100%"  alt="mobile-5">
-            <h2>
-                Knox certifications
-            </h2>
-            <p>
-                The Samsung Knox mobile enterprise solution is trusted by governments around the world with some of the most stringent information and technology security requirements. We work closely with these organizations on a continuous basis to ensure that our products and solutions meet and exceed these requirements.
-            </p>
-        </figure>
-        <div class="text-section-5">
-            <h2>
-                Built into Samsung mobile devices
-            </h2>
-            <p>
-                The Knox security solution is embedded into Samsung phones, tablets and wearables, and runs on both Android and Tizen operating systems. Knox mobile security platform features are active in your device from the moment you turn it on.
-            </p>
+    <section class="section-4">
+        <div class="bg-4">
+            <div class="card" style="width:400px">
+                <div class="card-header background-color1"><img src="/images/new-website/products/wandera/logo_gartner.png" width="100%" class="" alt="bg-desktop"></div>
+                <div class="card-body">Content</div>
+            </div>
         </div>
     </section>
 
