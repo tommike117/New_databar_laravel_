@@ -62,11 +62,12 @@ services')
                 </div>
             </div>
         </section>
-    <section class="section-3 bg-tablet-sec3">
+<div class="bg-tablet-sec3">
+    <section class="section-3">
             <div class="mobile tablet" style="text-align:right; ">
                 <label class="section4_text_line1" style="color:#4d4d4d;font-size:30px;font-weight:bold;padding: 0 11% 0 16%;" for="">Unified cloud security by Wandera
             </div>
-            <div class="text-section-3" style="padding-top: 5%">
+            <div class="text-section-3" style="padding-top: 7%">
                 <h2>Unified cloud security by Wandera</h2>
             </div>
             <div class="mobile tablet">
@@ -243,60 +244,113 @@ services')
     </section>
 
     <section class="section-4">
-        <div class="bg-4">
-            <div class="card" style="width:400px">
-                <div class="card-header background-color1"><img src="/images/new-website/products/wandera/logo_gartner.png" width="100%" class="" alt="bg-desktop"></div>
-                <div class="card-body">Content</div>
+            <div class="flex">
+                <figure>
+                    <img src="/images/new-website/products/wandera/card1.png" width="80%" alt="">
+                </figure>
+                <figure>
+                    <img src="/images/new-website/products/wandera/card2.png" width="80%" alt="">
+                </figure>
+
             </div>
-        </div>
     </section>
 
-    <section class="section-6 bg-tablet-sec6"data-aos="fade-down">
-        <div class="flex-3">
-            <figure>
-                <img src="/images/new-website/products/samsung/knox/Galaxy-S10-5G-256GB_6-1_THREE-COLUMN_M.png"width="100%"class="resolution" alt="mobile-section6">
-            </figure>
-            <div class="text-section-6">
+    <section class="section-5">
+            <div class="text-5">
                 <h2>
-                    Phone security
+                    Learn more about the Wandera Security Cloud
                 </h2>
-                <p>
-                    Explore Samsung Knox-enabled business smartphones, offering everything from premium features to exceptional value.
-                </p>
-                <div class="box-border">
-                <a href="#">SEE SECURE PHONES ></a>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/images/new-website/products/wandera/wen_icon-01.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            In-network protection
+                        </h2>
+                        <p>
+                            Real-time security in the network,
+                            blocking zero-day threats at source.
+                            Our cloud based SDP creates secure
+                            isolated connections for each application.
+                            Fast and resilient tunnelling and encryption
+                            protocols deliver enterprise grade security.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/images/new-website/products/wandera/wen_icon-02.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            Threat intelligence
+                        </h2>
+                        <p>
+                            Informed by 425 million sensors
+                            across our global network, the MI:RIAM
+                            threat intelligence engine always stays
+                            ahead of the evolving threat landscape.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/images/new-website/products/wandera/wen_icon-03.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            Global network
+                        </h2>
+                        <p>
+                            Our high performance cloud platform
+                            scales vertically and horizontally on
+                            demand to deliver real-time security
+                            across 30+ global locations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-01.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            In-network protection
+                        </h2>
+                        <p>
+                            Real-time security in the network,
+                            blocking zero-day threats at source.
+                            Our cloud based SDP creates secure
+                            isolated connections for each application.
+                            Fast and resilient tunnelling and encryption
+                            protocols deliver enterprise grade security.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-02.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            Threat intelligence
+                        </h2>
+                        <p>
+                            Informed by 425 million sensors
+                            across our global network, the MI:RIAM
+                            threat intelligence engine always stays
+                            ahead of the evolving threat landscape.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-03.png" width="30%" alt="">
+                    <div class="text-sup-5">
+                        <h2>
+                            Global network
+                        </h2>
+                        <p>
+                            Our high performance cloud platform
+                            scales vertically and horizontally on
+                            demand to deliver real-time security
+                            across 30+ global locations.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex-3 padding-section-6">
-            <figure>
-                <img src="/images/new-website/products/samsung/knox/Galaxy-Tab-A-10.1-64GB_6-1_THREE-COLUMN_M.png"width="100%" class="resolution" alt="tablet-section6">
-            </figure>
-            <div class="text-section-6">
-                <h2>
-                    Tablet security
-                </h2>
-                <p>
-                    Explore Samsung Knox-enabled business tablets, built for everything from customer presentations to workplace efficiency.
-                </p>
-                <div class="box-border">
-                    <a href="#">SEE SECURE TABLETS ></a>
-                </div>
-            </div>
-        </div>
-        <div class="flex-3">
-            <figure>
-                <img src="/images/new-website/products/samsung/knox/Galaxy-Watch-Active-40mm_6-1_THREE-COLUMN_M.png"width="100%"class="resolution" alt="watch-section6">
-            </figure>
-            <div class="text-section-6">
-                <h2>
-                    Wearable security
-                </h2>
-                <p>
-                    Explore Samsung Knox-enabled enterprise wearables, helping businesses increase productivity and keep employees connected.
-                </p>
-            </div>
-        </div>
     </section>
 </div>
 
