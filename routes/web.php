@@ -174,6 +174,13 @@ Route::group(['prefix' => 'products'], function () {
         });
     });
 
+    Route::group(['prefix' => '/ikey'], function () {
+
+        Route::get('/', function () {
+            return view('/pages/products/ikey/index');
+        });
+    });
+
     Route::group(['prefix' => '/ivymobility'], function () {
 
         Route::get('/', function () {
