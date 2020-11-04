@@ -350,6 +350,16 @@ services')
                     </div>
                 </div>
             </div>
+            <div class="text-demo">
+                <h2>
+                    Request a demo
+                </h2>
+                <p>
+                    Learn more about the Wandera Security Cloud and our unified
+                    security suite that protects against the broadest range of
+                    cyber threats and access-based risks.
+                </p>
+            </div>
     </section>
 </div>
 
