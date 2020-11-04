@@ -13,11 +13,12 @@
         display: none;
     }
     .img-databar-t img{
-        width: 250px;
+        width: 68px;
         position: absolute;
         left: 0;
-        top: 0;
+        top: 30px;
     }
+
     .nav-desktop{
         display: block;
     }
@@ -115,6 +116,13 @@
         width: 40px;
         height: 40px;
         background-color: white;
+    }
+    #nav-black-tablet{
+        top: -300px;
+        transition: top 0.6s;
+    }
+    #nav-tablet{
+        transition: top 0.6s;
     }
 
 
