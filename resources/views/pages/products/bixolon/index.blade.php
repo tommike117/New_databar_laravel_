@@ -79,7 +79,7 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/bixolon/Q300H.png" class="pic-1"  alt="accessory">
+                        <img src="/images/new-website/products/bixolon/hi_-01.png" class="pic-1"  alt="accessory">
                     </figure>
                     <h2>
                         SRP-Q300 Series
@@ -93,7 +93,7 @@
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/bixolon/SRP-275III.png" class="pic-2"  alt="accessory">
+                        <img src="/images/new-website/products/bixolon/hi_-02.png" class="pic-2"  alt="accessory">
                     </figure>
                     <h2>
                         SRP-275lll
@@ -130,7 +130,7 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/bixolon/SPP-R210-1.jpg" class="pic-3"  alt="accessory">
+                        <img src="/images/new-website/products/bixolon/hi_-03.png" class="pic-3"  alt="accessory">
                     </figure>
                     <h2>
                         SPP-R210
@@ -144,7 +144,7 @@
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/bixolon/SPP-R310.jpg" class="pic-4" alt="accessory">
+                        <img src="/images/new-website/products/bixolon/hi_-04.png" class="pic-4" alt="accessory">
                     </figure>
                     <h2>
                         SPP-R310

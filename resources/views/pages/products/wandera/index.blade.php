@@ -307,46 +307,45 @@ services')
                     </div>
                 </div>
                 <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-01.png" width="30%" alt="">
+                    <img src="/images/new-website/products/wandera/wen_icon-04.png" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
-                            In-network protection
+                            Deployment options
                         </h2>
                         <p>
-                            Real-time security in the network,
-                            blocking zero-day threats at source.
-                            Our cloud based SDP creates secure
-                            isolated connections for each application.
-                            Fast and resilient tunnelling and encryption
-                            protocols deliver enterprise grade security.
+                            Mix and match our endpoint
+                            application with a variety of
+                            flexible network security options,
+                            including our Software Defined Perimeter,
+                            to suit your enterprise security needs.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-02.png" width="30%" alt="">
+                    <img src="/images/new-website/products/wandera/wen_icon-05.png" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
-                            Threat intelligence
+                            Unified policy
                         </h2>
                         <p>
-                            Informed by 425 million sensors
-                            across our global network, the MI:RIAM
-                            threat intelligence engine always stays
-                            ahead of the evolving threat landscape.
+                            Each step of the policy execution flow
+                            has been reimagined. Configure once,
+                            apply anywhere. Real-time analytics
+                            for complete visibility.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-03.png" width="30%" alt="">
+                    <img src="/images/new-website/products/wandera/wen_icon-06.png" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
-                            Global network
+                            Ecosystem integrations
                         </h2>
                         <p>
-                            Our high performance cloud platform
-                            scales vertically and horizontally on
-                            demand to deliver real-time security
-                            across 30+ global locations.
+                            Make the most of your security
+                            investments and leverage our pre-built
+                            integrations to the largest ecosystem
+                            of UEM, IAM and SIEM technologies.
                         </p>
                     </div>
                 </div>
