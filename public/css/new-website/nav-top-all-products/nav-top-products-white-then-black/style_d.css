@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
     .img-databar-d{
-        display: block;
+        display: block !important;
     }
     .img-databar-m{
         display: none;
@@ -12,7 +12,7 @@
         display: block;
     }
     .nav-mobile{
-        display: none;
+        display: none ;
     }
     .nav a{
         color:#4d4d4d;

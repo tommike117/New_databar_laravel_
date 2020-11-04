@@ -93,18 +93,18 @@
         </div>
         <div  id="nav-mobile" class="col-3" style="position: absolute">
             <figure class="img-databar-m" style="margin: -5px 0px 0px;">
-                <img src="/images/new-website/icon_logo_-03.png" alt="logo DATABAR">
+                <img src="/images/new-website/icon_logo_-02.png" alt="logo DATABAR">
             </figure>
         </div>
 
         <div  id="nav-black-tablet" class="col-3" style="position: absolute">
             <figure class="img-databar-t" style="margin: -5px 0px 0px;">
-                <img src="/images/new-website/icon_logo_-03.png" alt="logo DATABAR">
+                <img src="/images/new-website/icon_logo_แนวตั้ง-01-02.png" alt="logo DATABAR">
             </figure>
         </div>
         <div  id="nav-tablet" class="col-3" style="position: absolute">
             <figure class="img-databar-t" style="margin: -5px 0px 0px;">
-                <img src="/images/new-website/icon_logo_แนวนอน-01.png" alt="logo DATABAR">
+                <img src="/images/new-website/icon_logo_-02.png" alt="logo DATABAR">
             </figure>
         </div>
 
@@ -141,11 +141,18 @@
 
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+        document.getElementById("nav-black-mobile").style.top = "0";
         document.getElementById("nav-mobile").style.top = "-65px";
-        document.getElementById("nav-tablet").style.top = "-65px";
       } else {
+        document.getElementById("nav-black-mobile").style.top = "-65px";
         document.getElementById("nav-mobile").style.top = "0";
+      }
+      if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+        document.getElementById("nav-black-tablet").style.top = "0";
+        document.getElementById("nav-tablet").style.top = "-300px";
+      } else {
+        document.getElementById("nav-black-tablet").style.top = "-300px";
         document.getElementById("nav-tablet").style.top = "0";
       }
       if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
@@ -167,5 +174,4 @@
 
 
 
-<script src="{{URL::asset('js/navbar.js')}}"></script>
 
