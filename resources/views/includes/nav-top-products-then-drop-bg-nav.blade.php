@@ -143,9 +143,9 @@
     function scrollFunction() {
       if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
         document.getElementById("nav-black-mobile").style.top = "0";
-        document.getElementById("nav-mobile").style.top = "-65px";
+        document.getElementById("nav-mobile").style.top = "-300px";
       } else {
-        document.getElementById("nav-black-mobile").style.top = "-65px";
+        document.getElementById("nav-black-mobile").style.top = "-300px";
         document.getElementById("nav-mobile").style.top = "0";
       }
       if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {

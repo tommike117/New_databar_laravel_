@@ -1,17 +1,11 @@
 @media (max-width: 767.98px) {
-    #nav-black-mobile{
-        left: -65px;
-        transition: left 0.3s;
-    }
-    #nav-white-mobile{
-        transition: left 0.3s;
-    }
+
 
     .nav-desktop{
         display: none !important;
     }
     .img-databar-m{
-        display: block;
+        display: block !important;
 
     }
     .img-databar-t{
@@ -88,6 +82,13 @@
     }
     .nav-top2{
         display: none;
+    }
+    #nav-black-mobile{
+        top: -300px;
+        transition: top 0.6s;
+    }
+    #nav-mobile{
+        transition: top 0.6s;
     }
     @media screen and (max-height: 450px) {
         .nav-slide-down {overflow-y: auto;}
