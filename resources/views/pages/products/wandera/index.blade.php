@@ -65,12 +65,13 @@ services')
 <div class="bg-tablet-sec3">
     <section class="section-3">
             <div class="mobile tablet" style="text-align:right; ">
-                <label class="section4_text_line1" style="color:#4d4d4d;font-size:30px;font-weight:bold;padding: 0 11% 0 16%;" for="">Unified cloud security by Wandera
+                <label class="section4_text_line1" style="color:#3399ff;font-size:3.5vw;font-weight:bold;padding: 13% 17% 0 0%;
+                " for="">Unified cloud security by Wandera
             </div>
-            <div class="text-section-3" style="padding-top: 7%">
+            {{-- <div class="text-section-3" style="padding-top: 7%">
                 <h2>Unified cloud security by Wandera</h2>
-            </div>
-            <div class="mobile tablet">
+            </div> --}}
+            {{-- <div class="mobile tablet">
                 <div id="trust"class="flex-text">
                     <p class="show sup1 actived">Private Access</p>
                     <p class="show sup2">Threat Defense</p>
@@ -153,9 +154,9 @@ services')
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="desktop-none">
+            <div>
                 <div id="trust" class="flex-text">
                     <p class="show sup1 actived" >Private Access</p>
                     <p class="show sup2">Threat Defense</p>
