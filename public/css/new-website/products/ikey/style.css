@@ -131,11 +131,11 @@ section:not(:first-of-type){
     .figure-section2{
         display: flex;
         position: absolute;
-        left: 100px;
-        right: 0;
-        justify-content: center;
+        left: 0;
+        right: calc((100% - 187px) / 3);
+        align-items: flex-end !important;
         z-index: 2;
-        bottom: -150px;
+        bottom: -130px;
         mix-blend-mode: darken;
     }
 }

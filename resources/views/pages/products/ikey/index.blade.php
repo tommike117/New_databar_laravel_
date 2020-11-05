@@ -86,8 +86,8 @@
                 <source media="(max-width: 1023.98px)" srcset="{{URL::to('images/ikey/tap/ikry2048px-02.jpg')}}">
                 <img src="{{URL::to('images/ikey/web/ikey1920x1080-02.jpg')}}" alt="" style="width:100%;height:auto;">
             </picture>
-            <figure class="m-0 figure-section2 flex-column align-items-center" >
-                <img src="{{URL::to('images/ikey/logo.png')}}" style="width:calc((100vh - 200px) / 2);" alt="">
+            <figure class="m-0 figure-section2 flex-column" >
+                <img src="{{URL::to('images/ikey/logo.png')}}" style="width:calc((100vh - 300px) / 2);transform: scale(1.1);" alt="">
             </figure>
         </div>
 
