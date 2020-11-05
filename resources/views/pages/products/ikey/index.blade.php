@@ -23,7 +23,7 @@
         <img src="{{URL::to('images/ikey/web/ikey1920x1080-01.jpg')}}" alt="" style="width:100%;height:auto;">
         <div class="block-text">
             <figure class="m-0 figure-section-1 flex-column align-items-center" >
-                <img src="{{URL::to('images/ikey/large-logo.png')}}" stle="width:100%;" alt="">
+                <img src="{{URL::to('images/ikey/large-logo.png')}}" style="width:calc((100vh - 200px) / 2);" alt="">
                 <span style="text-align:center">
                     <p class="section-1-text">Real Tough for Real Life.</p>
                     <h2 class="section-1-h2">Rugged Keyboards and Computer Peripherals</h2>
