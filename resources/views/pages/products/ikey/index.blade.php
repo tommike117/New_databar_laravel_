@@ -90,13 +90,88 @@
                 <img src="{{URL::to('images/ikey/logo.png')}}" style="width:calc((100vh - 300px) / 2);transform: scale(1.1);" alt="">
             </figure>
         </div>
-
-        
-
     </div>
 </section>
 
+{{-- section3 --}}
+<section id="section3">
+    <div class="container-fluid">
+        <div class="title-section-2">
+            <div class="text-block-section-2">
+                <div class="d-flex flex-row align-items-center">
+                    <p class="title-section-3">Browse by industry</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="carousel-block">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active carousel-list-style-circle"></li>
+                  <li class="carousel-list-style-circle" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li class="carousel-list-style-circle" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li class="carousel-list-style-circle" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li class="carousel-list-style-circle" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li class="carousel-list-style-circle" data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-01.jpg')}}" alt="First slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Medical</h3>
+                        <p>Waterproof Keyboards for Dentist, Doctor Office and Medical Research Use.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-02.jpg')}}" alt="Second slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Fleet</h3>
+                        <p>Rugged Keyboard and Computers for Fleet.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-03.jpg')}}" alt="Third slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Public Safety</h3>
+                        <p>Public Safety PC Peripherals by iKey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-04.jpg')}}" alt="Fourth slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Oil & Gas</h3>
+                        <p>Rugged Computers and Keyboards for Oil & Gas.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-05.jpg')}}" alt="Fifth slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Military</h3>
+                        <p>Rugged Computers and Keyboards for Military.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="{{URL::to('images/ikey/phone/carousel/pic_phone-06.jpg')}}" alt="Sixth slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="carousel-title">Industrial</h3>
+                        <p>Rugged Industrial Keyboards iKey.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
 
 @include('includes/footer')
 
@@ -107,5 +182,11 @@
 
 
 @section('script')
+
+<script>
+    $('.carousel').carousel({
+        interval: 2000
+    });
+</script>
 
 @endsection

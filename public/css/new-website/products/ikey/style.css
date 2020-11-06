@@ -2,6 +2,16 @@
     --databar_blue : #3399ff;
 }
 
+.carousel-list-style-circle{
+    width:14px !important;
+    height:13px !important;
+    border-radius: 50% !important;
+    background-color: rgba(0, 0, 0, 0.349) !important;
+}
+.carousel-list-style-circle.active{
+    background-color: rgba(0, 0, 0, 0.658) !important;
+}
+
 section{
     position: relative;
 }
@@ -59,7 +69,7 @@ section{
 .title-section-2 >.text-block-section-2 > div > h1 {
     margin: 0;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color:var(--databar_blue);
 }
 
@@ -138,6 +148,61 @@ section:not(:first-of-type){
         bottom: -130px;
         mix-blend-mode: darken;
     }
+    #carouselExampleIndicators{
+        width: 100%;
+        margin: auto;
+        border-radius: 25px;
+        position: initial;
+    }
+    .carousel-inner{
+        border-radius: 25px;
+    }
+    .title-section-3{
+        color:var(--databar_blue);
+        margin-bottom:14px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .carousel-caption{
+        text-align: left;
+    }
+    h3.carousel-title{
+        font-size: 25px;
+        font-weight: 600;
+        color:var(--databar_blue);
+        letter-spacing: 1.3px;
+    }
+    .carousel-caption > p {
+        color:rgb(204 204 204);
+        font-size:14px;
+    }
+    .carousel-block{
+        display: block;
+        width:270px;
+        max-width:500px;
+        height: 550px;
+        position: relative;
+        margin: auto;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        height:480px;
+    }
+}
+
+@media only screen and (min-width:400px){
+    .carousel-block{
+        display: block;
+        width:300px;
+        max-width:500px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        height:530px;
+    }
 }
 
 @media only screen and (min-width:440px){
@@ -149,6 +214,20 @@ section:not(:first-of-type){
         z-index: 2;
     }
 }
+@media only screen and (min-width:500px){
+    .carousel-block{
+        display: block;
+        width:400px;
+        max-width:500px;
+        height: 770px;
+        position: relative;
+        margin: auto;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        height:620px;
+    }
+}
 @media only screen and (min-width:612.98px){
     .bg-footer-section-2{
         position: absolute;
@@ -156,6 +235,21 @@ section:not(:first-of-type){
         left: -70px;
         mix-blend-mode: darken;
         z-index: 2;
+    }
+    
+}
+@media only screen and (min-width:767.98px){
+    .carousel-block{
+        display: block;
+        width:650px;
+        max-width:650px;
+        height: 1220px;
+        position: relative;
+        margin: auto;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        height:1000px;
     }
 }
 
