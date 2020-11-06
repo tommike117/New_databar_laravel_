@@ -168,7 +168,51 @@
                 </a>
             </div>
         </div>
+    </div>
+</section>
 
+{{-- section3 --}}
+<section>
+    <div class="container-fluid">
+        <div class="title-section-4">
+            <div class="text-block-section-4">
+                <div class="d-flex flex-row align-items-center">
+                    <p class="title">All Product</p>
+                </div>
+                <span class="detail-section-4">
+                    <p class="m-sm-0">We are the proud makers of rugged keyboards and computer peripherals for professionals iKey's products are relied upon in many of the world's toughest working conditions.</p>
+                </span>
+                <a href="">
+                    <button class="btn-databar m-sm-button">
+                        View All
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="title-section-4">
+            <div class="text-block-section-4">
+                <div class="d-flex flex-row align-items-center">
+                    <p class="title">Product Industry</p>
+                </div>
+            </div>
+            <div class="ikey-product-menu">
+                <div class="nav-slide-down-content m-sm-t-0 p-sm-right-0 d-flex flex-column">
+                    <a class="menu-color" href="">Medical</a>
+                    <a class="menu-color" href="">Fleet</a>
+                    <a class="menu-color" href="">Public Safety</a>
+                    <a class="menu-color" href="">Oil & Gas</a>
+                    <a class="menu-color" href="">Military</a>
+                    <a class="menu-color" href="">Industrial</a>
+                </div>
+            </div>
+        </div>
+
+        <picture class="section-picture-1">
+            <source media="(max-width: 767.98px)" srcset="{{URL::to('images/ikey/phone/pic_750px.png')}}">
+            <source media="(max-width: 1023.98px)" srcset="{{URL::to('images/ikey/tap/pic_ikey2048px-04.png')}}">
+            <img src="{{URL::to('images/ikey/web/Pic_ikey-05.png')}}" alt="" style="width:100%;height:auto;">
+        </picture>
 
     </div>
 </section>
