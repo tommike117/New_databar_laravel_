@@ -64,97 +64,9 @@ services')
         </section>
 <div class="bg-tablet-sec3">
     <section class="section-3">
-            <div class="mobile tablet" style="text-align:right; ">
-                <label class="section4_text_line1" style="color:#3399ff;font-size:3.5vw;font-weight:bold;padding: 13% 17% 0 0%;
-                " for="">Unified cloud security by Wandera
+            <div  style="text-align:right;">
+                <label class="section4_text_line1" for="">Unified cloud security by Wandera
             </div>
-            {{-- <div class="text-section-3" style="padding-top: 7%">
-                <h2>Unified cloud security by Wandera</h2>
-            </div> --}}
-            {{-- <div class="mobile tablet">
-                <div id="trust"class="flex-text">
-                    <p class="show sup1 actived">Private Access</p>
-                    <p class="show sup2">Threat Defense</p>
-                    <p class="show sup3">Data Policy</p>
-                </div>
-                <div class="sup-text">
-                    <div id="sup1"class="build-trust">
-                        <div class="flex-2 text-sup-3">
-                            <p>
-                                Prevent non-business data use from impacting
-                                productivity, causing bill shock and increasing
-                                legal risk. Control how, when and where your data
-                                is used. Enforce acceptable use, eliminate shadow
-                                IT and optimize data utilization in the cloud.
-                            </p>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time
-                                    analytics and detailed reporting.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with
-                                acceptable use and content filtering rules.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage
-                                via capping and roaming policies.
-                            </p2>
-                        </div>
-                        <div class="flex-2 text-sup-3">
-                            <img src="/images/new-website/products/wandera/Private access.webp" width="100%" class="" alt="bg-desktop">
-                        </div>
-                    </div>
-                    <div id="sup2" class="maintain-trust">
-                        <div class="flex-2 text-sup-3">
-                            <p>
-                                Protect against all cyber threats, from device
-                                vulnerabilities to phishing to malicious or risky
-                                apps, with multi-level cloud and endpoint security.
-                                Manage risks with MI:RIAM, our advanced threat
-                                intelligence engine.
-                            </p>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Highly effective endpoint security.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Real-time prevention of network attacks.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span> Adaptive access to your cloud applications based on risk.
-                            </p2>
-                        </div>
-                        <div class="flex-2 text-sup-3">
-                            <img src="/images/new-website/products/wandera/2.jpg" width="100%" class="" alt="bg-desktop">
-                        </div>
-                    </div>
-                    <div id="sup3" class="prove-trust">
-                        <div class="flex-2 text-sup-3">
-                            <p>
-                                Prevent non-business data use from impacting
-                                productivity, causing bill shock and increasing legal
-                                risk. Control how, when and where your data is used.
-                                Enforce acceptable use, eliminate shadow IT and
-                                optimize data utilization in the cloud.
-                            </p>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time analytics
-                                and detailed reporting.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with acceptable
-                                use and content filtering rules.<br>
-                            </p2>
-                            <p2>
-                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage via
-                                capping and roaming policies.
-                            </p2>
-                        </div>
-                        <div class="flex-2 text-sup-3">
-                            <img src="/images/new-website/products/wandera/3.jpg" width="100%" class="" alt="bg-desktop">
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
 
             <div>
                 <div id="trust" class="flex-text">
@@ -163,26 +75,22 @@ services')
                     <p class="show sup3">Data Policy</p>
                 </div>
                 <div class="sup-text">
-                    <div id="suptab1"class="build-trust">
+                    <div id="suptab1"class="build-trust show-flex">
                         <div class="flex-2 text-sup-3">
                             <p>
-                                Prevent non-business data use from impacting
-                                productivity, causing bill shock and increasing
-                                legal risk. Control how, when and where your data
-                                is used. Enforce acceptable use, eliminate shadow
-                                IT and optimize data utilization in the cloud.
+                                Cloud hosted secure remote access – enable simple, secure and fast Zero Trust Network Access to any type of corporate resource. Eliminate the broad discoverability and reachability of data and apps.
                             </p>
                             <p2>
-                                <span style="color:#3399ff"> > </span>Get a firm grip on data consumption with real-time
-                                    analytics and detailed reporting.<br>
+                                <span style="color:#3399ff"> > </span>Provide teams the flexibility to work any time, anywhere with secure remote access – for unmanaged and BYOD.<br>
                             </p2>
                             <p2>
-                                <span style="color:#3399ff"> > </span>Prevent data leaks and minimize legal liability with
-                                acceptable use and content filtering rules.<br>
+                                <span style="color:#3399ff"> > </span>Restrict access to sensitive apps and data for compromised devices.<br>
                             </p2>
                             <p2>
-                                <span style="color:#3399ff"> > </span> Avoid bill shock by limiting non-business data usage
-                                via capping and roaming policies.
+                                <span style="color:#3399ff"> > </span> Increase visibility and understand who is accessing applications in real-time while identifying shadow IT usage.<br>
+                            </p2>
+                            <p2>
+                                <span style="color:#3399ff"> > </span> Benefit from a cloud-based service which requires no on-premise equipment.
                             </p2>
                         </div>
                         <div class="flex-2 text-sup-3">
@@ -190,7 +98,7 @@ services')
                         </div>
 
                     </div>
-                    <div id="suptab2" class="maintain-trust">
+                    <div id="suptab2" class="maintain-trust none">
                         <div class="flex-2 text-sup-3">
                             <p>
                                 Protect against all cyber threats, from device
@@ -214,7 +122,7 @@ services')
                         </div>
 
                     </div>
-                    <div id="suptab3" class="prove-trust">
+                    <div id="suptab3" class="prove-trust none">
                         <div class="flex-2 text-sup-3">
                             <p>
                                 Prevent non-business data use from impacting
@@ -249,7 +157,7 @@ services')
                 <figure>
                     <img src="/images/new-website/products/wandera/card1.png" width="80%" alt="">
                 </figure>
-                <figure>
+                <figure class="flex-sec-4">
                     <img src="/images/new-website/products/wandera/card2.png" width="80%" alt="">
                 </figure>
 
@@ -263,8 +171,8 @@ services')
                 </h2>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="/images/new-website/products/wandera/wen_icon-01.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <img src="/images/new-website/products/wandera/wen_icon-01.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             In-network protection
@@ -279,8 +187,8 @@ services')
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="/images/new-website/products/wandera/wen_icon-02.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <img src="/images/new-website/products/wandera/wen_icon-02.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             Threat intelligence
@@ -293,8 +201,8 @@ services')
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="/images/new-website/products/wandera/wen_icon-03.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <img src="/images/new-website/products/wandera/wen_icon-03.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             Global network
@@ -307,8 +215,8 @@ services')
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-04.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-04.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             Deployment options
@@ -322,8 +230,8 @@ services')
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-05.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-05.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             Unified policy
@@ -336,8 +244,8 @@ services')
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 margin-top">
-                    <img src="/images/new-website/products/wandera/wen_icon-06.png" width="30%" alt="">
+                <div class="col-lg-4 col-md-6 margin-top">
+                    <img src="/images/new-website/products/wandera/wen_icon-06.png" class="pic-icon" width="30%" alt="">
                     <div class="text-sup-5">
                         <h2>
                             Ecosystem integrations
@@ -402,7 +310,7 @@ services')
     });
 </script>
 {{-- Knox layer --}}
-<script>
+{{-- <script>
     $(function(){
 
 AOS.init();
@@ -633,7 +541,7 @@ $("#detail_layer4").on("click",function(){
   $("#menu1").css("opacity","1");
 
 });
-</script>
+</script> --}}
 {{-- section4 --}}
 <script>
     $(".sup1").click(function(){

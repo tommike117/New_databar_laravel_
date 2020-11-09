@@ -508,8 +508,7 @@
         letter-spacing: 0.5px;
         transition: 0.4s;
     }
-    .button-sec-3{
-    }
+
 
     .btn-banner:hover{
         background-color: #d8d8d86b;
@@ -666,6 +665,9 @@
     .pic-4{
         width: 40% !important;
     }
+    .button-sec-3{
+        margin: 0 0 0 0;
+    }
     .btn-banner{
         width: 82px;
         height: 26px;
@@ -677,9 +679,6 @@
         font-weight: 500;
         letter-spacing: 0.5px;
         transition: 0.4s;
-    }
-    .button-sec-3{
-        margin: 0 0 0 0;
     }
     .btn-banner:hover{
         background-color: #d8d8d86b;
