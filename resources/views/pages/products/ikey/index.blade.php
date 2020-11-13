@@ -87,7 +87,7 @@
                 <img src="{{URL::to('images/ikey/web/ikey1920x1080-02.jpg')}}" alt="" style="width:100%;height:auto;">
             </picture>
             <figure class="m-0 figure-section2 flex-column" >
-                <img src="{{URL::to('images/ikey/logo.png')}}" style="width:calc((100vh - 300px) / 2);transform: scale(1.1);" alt="">
+                <img src="{{URL::to('images/ikey/logo.png')}}" alt="">
             </figure>
         </div>
     </div>

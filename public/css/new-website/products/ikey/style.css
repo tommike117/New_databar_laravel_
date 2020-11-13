@@ -1,6 +1,9 @@
 :root {
     --databar_blue : #3399ff;
 }
+.sidenav{
+    z-index: 5 !important;
+}
 .menu-color{
     color:rgb(94, 94, 94) !important;
 }
@@ -30,7 +33,7 @@ section{
     display: block;
     max-width: 100%;
     width: 100%;
-    margin: 0;
+    margin-left: auto;
     position: relative;
 }
 .block-text{
@@ -156,7 +159,7 @@ section:not(:first-of-type){
         background: #b5b5b526;
         padding: 15px;
         height: 600px;
-        overflow: scroll;
+        overflow-y: scroll;
         position: relative;
         z-index: 3;
     }
@@ -240,6 +243,16 @@ section:not(:first-of-type){
     .ikey-product-menu{
         margin:0.3rem 0 1rem 0;
     }
+    .figure-section2 > img{
+        width:calc((100vh - 300px) / 2);
+        transform: scale(1.1); 
+    }
+    .nav-slide-down-content.flex-column{
+        position: relative;
+    top: 6%;
+    width: 100%;
+    text-align: right;
+    }
 }
 
 @media only screen and (min-width:400px){
@@ -293,15 +306,43 @@ section:not(:first-of-type){
 @media only screen and (min-width:767.98px){
     .carousel-block{
         display: block;
-        width:650px;
-        max-width:650px;
-        height: 1220px;
+        width:500px;
+        height: 960px;
         position: relative;
         margin: auto;
     }
     .carousel-control-prev,
     .carousel-control-next{
         height:1000px;
+    }
+    .detail-section-2{
+        width:70%;
+    }
+    .card-block-section-2{
+        width:70%;
+        margin-left:auto;
+    }
+    .bg-footer-section-2{
+        max-width: 800px;
+        width: 100%;
+        min-width: 560px;
+        left: -40%;
+    }
+    .figure-section2{
+        right:30%;
+    }
+    .figure-section2 > img{
+        transform: scale(1.5); 
+    }
+    .title-section-3{
+        margin-top:30px;
+        margin-bottom:30px;
+        font-size: 30px;
+    }
+    section:last-of-type > .container-fluid > .section-picture-1{
+        margin-top:50px;
+        margin-bottom:50px;
+        max-width:600px;
     }
 }
 
