@@ -279,6 +279,11 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/wandera/index');
         });
     });
+    Route::group(['prefix' => '/weguard'], function () {
+        Route::get('/', function () {
+            return view('/pages/products/weguard/index');
+        });
+    });
 });
 
 

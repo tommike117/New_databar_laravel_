@@ -1,6 +1,6 @@
 @extends('layouts/main-products-jingjingna')
 
-@section('title', 'DATABAR COMPANY LIMITED | DATABAR Business-To-Business (B2B) distributor and samsung authorized
+@section('title', 'WANDERA | DATABAR Business-To-Business (B2B) distributor and samsung authorized
 services')
 
 

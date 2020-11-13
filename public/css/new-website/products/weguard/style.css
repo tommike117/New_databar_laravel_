@@ -1,0 +1,620 @@
+@media screen and (min-width: 992px){
+    .section-1{
+        height: 100%;
+        width: auto;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .flex-half{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .text-sec2{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec2 > h2{
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-sec2 > h3{
+        color: #4d4d4d;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .text-sec2 > h4{
+        color: #4d4d4d;
+        font-size: 1.1vw;
+        font-weight: 200;
+    }
+    .text-sec2 > p {
+        font-size: 0.9vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sec3{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec3 > h2{
+        font-size: 1.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        padding-top: 5%;
+    }
+    .text-sec3 > p {
+        font-size: 1vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .bg-4{
+        background-image: url("/images/new-website/products/weguard/web/WE_1920-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-attachment: fixed;
+    }
+    .body-4{
+        margin: 0%;
+        padding: 2% 7% 0 10%;
+    }
+    .section-4 > h2{
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 9% 15% 0 19%;
+    }
+    .section-4 > p{
+        font-size: 0.9vw;
+        color: #707070;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .box-4{
+        height: 125%;
+        width: 100%;
+        border-radius: 30px;
+        box-shadow: 19px 17px 17px #f2f2f2;
+        background-color: #f5f5f5c7;
+        text-align: center;
+    }
+    .box-4 > h2{
+        font-size: 0.9vw;
+        color: #707070;
+        font-weight: 200;
+        padding-top: 5%;
+    }
+    .box-4 > p {
+        font-size: 0.7vw;
+        color: #707070;
+        font-weight: 200;
+        padding: 0 6%;
+    }
+    .sec4-row2{
+        padding-top: 8%;
+    }
+    .padding-top{
+        padding-top: 14%;
+    }
+    .pic-icon{
+        width: 35%;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        font-size: 2.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 15% 0 19%;
+        padding-top: 10%;
+    }
+    .body-5{
+        margin: 0%;
+        padding: 4% 9% 0% 12%;
+    }
+
+    .flex-5{
+        display: flex;
+        margin-top: 10%;
+    }
+    .text-sup5{
+        padding: 8% 0% 0% 5%;
+    }
+    .text-sup5 > h2{
+        font-size: 1vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sup5 > p{
+        font-size: 0.7vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .pic-icon-5{
+        height: 108.38px;
+        width: 108.38px;
+    }
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .section-1{
+        height: 100%;
+        width: auto;
+    }
+    .desktop-pic{
+        display: none;
+    }
+    .text-sec2{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-sec2 > h3{
+        color: #4d4d4d;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .text-sec2 > h4{
+        color: #4d4d4d;
+        font-size: 2.1vw;
+        font-weight: 200;
+    }
+    .text-sec2 > p {
+        font-size: 1.9vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sec3{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec3 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        padding-top: 5%;
+    }
+    .text-sec3 > p {
+        font-size: 2.5vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .bg-4{
+        background-image: url("/images/new-website/products/weguard/web/WE_1920-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-attachment: fixed;
+    }
+    .body-4{
+        margin: 0%;
+        padding: 2% 7% 0 10%;
+    }
+    .section-4 > h2{
+        font-size: 4vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 9% 9% 0 14%;
+    }
+    .section-4 > p{
+        font-size: 1.9vw;
+        color: #707070;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 0 0 11%;
+    }
+    .box-4{
+        height: 125%;
+        width: 100%;
+        border-radius: 30px;
+        box-shadow: 19px 17px 17px #f2f2f2;
+        background-color: #f5f5f5c7;
+        text-align: center;
+    }
+    .box-4 > h2{
+        font-size: 1.2vw;
+        color: #707070;
+        font-weight: 200;
+        padding-top: 5%;
+    }
+    .box-4 > p {
+        font-size: 0.9vw;
+        color: #707070;
+        font-weight: 200;
+        padding: 0 6%;
+    }
+    .sec4-row1{
+        padding-top: 13%;
+    }
+    .sec4-row2{
+        padding-top: 13%;
+    }
+    .padding-top{
+        padding-top: 14%;
+    }
+    .pic-icon{
+        width: 35%;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 15% 0 19%;
+        padding-top: 20%;
+    }
+    .col-lg-4{
+        padding: 0 25% 0 24%;
+    }
+    .body-5{
+        margin: 0%;
+        padding: 4% 9% 0% 12%;
+    }
+
+    .flex-5{
+        display: flex;
+        margin-top: 10%;
+    }
+    .text-sup5{
+        padding: 5% 0% 0% 5%;
+    }
+    .text-sup5 > h2{
+        font-size: 2vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sup5 > p{
+        font-size: 1.4vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .pic-icon-5{
+        height: 108.38px;
+        width: 108.38px;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100%;
+        width: auto;
+    }
+    .desktop-pic{
+        display: none;
+    }
+    .text-sec2{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec2 > h2{
+        font-size: 4.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-sec2 > h3{
+        color: #4d4d4d;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .text-sec2 > h4{
+        color: #4d4d4d;
+        font-size: 2.1vw;
+        font-weight: 200;
+    }
+    .text-sec2 > p {
+        font-size: 2.3vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sec3{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec3 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        padding-top: 5%;
+    }
+    .text-sec3 > p {
+        font-size: 2.5vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .bg-4{
+        background-image: url("/images/new-website/products/weguard/web/WE_1920-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .body-4{
+        height: 100%;
+        margin: 0%;
+        padding: 2% 7% 0 15%;
+        text-align: -webkit-center;
+    }
+    .section-4 > h2{
+        font-size: 4vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 9% 9% 0 14%;
+    }
+    .section-4 > p{
+        font-size: 1.9vw;
+        color: #707070;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 0 0 11%;
+    }
+    .m-height{
+        height: 100%;
+    }
+    .box-4{
+        height: 355px;
+        width: 65%;
+        border-radius: 30px;
+        box-shadow: 19px 17px 17px #f2f2f2;
+        background-color: #f5f5f5c7;
+        text-align: center;
+    }
+    .box-4 > h2{
+        font-size: 1.2vw;
+        color: #707070;
+        font-weight: 200;
+        padding-top: 5%;
+    }
+    .box-4 > p {
+        font-size: 0.9vw;
+        color: #707070;
+        font-weight: 200;
+        padding: 0 6%;
+    }
+    .sec4-row-m{
+        padding-top: 7%;
+    }
+    .sec4-row1{
+        padding-top: 7%;
+    }
+    .sec4-row2{
+        padding-top: 7%;
+    }
+    .padding-top{
+        padding-top: 14%;
+    }
+    .pic-icon{
+        width: 35%;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        font-size: 3.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 15% 0 19%;
+        padding-top: 20%;
+    }
+    .col-lg-4{
+        padding: 0 25% 0 24%;
+    }
+    .body-5{
+        margin: 0%;
+        padding: 4% 9% 0% 12%;
+    }
+
+    .flex-5{
+        display: flex;
+        margin-top: 10%;
+    }
+    .text-sup5{
+        padding: 5% 0% 0% 5%;
+    }
+    .text-sup5 > h2{
+        font-size: 2vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sup5 > p{
+        font-size: 1.4vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .pic-icon-5{
+        height: 108.38px;
+        width: 108.38px;
+    }
+}
+@media screen and (max-width: 598px){
+    .section-1{
+        height: 100%;
+        width: auto;
+    }
+    .desktop-pic{
+        display: none;
+    }
+    .text-sec2{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec2 > h2{
+        font-size: 5.5vw;
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .text-sec2 > h3{
+        color: #4d4d4d;
+        font-size: 2.9vw;
+        font-weight: 200;
+    }
+    .text-sec2 > h4{
+        color: #4d4d4d;
+        font-size: 2.9vw;
+        font-weight: 200;
+    }
+    .text-sec2 > p {
+        font-size:2.9vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sec3{
+        padding: 20% 7% 0 17%;
+        text-align: end;
+    }
+    .text-sec3 > h2{
+        font-size: 5.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        padding-top: 5%;
+    }
+    .text-sec3 > p {
+        font-size: 2.9vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .bg-4{
+        background-image: url("/images/new-website/products/weguard/web/WE_1920-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .body-4{
+        height: 100%;
+        margin: 0%;
+        padding: 2% 7% 0 15%;
+        text-align: -webkit-center;
+    }
+    .section-4 > h2{
+        font-size: 5.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 9% 9% 0 14%;
+    }
+    .section-4 > p{
+        font-size: 2.9vw;
+        color: #707070;
+        font-weight: 200;
+        text-align: center;
+        padding: 2% 0 0 11%;
+    }
+    .m-height{
+        height: 100%;
+    }
+    .box-4{
+        height: 230px;
+        width: 65%;
+        border-radius: 30px;
+        box-shadow: 19px 17px 17px #f2f2f2;
+        background-color: #f5f5f5c7;
+        text-align: center;
+    }
+    .box-4 > h2{
+        font-size: 2.9vw;
+        color: #707070;
+        font-weight: 200;
+        padding-top: 5%;
+    }
+    .box-4 > p {
+        font-size: 2.5vw;
+        color: #707070;
+        font-weight: 200;
+        padding: 0 6%;
+    }
+    .sec4-row-m{
+        padding-top: 7%;
+    }
+    .sec4-row1{
+        padding-top: 7%;
+    }
+    .sec4-row2{
+        padding-top: 7%;
+    }
+    .padding-top{
+        padding-top: 14%;
+    }
+    .pic-icon{
+        width: 35%;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        font-size: 5.5vw;
+        color: #3399ff;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 15% 0 19%;
+        padding-top: 20%;
+    }
+    .col-lg-4{
+        padding: 0 2% 0 17%;
+    }
+    .body-5{
+        margin: 0%;
+        padding:4% 9% 0% 12%;;
+    }
+
+    .flex-5{
+        display: flex;
+        margin-top: 10%;
+    }
+    .text-sup5{
+        padding: 5% 0% 0% 5%;
+    }
+    .text-sup5 > h2{
+        font-size: 2.9vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .text-sup5 > p{
+        font-size: 2.5vw;
+        color: #707070;
+        font-weight: 200;
+    }
+    .pic-icon-5{
+        height:80.38px;
+        width: 80.38px;
+    }
+}
