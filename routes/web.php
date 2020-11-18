@@ -284,6 +284,24 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/weguard/index');
         });
     });
+    Route::group(['prefix' => '/42gears'], function () {
+        Route::get('/', function () {
+            return view('/pages/products/42gears/index');
+        });
+        Route::get('/sure_mdm', function () {
+            return view('/pages/products/42gears/sure_mdm');
+        });
+    });
+
+
+
+
+
+
+
+
+
+
 });
 
 

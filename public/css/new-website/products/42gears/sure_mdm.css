@@ -1,0 +1,33 @@
+@media screen and (min-width: 992px){
+    .section-1{
+        height: 100vh;
+        width: auto;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .section-2{
+        height: 100vh;
+        width: auto;
+    }
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+
+}
+@media screen and (max-width: 598px){
+
+}

@@ -45,7 +45,7 @@ services')
                             <a class="brand" href="/products/star2star">Star2Star</a>
                             <a class="brand" href="/products/wandera">Wandera</a>
                             <a class="brand" href="/products/weguard">WeGuard</a>
-                            <a class="brand" href="#">42Gears</a>
+                            <a class="brand" href="/products/42gears">42Gears</a>
                         <div class="catagories">Accessories</div>
                             <a class="brand" href="/products/armor-x">Armor-x</a>
                             <a class="brand" href="/products/gamber-johnson">Gamber Johnson</a>
