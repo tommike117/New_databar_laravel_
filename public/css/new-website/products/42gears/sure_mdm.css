@@ -2,6 +2,7 @@
     .section-1{
         height: 100vh;
         width: auto;
+        position: relative;
     }
     .desktop-pic{
         display: block;
@@ -14,7 +15,41 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-attachment: fixed;
-        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 1% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 0.8vw;
+        font-weight: 200;
+    }
+    .btn{
+        position: absolute;
+        left: 23%;
+        top: 58%;
+
+    }
+    .btn-banner{
+        width: 175px;
+        height: 46px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
     }
     .section-2{
         height: 100vh;
