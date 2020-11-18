@@ -18,7 +18,7 @@ services')
         <picture>
             <img class="desktop-pic" src="/images/new-website/products/42gears/web/SureMDM/MDM_1920-01_r.jpg" width="100%">
             <img class="mobile-pic" src="/images/new-website/products/42gears/mobile/42_750-01.jpg" width="100%">
-            <a href="/contacts">
+            <a href="/contact">
                 <button class="btn btn-banner">Contact now</button>
             </a>
         </picture>
@@ -34,7 +34,80 @@ services')
         </div>
     </section>
     <section class="section-2">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-01.png" width="35%">
+                    </figure>
+                    <h2>
 
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-02.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-03.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-04.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-05.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-06.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box-2">
+                    <figure>
+                        <img src="/images/new-website/products/42gears/web/SureMDM/iconMDM/icon_MDM-07.png" width="35%">
+                    </figure>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+        </div>
     </section>
 
 

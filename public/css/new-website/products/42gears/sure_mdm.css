@@ -32,7 +32,6 @@
         position: absolute;
         left: 23%;
         top: 58%;
-
     }
     .btn-banner{
         width: 175px;
@@ -54,6 +53,17 @@
     .section-2{
         height: 100vh;
         width: auto;
+    }
+    .row{
+        margin: 0%;
+    }
+    .box-2{
+        width: 300px;
+        height: 380px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
     }
 
 }
