@@ -141,14 +141,14 @@
 
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("nav-mobile").style.top = "-65px";
-        document.getElementById("nav-tablet").style.top = "-65px";
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("nav-mobile").style.top = "-300px";
+        document.getElementById("nav-tablet").style.top = "-300px";
       } else {
         document.getElementById("nav-mobile").style.top = "0";
         document.getElementById("nav-tablet").style.top = "0";
       }
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbar2").style.top = "-300px";
       } else {

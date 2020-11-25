@@ -289,8 +289,14 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/42gears/index');
         });
         Route::get('/sure_mdm', function () {
-            return view('/pages/products/42gears/sure_mdm');
+            return view('/pages/products/42gears/sure_mdm/sure_mdm');
         });
+        Route::get('/sure_lock', function () {
+            return view('/pages/products/42gears/sure_lock/sure_lock');
+        });
+            Route::get('/sure_lock/sure_lock_android', function () {
+                return view('/pages/products/42gears/sure_lock/sure_lock_android');
+            });
     });
 
 

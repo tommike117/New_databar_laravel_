@@ -10,6 +10,9 @@
     .mobile-pic{
         display: none;
     }
+    .desktop-none{
+        display: none;
+    }
     .bg-body{
         background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
         background-repeat: no-repeat;
@@ -18,7 +21,7 @@
     }
     .text-1{
         text-align: end;
-        padding: 1% 4% 0% 25%;
+        padding: 10% 4% 0% 25%;
     }
     .text-1 >h2{
         font-size: 1.5vw;
@@ -28,19 +31,27 @@
         font-size: 0.8vw;
         font-weight: 200;
     }
-    .btn{
+    .section-1{
+        background-image: url('/images/new-website/products/42gears/web/SureMDM/MDM_1920-01_r.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .button{
+        width: 100%;
+        padding: 27% 0% 0% 22%
+    }
+    /* .btn{
         position: absolute;
         left: 23%;
         top: 58%;
-    }
+    } */
     .btn-banner{
-        width: 175px;
-        height: 46px;
+        width: 14%;
         border-radius: 25px;
         border: none;
         background-color: #3399ff87;
         color: white;
-        font-size: 17px;
+        font-size: 1vw;
         font-weight: 500;
         letter-spacing: 0.5px;
     }
@@ -51,28 +62,824 @@
         transition: 0.4s;
     }
     .section-2{
-        height: 100vh;
-        width: auto;
+        height: auto;
+        width: 100%;
+    }
+    .section-2 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
     }
     .row{
         margin: 0%;
     }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 50px 70px 0 100px;
+    }
+    .row2-sec2{
+        text-align: -webkit-center;
+        margin: 50px 190px 0 250px;
+    }
     .box-2{
-        width: 300px;
-        height: 380px;
+        width: 90%;
+        height: 335px;
         background-color:#f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
         border-radius: 30px;
     }
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 1.2vw;
+    }
+    .box-2 > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+    .section-3{
+        height: 100%;
+        width: auto;
+    }
+    .section-3 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-3 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 1.2vw;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .section-4 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-4 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-5 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 1.2vw;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-6{
+        height: 100%;
+        width: auto;
+    }
+    .section-6 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-6 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .section-7{
+        height: 100%;
+        width: auto;
+    }
+    .section-7 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .section-7 > p {
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: 200;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 1.2vw;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+
 
 }
 @media screen and (min-width: 784px) and (max-width: 991px){
-
+    .section-1{
+        height: 100vh;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/MDM/42_edit-03.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 4% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+    }
+    .button{
+        width: 95%;
+        padding: 122% 0% 0% 41%;
+    }
+    /* .btn{
+        position: absolute;
+        left: 23%;
+        top: 58%;
+    } */
+    .btn-banner{
+        width: 46%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .section-2 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 0px 70px 0 100px;
+    }
+    .row2-sec2{
+        text-align: -webkit-center;
+        margin: 0px 70px 0 100px;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .box-2{
+        width: 85%;
+        height: 400px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+    }
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 2.2vw;
+    }
+    .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+    .tablet-margin-top{
+        margin-top: 10%;
+    }
+    .section-3{
+        height: 100%;
+        width: auto;
+    }
+    .section-3 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-3 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .section-4 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-4 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-5 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-6{
+        height: 100%;
+        width: auto;
+    }
+    .section-6 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-6 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding: 0 12%;
+    }
+    .section-7{
+        height: 100%;
+        width: auto;
+        margin-bottom: 10%;
+    }
+    .section-7 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-7 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
 }
 @media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100vh;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/MDM/42_edit-03.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
 
+    }
+    .text-1{
+        text-align: end;
+        padding: 4% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+    }
+    .button{
+        width: 95%;
+        padding: 122% 0% 0% 41%;
+    }
+    /* .btn{
+        position: absolute;
+        left: 23%;
+        top: 58%;
+    } */
+    .btn-banner{
+        width: 46%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .section-2 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 0px 70px 0 100px;
+    }
+    .row2-sec2{
+        text-align: -webkit-center;
+        margin: 0px 70px 0 100px;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .box-2{
+        width: 85%;
+        height: 400px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+    }
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 2.2vw;
+    }
+    .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+    .tablet-margin-top{
+        margin-top: 10%;
+    }
+    .section-3{
+        height: 100%;
+        width: auto;
+    }
+    .section-3 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-3 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .section-4 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-4 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-5 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-6{
+        height: 100%;
+        width: auto;
+    }
+    .section-6 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-6 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding: 0 12%;
+    }
+    .section-7{
+        height: 100%;
+        width: auto;
+        margin-bottom: 10%;
+    }
+    .section-7 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .section-7 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
 }
 @media screen and (max-width: 598px){
+    .section-1{
+        height: 90vh;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/MDM/42_edit-03.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/mobile/MDM/MDM_750.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 4% 11% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+    }
+    .button{
+        width: 95%;
+        padding: 122% 0% 0% 41%;
+    }
 
+    .btn-banner{
+        width: 49%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+    }
+    .section-2 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 0px 60px 0 95px;
+    }
+    .row2-sec2{
+        text-align: -webkit-center;
+        margin: 0px 60px 0 95px;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .box-2{
+        width: 85%;
+        height: 230px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+    }
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 2.2vw;
+    }
+    .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+    .tablet-margin-top{
+        margin-top: 10%;
+    }
+    .section-3{
+        height: 100%;
+        width: auto;
+    }
+    .section-3 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-3 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-3 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-4{
+        height: 100%;
+        width: auto;
+    }
+    .section-4 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-4 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .section-5{
+        height: 100%;
+        width: auto;
+    }
+    .section-5 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-5 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-5 > .row > .col-lg-4 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .section-6{
+        height: 100%;
+        width: auto;
+    }
+    .section-6 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-6 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding: 0 12% 0 19%;
+    }
+    .section-7{
+        height: 100%;
+        width: auto;
+        margin-bottom: 10%;
+    }
+    .section-7 > h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        padding-left: 10%;
+    }
+    .section-7 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > h2{
+        color: #8cc63f;
+        font-size: 2.2vw;
+    }
+    .section-7 > .row > .col-lg-3 > .box-2 > p{
+        font-size: 1.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
 }

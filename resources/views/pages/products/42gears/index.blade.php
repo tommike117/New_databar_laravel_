@@ -74,7 +74,7 @@ services')
                         unintended changes is the solution. With SureLock, you can allow only desired applications to run and allow only admin access to either modify lockdown
                         configurations or exit the lockdown.
                     </p>
-                    <a href="/#">
+                    <a href="/products/42gears/sure_lock">
                         <button class="btn btn-banner">Learn more</button>
                     </a>
                 </div>

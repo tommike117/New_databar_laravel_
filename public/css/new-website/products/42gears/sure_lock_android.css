@@ -1,0 +1,445 @@
+@media screen and (min-width: 992px){
+    .section-1{
+        height: 110vh;
+        width: auto;
+        position: relative;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .desktop-none{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position-x: 25px;
+    }
+    .head-1{
+        border-bottom: 5px solid #3399ff;
+        width: fit-content;
+    }
+    .text-sup-1{
+        position: absolute;
+        padding: 17% 0% 0% 14%;
+    }
+    .text-sup-1 > h2{
+        color: #1879da;
+    }
+    .text-sup-1 > h3{
+        color: #1879da;
+    }
+    .text-sup-1 > p {
+        color: #707070;
+    }
+    .text-1{
+        text-align: end;
+        padding: 8% 4% 1% 21%;
+    }
+    .text-1 >h2{
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 0.9vw;
+        font-weight: 200;
+        color: #707070;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/web/SureLock/lock_1920-03.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .button{
+        width: 100%;
+        padding: 30% 0% 0% 15%;
+    }
+    /* .btn{
+        position: absolute;
+        left: 23%;
+        top: 58%;
+    } */
+    .btn-banner{
+        width: 14%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 1vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .text-2{
+        padding: 7% 4% 0% 60%;
+    }
+    .text-2 > h2{
+        text-align: start;
+        font-size: 2vw;
+        font-weight: 400;
+        color: #1879da;
+        border-bottom: 5px solid #3399ff;
+        width: fit-content;
+    }
+    .text-2 > p{
+        text-align: start;
+        font-size: 1vw;
+        font-weight: 200;
+        color: #707070;
+    }
+   .section-3{
+        text-align: end;
+        padding: 2% 14% 0 0%;
+        font-size: 1.1vw;
+   }
+   .section-3 > a{
+       color: #70707093;
+   }
+   a:hover{
+    font-weight: 500 !important;
+    color: #707070af !important;
+   }
+
+}
+@media screen and (min-width: 784px) and (max-width: 991px){
+    .section-1{
+        height: 100vh;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/lock/42_edit-04.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 7% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .button{
+        width: 95%;
+        padding: 125% 0% 0% 38%;
+    }
+    .btn-banner{
+        width: 49%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .section-2 > h2{
+        text-align: end;
+        padding-right: 7%;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 50px 70px 0 100px;
+    }
+    .box-2{
+        width: 90%;
+        height: 290px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+        margin-top: 5%;
+    }
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 2.2vw;
+        padding-top: 5%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 783px){
+    .section-1{
+        height: 100%;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/lock/42_edit-04.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 7% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .button{
+        width: 95%;
+        padding: 125% 0% 0% 38%;
+    }
+    .btn-banner{
+        width: 49%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .section-2 > h2{
+        text-align: end;
+        padding-right: 7%;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 50px 70px 0 100px;
+    }
+    .box-2{
+        width: 65%;
+        height: 290px;
+        background-color:#f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+        margin-top: 5%;
+    }
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 3.2vw;
+        padding-top: 5%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+}
+@media screen and (max-width: 598px){
+    .section-1{
+        height: 96vh;
+        width: auto;
+    }
+    .bg-1{
+        background-image: url('/images/new-website/products/42gears/mobile/lock/42_edit-04.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .desktop-pic{
+        display: block;
+    }
+    .mobile-pic{
+        display: none;
+    }
+    .bg-body{
+        background-image: url("/images/new-website/products/42gears/web/bg_1920-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    .text-1{
+        text-align: end;
+        padding: 5% 4% 0% 25%;
+    }
+    .text-1 >h2{
+        font-size: 3.5vw;
+        font-weight: 200;
+    }
+    .text-1 > p {
+        font-size: 2.8vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .button{
+        width: 95%;
+        padding: 125% 0% 0% 38%;
+    }
+    .btn-banner{
+        width: 49%;
+        border-radius: 25px;
+        border: none;
+        background-color: #3399ff87;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .btn-banner:hover{
+        background-color: #3399ffcc;
+        color: #00ffff;
+        box-shadow: 3px 3px 7px 2px #6666667a;
+        transition: 0.4s;
+    }
+    .section-2{
+        height: auto;
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .section-2 > h2{
+        text-align: end;
+        padding-right: 7%;
+        padding-top: 10%;
+        font-size: 4.5vw;
+        font-weight: 600;
+        color: #3399ff;
+    }
+    .section-2 > p {
+        text-align: center;
+        font-size: 2.3vw;
+        font-weight: 200;
+        color: #555555;
+    }
+    .row{
+        margin: 0%;
+    }
+    .row1-sec2{
+        text-align: -webkit-center;
+        margin: 50px 70px 0 100px;
+    }
+    .box-2{
+        width: 100%;
+        height: 200px;
+        background-color: #f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+        margin-top: 10%;
+    }
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 3.2vw;
+        padding-top: 5%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
+}
