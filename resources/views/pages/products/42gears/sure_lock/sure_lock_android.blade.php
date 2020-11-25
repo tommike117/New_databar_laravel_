@@ -16,7 +16,7 @@ services')
 <div class="bg-body">
     <section class="section-1">
         <div class="bg-1">
-            <div class="text-sup-1">
+            <div class="text-sup-1 mobile-none">
                 <h2 class="head-1">
                    SureLock for Android
                 </h2>

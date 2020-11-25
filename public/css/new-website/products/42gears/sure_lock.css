@@ -31,14 +31,14 @@
         font-size: 0.8vw;
         font-weight: 200;
     }
-    .section-1{
+    .bg-1{
         background-image: url('/images/new-website/products/42gears/web/SureLock/42_edit-02.jpg');
         background-repeat: no-repeat;
         background-size: contain;
     }
     .button{
         width: 100%;
-        padding: 31% 0% 0% 25%;
+        padding: 31% 0% 0% 24%;
     }
     /* .btn{
         position: absolute;

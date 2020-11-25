@@ -54,6 +54,7 @@
         background-image: url('/images/new-website/products/42gears/web/SureLock/lock_1920-03.jpg');
         background-repeat: no-repeat;
         background-size: contain;
+        height: 100%;
     }
     .button{
         width: 100%;
