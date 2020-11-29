@@ -6,7 +6,7 @@ services')
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_lock_android.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_fox_android.css')}}">
 @endsection
 
 
@@ -18,17 +18,16 @@ services')
         <div class="bg-1">
             <div class="text-sup-1">
                 <h2 class="head-1">
-                   SureLock for Android
+                    SureFox for Android
                 </h2>
                 <h3>
-
-                    LOCK DOWN MOBILE DEVICES INTO KIOSK MODE
+                    CONVERT ANDROID DEVICES INTO INTERNET KIOSKS
                 </h3>
                 <p>
-                    ■ Restrict users to only one or a few specific apps <br>
-                    ■ Prevent unwanted malicious use of devices <br>
-                    ■ Easy mass deployment <br>
-                    ■ Collect application usage with analytics engine
+                    ■ Restrict users to only selected websites <br>
+                    ■ Prevent device misuse <br>
+                    ■ Easy remote configuration <br>
+                    ■ Collect application usage data
                 </p>
             </div>
             <div class="button">
@@ -36,30 +35,37 @@ services')
                     <button class="btn btn-banner">Contact now</button>
                 </a>
             </div>
-            <div class="text-1 mobile-none">
-                <h2>
-                    Overview
+            <div class=" text-1 mobile-none">
+                <h2 class="head-1">
+                    SureFox Pro Features
                 </h2>
+                <h3>
+                    Includes all features of SureFox Basic plus :
+                </h3>
                 <p>
-                    SureLock turns any Android tablet or smartphone into a kiosk. It is an Android kiosk app that replaces the default Home Screen or Launcher and restricts user access to only one application or a few allowed applications. Are you worried about unwanted misuse of your company owned Android devices? It has become common to use off-the-shelf mobile devices to run business applications or self-service kiosks. However,
-                    device misuse can impact user productivity, increase device maintenance costs and cause other problems such as increase in mobile data usage etc. You can use SureLock to lockdown android tablets and smartphones and restrict access to only selected applications and device features. Games such as Angry Birds, social media applications such as Facebook and Twitter, System settings,
-                    or any other applications can be completely hidden from the user.
-                    SureLock achieves perfect lockdown on all kinds of Android devices and it does not require root access.
-                    Besides this, we have partnered with many device manufacturers that allow us to implement enhanced security and access control on their devices.
+                    ■ Kiosk Mode <br>
+                    ■ Suppress system notifications <br>
+                    ■ Allow website launch from custom toolbar <br>
+                    ■ Allow launching applications from webpages
                 </p>
             </div>
         </div>
     </section>
     <section class="section-2">
-        <div class="text-1 desktop-none">
-            <h2>
-                Overview
+        <div class=" text-1 desktop-none">
+            <h2 class="head-1">
+                SureFox Pro Features
             </h2>
+            <h3>
+                Includes all features of SureFox Basic plus :
+            </h3>
             <p>
-                SureMDM, powered by 42Gears UEM, is an intuitive and powerful Enterprise Mobility Management (EMM) tool for Android, iOS, Windows, Linux and macOS platforms. You can secure, monitor and manage company owned
-                devices for dedicated use as well as employee owned devices used to access company data (BYOD). SureMDM
-                incorporates all aspects of enterprise mobility through unified endpoint management such as Mobile Application Management, Mobile Device Management and Mobile Content Management.
+                ■ Kiosk Mode <br>
+                ■ Suppress system notifications <br>
+                ■ Allow website launch from custom toolbar <br>
+                ■ Allow launching applications from webpages
             </p>
+        </div>
         </div>
         <div class="text-2">
             <h2>

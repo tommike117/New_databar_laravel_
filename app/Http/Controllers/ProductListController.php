@@ -36,7 +36,7 @@ class ProductListController extends Controller
              ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
              ->orderby('Plist_Priority', 'DESC')
              ->get();
-        
+
          return view('pages/products/koamtac/barcode-smartsled', [
              'data'=> $data ,
          ]);
@@ -120,11 +120,11 @@ class ProductListController extends Controller
     //     ->WHERE('db_product_list.Plist_Name', $name )
     //     ->join('db_product_metatag', 'db_product_metatag.Plist_ID','=','db_product_list.Plist_ID', 'left')
     //     ->join('db_product_line', 'db_product_line.Pline_ID','=','db_product_list.Pline_ID', 'left')
-        
+
     //     ->first();
-        
-        
-    //     // dd($data);  
+
+
+    //     // dd($data);
     //     return view('includes/product-detail-template', [
     //         'data' => $data,
     //     ]);
@@ -150,7 +150,7 @@ class ProductListController extends Controller
         return view('includes/product-template-ikey', [
             'data' => $data,
         ]);
-        
+
         // dd($name);
         // return view('pages/products/ikey/'.$name,[
         //     'name' => $name
@@ -170,10 +170,10 @@ class ProductListController extends Controller
         ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
         ->orderby('Plist_Priority', 'DESC')
         ->first();
-        
+
         // List Feature
         $split = explode(';', $data->Plist_Feature);
-        for ($i=0; $i < count($split) ; $i++) { 
+        for ($i=0; $i < count($split) ; $i++) {
             if ($split[$i] == ''){
                 // dd($split[$i]);
                 unset($split[$i]);
@@ -191,33 +191,40 @@ class ProductListController extends Controller
     // bixolon mobile computer
     public function bixolon_mobile_printer ()
     {
-        $data = DB::table('db_product_list')
-            ->whereIn('db_product_list.Protype_ID', [16] )
-            ->join('db_product_line', 'db_product_line.Pline_ID','=','db_product_list.Pline_ID')
-            ->join('db_product_type', 'db_product_type.Protype_ID','=','db_product_list.Protype_ID')
-            ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
-            ->orderby('Plist_Priority', 'DESC')
-            ->get();
+        // $data = DB::table('db_product_list')
+        //     ->whereIn('db_product_list.Protype_ID', [16] )
+        //     ->join('db_product_line', 'db_product_line.Pline_ID','=','db_product_list.Pline_ID')
+        //     ->join('db_product_type', 'db_product_type.Protype_ID','=','db_product_list.Protype_ID')
+        //     ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
+        //     ->orderby('Plist_Priority', 'DESC')
+        //     ->get();
 
-        return view('pages/products/bixolon/mobile-printer', [
-            'data'=> $data ,
-        ]);
+        // return view('pages/products/bixolon/mobile-printer', [
+        //     'data'=> $data ,
+        // ]);
+        $data = DB::table('db_product_list')->where('Pline_ID', '=', 2)->get();
+
+        return view('pages/products/bixolon/mobile-printer', ['data'=> $data]);
     }
 
     // bixolon mobile computer
     public function bixolon_pos_printer ()
     {
-        $data = DB::table('db_product_list')
-            ->whereIn('db_product_list.Protype_ID', [18,19,20] )
-            ->join('db_product_line', 'db_product_line.Pline_ID','=','db_product_list.Pline_ID')
-            ->join('db_product_type', 'db_product_type.Protype_ID','=','db_product_list.Protype_ID')
-            ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
-            ->orderby('Plist_Priority', 'DESC')
-            ->get();
+        // $data = DB::table('db_product_list')
+        //     ->whereIn('db_product_list.Protype_ID', [18,19,20] )
+        //     ->join('db_product_line', 'db_product_line.Pline_ID','=','db_product_list.Pline_ID')
+        //     ->join('db_product_type', 'db_product_type.Protype_ID','=','db_product_list.Protype_ID')
+        //     ->join('db_brand', 'db_brand.Brand_ID','=','db_product_line.Brand_ID')
+        //     ->orderby('Plist_Priority', 'DESC')
+        //     ->get();
 
-        return view('pages/products/bixolon/pos-printer', [
-            'data'=> $data ,
-        ]);
+        // return view('pages/products/bixolon/pos-printer', [
+        //     'data'=> $data ,
+        // ]);
+
+        $data = DB::table('db_product_list')->where('Pline_ID', '=', 6)->get();
+
+        return view('pages/products/bixolon/pos-printer', ['data'=> $data]);
     }
 
     // datalogic industrial

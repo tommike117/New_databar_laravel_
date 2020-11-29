@@ -118,12 +118,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/bixolon/index');
         });
-        Route::get('/pos-printer', function () {
-            return view('/pages/products/bixolon/pos-printer');
-        });
-        Route::get('/mobile-printer', function () {
-            return view('/pages/products/bixolon/mobile-printer');
-        });
+        Route::get('/pos-printer','ProductListController@bixolon_pos_printer');
+
+        Route::get('/mobile-printer','ProductListController@bixolon_mobile_printer');
     });
 
     Route::group(['prefix' => '/datalogic'], function () {
@@ -308,8 +305,13 @@ Route::group(['prefix' => 'products'], function () {
             });
         Route::get('/sure_fox', function () {
             return view('/pages/products/42gears/sure_fox/sure_fox');
+            });
+
+            Route::get('/sure_fox/sure_fox_android', function () {
+                return view('/pages/products/42gears/sure_fox/sure_fox_android');
+            });
         });
-    });
+
 
 
 
@@ -479,43 +481,43 @@ Route::group(['prefix' => 'products'], function () {
 //         });
 //         // Route::get('/bixolon/pos-printer', function () {
 //         //     return view('pages/products/bixolon/pos-printer');
-//         // });
-//         Route::get('/bixolon/pos-printer/SRP-E300', function () {
-//             return view('pages/products/bixolon/SRP-E300');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-S300', function () {
-//             return view('pages/products/bixolon/SRP-S300');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-Q300', function () {
-//             return view('pages/products/bixolon/SRP-Q300');
-//         });
-//         Route::get('/bixolon/pos-printer/B-gate', function () {
-//             return view('pages/products/bixolon/B-gate');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-F310II', function () {
-//             return view('pages/products/bixolon/SRP-F310II');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-380', function () {
-//             return view('pages/products/bixolon/SRP-380');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-350plusIII', function () {
-//             return view('pages/products/bixolon/SRP-350plusIII');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-350III', function () {
-//             return view('pages/products/bixolon/SRP-350III');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-330II', function () {
-//             return view('pages/products/bixolon/SRP-330II');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-275III', function () {
-//             return view('pages/products/bixolon/SRP-275III');
-//         });
-//         Route::get('/bixolon/pos-printer/STP-103III', function () {
-//             return view('pages/products/bixolon/STP-103III');
-//         });
-//         Route::get('/bixolon/pos-printer/SRP-270', function () {
-//             return view('pages/products/bixolon/SRP-270');
-//         });
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-E300', function () {
+        //     return view('pages/products/bixolon/SRP-E300');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-S300', function () {
+        //     return view('pages/products/bixolon/SRP-S300');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-Q300', function () {
+        //     return view('pages/products/bixolon/SRP-Q300');
+        // });
+        // Route::get('/bixolon/pos-printer/B-gate', function () {
+        //     return view('pages/products/bixolon/B-gate');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-F310II', function () {
+        //     return view('pages/products/bixolon/SRP-F310II');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-380', function () {
+        //     return view('pages/products/bixolon/SRP-380');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-350plusIII', function () {
+        //     return view('pages/products/bixolon/SRP-350plusIII');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-350III', function () {
+        //     return view('pages/products/bixolon/SRP-350III');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-330II', function () {
+        //     return view('pages/products/bixolon/SRP-330II');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-275III', function () {
+        //     return view('pages/products/bixolon/SRP-275III');
+        // });
+        // Route::get('/bixolon/pos-printer/STP-103III', function () {
+        //     return view('pages/products/bixolon/STP-103III');
+        // });
+        // Route::get('/bixolon/pos-printer/SRP-270', function () {
+        //     return view('pages/products/bixolon/SRP-270');
+        // });
 
 //         // 42 Gears
 //         Route::get('/42gears', function () {

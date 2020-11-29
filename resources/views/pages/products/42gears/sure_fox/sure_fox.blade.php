@@ -67,7 +67,7 @@ services')
             </div>
             <div class="row row1-sec4">
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <a href="/products/42gears/sure_lock/sure_lock_window_mobile">
+                    <a href="/products/42gears/sure_fox/sure_fox_android">
                         <div class="box-2">
                             <figure>
                                 <img src="/images/new-website/products/42gears/web/SureFox/icon/icon_fox-01.png" class="icon-sec2" width="45%">
