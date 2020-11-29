@@ -1,6 +1,6 @@
 @extends('layouts/main-all-products')
 
-@section('title', '42Gears | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
+@section('title', '42Gears | SureMDM | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
 services')
 
 
@@ -16,10 +16,6 @@ services')
 <div class="bg-body">
     <section class="section-1">
         <div class="bg-1">
-            {{-- <picture>
-                <img class="desktop-pic" src="/images/new-website/products/42gears/web/SureMDM/MDM_1920-01_r.jpg" width="100%">
-                <img class="mobile-pic" src="/images/new-website/products/42gears/mobile/42_750-01.jpg" width="100%">
-            </picture> --}}
             <div class="button">
                 <a href="/contact">
                     <button class="btn btn-banner">Contact now</button>

@@ -297,6 +297,18 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/sure_lock/sure_lock_android', function () {
                 return view('/pages/products/42gears/sure_lock/sure_lock_android');
             });
+            Route::get('/sure_lock/sure_lock_window', function () {
+                return view('/pages/products/42gears/sure_lock/sure_lock_window');
+            });
+            Route::get('/sure_lock/sure_lock_window_mobile', function () {
+                return view('/pages/products/42gears/sure_lock/sure_lock_window_mobile');
+            });
+            Route::get('/sure_lock/sure_lock_window_watch', function () {
+                return view('/pages/products/42gears/sure_lock/sure_lock_watch');
+            });
+        Route::get('/sure_fox', function () {
+            return view('/pages/products/42gears/sure_fox/sure_fox');
+        });
     });
 
 

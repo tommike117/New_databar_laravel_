@@ -89,11 +89,11 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 4% 0% 60%;
+        padding: 5% 4% 0% 60%;
     }
     .text-2 > h2{
         text-align: start;
-        font-size: 2vw;
+        font-size: 1.8vw;
         font-weight: 400;
         color: #1879da;
         border-bottom: 3px solid #3399ff;
@@ -125,7 +125,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -153,7 +153,7 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -242,7 +242,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -264,12 +264,12 @@
         background-position: bottom;
     }
     .head-1{
-        border-bottom: 3px solid #3399ff;
+        border-bottom: 5px solid #3399ff;
         width: fit-content;
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -299,7 +299,7 @@
     }
     .button{
         width: 95%;
-        padding: 121% 0% 0% 38%;
+        padding: 125% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -359,7 +359,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -386,7 +386,7 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -416,7 +416,7 @@
     }
     .button{
         width: 95%;
-        padding: 128% 0% 0% 38%;
+        padding: 130% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -424,7 +424,7 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding: 7% 7% 0% 27%;
     }
     .text-2 > h2{
         text-align: start;

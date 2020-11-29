@@ -1,6 +1,6 @@
 @media screen and (min-width: 992px){
     .section-1{
-        height: 110vh;
+        height: 100vh;
         width: auto;
         position: relative;
     }
@@ -39,21 +39,8 @@
     .text-sup-1 > p {
         color: #707070;
     }
-    .text-1{
-        text-align: end;
-        padding: 8% 4% 1% 21%;
-    }
-    .text-1 >h2{
-        font-size: 1.5vw;
-        font-weight: 200;
-    }
-    .text-1 > p {
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #707070;
-    }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/web/SureLock/lock_1920-03.jpg');
+        background-image: url('/images/new-website/products/42gears/web/SureLock/lock_1920-07.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -86,18 +73,16 @@
     .section-2{
         height: auto;
         width: 100%;
-        padding-bottom: 10%;
+        padding-bottom: 4%;
     }
     .text-2{
-        padding: 7% 4% 0% 60%;
+        padding: 0% 4% 0% 60%;
     }
     .text-2 > h2{
         text-align: start;
         font-size: 2vw;
         font-weight: 400;
         color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
     }
     .text-2 > p{
         text-align: start;
@@ -125,7 +110,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -153,10 +138,10 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 86% 0% 0% 16%;
     }
     .text-sup-1 > h2{
-        font-size: 6vw;
+        font-size: 4.5vw;
         font-weight: 300;
         color: #1879da;
     }
@@ -168,19 +153,7 @@
         font-size: 3vw;
         color: #707070;
     }
-    .text-1{
-        text-align: end;
-        padding: 7% 5% 0% 23%;
-    }
-    .text-1 >h2{
-        font-size: 4.5vw;
-        font-weight: 200;
-    }
-    .text-1 > p {
-        font-size: 2.8vw;
-        font-weight: 200;
-        color: #555555;
-    }
+
     .button{
         width: 95%;
         padding: 125% 0% 0% 38%;
@@ -207,15 +180,13 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding:7% 5% 0% 20%;
     }
     .text-2 > h2{
         text-align: start;
         font-size: 4vw;
         font-weight: 400;
         color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
     }
     .text-2 > p{
         text-align: start;
@@ -225,7 +196,7 @@
     }
    .section-3{
         text-align: end;
-        padding: 2% 14% 0 0%;
+        padding: 2% 5% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{
@@ -242,7 +213,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-10.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -264,15 +235,15 @@
         background-position: bottom;
     }
     .head-1{
-        border-bottom: 3px solid #3399ff;
+        border-bottom: 5px solid #3399ff;
         width: fit-content;
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding:86% 0% 0% 16%;
     }
     .text-sup-1 > h2{
-        font-size: 6vw;
+        font-size:  4.5vw;
         font-weight: 300;
         color: #1879da;
     }
@@ -284,22 +255,10 @@
         font-size: 3vw;
         color: #707070;
     }
-    .text-1{
-        text-align: end;
-        padding: 7% 7% 0% 23%;
-    }
-    .text-1 >h2{
-        font-size: 4.5vw;
-        font-weight: 200;
-    }
-    .text-1 > p {
-        font-size: 2.8vw;
-        font-weight: 200;
-        color: #555555;
-    }
+
     .button{
         width: 95%;
-        padding: 121% 0% 0% 38%;
+        padding: 125% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -314,8 +273,6 @@
         font-size: 4vw;
         font-weight: 400;
         color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
     }
     .text-2 > p{
         text-align: start;
@@ -325,7 +282,7 @@
     }
    .section-3{
         text-align: end;
-        padding: 2% 14% 0 0%;
+        padding: 2% 4% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{
@@ -359,7 +316,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-10.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -386,10 +343,10 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 86% 0% 0% 16%
     }
     .text-sup-1 > h2{
-        font-size: 6vw;
+        font-size:  4.5vw;
         font-weight: 300;
         color: #1879da;
     }
@@ -401,22 +358,10 @@
         font-size: 3vw;
         color: #707070;
     }
-    .text-1{
-        text-align: end;
-        padding: 7% 7% 0% 23%;
-    }
-    .text-1 >h2{
-        font-size: 4.5vw;
-        font-weight: 200;
-    }
-    .text-1 > p {
-        font-size: 2.8vw;
-        font-weight: 200;
-        color: #555555;
-    }
+
     .button{
         width: 95%;
-        padding: 128% 0% 0% 38%;
+        padding: 130% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -424,15 +369,13 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding: 7% 5% 0% 20%
     }
     .text-2 > h2{
         text-align: start;
         font-size: 4vw;
         font-weight: 400;
         color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
     }
     .text-2 > p{
         text-align: start;
@@ -442,7 +385,7 @@
     }
    .section-3{
         text-align: end;
-        padding: 2% 14% 0 0%;
+        padding: 2% 4% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{

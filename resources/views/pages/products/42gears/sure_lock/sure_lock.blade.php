@@ -1,6 +1,6 @@
 @extends('layouts/main-all-products')
 
-@section('title', '42Gears | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
+@section('title', '42Gears | SureLock | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
 services')
 
 
@@ -61,7 +61,7 @@ services')
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 tablet-margin-top">
-                <a href="/contact">
+                <a href="/products/42gears/sure_lock/sure_lock_window">
                     <div class="box-2">
                         <figure>
                             <img src="/images/new-website/products/42gears/web/SureLock/icon/iconlook-02.png" class="icon-sec2" width="50%">
@@ -73,7 +73,7 @@ services')
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 tablet-margin-top">
-                <a href="/contact">
+                <a href="/products/42gears/sure_lock/sure_lock_window_mobile">
                     <div class="box-2">
                         <figure>
                             <img src="/images/new-website/products/42gears/web/SureLock/icon/iconlook-03.png" class="icon-sec2"width="50%">
@@ -85,7 +85,7 @@ services')
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 tablet-margin-top">
-                <a href="/contact">
+                <a href="/products/42gears/sure_lock/sure_lock_window_watch">
                     <div class="box-2">
                         <figure>
                             <img src="/images/new-website/products/42gears/web/SureLock/icon/iconlook-04.png" class="icon-sec2" width="50%">

@@ -94,7 +94,7 @@ services')
                     <h2>Sure Fox</h2>
                     <p>Corporate applications delivered on mobile devices are gaining traction in organizations of all sizes and industries. Securely delivering the application on a mobile device, and preventing unauthorized usage of the device naturally becomes a priority. Enterprise Secure Browser - SureFox creates a Secure Browsing environment in Android and iOS devices, delivering corporate applications with a seamless web browsing experience.
                     </p>
-                    <a href="/#">
+                    <a href="/products/42gears/sure_fox">
                         <button class="btn btn-banner">Learn more</button>
                     </a>
                 </div>
