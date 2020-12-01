@@ -1,12 +1,12 @@
 @extends('layouts/main-all-products')
 
-@section('title', '42Gears | SureLock window | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
+@section('title', '42Gears | SureVideo | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
 services')
 
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_fox.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_video.css')}}">
 @endsection
 
 
@@ -18,13 +18,14 @@ services')
         <div class="bg-1">
             <div class="text-sup-1">
                 <h2 class="head-1">
-                    SureFox Secure Browser
+                    SureVideo Digital <br>
+                    Signage Solution
                 </h2>
                 <p>
-                    ■ Maximizes User Productivity with Restricted Browsing <br>
-                    ■ Quick and Easy Configuration Process <br>
+                    ■ Efficiently engage audienceEfficiently engage audience <br>
+                    ■ Targeted content delivery <br>
                     ■ Reduces Device Maintenance Effort <br>
-                    ■ Device branding <br>
+                    ■ Easy setup <br>
                     ■ Easy Mass Deployment with Cloud Export and Import of Settings
                 </p>
             </div>
@@ -38,10 +39,12 @@ services')
                     Overview
                 </h2>
                 <p>
-                    Overview When deploying mobile web applications, security is an important criteria for success.
-                    The most common requirement is to limit access to only certain websites for corporate use. SureFox Secure
-                    Browser creates a safe browsing environment on mobile devices and desktops. This makes the devices
-                    suitable for use as self-service web kiosks and data collection terminals for various types of businesses.
+                    Digital Signage solutions are useful for delivering
+                    targeted content to audiences in order to grab their attention.
+                    SureVideo can be used as video looper to display advertisements,
+                    news, product information, or anything your business wants to
+                    deliver to the customers. Install SureVideo on a tablet or TV stick
+                    and configure a playlist that plays videos in a loop. You can easily deploy the playlist on multiple devices and update it at any time.
                 </p>
             </div>
         </div>
@@ -52,10 +55,12 @@ services')
                 Overview
             </h2>
             <p>
-                Overview When deploying mobile web applications, security is an important criteria for success.
-                The most common requirement is to limit access to only certain websites for corporate use. SureFox Secure
-                Browser creates a safe browsing environment on mobile devices and desktops. This makes the devices
-                suitable for use as self-service web kiosks and data collection terminals for various types of businesses.
+                Digital Signage solutions are useful for delivering
+                targeted content to audiences in order to grab their attention.
+                SureVideo can be used as video looper to display advertisements,
+                news, product information, or anything your business wants to
+                deliver to the customers. Install SureVideo on a tablet or TV stick
+                and configure a playlist that plays videos in a loop. You can easily deploy the playlist on multiple devices and update it at any time.
             </p>
         </div>
 
@@ -67,7 +72,7 @@ services')
             </div>
             <div class="row row1-sec4">
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <a href="/products/42gears/sure_fox/sure_fox_android">
+                    <a href="/products/42gears/sure_video/sure_video_android">
                         <div class="box-2">
                             <figure>
                                 <img src="/images/new-website/products/42gears/web/SureFox/icon/icon_fox-01.png" class="icon-sec2" width="45%">
@@ -79,7 +84,7 @@ services')
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="/products/42gears/sure_fox/sure_fox_ios">
+                    <a href="/products/42gears/sure_video/sure_video_ios">
                         <div class="box-2">
                             <figure>
                                 <img src="/images/new-website/products/42gears/web/SureFox/icon/icon_fox-02.png" class="icon-sec2" width="45%">
@@ -91,7 +96,7 @@ services')
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="/products/42gears/sure_fox/sure_fox_window_mobile">
+                    <a href="/products/42gears/sure_video/sure_video_window_mobile">
                         <div class="box-2">
                             <figure>
                                 <img src="/images/new-website/products/42gears/web/SureFox/icon/icon_fox-03.png" class="icon-sec2" width="45%">
@@ -107,7 +112,7 @@ services')
         <section class="section-3">
             <a href="/products">Products</a><span style="color: #707070af;"> > </span>
             <a href="/products/42gears">42Gears</a><span style="color: #707070af;"> > </span>
-            <a href="#">Sure Fox</a><span style="color: #707070af;">  </span>
+            <a href="#">SureVideo</a><span style="color: #707070af;">  </span>
          </section>
 </div>
 <section>

@@ -114,7 +114,7 @@ services')
                     <h2>Sure Video </h2>
                     <p>locks down Android and iOS devices to play only allowed media files - a simple yet powerful Digital Signage solution. Install SureVideo, access its password protected settings, specify media files you wish to play in lockdown mode and your device is ready to be used as a video playing kiosk at a mall, office, store etc.
                     </p>
-                    <a href="/#">
+                    <a href="/products/42gears/sure_video">
                         <button class="btn btn-banner">Learn more</button>
                     </a>
                 </div>

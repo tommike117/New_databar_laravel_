@@ -1,12 +1,12 @@
 @extends('layouts/main-all-products')
 
-@section('title', '42Gears | SureLock Android | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
+@section('title', '42Gears | SureVideo Android | Mobile Device Manegement | Unified Enterprise Management | DATABAR Business-To-Business (B2B) distributor and samsung authorized
 services')
 
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_fox_android.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/42gears/sure_video_android.css')}}">
 @endsection
 
 
@@ -18,16 +18,17 @@ services')
         <div class="bg-1">
             <div class="text-sup-1">
                 <h2 class="head-1">
-                    SureFox for Android
+                    SureVideo for Android
                 </h2>
                 <h3>
-                    CONVERT ANDROID DEVICES INTO INTERNET KIOSKS
+                    DIGITAL SIGNAGE FOR TABLETS AND TV STICKS
                 </h3>
                 <p>
-                    ■ Restrict users to only selected websites <br>
-                    ■ Prevent device misuse <br>
-                    ■ Easy remote configuration <br>
-                    ■ Collect application usage data
+                    ■ Loops videos automatically <br>
+                    ■ Restrict users to play only allowed media files <br>
+                    ■ Multiple formats supported <br>
+                    ■ Block user from changing System Settings <br>
+                    ■ Deploy easily on multiple devices
                 </p>
             </div>
             <div class="button">
@@ -36,56 +37,39 @@ services')
                 </a>
             </div>
             <div class=" text-1 mobile-none">
-                <h2 class="head-1">
-                    SureFox Pro Features
+                <h2>
+                    Overview
                 </h2>
-                <h3>
-                    Includes all features of SureFox Basic plus :
-                </h3>
                 <p>
-                    ■ Kiosk Mode <br>
-                    ■ Suppress system notifications <br>
-                    ■ Allow website launch from custom toolbar <br>
-                    ■ Allow launching applications from webpages
+                    SureVideo enables your Android tablets and TV sticks
+                    to continuously play media files (videos and images) in a loop.
+                    It converts your regular tablet into a professional looking Android Digital Signage solution.
                 </p>
             </div>
         </div>
     </section>
     <section class="section-2">
         <div class=" text-1 desktop-none">
-            <h2 class="head-1">
-                SureFox Pro Features
+            <h2>
+                Overview
             </h2>
-            <h3>
-                Includes all features of SureFox Basic plus :
-            </h3>
             <p>
-                ■ Kiosk Mode <br>
-                ■ Suppress system notifications <br>
-                ■ Allow website launch from custom toolbar <br>
-                ■ Allow launching applications from webpages
+                SureVideo enables your Android tablets and TV sticks
+                to continuously play media files (videos and images) in a loop.
+                It converts your regular tablet into a professional looking Android Digital Signage solution.
             </p>
+        </div>
+        <div class="body-video">
+            <iframe style="width: 50%; height: 400px;" src="https://www.youtube.com/embed/JBoEIBD86A8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
         <div class="text-2">
             <h2>
-                SureFox Basic Features
+                How does SureVideo work?
             </h2>
             <p>
-                ■ Restrict access to selected websites <br>
-                ■ Password protect browser settings <br>
-                ■ Create custom toolbars <br>
-                ■ HTML5 support <br>
-                ■ Browse local webpages <br>
-                ■ Customizable homepage (thumbnail icon, wallpaper, website captions <br>
-                ■ Auto launch SureFox at startup <br>
-                ■ Show or hide website address and loading indicator on title bar <br>
-                ■ Disable device turning off due to inactivity<br>
-                ■ Configurable context menu<br>
-                ■ Control access to peripherals (WiFi, Bluetooth, Camera, Screen Orientation, Airplane mode, Audio, GPS, etc.) <br>
-                ■ Remotely deploy SureFox configuration using SureMDM <br>
-                ■ Disable upload and download of files <br>
-                ■ Built-in file download manager <br>
-                ■ Flash support (Android 4.0 and below only)
+                1. Download and install SureVideo onto your Android tablet or TV stick <br>
+                2. Go to SureVideo Settings <br>
+                3. Create and apply a playlist of videos and images That is all you need to create a Digital Signage solution out of an Android device.
             </p>
         </div>
         <div class="text-2-2">
@@ -156,7 +140,7 @@ services')
     <section class="section-3">
         <a href="/products">Products</a><span style="color: #707070af;"> > </span>
         <a href="/products/42gears">42Gears</a><span style="color: #707070af;"> > </span>
-        <a href="/products/42gears/sure_fox">Sure Fox</a><span style="color: #707070af;"> > </span>
+        <a href="/products/42gears/sure_fox">SureVideo</a><span style="color: #707070af;"> > </span>
         <a href="#" style="font-weight: 600; color: #707070;">Android</a>
     </section>
 </div>

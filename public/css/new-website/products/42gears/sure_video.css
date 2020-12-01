@@ -40,17 +40,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 8% 4% 1% 70%;
+        text-align: end;
+        padding: 6.5% 4% 1% 21%;
     }
     .text-1 >h2{
-        font-size: 1.5vw;
+        font-size: 1.7vw;
         font-weight: 200;
-        color: #1879da;
-    }
-    .text-1 > h3{
-        font-size: large;
-        color: #1879da;
     }
     .text-1 > p {
         font-size: 0.9vw;
@@ -58,15 +53,20 @@
         color: #707070;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/web/SureLock/lock_1920-03.jpg');
+        background-image: url('/images/new-website/products/42gears/web/SureVideo/VDO_home1920-01.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
     }
     .button{
         width: 100%;
-        padding: 30% 0% 0% 15%;
+        padding: 31% 0% 0% 14%;
     }
+    /* .btn{
+        position: absolute;
+        left: 23%;
+        top: 58%;
+    } */
     .btn-banner{
         width: 14%;
         border-radius: 25px;
@@ -86,66 +86,66 @@
     .section-2{
         height: auto;
         width: 100%;
+        padding-bottom: 3%;
     }
     .text-2{
-        padding: 7% 4% 0% 60%;
+        padding: 5% 0% 0% 3%;
+        text-align: center;
     }
     .text-2 > h2{
-        text-align: start;
-        font-size: 2vw;
-        font-weight: 400;
-        color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
+        font-size: 2.5vw;
+        font-weight: 600;
+        color: #3399ff;
     }
     .text-2 > p{
-        text-align: start;
-        font-size: 1vw;
+        font-size: 1.4vw;
         font-weight: 200;
         color: #707070;
     }
-    .text-2-2{
-        text-align: center;
-        padding: 10% 0 0 4%;
-    }
-    .text-2-2 > h2{
-        color: #3399ff;
-        font-size: 2vw;
-        font-weight: 600;
-    }
-    .container-2{
-        margin: 0;
-        padding: 2% 5% 2% 12%;
-    }
-    .col-android{
-        flex: 0 0 14.28571428571429%;
-        max-width: 14.28571428571429%;
-    }
-    .icon-sec2{
-        padding-top: 17%;
-    }
-    .box{
-        width: 95%;
-        height: 231px;
-        background-color: #f6f6f6a3;
-        text-align: center;
-        box-shadow: 10px 10px 14px #e6e4e4;
-        border-radius: 15px;
-        margin-top: 7%;
-    }
-    .box > h2{
-        font-size: 1vw;
-        color: #3399ff;
-        font-weight: 600;
-    }
-    .section-3{
+   .section-3{
         text-align: end;
-        padding: 2% 14% 5% 0%;
+        padding: 2% 14% 0 0%;
         font-size: 1.1vw;
-    }
+   }
    .section-3 > a{
        color: #70707093;
    }
+   .section-4{
+       height: 100%;
+       width: auto;
+   }
+   .row1-sec4{
+        text-align: -webkit-center;
+        margin: 50px 100px 0 200px;
+   }
+   .box-2{
+        width: 85%;
+        height: 345px;
+        background-color: #f6f6f6a3;
+        text-align: center;
+        box-shadow: 10px 10px 14px #e6e4e4;
+        border-radius: 30px;
+        margin-top: 7%;
+    }
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition-property: transform;
+        transform: scale(1.05,1.05);
+        transition-timing-function: ease;
+        transition-duration: 0.4s;
+    }
+    .box-2 > h2{
+        color: #3399ff;
+        font-size: 1.2vw;
+    }
+    .box-2 > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        padding: 0 10%;
+    }
+    .icon-sec2{
+        padding-top:17% ;
+    }
    a:hover{
     font-weight: 500 !important;
     color: #707070af !important;
@@ -158,7 +158,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_home750-01.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -186,7 +186,7 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -202,26 +202,21 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 5% 0% 25%;
+        text-align: end;
+        padding: 7% 5% 0% 23%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
-    }
-    .text-1 > h3{
-        font-size: large;
-        color: #1879da;
     }
     .text-1 > p {
         font-size: 2.8vw;
         font-weight: 200;
-        color: #707070;
+        color: #555555;
     }
     .button{
         width: 95%;
-        padding: 125% 0% 0% 38%;
+        padding: 128% 0% 0% 38%;
     }
     .btn-banner{
         width: 49%;
@@ -242,62 +237,60 @@
     .section-2{
         height: auto;
         width: 100%;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding: 7% 7% 0% 14%;
+        text-align: center;
     }
     .text-2 > h2{
-        text-align: start;
         font-size: 4vw;
         font-weight: 400;
-        color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
+        color: #3399ff;
+
     }
     .text-2 > p{
-        text-align: start;
         font-size: 3vw;
         font-weight: 200;
         color: #707070;
     }
-    .text-2-2{
-        text-align: center;
-        padding: 10% 0 0 4%;
+    .section-4{
+        height: 100%;
+        width: auto;
     }
-    .text-2-2 > h2{
-        color: #3399ff;
-        font-size: 4.5vw;
-        font-weight: 600;
+    .row1-sec4{
+         text-align: -webkit-center;
+         margin: 50px 100px 0 125px;
     }
-    .container-2{
-        margin: 0;
-        padding: 2% 5% 2% 12%;
-    }
-    .col-android{
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .icon-sec2{
-        padding-top: 17%;
-    }
-    .box{
-        width: 95%;
-        height: 231px;
-        background-color: #f6f6f6a3;
+    .box-2{
+        width: 90%;
+        height: 290px;
+        background-color:#f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
-        border-radius: 15px;
-        margin-top: 7%;
+        border-radius: 30px;
+        margin-top: 5%;
     }
-    .box > h2{
-        font-size: 2vw;
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+
+    .box-2 > h2{
         color: #3399ff;
-        font-weight: 600;
+        font-size: 2.2vw;
+        padding-top: 5%;
+    }
+    .box-2 > p{
+        font-size: 1.6vw;
+        padding: 0 5%
+    }
+    .icon-sec2{
+        padding-top:17% ;
     }
    .section-3{
         text-align: end;
-        padding: 0% 14% 5% 5%;
+        padding: 6% 23% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{
@@ -314,7 +307,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_home750-01.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -336,12 +329,12 @@
         background-position: bottom;
     }
     .head-1{
-        border-bottom: 3px solid #3399ff;
+        border-bottom: 5px solid #3399ff;
         width: fit-content;
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -357,26 +350,21 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 7% 0% 25%;
+        text-align: end;
+        padding: 7% 7% 0% 23%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
-    }
-    .text-1 > h3{
-        font-size: large;
-        color: #1879da;
     }
     .text-1 > p {
         font-size: 2.8vw;
         font-weight: 200;
-        color: #707070;
+        color: #555555;
     }
     .button{
         width: 95%;
-        padding: 121% 0% 0% 38%;
+        padding: 130% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -384,59 +372,55 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding: 7% 7% 0% 12%;
+        text-align: center;
     }
     .text-2 > h2{
-        text-align: start;
-        font-size: 4vw;
+        font-size: 4.5vw;
         font-weight: 400;
-        color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
+        color: #3399ff;
     }
     .text-2 > p{
-        text-align: start;
-        font-size: 3vw;
+        font-size: 3.2vw;
         font-weight: 200;
         color: #707070;
     }
-    .text-2-2{
-        text-align: center;
-        padding: 10% 0 0 4%;
+    .section-4{
+        height: 100%;
+        width: auto;
     }
-    .text-2-2 > h2{
-        color: #3399ff;
-        font-size: 4.5vw;
-        font-weight: 600;
+    .row1-sec4{
+         text-align: -webkit-center;
+         margin: 50px 100px 0 125px;
     }
-    .container-2{
-        margin: 0;
-        padding: 2% 5% 2% 12%;
-    }
-    .col-android{
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .icon-sec2{
-        padding-top: 17%;
-    }
-    .box{
-        width: 95%;
-        height: 185px;
-        background-color: #f6f6f6a3;
+    .box-2{
+        width: 65%;
+        height: 290px;
+        background-color:#f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
-        border-radius: 15px;
-        margin-top: 7%;
+        border-radius: 30px;
+        margin-top: 5%;
     }
-    .box > h2{
-        font-size: 2vw;
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+    .box-2 > h2{
         color: #3399ff;
-        font-weight: 600;
+        font-size: 3.2vw;
+        padding-top: 5%;
+    }
+    .box-2 > p{
+        font-size: 2vw;
+        padding: 0 5%
+    }
+    .icon-sec2{
+        padding-top:17% ;
     }
    .section-3{
         text-align: end;
-        padding: 2% 14% 5% 0%;
+        padding: 2% 22% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{
@@ -470,7 +454,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_home750-01.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/lock/lock_750-09.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -497,7 +481,7 @@
     }
     .text-sup-1{
         position: absolute;
-        padding: 85% 0% 0% 18%;
+        padding: 83% 0% 0% 18%;
     }
     .text-sup-1 > h2{
         font-size: 6vw;
@@ -513,26 +497,21 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 7% 0% 25%;
+        text-align: end;
+        padding: 7% 7% 0% 23%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
-    }
-    .text-1 > h3{
-        font-size: large;
-        color: #1879da;
     }
     .text-1 > p {
         font-size: 2.8vw;
         font-weight: 200;
-        color: #707070;
+        color: #555555;
     }
     .button{
         width: 95%;
-        padding: 128% 0% 0% 38%;
+        padding: 133% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -540,59 +519,55 @@
         padding-bottom: 10%;
     }
     .text-2{
-        padding: 7% 7% 0% 25%;
+        padding: 15% 7% 0% 10%;
+        text-align: center;
     }
     .text-2 > h2{
-        text-align: start;
         font-size: 4vw;
         font-weight: 400;
-        color: #1879da;
-        border-bottom: 3px solid #3399ff;
-        width: fit-content;
+        color: #3399ff;
     }
     .text-2 > p{
-        text-align: start;
         font-size: 3vw;
         font-weight: 200;
         color: #707070;
     }
-    .text-2-2{
-        text-align: center;
-        padding: 10% 0 0 4%;
+    .section-4{
+        height: 100%;
+        width: auto;
     }
-    .text-2-2 > h2{
-        color: #3399ff;
-        font-size: 4.5vw;
-        font-weight: 600;
+    .row1-sec4{
+         text-align: -webkit-center;
+         margin: 45px 40px 0 55px;
     }
-    .container-2{
-        margin: 0;
-        padding: 2% 5% 2% 12%;
-    }
-    .col-android{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .icon-sec2{
-        padding-top: 17%;
-    }
-    .box{
-        width: 95%;
-        height: 200px;
+    .box-2{
+        width: 80%;
+        height: 250px;
         background-color: #f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
-        border-radius: 15px;
-        margin-top: 7%;
+        border-radius: 30px;
+        margin-top: 5%;;
     }
-    .box > h2{
-        font-size: 2vw;
+    .box-2:hover{
+        box-shadow: 0px 0px 14px #e6e4e4;
+        transition: 0.4s;
+    }
+    .box-2 > h2{
         color: #3399ff;
-        font-weight: 600;
+        font-size: 3.2vw;
+        padding-top: 5%;
+    }
+    .box-2 > p{
+        font-size: 2vw;
+        padding: 0 5%
+    }
+    .icon-sec2{
+        padding-top:17% ;
     }
    .section-3{
         text-align: end;
-        padding: 2% 14% 5% 0%;
+        padding: 2% 22% 0 0%;
         font-size: 3.1vw;
    }
    .section-3 > a{

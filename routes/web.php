@@ -306,9 +306,26 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/sure_fox', function () {
             return view('/pages/products/42gears/sure_fox/sure_fox');
             });
-
             Route::get('/sure_fox/sure_fox_android', function () {
                 return view('/pages/products/42gears/sure_fox/sure_fox_android');
+            });
+            Route::get('/sure_fox/sure_fox_ios', function () {
+                return view('/pages/products/42gears/sure_fox/sure_fox_ios');
+            });
+            Route::get('/sure_fox/sure_fox_window_mobile', function () {
+                return view('/pages/products/42gears/sure_fox/sure_fox_window_mobile');
+            });
+        Route::get('/sure_video', function () {
+            return view('/pages/products/42gears/sure_video/sure_video');
+            });
+            Route::get('/sure_video/sure_video_android', function () {
+                return view('/pages/products/42gears/sure_video/sure_video_android');
+            });
+            Route::get('/sure_video/sure_video_ios', function () {
+                return view('/pages/products/42gears/sure_video/sure_video_ios');
+            });
+            Route::get('/sure_video/sure_video_window_mobile', function () {
+                return view('/pages/products/42gears/sure_video/sure_video_window_mobile');
             });
         });
 
