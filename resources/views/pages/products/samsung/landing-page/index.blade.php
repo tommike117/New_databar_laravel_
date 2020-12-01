@@ -24,7 +24,10 @@
 <section>
     <div class="bg-section1">
         <div class="video-banner">
-            <div style="width: 100%">
+            <video class="video-section" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop>
+                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.mp4')}}" type="video/mp4">
+                </video>
+            <div style="width: 100%; position: absolute;right:0;">
                 <p>Manage your entire business with Samsung <br>
                 Connect all your processes and transform your growing business. </p>
             </div>
