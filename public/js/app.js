@@ -37022,9 +37022,9 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\DATABAR_LEGION\Documents\GitHub\New_databar_laravel_\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\DATABAR_LEGION\Documents\GitHub\New_databar_laravel_\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\DATABAR_LEGION\Documents\GitHub\New_databar_laravel_\resources\sass\animate.scss */"./resources/sass/animate.scss");
+__webpack_require__(/*! F:\New_databar_laravel\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! F:\New_databar_laravel\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! F:\New_databar_laravel\resources\sass\animate.scss */"./resources/sass/animate.scss");
 
 
 /***/ })

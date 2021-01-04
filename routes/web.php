@@ -78,9 +78,95 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/samsung/landing-page/index');
         });
-
+        // Smartphone Samsung
         Route::get('/smartphones', 'NewDatabarProducts@samsung_smartphones');
+
+        Route::get('/smartphones/galaxy-s20', function () {
+            return redirect('/products/samsung/mobile/smartphone/Galaxy-s20');
+        });
+        // Smartphone Samsung
+        Route::get('/smartphones', 'NewDatabarProducts@samsung_smartphones');
+
+            Route::get('/smartphones/Samsung-Galaxy-Xcover-Pro', function () {
+                return view('/pages/products/samsung/Samsung-Galaxy-Xcover-Pro');
+            });
+            Route::get('/smartphones/Samsung-Galaxy-Xcover-4', function () {
+                return view('/pages/products/samsung/Samsung-Galaxy-Xcover-4');
+            });
+            Route::get('/smartphones/galaxy-z-flip', function () {
+                return view('/pages/products/samsung/galaxy-z-flip');
+            });
+            Route::get('/smartphones/Galaxy-S20', function () {
+                return view('/pages/products/samsung/Galaxy-S20');
+            });
+            Route::get('/smartphones/Samsung-Galaxy-Note10', function () {
+                return view('/pages/products/samsung/Samsung-Galaxy-Note10');
+            });
+            Route::get('/smartphones/Samsung-Galaxy-S10', function () {
+                return view('/pages/products/samsung/Samsung-Galaxy-S10');
+            });
+            Route::get('/smartphones/Galaxy-M31', function () {
+                return view('/pages/products/samsung/Galaxy-M31');
+            });
+            Route::get('/smartphones/Galaxy-M21', function () {
+                return view('/pages/products/samsung/Galaxy-M21');
+            });
+            Route::get('/smartphones/Galaxy-M11', function () {
+                return view('/pages/products/samsung/Galaxy-M11');
+            });
+            Route::get('/smartphones/galaxy-a71', function () {
+                return view('/pages/products/samsung/galaxy-a71');
+            });
+            Route::get('/smartphones/galaxy-a51', function () {
+                return view('/pages/products/samsung/galaxy-a51');
+            });
+            Route::get('/smartphones/galaxy-a31', function () {
+                return view('/pages/products/samsung/galaxy-a31');
+            });
+            Route::get('/smartphones/galaxy-a21s', function () {
+                return view('/pages/products/samsung/galaxy-a21s');
+            });
+            Route::get('/smartphones/galaxy-a20s', function () {
+                return view('/pages/products/samsung/galaxy-a20s');
+            });
+            Route::get('/smartphones/galaxy-a11', function () {
+                return view('/pages/products/samsung/galaxy-a11');
+            });
+            Route::get('/smartphones/galaxy-a01', function () {
+                return view('/pages/products/samsung/galaxy-a01');
+            });
+
+
+
         Route::get('/tablets', 'NewDatabarProducts@samsung_tablets');
+
+            Route::get('/tablets/Galaxy-Tab-Active-Pro', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-Active-Pro');
+            });
+            Route::get('/tablets/Galaxy-Tab-Active2', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-Active2');
+            });
+            Route::get('/tablets/Galaxy-Tab-S4-10-5', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-S4-10-5');
+            });
+            Route::get('/tablets/Galaxy-Tab-S5e', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-S5e');
+            });
+            Route::get('/tablets/Galaxy-Tab-S6', function () {
+                return view('/pages/products/samsung/galaxy-Tab-S6');
+            });
+            Route::get('/tablets/galaxy-tab-s6-lte', function () {
+                return view('/pages/products/samsung/galaxy-tab-s6-lte');
+            });
+            Route::get('/tablets/Galaxy-Tab-A-10-1', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-A-10-1');
+            });
+            Route::get('/tablets/Galaxy-Tab-A-2019', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-A-2019');
+            });
+            Route::get('/tablets/galaxy-tab-a-2019-plus', function () {
+                return view('/pages/products/samsung/galaxy-tab-a-2019-plus');
+            });
 
         Route::get('/knox', function () {
             return view('/pages/products/samsung/samsung-knox/index');
@@ -105,12 +191,10 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/caterpillar/index');
         });
-        Route::get('/smart-phone-cat', function () {
-            return view('/pages/products/caterpillar/smart-phone-cat');
-        });
-        Route::get('/tablet-cat', function () {
-            return view('/pages/products/caterpillar/tablet-cat');
-        });
+        Route::get('/smart-phone-cat','ProductListController@smart_phone_cat');
+
+        Route::get('/tablet-cat','ProductListController@tablet_cat');
+
     });
 
     Route::group(['prefix' => '/bixolon'], function () {
@@ -128,15 +212,11 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/datalogic/index');
         });
-        Route::get('/barcode-scanners', function () {
-            return view('/pages/products/datalogic/barcode-scanners');
-        });
-        Route::get('/mobile-computers', function () {
-            return view('/pages/products/datalogic/mobile-computers');
-        });
-        Route::get('/automation', function () {
-            return view('/pages/products/datalogic/automation');
-        });
+        Route::get('/barcode-scanners','ProductListController@datalogic_barcode_scanners');
+
+        Route::get('/mobile-computers','ProductListController@datalogic_mobile_computers');
+
+        Route::get('/automation','ProductListController@datalogic_automation');
     });
 
     Route::group(['prefix' => '/ecom-ex'], function () {
@@ -144,12 +224,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/ecom-ex/index');
         });
-        Route::get('/smartphone', function () {
-            return view('/pages/products/ecom-ex/smartphone');
-        });
-        Route::get('/tablet', function () {
-            return view('/pages/products/ecom-ex/tablet');
-        });
+        Route::get('/tablet','ProductListController@ecom_tablet');
+
+        Route::get('/smartphone','ProductListController@ecom_smartphone');
     });
 
     Route::group(['prefix' => '/gamber-johnson'], function () {
@@ -202,15 +279,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/koamtac/index');
         });
-        Route::get('/pocket-scanner', function () {
-            return view('/pages/products/koamtac/pocket-scanner');
-        });
-        Route::get('/barcode-smartsled', function () {
-            return view('/pages/products/koamtac/barcode-smartsled');
-        });
-        Route::get('/accessories', function () {
-            return view('/pages/products/koamtac/accessories');
-        });
+        Route::get('/pocket-scanner','ProductListController@koamtac_scanner');
+        Route::get('/barcode-smartsled','ProductListController@koamtac_smartleds');
+        Route::get('/accessories','ProductListController@accessories');
     });
 
     Route::group(['prefix' => '/ram-mounts'], function () {
@@ -233,12 +304,10 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/sam4s/index');
         });
-        Route::get('/handheld-computer', function () {
-            return view('/pages/products/sam4s/hand-held');
-        });
-        Route::get('/receipt-printers', function () {
-            return view('/pages/products/sam4s/receipt-printers');
-        });
+
+        Route::get('/handheld-computer','ProductListController@hand_held');
+
+        Route::get('/receipt-printers','ProductListController@receipt_printers');
     });
     Route::group(['prefix' => '/star2star'], function () {
 
@@ -256,31 +325,30 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/toshiba-tec/index');
         });
-        Route::get('/label-printers', function () {
-            return view('/pages/products/toshiba-tec/label-printers');
-        });
+        Route::get('/label-printers','ProductListController@toshiba_tec_label_printers');
     });
+
     Route::group(['prefix' => '/unitech'], function () {
         Route::get('/', function () {
             return view('/pages/products/unitech/index');
         });
-        Route::get('/mobile-computer', function () {
-            return view('/pages/products/unitech/mobile-computer');
-        });
-        Route::get('/enterprise-tablet', function () {
-            return view('/pages/products/unitech/enterprise-tablet');
-        });
+        Route::get('/mobile-computer','ProductListController@unitech_mobile_computer');
+
+        Route::get('/enterprise-tablet','ProductListController@unitech_enterprise_tablet');
     });
+
     Route::group(['prefix' => '/wandera'], function () {
         Route::get('/', function () {
             return view('/pages/products/wandera/index');
         });
     });
+
     Route::group(['prefix' => '/weguard'], function () {
         Route::get('/', function () {
             return view('/pages/products/weguard/index');
         });
     });
+
     Route::group(['prefix' => '/42gears'], function () {
         Route::get('/', function () {
             return view('/pages/products/42gears/index');

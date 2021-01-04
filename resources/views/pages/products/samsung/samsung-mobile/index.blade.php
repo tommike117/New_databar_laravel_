@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="text-center" style="margin-top: 10%">
-                        <a href="#">
+                        <a href="/products/samsung/smartphones/{{$item->Plist_Url}}">
                             <button class="btn btn-banner">View more</button>
                         </a>
                     </div>

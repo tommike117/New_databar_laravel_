@@ -1,10 +1,12 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy Note10+ | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
 @section('link')
 
+
 <link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-note10/style.css')}}">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 @endsection
 
@@ -13,7 +15,7 @@
 
 @section('content')
 
-<div class="container-fluid p-md-4 p-lg-4">
+<div class="p-md-4 p-lg-4">
     <div class="block-banner margin-from-nav">
         <div class="samsung-banner">
             <figure class="note-10-phone-small" data-aos="small-phone-animation">
@@ -34,22 +36,32 @@
                     alt="">
             </figure>
         </div>
+        <div class="banner-mobile">
+            <figure>
+                <img style="width:100%" src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_mobile.jpg')}}"
+                    alt="Note10 Note10+">
+            </figure>
+        </div>
     </div>
 </div>
 
 
-<div class="content-container">
+<div class="content-container container-fluid">
     <section class="section section-1">
         <div class="row justify-content-center">
             <article class="section-1-article">
-                <p class="p-section1" data-aos="fade-down">The Galaxy Note10 isn't just a new smartphone. It's a gaming
-                    console. A film studio. It's a computer with an intelligent pen—and it's all in one device.</p>
+                <div class="p-section1" data-aos="fade-down">
+                    <span class="h1-block">
+                            <h1 class="text-center">Galaxy Note10 | Note10+</h1>
+                            <p class="display-none-mobile">isn't just a new smartphone. It's a gaming console. A film studio. It's a computer with an intelligent pen—and it's all in one device.</p>
+                    </span>
+                </div>
             </article>
         </div>
     </section>
 
-
-    <section class="awSlider section section-2" style="margin: auto auto;">
+{{--
+    <section class="display-none-mobile awSlider section section-2" style="margin: auto auto;">
         <div class="block-video">
             <div class="main-gallery js-flickity"
                 data-flickity-options='{ "cellAlign": "left", "lazyLoad": 1 , "autoPlay": false,  "wrapAround": true }'>
@@ -126,7 +138,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="section section-3">
         <article class="section-3-article">
@@ -142,13 +154,18 @@
 
     <section class="section section-4">
         <div class="block-radius block-video-section-4 position-relative">
-            <video class="video-lozad-1" width="100%" muted>
-                <source
+            <video class="video-lozad-1 display-none-mobile" width="100%" muted autoplay>
+                    <source
                     data-src="{{URL::asset('videos/samsung/galaxy-note10/galaxy-note10_highlight_design-power.mp4')}}"
+                    media="(min-width: 992px)" type="video/mp4">
+            </video>
+            <video class="video-lozad-1 display-none-desktop" width="100%" muted>
+                <source
+                    data-src="{{URL::asset('videos/samsung/galaxy-note10/galaxy-note10_highlight_m.mp4')}}"
                     type="video/mp4">
             </video>
-            <article class="section-4-article">
-                <span data-aos="change-color">
+            <article class="section-4-article display-none-mobile">
+                <span data-aos="change-color" style="color: white">
                     <h4>Hours of power from minutes of charge</h4>
                     <p>No time is the right time to be caught without a charge, so the Galaxy Note10's
                         cutting-edgebattery intelligence ensures you won't be left powerless. And Super Fast Charging
@@ -162,10 +179,10 @@
     <section class="section section-5">
         <article class="section-5-article">
             <div class="row pl-md-10p pr-md-10p">
-                <div class="flex-left-article-section-5">
+                <div class="col-md-4 flex-left-article-section-5">
                     <h4 class="section-5-h4">Right-now fast.</h4>
                 </div>
-                <div class="flex-right-article-section-5">
+                <div class="col-md-8 flex-right-article-section-5">
                     <p class="section-5-p">You'll download photos and videos, stream content, even game online in the
                         busiest of places at
                         incredible speeds with a powerful processor and the 2.0Gbps LTE connection of Galaxy Note10. Or
@@ -225,7 +242,7 @@
             </div>
             <div class="block-section-7-right">
                 <figure class="section-7-figure">
-                    <img src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_perfomance_laptop.png')}}"
+                    <img style="width:100%" src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_perfomance_laptop.png')}}"
                         alt="">
                 </figure>
             </div>
@@ -235,11 +252,14 @@
 
     <section class="section section-8">
         <article class="section-3-article">
-            <div class="row justify-content-center align-items-center text-center flex-column">
-                <h2 class="h2-section-3">DESIGN</h2>
-                <h3 class="h3-section-3">
-                    More screen, less in the way
-                </h3>
+            <div class="row">
+                <div class="col-12 justify-content-center align-items-center text-center flex-column">
+
+                    <h2 class="h2-section-3">DESIGN</h2>
+                    <h3 class="h3-section-3">
+                        More screen, less in the way
+                    </h3>
+                </div>
             </div>
         </article>
         <div class="row">
@@ -248,26 +268,35 @@
         </div>
     </section>
 
-    <section class="section section-9">
-        <article class="section-9-article">
+
+    <section class="section section-5" style="padding: 80px 0;">
+        <article class="section-5-article">
             <div class="row pl-md-10p pr-md-10p">
-                <div class="flex-left-article-section-9">
-                    <h4 class="section-9-h4">The Galaxy Note now comes in two sizes.</h4>
+                <div class="col-md-4 flex-left-article-section-5">
+                    <h4 class="section-5-h4">The Galaxy Note now comes in two sizes.</h4>
                 </div>
-                <div class="flex-right-article-section-9">
-                    <p class="section-9-p">For the first time ever, you can choose the Note size that fits you best.</p>
+                <div class="col-md-8 flex-right-article-section-5">
+                    <p class="section-5-p">For the first time ever, you can choose the Note size that fits you best.</p>
                 </div>
             </div>
         </article>
+    </section>
+
+
+
+
+    <section class="section section-9">
         <div class="block-figure-section-9">
-            <figure class="figure-section-9-image1">
-                <img src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_design_size_small_glow.webp')}}" style="width:100%" alt="">
-            </figure>
+            <div class="fix-img-note10">
+                <figure class="figure-section-9-image1">
+                    <img src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_design_size_small_glow.webp')}}" style="width:100%" alt="">
+                </figure>
+                <figure class="figure-section-9-image2">
+                    <img src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_design_size_big.webp')}}" style="width:100%" alt="">
+                </figure>
+            </div>
             <figcaption class="figcaption-note10">Galaxy Note10 <br>6.3”
                 DISPLAY</figcaption>
-            <figure class="figure-section-9-image2">
-                <img src="{{URL::asset('images/samsung/galaxy-note10/galaxy-note10_highlights_design_size_big.webp')}}" style="width:100%" alt="">
-            </figure>
             <figcaption class="figcaption-note10plus">Galaxy Note10+<br>6.8”
                 DISPLAY</figcaption>
         </div>
@@ -279,6 +308,8 @@
 
 @section('script')
 
+<script src="{{URL::asset('/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="{{URL::asset('js/page-js/samsung/galaxy-note10/main.js')}}"></script>
 
 @endsection

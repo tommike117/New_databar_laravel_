@@ -110,7 +110,7 @@ $(function(){
         $("#finger").addClass("select");
         $("#face").removeClass("select");
         $("#changepic").fadeOut(200, function () {
-            $("#changepic").attr('src', '/images/samsung/galaxy-a11/africa_en-feature-face-recognition-242556581.webp');
+            $("#changepic").attr('src', '/images/samsung/galaxy-a11/africa_en-feature-fingerprint-sensor-242556577.webp');
         }).fadeIn(200);
         });
     $("#face").on("click", (e) => {
@@ -118,6 +118,7 @@ $(function(){
         $("#face").addClass("select");
         $("#finger").removeClass("select");
         $("#changepic").fadeOut(200, function () {
-            $("#changepic").attr('src', '/images/samsung/galaxy-a11/africa_en-feature-fingerprint-sensor-242556577.webp')
+            $("#changepic").attr('src', '/images/samsung/galaxy-a11/africa_en-feature-face-recognition-242556581.webp')
         }).fadeIn(200);
         });
+

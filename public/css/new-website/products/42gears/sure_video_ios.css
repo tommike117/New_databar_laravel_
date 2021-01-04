@@ -40,13 +40,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 8% 4% 1% 70%;
+        text-align: end;
+        padding: 8% 5% 1% 30%;
     }
     .text-1 >h2{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-weight: 200;
-        color: #1879da;
     }
     .text-1 > h3{
         font-size: large;
@@ -58,7 +57,7 @@
         color: #707070;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/web/SureFox/Fox_iOS-05.jpg');
+        background-image: url('/images/new-website/products/42gears/web/SureVideo/VDO_iOS1920.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -159,7 +158,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_iOS750-06.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_iOS750-06.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -203,13 +202,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 5% 0% 25%;
+        text-align: end;
+        padding: 8% 5% 1% 30%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
     }
     .text-1 > h3{
         font-size: large;
@@ -315,7 +313,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_home750-01.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_iOS750-06.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -358,13 +356,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 7% 0% 25%;
+        text-align: end;
+        padding: 8% 5% 1% 30%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
     }
     .text-1 > h3{
         font-size: large;
@@ -467,11 +464,11 @@
 }
 @media screen and (max-width: 598px){
     .section-1{
-        height: 100vh;
+        height: 95vh;
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_home750-01.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_iOS750-06.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -514,13 +511,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 7% 7% 0% 25%;
+        text-align: end;
+        padding: 0% 5% 1% 30%;
     }
     .text-1 >h2{
         font-size: 4.5vw;
         font-weight: 200;
-        color: #1879da;
     }
     .text-1 > h3{
         font-size: large;

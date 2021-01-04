@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy M21 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
@@ -20,8 +20,8 @@
             <div>
                 <nav aria-label="breadcrumb" id="breadcrumb">
                     <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;">
-                        <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="{{URL::route('samsung.smartphone.all')}}"><span itemprop="name">Samsung Smartphone</span></a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                         <li class="breadcrumb-item d-flex active" aria-current="page">
                             <h1 itemprop="name" class="m-auto" style="font-size:15px;">Galaxy M21</h1>
                         </li>
@@ -99,7 +99,7 @@
                 </div>
             </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: center;background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important;">
                     <h2 style="font-size:13px;color:grey;">Smartphone</h2>
                     <h1 class="product_name">Galaxy M21</h1>
@@ -198,7 +198,7 @@
         </div>
     </section>
     <div class="container-fluid">
-        <section style="padding-top:100px;">
+        <section style="padding-top:100px; margin: 0;">
             <div class="row">
                 <div class="container">
                     <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
@@ -230,7 +230,7 @@
             </div>
         </section>
         <div class="container-fluid">
-            <section style="padding-top:100px;">
+            <section style="padding-top:100px;margin: 0;">
                 <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-6" style="padding:0;">
                         <div data-aos="fade">
@@ -254,13 +254,13 @@
 <!--choose angle wide ultra wide-->
 <section >
     <div class="container-fluid">
-    <div class="row justify-content-center" style="padding-top:200px;">
 
-        <div class="block-h1 flex-column"style="text-align:center;">
-            <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
-            <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">See more in your photos with the Ultra Wide Camera. The 80° wide angle and 123° ultra wide angle capture the scene as you see it, so you won't miss the moment from where you stand. Now it's even easier to get a great panorama.</p>
+        <div class="row justify-content-center" style="padding-top:200px; margin: 0;">
+            <div class="block-h1 flex-column"style="text-align:center;">
+                <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
+                <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">See more in your photos with the Ultra Wide Camera. The 80° wide angle and 123° ultra wide angle capture the scene as you see it, so you won't miss the moment from where you stand. Now it's even easier to get a great panorama.</p>
+            </div>
         </div>
-    </div>
         <div class="row" style="flex:0 0 100%;max-width:100%;">
             <div class="flex-full">
                 <figure class="svg_camera_size text-center wide">
@@ -281,7 +281,7 @@
 <!--choose angle Front Rear-->
 <section>
     <div class="container-fluid">
-        <div class="row justify-content-center" style="padding-top:200px;">
+        <div class="row justify-content-center" style="padding-top:200px; margin: 0;">
 
             <div class="block-h1 flex-column"style="text-align:center;">
                 <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">A camera to let you explore depth</label><br>

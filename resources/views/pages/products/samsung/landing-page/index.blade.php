@@ -24,9 +24,10 @@
 <section>
     <div class="bg-section1">
         <div class="video-banner">
-            <video class="video-section" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop>
+            <video class="video-section" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop >
                 <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.mp4')}}" type="video/mp4">
-                </video>
+                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.ogg')}}" type="video/ogg">
+            </video>
             <div style="width: 100%; position: absolute;right:0;">
                 <p>Manage your entire business with Samsung <br>
                 Connect all your processes and transform your growing business. </p>
@@ -53,7 +54,7 @@
                 </div>
                 <p>Equipped for your <br> environment</p>
                 <div class="btn-tablet">
-                    <a href="#">
+                    <a href="/products/samsung/smartphones">
                         <button class="btn-databar">Read more</button>
                     </a>
                 </div>
@@ -66,7 +67,7 @@
                 </div>
                 <p>The tablet that can do <br> what others can't</p>
                 <div class="btn-tablet">
-                    <a href="#">
+                    <a href="/products/samsung/tablets">
                         <button class="btn-databar">Read more</button>
                     </a>
                 </div>
@@ -79,7 +80,7 @@
                 </div>
                 <p>Defence-grade <br> security</p>
                 <div class="btn-tablet">
-                    <a href="#">
+                    <a href="/products/samsung/tablets">
                         <button class="btn-databar">Read more</button>
                     </a>
                 </div>

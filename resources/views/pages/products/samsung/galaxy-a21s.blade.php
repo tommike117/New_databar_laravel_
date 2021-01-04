@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy A21s | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
@@ -20,8 +20,8 @@
             <div>
                 <nav aria-label="breadcrumb" id="breadcrumb">
                     <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;">
-                        <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="{{URL::route('samsung.smartphone.all')}}"><span itemprop="name">Samsung Smartphone</span></a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                         <li class="breadcrumb-item d-flex active" aria-current="page">
                             <h1 itemprop="name" class="m-auto" style="font-size:15px;">Galaxy A21</h1>
                         </li>
@@ -99,7 +99,7 @@
                 </div>
             </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: center;background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important;">
                     <h2 style="font-size:13px;color:grey;">Smartphone</h2>
                     <h1 class="product_name">Galaxy A21s</h1>
@@ -491,28 +491,30 @@
 
 {{--!!select text to change image!!--}}
 <section style="padding-top:100px;">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center; ">
-            <div data-aos="fade-down">
-                <label class="section1_text_line1" for="" style="font-size:60px;font-weight:bold;">Convenient mobile security</label>
-            </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 text-js"style="color:grey;">
-            <div data-aos="fade-down">
-                <div id=finger style="padding-left: 15px;">
-                    <label class="section3_text_line2" for="" style="font-size:40px;font-weight:bold;">Fingerprint sensor</label><br>
-                    <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Simplify mobile access with security you can trust. Galaxy M21 features a rear fingerprint scanner that enables you to log on to supported apps and unlock your device with ease.
-                    </p>
-                </div>
-                <div id=face style="padding-left: 15px;">
-                    <label class="section3_text_line2" for="" style="font-size:40px;font-weight:bold;">Face recognition</label><br>
-                    <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Unlock your phone with ease and keep your data safe with Galaxy M21’s Face Recognition technology. It enables you to unlock your phone with a glance and protect your personal data.
-                    </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center; ">
+                <div data-aos="fade-down">
+                    <label class="section1_text_line1" for="" style="font-size:60px;font-weight:bold;">Convenient mobile security</label>
                 </div>
             </div>
-        </div>
-        <div class="flex-banner" style="padding-bottom: 200px;">
-            <img id="changepic" src="{{URL::asset('/images/samsung/galaxy-a21s/levant-feature-fingerprint-sensor-251921738.webp')}}" style="width:100%;" alt="">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-js"style="color:grey;">
+                <div data-aos="fade-down">
+                    <div id=finger style="padding-left: 15px;">
+                        <label class="section3_text_line2" for="" style="font-size:40px;font-weight:bold;">Fingerprint sensor</label><br>
+                        <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Simplify mobile access with security you can trust. Galaxy M21 features a rear fingerprint scanner that enables you to log on to supported apps and unlock your device with ease.
+                        </p>
+                    </div>
+                    <div id=face style="padding-left: 15px;">
+                        <label class="section3_text_line2" for="" style="font-size:40px;font-weight:bold;">Face recognition</label><br>
+                        <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Unlock your phone with ease and keep your data safe with Galaxy M21’s Face Recognition technology. It enables you to unlock your phone with a glance and protect your personal data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-banner" style="padding-bottom: 200px;">
+                <img id="changepic" src="{{URL::asset('/images/samsung/galaxy-a21s/levant-feature-fingerprint-sensor-251921738.webp')}}" style="width:100%;" alt="">
+            </div>
         </div>
     </div>
 </section>
@@ -531,7 +533,7 @@
             </div>
         </div>
     </div>
-    <div class="row" style="margin-top:50px;">
+    {{-- <div class="row" style="margin-top:50px;">
         <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
             <div data-aos="fade">
                 <figure>
@@ -539,8 +541,7 @@
                 </figure>
             </div>
         </div>
-    </div>
-    <div class="row" style="margin-top:0px;">
+    </div> --}}
         <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
             <div data-aos="fade">
                 <p class="extra-line">*The available functions and features for Samsung Members app may vary by country and device.<br>
@@ -548,7 +549,6 @@
                 </p>
             </div>
         </div>
-    </div>
 </section>
 {{--!!end Page of samsung Done!!--}}
 

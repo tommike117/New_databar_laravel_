@@ -3,7 +3,6 @@
 
         .bg-section1{
             padding-top: 65px;
-            padding-left: 12%;
         }
         .bg-section2{
             background-image: url('/images/new-website/products/samsung/landing-page/bg-home_phone750-01.jpg');
@@ -17,20 +16,20 @@
             display: none;
         }
         .video-banner{
-            width: 100%;
-            height: 30vh;
-            background-color:#747373;
-            align-items: flex-end;
-            display: flex;
-            text-align: right;
-            justify-content: flex-end;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-section{
+            width: 100% !important;
+            height: auto;
+            z-index: 1;
         }
         .video-banner p{
             color: white;
             font-family: poppins;
             font-weight: 300;
             font-size: 13px;
-            margin-right: 5%;
+            margin-right: 5% !important;
             margin-bottom: 3%;
         }
         .text-all-samsung{

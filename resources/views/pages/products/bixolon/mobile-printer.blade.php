@@ -38,9 +38,9 @@
             @foreach ($data as $item)
             <div class="flex-25 box-product">
                 <figure class="flex-100">
-                    <img src="/images/database/{{$item->Plist_Image}}" width="100%" alt="product">
+                    <img src="/images/database/bixolon/PNG/{{$item->Plist_Image}}" width="100%" alt="product">
                 </figure>
-                <h2 class="flex-100">
+                <h2 class="flex-100"style="font-size: 16px;!important">
                     {{$item->Plist_Name}}
                 </h2>
                 <div class="flex-100">

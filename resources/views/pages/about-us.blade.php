@@ -10,6 +10,7 @@ services')
 @section('link')
     <link rel="stylesheet" href="{{ URL::to('/css/new-website/about-us/style.css')}}">
     <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="{{ URL::to('/css/aos.css')}}">
 @endsection
 
 
@@ -347,6 +348,13 @@ services')
 
 
 @section('script')
+<script src="{{URL::to('/js/aos.min.js')}}"></script>
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
 
 
 <script>

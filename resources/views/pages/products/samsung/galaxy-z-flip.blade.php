@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy Z Flip | Samsung Smartphone | DATABAR COMPANY LIMITED')
 

@@ -39,3 +39,333 @@
     mask-repeat: no-repeat;
     mask-position: center;
   }
+  .icon {
+    // display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: black;
+    mask-size: cover;
+    display: flex;
+    margin: auto;
+
+      }
+      .icon-menu {
+        mask: url('/images/_icon/icon_menu.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon {
+        // display: inline-block;
+        width: 70px;
+        height: 70px;
+        background: black;
+        mask-size: cover;
+        display: flex;
+        margin: auto;
+
+      }
+
+      .icon-envelope {
+        mask: url('/images/_icon/envelope-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+
+      .icon-fax {
+        mask: url('/images/_icon/fax-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+
+      .icon-phone {
+        mask: url('/images/_icon/phone-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+      .icon-facebook {
+        mask: url('/images/_icon/facebook-square-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+      .icon-line {
+        mask: url('/images/_icon/line-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .fa-chevron-down{
+        mask: url('/images/_icon/angle-down-solid.svg');
+        mask-repeat: no-repeat;
+      }
+      .fa-chevron-up{
+        mask: url('/images/_icon/angle-up-solid.svg');
+        mask-repeat: no-repeat;
+      }
+      .myfa-chevron-left{
+        mask: url('/images/_icon/chevron-left-solid.svg');
+        mask-repeat: no-repeat;
+      }
+      .myfa-chevron-right{
+        mask: url('/images/_icon/chevron-right-solid.svg');
+        mask-repeat: no-repeat;
+      }
+      .myfa-search{
+        mask: url('/images/_icon/search-solid.svg');
+        mask-repeat: no-repeat;
+      }
+
+      .icon-file {
+        mask: url('/images/_icon/file-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+
+      .icon-th {
+        mask: url('/images/_icon/th-large-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+
+      .icon-ravelry {
+        mask: url('/images/_icon/ravelry-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+
+      .icon-shopping {
+        mask: url('/images/_icon/shopping-cart-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+      .icon-male {
+        mask: url('/images/_icon/male-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-truck {
+        mask: url('/images/_icon/truck-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-map {
+        mask: url('/images/_icon/map-marker-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-connect {
+        mask: url('/images/_icon/connectdevelop-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-list {
+        mask: url('/images/_icon/list-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-tablet {
+        mask: url('/images/_icon/tablet-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-gg {
+        mask: url('/images/_icon/gg-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-chart {
+        mask: url('/images/_icon/chart-area-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-sync {
+        mask: url('/images/_icon/sync-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-camera {
+        mask: url('/images/_icon/camera-retro-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-comments {
+        mask: url('/images/_icon/comments-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-th-solid {
+        mask: url('/images/_icon/th-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-qrcode {
+        mask: url('/images/_icon/qrcode-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-chart-pie {
+        mask: url('/images/_icon/chart-pie-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-cube {
+        mask: url('/images/_icon/cube-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-id {
+        mask: url('/images/_icon/id-card-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-mixcloud {
+        mask: url('/images/_icon/mixcloud-brands.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-mobile {
+        mask: url('/images/_icon/mobile-alt-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-tasks {
+        mask: url('/images/_icon/tasks-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-tags {
+        mask: url('/images/_icon/tags-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-sliders{
+        mask: url('/images/_icon/sliders-h-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+      .icon-play{
+        mask: url('/images/_icon/play-circle-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+      }
+      .icon-plus-solid{
+        mask: url('/images/_icon/plus-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-bars-solid{
+        mask: url('/images/_icon/bars-solid.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+
+      .icon-rugged-design{
+        mask: url('/images/_icon/uk-feature-the-tablet-that-can-do-what-others-can-t-185437729.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-ip68{
+        mask: url('/images/_icon/uk-feature-built-to-be-as-active-as-you-185437741.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-spen-with-ip68{
+        mask: url('/images/_icon/uk-feature-express-yourself-in-the-moment-185437725.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-samsung-dex{
+        mask: url('/images/_icon/uk-feature-a-pc-like-experience-that-follows-you-185437733.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-map{
+        mask: url('/images/_icon/icon-map.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-battery{
+        mask: url('/images/_icon/icon-battery.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-hardware-performance{
+        mask: url('/images/_icon/icon-hardware-performance.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-triple-camera{
+        mask: url('/images/_icon/icon-triple-camera.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-duo-camera{
+        mask: url('/images/_icon/icon-duo-camera.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-display-6-2{
+        mask: url('/images/_icon/icon-display-6-2.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-display-6-5{
+        mask: url('/images/_icon/icon-display-6-5.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-ultra-wide-camera{
+        mask: url('/images/_icon/icon-ultra-wide-camera.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-multi-quad-camera{
+        mask: url('/images/_icon/icon-multi-quad-camera.svg');
+      }
+      .icon-display-6-4{
+        mask: url('/images/_icon/icon-display-6-4.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-display-5-7{
+        mask: url('/images/_icon/icon-display-5-7.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-display-6-7{
+        mask: url('/images/_icon/icon-display-6-7.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-quad-camera{
+        mask: url('/images/_icon/icon-quad-camera.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-device-design{
+        mask: url('/images/_icon/icon-device-design.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-octa-performance{
+        mask: url('/images/_icon/icon-octa-performance.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-s-pen{
+        mask: url('/images/_icon/icon-s-pen.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+      .icon-knox{
+        mask: url('/images/_icon/icon-knox.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }

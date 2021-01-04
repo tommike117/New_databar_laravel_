@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 
 @section('title', 'Galaxy Xcover Pro | Samsung Smartphone | DATABAR COMPANY LIMITED')
@@ -14,13 +14,12 @@
 
 
 <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top: 40px;">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 firstrow" style="overflow:hidden;padding-bottom:5%;">
             <nav aria-label="breadcrumb" id="breadcrumb">
                 <ol class="breadcrumb mt-lg-5" style="background:transparent;">
-                    <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{URL::route('samsung.tablet.all')}}">Samsung
-                            Mobile</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                     <li class="breadcrumb-item d-flex active" aria-current="page">
                         <h1 class="m-auto" style="font-size:15px;">Galaxy XCover Pro</h1>
                     </li>

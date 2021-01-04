@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy Tab Active2 | Samsung Tablet | DATABAR COMPANY LIMITED')
 
@@ -16,9 +16,8 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 firstrow" style="overflow:hidden;">
             <nav aria-label="breadcrumb" id="breadcrumb">
                 <ol class="breadcrumb mt-lg-5" style="background:transparent;">
-                    <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{URL::route('samsung.tablet.all')}}">Samsung
-                            Tablet</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/tablets"><span itemprop="name">Samsung Tablets</span></a></li>
                     <li class="breadcrumb-item d-flex active" aria-current="page">
                         <h1 class="m-auto" style="font-size:15px;">Galaxy Tab Active2</h1>
                     </li>
@@ -50,7 +49,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-lg-2"
                     style="text-align: center;background: rgba(0,0,0,0.1);padding:20px;">
                     <label for="" style="font-size:16px;color:grey;margin-top:10px;">Tablet</label>
@@ -85,33 +84,27 @@
                     </ul>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
-                <div class="container">
-                    <div class="row text-center feature-tab" style="align-items: center;">
-                        <div class="border-right-solid col-3 " style="padding:50px">
-                            <img src="/images/samsung/galaxy-xcover-pro/icon-ip68.png" style="width: 70%" alt="ip68">
-                            <p style="margin-top:10px">IP 68</p>
-                        </div>
-                        <div class="border-right-solid col-3 "style="padding:50px">
-                            <img src="/images/samsung/galaxy-xcover-pro/icon-drop.png" style="width: 70%" alt="drop">
-                            <p style="margin-top:10px">Rugged</p>
-                        </div>
-                        <div class="border-right-solid col-3 "style="padding:50px">
-                            <img src="/images/samsung/galaxy-xcover-pro/icon-grade.png" style="width: 70%" alt="grade">
-                            <p style="margin-top:10px">Military Standard</p>
-                        </div>
-                        <div class="border-right-solid col-3 " style="border:none;padding:50px">
-                            <img src="/images/samsung/galaxy-xcover-pro/icon-temp.png" style="width: 70%" alt="temp">
-                            <p style="margin-top:10px">Operating Temperature</p>
-                        </div>
-                    </div>
+        <div class="container" >
+            <div class="row text-center feature-tab" style="align-items: center;">
+                <div class="border-right-solid col-3 " style="padding:50px">
+                    <img src="/images/samsung/galaxy-xcover-pro/icon-ip68.png" style="width: 70%" alt="ip68">
+                    <p style="margin-top:10px">IP 68</p>
                 </div>
+                <div class="border-right-solid col-3 "style="padding:50px">
+                    <img src="/images/samsung/galaxy-xcover-pro/icon-drop.png" style="width: 70%" alt="drop">
+                    <p style="margin-top:10px">Rugged</p>
+                </div>
+                <div class="border-right-solid col-3 "style="padding:50px">
+                    <img src="/images/samsung/galaxy-xcover-pro/icon-grade.png" style="width: 70%" alt="grade">
+                    <p style="margin-top:10px">Military Standard</p>
+                </div>
+                <div class="border-right-solid col-3 " style="border:none;padding:50px">
+                    <img src="/images/samsung/galaxy-xcover-pro/icon-temp.png" style="width: 70%" alt="temp">
+                    <p style="margin-top:10px">Operating Temperature</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container-fluid">

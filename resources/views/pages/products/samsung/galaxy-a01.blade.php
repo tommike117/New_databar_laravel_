@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy A01 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
@@ -19,8 +19,8 @@
             <div>
                 <nav aria-label="breadcrumb" id="breadcrumb">
                     <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;">
-                        <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="{{URL::route('samsung.smartphone.all')}}"><span itemprop="name">Samsung Smartphone</span></a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                         <li class="breadcrumb-item d-flex active" aria-current="page">
                             <h1 itemprop="name" class="m-auto" style="font-size:15px;">Galaxy A01</h1>
                         </li>
@@ -80,7 +80,7 @@
                 </div>
             </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: center;background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important;">
                     <h2 style="font-size:13px;color:grey;">Smartphone</h2>
                     <h1 class="product_name">Galaxy A01</h1>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 70px;position: absolute;top: 0;color:white">
+        <div class="row" style="margin: 70px 0 0 0;position: absolute;top: 0;color:white">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Infinity-V Display. More view for what you do</label><br>
@@ -415,7 +415,7 @@
 
 {{--!!end Page of samsung!!--}}
 <section>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row"style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
                 <div data-aos="fade-down">
@@ -425,27 +425,27 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row" style="margin-top:50px;">
-        <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-            <div data-aos="fade">
-                <figure>
-                    <img src="/images/samsung/galaxy-a01/pk-feature-keep-your-device-in-tip-top-condition-with-us-207169513.webp" style="width:100%;" alt="samsung galaxy a01 Display">
-                </figure>
+        <div class="row" style="margin-top:50px;">
+            <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
+                <div data-aos="fade">
+                    <figure>
+                        <img src="/images/samsung/galaxy-a01/pk-feature-keep-your-device-in-tip-top-condition-with-us-207169513.webp" style="width:100%;" alt="samsung galaxy a01 Display">
+                    </figure>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row" style="margin-top:0px;">
-        <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-            <div data-aos="fade">
-                <p class="extra-line">*The available functions and features for Samsung Members app may vary by country and device.<br>
-                    **Device and image simulated for illustrative purposes.
-                </p>
+        <div class="row" style="margin-top:0px;">
+            <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
+                <div data-aos="fade">
+                    <p class="extra-line">*The available functions and features for Samsung Members app may vary by country and device.<br>
+                        **Device and image simulated for illustrative purposes.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
-{{--!!end Page of samsung Done!!--}}
+    {{--!!end Page of samsung Done!!--}}
 
 @endsection
 

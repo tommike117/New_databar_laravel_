@@ -15,7 +15,7 @@
     <section class="section-1">
         <div class="text-product desktop-none">
             <a class="hover-sec-1" style="font-weight: 600">Tablet for hazardous areas</a>
-            <a class="hover-sec-2" href="/products/bixolon/mobile-printer">Smartphones protection</a>
+            <a class="hover-sec-2" href="/products/ecom-ex/smartphone">Smartphones protection</a>
         </div>
         <div class="text-section-1">
             <h1>
@@ -35,162 +35,21 @@
     </section>
     <section class="section-2" style="display: flex">
         <div class="row">
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="/images/new-website/products/ecom-ex/csm_pad-ex_p8_teaser_cont_3a50bdc8c3.png" width="100%" alt="product">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
+            @foreach ($data as $item)
+                <div class="flex-25 box-product">
+                    <figure class="flex-100" style="text-align: center; padding-top:15%;">
+                        <img src="/images/database/{{$item->Plist_Image}}" width="75%" alt="product">
+                    </figure>
+                    <h2 class="flex-100" style="font-size: 16px;!important">
+                        {{$item->Plist_Name}}
+                    </h2>
+                    <div class="flex-100">
+                        <a href="mobile/{{$item->Plist_Url}}">
+                            <button class="btn btn-banner button-sec-2">View More</button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-25 box-product">
-                <figure class="flex-100">
-                    <img src="" alt="">
-                </figure>
-                <h2 class="flex-100">
-                    HX.xxxxxxxxx
-                </h2>
-                <div class="flex-100">
-                    <a href="/contact">
-                        <button class="btn btn-banner button-sec-2">View More</button>
-                    </a>
-                </div>
-            </div>
+            @endforeach
         </div>
     </section>
     <section class="section-3">

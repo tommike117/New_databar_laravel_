@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy A71 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
@@ -20,8 +20,8 @@
             <div>
                 <nav aria-label="breadcrumb" id="breadcrumb">
                     <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;">
-                        <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="{{URL::route('samsung.smartphone.all')}}"><span itemprop="name">Samsung Smartphone</span></a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                         <li class="breadcrumb-item d-flex active" aria-current="page">
                             <h1 itemprop="name" class="m-auto" style="font-size:15px;">Galaxy A71</h1>
                         </li>
@@ -99,7 +99,7 @@
                 </div>
             </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: center;background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important;">
                     <h2 style="font-size:13px;color:grey;">Smartphone</h2>
                     <h1 class="product_name">Galaxy A71</h1>

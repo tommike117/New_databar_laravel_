@@ -1,3 +1,7 @@
+{{-- Link css --}}
+<link rel="stylesheet" href="{{ URL::to('/css/aos.css')}}">
+{{-- end --}}
+
 <style>
 @media screen and (min-width: 992px){
     .footer-desktop{
@@ -798,7 +802,7 @@
                 <h2>
                     Brands
                 </h2>
-                <ul>
+                <ul data-aos="fade-up"data-aos-duration="500">
                     <li><a href="/products">Samsung</a></li>
                     <li><a href="/products">Armor-X</a></li>
                     <li><a href="/products">Bixolon</a></li>
@@ -811,7 +815,7 @@
                 </ul>
             </div>
             <div class="footer-flex-50">
-                <ul style="margin-top: 29px;" >
+                <ul data-aos="fade-up"data-aos-duration="500" style="margin-top: 29px;" >
                     <li><a href="/products">Koamtac</a></li>
                     <li><a href="/products">Ram-Mounts</a></li>
                     <li><a href="/products">Sam4s</a></li>
@@ -829,7 +833,7 @@
                 <h2>
                     Recommended
                 </h2>
-                <ul>
+                <ul data-aos="fade-up"data-aos-duration="500">
                     <li><a href="/products">Samsung Galaxy Xcover</a></li>
                     <li><a href="/products">Galaxy Tab Active 2</a></li>
                     <li><a href="/products">Barcode Scanners</a></li>
@@ -841,7 +845,7 @@
             <h2>
                 Contact us
             </h2>
-            <ul>
+            <ul data-aos="fade-up"data-aos-duration="500">
                 <li><a href="/services">Services</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/about-us">About us </a></li>
@@ -898,6 +902,12 @@
 
 </div>
 <script src="{{URL::to('/js/aos.min.js')}}"></script>
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
 {{--  --}}
 <script>
     $(document).ready(function(){

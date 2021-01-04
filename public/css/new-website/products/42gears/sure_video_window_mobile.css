@@ -40,13 +40,12 @@
         color: #707070;
     }
     .text-1{
-        text-align: start;
-        padding: 8% 4% 1% 70%;
+        text-align: end;
+        padding: 14.5% 5% 1% 45%;
     }
     .text-1 >h2{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-weight: 200;
-        color: #1879da;
     }
     .text-1 > h3{
         font-size: large;
@@ -58,14 +57,14 @@
         color: #707070;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/web/SureFox/Fox_window-06.jpg');
+        background-image: url('/images/new-website/products/42gears/web/SureVideo/VDO_window1920.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
     }
     .button{
         width: 100%;
-        padding: 30% 0% 0% 15%;
+        padding: 23% 0% 0% 15%;
     }
     .btn-banner{
         width: 14%;
@@ -111,7 +110,7 @@
     }
     .text-2-2{
         text-align: center;
-        padding: 10% 0 0 4%;
+        padding: 5% 0 0 4%;
     }
     .text-2-2 > h2{
         color: #3399ff;
@@ -123,15 +122,16 @@
         padding: 2% 5% 2% 12%;
     }
     .col-android{
-        flex: 0 0 20%;
-        max-width: 20%;
+        flex: 0 0 33%;
+        max-width: 33%;
     }
     .icon-sec2{
         padding-top: 17%;
+        width: 35% !important;
     }
     .box{
-        width: 95%;
-        height: 231px;
+        width: 83%;
+        height: 110%;
         background-color: #f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
@@ -142,11 +142,22 @@
         font-size: 1vw;
         color: #3399ff;
         font-weight: 600;
-        padding: 0 5%;
+        padding: 5% 5% 0 5%;
+    }
+    .box > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        color: #707070;
+        padding: 0 10%;
+    }
+    .row-2{
+        display: flex;
+        justify-content: center;
+        margin: 10% 0 0 0;
     }
     .section-3{
         text-align: end;
-        padding: 2% 14% 5% 0%;
+        padding: 8% 14% 5% 0%;
         font-size: 1.1vw;
     }
    .section-3 > a{
@@ -164,7 +175,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_window750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_window750-08.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -227,7 +238,7 @@
     }
     .button{
         width: 95%;
-        padding: 114% 0% 0% 38%;
+        padding: 93% 0% 0% 38%;
     }
     .btn-banner{
         width: 49%;
@@ -279,6 +290,7 @@
     .container-2{
         margin: 0;
         padding: 2% 5% 2% 12%;
+        justify-content: center;
     }
     .col-android{
         flex: 0 0 25%;
@@ -297,9 +309,20 @@
         margin-top: 7%;
     }
     .box > h2{
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: #3399ff;
         font-weight: 600;
+    }
+    .box > p{
+        font-size: 1vw;
+        font-weight: 200;
+        color: #707070;
+        padding: 0 10%;
+    }
+    .row-2{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0 0 0;
     }
    .section-3{
         text-align: end;
@@ -320,7 +343,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_window750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_window750-08.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
@@ -382,7 +405,7 @@
     }
     .button{
         width: 95%;
-        padding: 114% 0% 0% 38%;
+        padding: 93% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -421,6 +444,7 @@
     .container-2{
         margin: 0;
         padding: 2% 5% 2% 12%;
+        justify-content: center;
     }
     .col-android{
         flex: 0 0 25%;
@@ -442,6 +466,17 @@
         font-size: 1.5vw;
         color: #3399ff;
         font-weight: 600;
+    }
+    .box > p{
+        font-size: 0.8vw;
+        font-weight: 200;
+        color: #707070;
+        padding: 0 10%;
+    }
+    .row-2{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0 0 0;
     }
    .section-3{
         text-align: end;
@@ -479,7 +514,7 @@
         width: auto;
     }
     .bg-1{
-        background-image: url('/images/new-website/products/42gears/mobile/Fox/fox_window750-08.jpg');
+        background-image: url('/images/new-website/products/42gears/mobile/VDO/VDO_window750-08.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         height: 100%;
@@ -541,7 +576,7 @@
     }
     .button{
         width: 95%;
-        padding: 131% 0% 0% 38%;
+        padding: 100% 0% 0% 38%;
     }
     .section-2{
         height: auto;
@@ -580,6 +615,7 @@
     .container-2{
         margin: 0;
         padding: 2% 5% 2% 12%;
+       justify-content: center;
     }
     .col-android{
         flex: 0 0 25%;
@@ -590,7 +626,7 @@
     }
     .box{
         width: 95%;
-        height: 100%;
+        height: 95%;
         background-color: #f6f6f6a3;
         text-align: center;
         box-shadow: 10px 10px 14px #e6e4e4;
@@ -598,9 +634,19 @@
         margin-top: 7%;
     }
     .box > h2{
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: #3399ff;
         font-weight: 600;
+    }
+    .box > p{
+        font-size: 1.5vw;
+        font-weight: 200;
+        color: #707070;
+    }
+    .row-2{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0 0 0;
     }
    .section-3{
         text-align: end;

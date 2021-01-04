@@ -64,6 +64,552 @@
           mask-position: center;
 }
 
+.icon {
+  width: 70px;
+  height: 70px;
+  background: black;
+  -webkit-mask-size: cover;
+          mask-size: cover;
+  display: flex;
+  margin: auto;
+}
+
+.icon-menu {
+  -webkit-mask: url("/images/_icon/icon_menu.svg");
+          mask: url("/images/_icon/icon_menu.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  background: black;
+  -webkit-mask-size: cover;
+          mask-size: cover;
+  display: flex;
+  margin: auto;
+}
+
+.icon-envelope {
+  -webkit-mask: url("/images/_icon/envelope-solid.svg");
+          mask: url("/images/_icon/envelope-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-fax {
+  -webkit-mask: url("/images/_icon/fax-solid.svg");
+          mask: url("/images/_icon/fax-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-phone {
+  -webkit-mask: url("/images/_icon/phone-solid.svg");
+          mask: url("/images/_icon/phone-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-facebook {
+  -webkit-mask: url("/images/_icon/facebook-square-brands.svg");
+          mask: url("/images/_icon/facebook-square-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-line {
+  -webkit-mask: url("/images/_icon/line-brands.svg");
+          mask: url("/images/_icon/line-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.fa-chevron-down {
+  -webkit-mask: url("/images/_icon/angle-down-solid.svg");
+          mask: url("/images/_icon/angle-down-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.fa-chevron-up {
+  -webkit-mask: url("/images/_icon/angle-up-solid.svg");
+          mask: url("/images/_icon/angle-up-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.myfa-chevron-left {
+  -webkit-mask: url("/images/_icon/chevron-left-solid.svg");
+          mask: url("/images/_icon/chevron-left-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.myfa-chevron-right {
+  -webkit-mask: url("/images/_icon/chevron-right-solid.svg");
+          mask: url("/images/_icon/chevron-right-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.myfa-search {
+  -webkit-mask: url("/images/_icon/search-solid.svg");
+          mask: url("/images/_icon/search-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.icon-file {
+  -webkit-mask: url("/images/_icon/file-alt-solid.svg");
+          mask: url("/images/_icon/file-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-th {
+  -webkit-mask: url("/images/_icon/th-large-solid.svg");
+          mask: url("/images/_icon/th-large-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-ravelry {
+  -webkit-mask: url("/images/_icon/ravelry-brands.svg");
+          mask: url("/images/_icon/ravelry-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-shopping {
+  -webkit-mask: url("/images/_icon/shopping-cart-solid.svg");
+          mask: url("/images/_icon/shopping-cart-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-male {
+  -webkit-mask: url("/images/_icon/male-solid.svg");
+          mask: url("/images/_icon/male-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-truck {
+  -webkit-mask: url("/images/_icon/truck-solid.svg");
+          mask: url("/images/_icon/truck-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-map {
+  -webkit-mask: url("/images/_icon/map-marker-alt-solid.svg");
+          mask: url("/images/_icon/map-marker-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-connect {
+  -webkit-mask: url("/images/_icon/connectdevelop-brands.svg");
+          mask: url("/images/_icon/connectdevelop-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-list {
+  -webkit-mask: url("/images/_icon/list-alt-solid.svg");
+          mask: url("/images/_icon/list-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-tablet {
+  -webkit-mask: url("/images/_icon/tablet-alt-solid.svg");
+          mask: url("/images/_icon/tablet-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-gg {
+  -webkit-mask: url("/images/_icon/gg-brands.svg");
+          mask: url("/images/_icon/gg-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-chart {
+  -webkit-mask: url("/images/_icon/chart-area-solid.svg");
+          mask: url("/images/_icon/chart-area-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-sync {
+  -webkit-mask: url("/images/_icon/sync-alt-solid.svg");
+          mask: url("/images/_icon/sync-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-camera {
+  -webkit-mask: url("/images/_icon/camera-retro-solid.svg");
+          mask: url("/images/_icon/camera-retro-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-comments {
+  -webkit-mask: url("/images/_icon/comments-solid.svg");
+          mask: url("/images/_icon/comments-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-th-solid {
+  -webkit-mask: url("/images/_icon/th-solid.svg");
+          mask: url("/images/_icon/th-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-qrcode {
+  -webkit-mask: url("/images/_icon/qrcode-solid.svg");
+          mask: url("/images/_icon/qrcode-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-chart-pie {
+  -webkit-mask: url("/images/_icon/chart-pie-solid.svg");
+          mask: url("/images/_icon/chart-pie-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-cube {
+  -webkit-mask: url("/images/_icon/cube-solid.svg");
+          mask: url("/images/_icon/cube-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-id {
+  -webkit-mask: url("/images/_icon/id-card-solid.svg");
+          mask: url("/images/_icon/id-card-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-mixcloud {
+  -webkit-mask: url("/images/_icon/mixcloud-brands.svg");
+          mask: url("/images/_icon/mixcloud-brands.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-mobile {
+  -webkit-mask: url("/images/_icon/mobile-alt-solid.svg");
+          mask: url("/images/_icon/mobile-alt-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-tasks {
+  -webkit-mask: url("/images/_icon/tasks-solid.svg");
+          mask: url("/images/_icon/tasks-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-tags {
+  -webkit-mask: url("/images/_icon/tags-solid.svg");
+          mask: url("/images/_icon/tags-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-sliders {
+  -webkit-mask: url("/images/_icon/sliders-h-solid.svg");
+          mask: url("/images/_icon/sliders-h-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-play {
+  -webkit-mask: url("/images/_icon/play-circle-solid.svg");
+          mask: url("/images/_icon/play-circle-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-plus-solid {
+  -webkit-mask: url("/images/_icon/plus-solid.svg");
+          mask: url("/images/_icon/plus-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-bars-solid {
+  -webkit-mask: url("/images/_icon/bars-solid.svg");
+          mask: url("/images/_icon/bars-solid.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-rugged-design {
+  -webkit-mask: url("/images/_icon/uk-feature-the-tablet-that-can-do-what-others-can-t-185437729.svg");
+          mask: url("/images/_icon/uk-feature-the-tablet-that-can-do-what-others-can-t-185437729.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-ip68 {
+  -webkit-mask: url("/images/_icon/uk-feature-built-to-be-as-active-as-you-185437741.svg");
+          mask: url("/images/_icon/uk-feature-built-to-be-as-active-as-you-185437741.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-spen-with-ip68 {
+  -webkit-mask: url("/images/_icon/uk-feature-express-yourself-in-the-moment-185437725.svg");
+          mask: url("/images/_icon/uk-feature-express-yourself-in-the-moment-185437725.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-samsung-dex {
+  -webkit-mask: url("/images/_icon/uk-feature-a-pc-like-experience-that-follows-you-185437733.svg");
+          mask: url("/images/_icon/uk-feature-a-pc-like-experience-that-follows-you-185437733.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-map {
+  -webkit-mask: url("/images/_icon/icon-map.svg");
+          mask: url("/images/_icon/icon-map.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-battery {
+  -webkit-mask: url("/images/_icon/icon-battery.svg");
+          mask: url("/images/_icon/icon-battery.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-hardware-performance {
+  -webkit-mask: url("/images/_icon/icon-hardware-performance.svg");
+          mask: url("/images/_icon/icon-hardware-performance.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-triple-camera {
+  -webkit-mask: url("/images/_icon/icon-triple-camera.svg");
+          mask: url("/images/_icon/icon-triple-camera.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-duo-camera {
+  -webkit-mask: url("/images/_icon/icon-duo-camera.svg");
+          mask: url("/images/_icon/icon-duo-camera.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-display-6-2 {
+  -webkit-mask: url("/images/_icon/icon-display-6-2.svg");
+          mask: url("/images/_icon/icon-display-6-2.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-display-6-5 {
+  -webkit-mask: url("/images/_icon/icon-display-6-5.svg");
+          mask: url("/images/_icon/icon-display-6-5.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-ultra-wide-camera {
+  -webkit-mask: url("/images/_icon/icon-ultra-wide-camera.svg");
+          mask: url("/images/_icon/icon-ultra-wide-camera.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-multi-quad-camera {
+  -webkit-mask: url("/images/_icon/icon-multi-quad-camera.svg");
+          mask: url("/images/_icon/icon-multi-quad-camera.svg");
+}
+
+.icon-display-6-4 {
+  -webkit-mask: url("/images/_icon/icon-display-6-4.svg");
+          mask: url("/images/_icon/icon-display-6-4.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-display-5-7 {
+  -webkit-mask: url("/images/_icon/icon-display-5-7.svg");
+          mask: url("/images/_icon/icon-display-5-7.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-display-6-7 {
+  -webkit-mask: url("/images/_icon/icon-display-6-7.svg");
+          mask: url("/images/_icon/icon-display-6-7.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-quad-camera {
+  -webkit-mask: url("/images/_icon/icon-quad-camera.svg");
+          mask: url("/images/_icon/icon-quad-camera.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-device-design {
+  -webkit-mask: url("/images/_icon/icon-device-design.svg");
+          mask: url("/images/_icon/icon-device-design.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-octa-performance {
+  -webkit-mask: url("/images/_icon/icon-octa-performance.svg");
+          mask: url("/images/_icon/icon-octa-performance.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-s-pen {
+  -webkit-mask: url("/images/_icon/icon-s-pen.svg");
+          mask: url("/images/_icon/icon-s-pen.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
+.icon-knox {
+  -webkit-mask: url("/images/_icon/icon-knox.svg");
+          mask: url("/images/_icon/icon-knox.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

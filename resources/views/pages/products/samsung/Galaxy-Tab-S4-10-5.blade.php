@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy Tab S4 | Samsung Tablet | DATABAR COMPANY LIMITED')
 
@@ -13,7 +13,16 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 firstrow" style="overflow:hidden;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 firstrow" style="overflow:hidden;">
+            <nav aria-label="breadcrumb" id="breadcrumb">
+                <ol class="breadcrumb mt-lg-5" style="background:transparent;">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/tablets"><span itemprop="name">Samsung Tablets</span></a></li>
+                    <li class="breadcrumb-item d-flex active" aria-current="page">
+                        <h1 class="m-auto" style="font-size:15px;">Galaxy Tab S4</h1>
+                    </li>
+                </ol>
+            </nav>
             <img id="tab-s4" src="/images/samsung/galaxy-tab-s4-10-5/tab-s4.jpg" style="width:100%;" alt="Galaxy Tab s4">
             <div class="thumbnails">
                 <ul class="ul-product">
@@ -39,7 +48,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 mt-lg-2">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12"
                     style="text-align: center;background: rgba(0,0,0,0.1);padding:20px;">
                     <label for="" style="font-size:16px;color:grey;margin-top:10px;">Tablet</label>
@@ -77,7 +86,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top: 10%">
     <div data-aos="fade">
         <div class="slide slide-one">
             <div class="row rowblack" style="background-color:black;">

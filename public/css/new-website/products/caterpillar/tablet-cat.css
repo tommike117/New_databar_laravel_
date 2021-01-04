@@ -90,7 +90,7 @@
     }
     .box-product > figure{
         height: 300px;
-        width: 300px;
+        width: 100%;
         margin: auto;
     }
     .box-product > h2{

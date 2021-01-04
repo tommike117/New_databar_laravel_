@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<g id="Layer_1" style="display:none;">
+	<g style="display:inline;">
+		<g>
+			<g>
+				<g>
+					<rect id="Area" style="opacity:0.21;fill:#00A0E8;enable-background:new    ;" width="60" height="60"/>
+					
+						<rect id="Area_2_" x="3.8" y="3.8" style="opacity:0.21;fill:#00A0E8;enable-background:new    ;" width="52.5" height="52.5"/>
+					
+						<rect x="3.8" y="3.8" style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" width="52.5" height="52.5"/>
+					
+						<circle style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" cx="30" cy="30" r="26.2999992"/>
+					
+						<circle style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" cx="30" cy="30" r="19.7999992"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="10.1999998" y1="3.8" x2="10.1999998" y2="56.2999992"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="49.7999992" y1="3.8" x2="49.7999992" y2="56.2999992"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="3.8" y1="10.1999998" x2="56.2999992" y2="10.1999998"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="3.8" y1="49.7999992" x2="56.2999992" y2="49.7999992"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="3.8" y1="3.8" x2="56.2999992" y2="56.2999992"/>
+					
+						<line style="opacity:0.21;fill:none;stroke:#545454;stroke-width:0.1;stroke-miterlimit:10;stroke-dasharray:1,1;enable-background:new    ;" x1="56.2999992" y1="3.8" x2="3.8" y2="56.2999992"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<path style="fill:none;stroke:#12100B;stroke-width:1.5;stroke-miterlimit:10;" d="M28.2544556,20.2525444h-8.5324574
+		c-0.1656837,0-0.2999992-0.1343136-0.2999992-0.2999992V8.7819996c0-0.1656857,0.1343155-0.3000002,0.2999992-0.3000002h8.5324574
+		c0.1656857,0,0.2999992,0.1343145,0.2999992,0.3000002v11.1705456
+		C28.5544548,20.1182308,28.4201412,20.2525444,28.2544556,20.2525444z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;" d="M15.0999756,55.499939
+		c0,0.1657104,0.1343384,0.3000488,0.3000488,0.3000488h29.2999878C44.8656616,55.7999878,45,55.6656494,45,55.499939V45
+		L15.0999756,29.1782227V55.499939z"/>
+	
+		<line style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;" x1="15.0999994" y1="49.8149529" x2="42.1414566" y2="4.1999698"/>
+	<path style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;" d="M44.7000008,55.7999687H15.3999996
+		c-0.1656857,0-0.3000002-0.1343155-0.3000002-0.2999992v-51c0-0.1656857,0.1343145-0.3000002,0.3000002-0.3000002h29.3000011
+		C44.8656845,4.1999698,45,4.3342843,45,4.49997v51C45,55.6656532,44.8656845,55.7999687,44.7000008,55.7999687z"/>
+</g>
+</svg>

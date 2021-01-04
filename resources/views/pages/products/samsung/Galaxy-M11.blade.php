@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy M11 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
@@ -14,14 +14,14 @@
 
 @section('content')
 
-<div class="container">
+<div class="container" >
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 firstrow" style="overflow:hidden;">
             <div>
                 <nav aria-label="breadcrumb" id="breadcrumb">
                     <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;">
-                        <li class="breadcrumb-item"><a href="{{URL::to("/")}}">Home</a></li>
-                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="{{URL::route('samsung.smartphone.all')}}"><span itemprop="name">Samsung Smartphone</span></a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                         <li class="breadcrumb-item d-flex active" aria-current="page">
                             <h1 itemprop="name" class="m-auto" style="font-size:15px;">Galaxy M11</h1>
                         </li>
@@ -99,7 +99,7 @@
                 </div>
             </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <div class="row">
+            <div class="row" style="margin-top: 40px;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: center;background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important;">
                     <h2 style="font-size:13px;color:grey;">Smartphone</h2>
                     <h1 class="product_name">Galaxy M11</h1>
@@ -159,7 +159,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" style="margin: 0;">
     <section style="padding-top:100px;">
         <div class="row">
             <div class="container">
@@ -252,59 +252,61 @@
 </div>
 <!--choose angle wide ultra wide-->
 <section >
-    <div class="row justify-content-center" style="padding-top:200px;">
+    <div class="container-fluid">
+        <div class="row justify-content-center" style="padding-top:200px;">
 
-        <div class="block-h1 flex-column"style="text-align:center;">
-            <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
-            <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">See more in your photos with the Ultra Wide Camera. The 77° wide angle and 115° ultra wide angle capture the scene as you see it, so you won't miss the moment from where you stand. Now it's even easier to get a great panorama.</p>
+            <div class="block-h1 flex-column"style="text-align:center;">
+                <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
+                <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">See more in your photos with the Ultra Wide Camera. The 77° wide angle and 115° ultra wide angle capture the scene as you see it, so you won't miss the moment from where you stand. Now it's even easier to get a great panorama.</p>
+            </div>
         </div>
-    </div>
+            <div class="row" style="flex:0 0 100%;max-width:100%;">
+                <div class="flex-full">
+                    <figure class="svg_camera_size text-center wide">
+                        <img src="{{URL::asset('/images/samsung/galaxy-m11/77-on.svg')}}" alt="">
+                        <figcaption class="mt-3 mb-5">Wide angle</figcaption>
+                    </figure>
+                    <figure class="svg_camera_size text-center ultrawide">
+                        <img src="{{URL::asset('/images/samsung/galaxy-m11/115-off.svg')}}" alt="">
+                        <figcaption class="mt-3 mb-5"style="width: 118px;">Ultra Wide angle</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="flex-banner">
+                <img id="changecamerawide" src="{{URL::asset('/images/samsung/galaxy-m11/th-feature-galaxy-m11-m115-223814394.webp')}}" style="width:100%;" alt="">
+            </div>
+        </div>
+</section>
+<!--choose angle Front Rear-->
+<section >
+    <div class="container-fluid">
+        <div class="row justify-content-center " style="padding-top:200px;">
+            <div class="block-h1 flex-column"style="text-align:center;">
+                <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">A camera to let you explore depth</label><br>
+                <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">The 2MP Depth Camera lets you adjust the depth of field before and after you nail the shot. It reduces unwanted background noise from your images to make them look more professional.</p>
+            </div>
+        </div>
         <div class="row" style="flex:0 0 100%;max-width:100%;">
             <div class="flex-full">
-                <figure class="svg_camera_size text-center wide">
-                    <img src="{{URL::asset('/images/samsung/galaxy-m11/77-on.svg')}}" alt="">
-                    <figcaption class="mt-3 mb-5">Wide angle</figcaption>
+                <figure class="svg_camera_size text-center front">
+                    <img src="{{URL::asset('/images/samsung/galaxy-m21/front-on.png')}}" alt="">
+                    <figcaption class="mt-3 mb-5">Live focus off</figcaption>
                 </figure>
-                <figure class="svg_camera_size text-center ultrawide">
-                    <img src="{{URL::asset('/images/samsung/galaxy-m11/115-off.svg')}}" alt="">
-                    <figcaption class="mt-3 mb-5"style="width: 118px;">Ultra Wide angle</figcaption>
+                <figure class="svg_camera_size text-center rear">
+                    <img src="{{URL::asset('/images/samsung/galaxy-m21/rear-off.png')}}" alt="">
+                    <figcaption class="mt-3 mb-5">Live focus on</figcaption>
                 </figure>
             </div>
         </div>
         <div class="flex-banner">
-            <img id="changecamerawide" src="{{URL::asset('/images/samsung/galaxy-m11/th-feature-galaxy-m11-m115-223814394.webp')}}" style="width:100%;" alt="">
+            <img id="changecamera" src="{{URL::asset('/images/samsung/galaxy-m11/th-feature-galaxy-m11-m115-223814399.webp')}}" style="width:100%;" alt="">
         </div>
-
-</section>
-<!--choose angle Front Rear-->
-<section >
-<div class="row justify-content-center" style="padding-top:200px;">
-
-    <div class="block-h1 flex-column"style="text-align:center;">
-        <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">A camera to let you explore depth</label><br>
-        <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">The 2MP Depth Camera lets you adjust the depth of field before and after you nail the shot. It reduces unwanted background noise from your images to make them look more professional.</p>
-    </div>
-</div>
-    <div class="row" style="flex:0 0 100%;max-width:100%;">
-        <div class="flex-full">
-            <figure class="svg_camera_size text-center front">
-                <img src="{{URL::asset('/images/samsung/galaxy-m21/front-on.png')}}" alt="">
-                <figcaption class="mt-3 mb-5">Live focus off</figcaption>
-            </figure>
-            <figure class="svg_camera_size text-center rear">
-                <img src="{{URL::asset('/images/samsung/galaxy-m21/rear-off.png')}}" alt="">
-                <figcaption class="mt-3 mb-5">Live focus on</figcaption>
-            </figure>
-        </div>
-    </div>
-    <div class="flex-banner">
-        <img id="changecamera" src="{{URL::asset('/images/samsung/galaxy-m11/th-feature-galaxy-m11-m115-223814399.webp')}}" style="width:100%;" alt="">
-    </div>
-    <div class="row" style="margin-top:0px;">
-        <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-            <div data-aos="fade">
-                <p class="extra-line">*Images simulated for illustrative purposes.
-                </p>
+        <div class="row" style="margin-top:0px;">
+            <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
+                <div data-aos="fade">
+                    <p class="extra-line">*Images simulated for illustrative purposes.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

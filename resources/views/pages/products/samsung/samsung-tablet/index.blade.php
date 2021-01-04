@@ -28,7 +28,6 @@
                 <img class="banner-desktop" src="/images/new-website/products/samsung/tablets/banner-1920x1080-02.jpg" alt="Banner-Smartphones" width="100%">
                 <img class="banner-mobile" src="/images/new-website/products/samsung/tablets/banner-623x343-2.jpg" alt="Banner-Smartphones" width="100%">
             </figure>
-
             <div class="text-all-samsung desktop-none">
                 <a href="/products/samsung/smartphones">Smartphone</a>
                 <p style="margin: 0px 7%;margin-bottom: 1rem;">Tablet</p>
@@ -51,7 +50,7 @@
                 @if ($item->Plist_Status == "1")
                 <div class="block-product-samsung-smartphone">
                     <figure class="block_product_images">
-                        <img src="{{URL::asset('images/database/samsung/mobile/'.$item->Plist_Image)}}"
+                        <img src="{{URL::asset('images/database/samsung/tablet/'.$item->Plist_Image)}}"
                         alt="{{$item->Plist_Name}}" title="{{$item->Plist_Name}}" style="width:100%; padding:10%;">
                     </figure>
                     <div class="text-center">
@@ -67,7 +66,7 @@
                         </div>
                     </div>
                     <div class="text-center" style="margin-top: 10%">
-                        <a href="#">
+                        <a href="/products/samsung/tablets/{{$item->Plist_Url}}">
                             <button class="btn btn-banner">View more</button>
                         </a>
                     </div>

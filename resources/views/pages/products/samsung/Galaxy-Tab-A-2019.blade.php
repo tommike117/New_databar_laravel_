@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy Tab A 2019 | Samsung Tablet | DATABAR COMPANY LIMITED')
 

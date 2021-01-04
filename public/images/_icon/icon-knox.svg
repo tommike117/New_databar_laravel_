@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#D9D9D9;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:1,1;}
+	.st3{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#12100B;stroke-width:1.5;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#12100B;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#12100B;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#12100B;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:#12100B;}
+	.st13{fill:#FFFFFF;}
+</style>
+<g id="Layer_2" class="st0">
+	<g class="st1">
+		<g>
+			<rect class="st2" width="60" height="60"/>
+			<line class="st2" x1="0" y1="0" x2="60" y2="60"/>
+			<line class="st2" x1="60" y1="0" x2="0" y2="60"/>
+			<circle class="st2" cx="30" cy="30" r="30"/>
+			<line class="st2" x1="8.7867966" y1="0.0913647" x2="8.7867966" y2="60"/>
+			<line class="st2" x1="51.2132034" y1="0" x2="51.2132034" y2="59.8705673"/>
+			<line class="st2" x1="60" y1="8.91222" x2="0" y2="8.91222"/>
+			<line class="st2" x1="60" y1="51.1295128" x2="0" y2="51.1295128"/>
+			<circle class="st2" cx="30" cy="30" r="21.2132034"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+	<g>
+		<path class="st3" d="M25.0874538,50.74086c1.5196934,1.1531105,3.1818924,2.2453499,5.0010757,3.25914
+			c5.0093288-2.7915802,8.8283329-6.178009,11.7593708-9.7922478l-11.7593708-3.7318916l-11.7593708,3.7318916
+			c-2.0853138-2.5713844-3.7207012-5.2557411-4.9888468-7.9325943l16.7482185-5.3151588l16.7482166,5.3151588
+			c1.3865814-2.9268188,2.3438339-5.8351784,2.9976845-8.5645332l-19.7459011-6.2664833l-19.745903,6.2664833
+			c-2.0129881-8.4029293-1.1655684-15.0742378-1.1655684-15.0742378l7.3933611-2.3463287v5.1168165l6.7110138-2.1297655V8.1602926
+			L30.0885296,6l6.8070965,2.1602926v5.1168165l6.7110138,2.1297655v-5.1168165L51,12.6363869v5.669384"/>
+	</g>
+</g>
+</svg>

@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Samsung Galaxy S10 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 

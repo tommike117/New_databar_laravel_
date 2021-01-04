@@ -1,10 +1,14 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title' , 'Galaxy Note10 | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
 @section('link')
 
+
 <link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-note10/style.css')}}">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="{{ URL::to('/css/aos.css')}}">
+
 
 @endsection
 
@@ -12,6 +16,7 @@
 <!-- Grid -->
 
 @section('content')
+
 
 <div class="p-md-4 p-lg-4">
     <div class="block-banner margin-from-nav">
@@ -58,7 +63,7 @@
         </div>
     </section>
 
-
+{{--
     <section class="display-none-mobile awSlider section section-2" style="margin: auto auto;">
         <div class="block-video">
             <div class="main-gallery js-flickity"
@@ -136,7 +141,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="section section-3">
         <article class="section-3-article">
@@ -163,7 +168,7 @@
                     type="video/mp4">
             </video>
             <article class="section-4-article display-none-mobile">
-                <span data-aos="change-color">
+                <span data-aos="change-color" style="color: white">
                     <h4>Hours of power from minutes of charge</h4>
                     <p>No time is the right time to be caught without a charge, so the Galaxy Note10's
                         cutting-edgebattery intelligence ensures you won't be left powerless. And Super Fast Charging
@@ -266,19 +271,24 @@
         </div>
     </section>
 
-    <section class="section section-9">
-        <article class="section-9-article">
-            <div class="row">
-                <div class="col-12 pl-md-10p pr-md-10p">
-                    <div class="flex-left-article-section-9">
-                        <h4 class="section-9-h4">The Galaxy Note now comes in two sizes.</h4>
-                    </div>
-                    <div class="flex-right-article-section-9">
-                        <p class="section-9-p">For the first time ever, you can choose the Note size that fits you best.</p>
-                    </div>
+
+    <section class="section section-5" style="padding: 80px 0;">
+        <article class="section-5-article">
+            <div class="row pl-md-10p pr-md-10p">
+                <div class="col-md-4 flex-left-article-section-5">
+                    <h4 class="section-5-h4">The Galaxy Note now comes in two sizes.</h4>
+                </div>
+                <div class="col-md-8 flex-right-article-section-5">
+                    <p class="section-5-p">For the first time ever, you can choose the Note size that fits you best.</p>
                 </div>
             </div>
         </article>
+    </section>
+
+
+
+
+    <section class="section section-9">
         <div class="block-figure-section-9">
             <div class="fix-img-note10">
                 <figure class="figure-section-9-image1">
@@ -301,6 +311,16 @@
 
 @section('script')
 
+<script src="{{URL::asset('/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="{{URL::asset('js/page-js/samsung/galaxy-note10/main.js')}}"></script>
+<script src="{{URL::to('/js/aos.min.js')}}"></script>
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+
 
 @endsection

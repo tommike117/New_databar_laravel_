@@ -54,12 +54,19 @@ services')
 
                     </div>
                     <div class="col-md-10 col-sm-8 pr-0" >
-                        <div class="banner-brand">
+                        <div  class="banner-brand" >
                             <div class="middle" style="font-family: quicksand">
-                                <h1>COMING SOON</h1>
+                                {{-- <h1>COMING SOON</h1>
                                 <hr>
-                                <p id="countdown" style="font-size:24px"></p>
+                                <p id="countdown" style="font-size:24px"></p> --}}
+                                <video class="video-section "  title="home-page video" autoplay muted loop>
+                                    <source src="{{URL::to('videos/home_page/products/Galaxy_S20_Ultra_Official_Introduction.mp4')}}" type="video/mp4">
+                                </video>
+
                             </div>
+                            <figure class=" dd" >
+                                <img src="images/new-website/products/S20_PZN_LO_KV_01_POSTERFRAME_PC.webp" class="pic-banner dd" alt="">
+                            </figure>
                         </div>
 
 
@@ -257,14 +264,14 @@ services')
 
 
 <style>
+    @media (min-width: 992px){
+        .dd{
+            display: none;
+        }
+    }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .ddd{
-        display: none;
-    }
-}
-@media (min-width: 992px){
-    .dd{
         display: none;
     }
 }
@@ -281,23 +288,4 @@ services')
 
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script>
-    var countDownDate = new Date("Jan 1, 2021 00:00:00").getTime();
-    var countdownfunction = setInterval(function() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-
-      // If the count down is over, write some text
-      if (distance < 0) {
-        clearInterval(countdownfunction);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-</script>
+{{--  --}}

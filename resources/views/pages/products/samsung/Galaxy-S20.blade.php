@@ -1,4 +1,4 @@
-@extends('layouts/main')
+@extends('layouts/main-all-products')
 
 @section('title', 'Galaxy S20 | Galaxy S20+ | Galaxy S20 Ultra 5G | Samsung Smartphone | DATABAR COMPANY LIMITED')
 
