@@ -34,17 +34,6 @@ services')
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                {{-- <img src="/images/new-website/banner_M-01.jpg" class="slide-pic w-100 mobile tablet" alt="Banner-1-mobile tablet" >
-                <div class="slide-caption  mobile tablet">
-                    <h5>Welcome to DATABAR</h5>
-                    <p class="normal-mobile"> is Thai Value-added
-                        Tier 1 and Worldwide product
-                        specialty distributor of IT Security,
-                        Information Management and Network Solutions.</p>
-                    <p class="small-mobile" > is Thai Value-added
-                        Tier 1 and Worldwide product.
-                    </p>
-                </div> --}}
                     <img src="/images/new-website/banner-01.jpg" class="slide-pic w-100 desktop" alt="Banner-1-desktop">
                     <div class="slide-caption desktop">
                         <h5>Welcome to DATABAR</h5>
@@ -58,17 +47,6 @@ services')
             <div class="carousel-item">
                 <img src="/images/new-website/banner-03.jpg" class="slide-pic w-100  desktop" alt="...">
             </div>
-            {{-- <div class="carousel-item mobile tablet">
-                <img src="/images/new-website/braner_1920x650px-04.png" style="display: none" alt="...">
-            </div> --}}
-            {{-- <div class="carousel-item">
-                <img src="/images/new-website/banner_phone-05.jpg" class="slide-pic w-100 mobile tablet" alt="...">
-                <img src="/images/new-website/braner_1920x650px-05.png" class="slide-pic w-100  desktop" alt="...">
-            </div>
-            <div class="carousel-item ">
-                <img src="/images/new-website/banner_phone-06.jpg" class="slide-pic w-100 mobile tablet" alt="...">
-                <img src="/images/new-website/braner_1920x650px-06.png" class="slide-pic w-100  desktop" alt="...">
-            </div> --}}
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions1" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -112,14 +90,6 @@ services')
             <div class="carousel-item mobile tablet">
                 <img src="/images/new-website/banner_M-04.jpg" class="slide-pic w-100 mobile tablet" alt="...">
             </div>
-            {{-- <div class="carousel-item">
-                <img src="/images/new-website/banner_phone-05.jpg" class="slide-pic w-100 mobile tablet" alt="...">
-                <img src="/images/new-website/braner_1920x650px-05.png" class="slide-pic w-100  desktop" alt="...">
-            </div>
-            <div class="carousel-item ">
-                <img src="/images/new-website/banner_phone-06.jpg" class="slide-pic w-100 mobile tablet" alt="...">
-                <img src="/images/new-website/braner_1920x650px-06.png" class="slide-pic w-100  desktop" alt="...">
-            </div> --}}
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

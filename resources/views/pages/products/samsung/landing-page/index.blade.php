@@ -170,17 +170,17 @@
                                 <div class="col-xs-12 col-sm-12 col-md-12 p-lg-0">
                                     <div class="item-img-hover">
                                         <a href="#newsvideo3" id="videolink3">
-                                            <img alt="Introducing Galaxy Tab S6" title="Samsung Galaxy Tab S6 Introducing"
-                                                src="/images/home_page/GalaxyTab_S6.webp" width="100%" alt="">
+                                            <img alt="Introducing Galaxy Tab Active3" title="Galaxy Tab Active3"
+                                                src="/images/home_page/levant-feature-designed-to-be-sturdy-and-reliable-314915740.jfif" width="100%" alt="">
                                             <span class="item-middle">
                                                 <i class="icon icon-play"></i>
                                             </span>
                                         </a>
                                         <video title="Introducing Galaxy Tab S6" id="newsvideo3" class="mfp-hide"
                                             width="853" height="480" controls>
-                                            <source src="/videos/home_page/Galaxy_Tab_S6_Official_Introduction.mp4"
+                                            <source src="/videos/home_page/Galaxy Tab Active3.mp4"
                                                 type="video/mp4">
-                                            <source src="/videos/home_page/Galaxy_Tab_S6_Official_Introduction.mp4"
+                                            <source src="/videos/home_page/Galaxy Tab Active3.mp4"
                                                 type="video/ogg">
                                         </video>
                                     </div>
@@ -190,10 +190,9 @@
                             <div class="block-video_content">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 FadeInUp">
-                                        <label class="news_head">Introducing Galaxy Tab S6</label>
-                                        <label class="news_content">Bring your creativity to new heights with Galaxy Tab S6
-                                            and
-                                            an amazing Bluetooth S Pen which puts creativity at your fingertips.</label>
+                                        <label class="news_head">Galaxy Tab Active3: Feature Intro Film</label>
+                                        <label class="news_content">Built strong from the inside out and S Pen handles well even with gloves
+                                        </label>
                                     </div>
 
                                 </div>
