@@ -5,7 +5,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-xcover-pro/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-xcover-pro/main.css')}}">
 <link rel="stylesheet" href="/css/animate.css">
 
 @endsection
@@ -19,7 +19,7 @@
             <nav aria-label="breadcrumb" id="breadcrumb">
                 <ol class="breadcrumb mt-lg-5" style="background:transparent;">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
+                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/samsung/smartphones"><span itemprop="name">Samsung Smartphone</span></a></li>
                     <li class="breadcrumb-item d-flex active" aria-current="page">
                         <h1 class="m-auto" style="font-size:15px;">Galaxy XCover Pro</h1>
                     </li>

@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-note9/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-note9/main.css')}}">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 @endsection
@@ -116,7 +116,7 @@
                     <svg width="111px" height="111px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                         preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -127,7 +127,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -164,7 +164,7 @@ position: relative;top: -13px;">
                     <svg class="svg_six" width="111px" height="111px" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -175,7 +175,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -248,7 +248,7 @@ position: relative;top: -13px;">
                     <svg width="111px" height="111px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                         preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -259,7 +259,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -304,7 +304,7 @@ position: relative;top: -13px;">
                     <svg class="svg_ten" width="111px" height="111px" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -315,7 +315,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -373,7 +373,7 @@ position: relative;top: -13px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
                 <div data-aos="fade-up" data-aos-delay="60" >
                     <label class="label_performance" style="font-size:15px;color:white;" for="">Performance</label>
-                    
+
                 </div>
             </div>
         </div>
@@ -385,7 +385,7 @@ position: relative;top: -13px;">
                     <svg class="svg_thirtheen" width="111px" height="111px" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -396,7 +396,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -439,7 +439,7 @@ position: relative;top: -13px;">
                     <svg width="111px" height="111px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                         preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -450,7 +450,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -510,7 +510,7 @@ position: relative;top: -13px;">
                     <svg width="111px" height="111px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                         preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -521,7 +521,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -569,7 +569,7 @@ position: relative;top: -13px;">
                     <svg class="svg_seventheen" width="111px" height="111px" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -580,7 +580,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -633,7 +633,7 @@ position: relative;top: -13px;">
                     <svg width="111px" height="111px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                         preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -644,7 +644,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">
@@ -696,7 +696,7 @@ position: relative;top: -13px;">
                     <svg class="svg_twenty" width="111px" height="111px" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background: rgb(0, 0, 0);left: 4px;
 position: relative;top: -13px;">
-                        <circle cx="50" cy="50" r="7.06252" fill="none" 
+                        <circle cx="50" cy="50" r="7.06252" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="-0.8s" repeatCount="indefinite">
@@ -707,7 +707,7 @@ position: relative;top: -13px;">
 
                             </animate>
                         </circle>
-                        <circle cx="50" cy="50" r="1.47175" fill="none" 
+                        <circle cx="50" cy="50" r="1.47175" fill="none"
                              stroke="#ffffff" stroke-width="15">
                             <animate attributeName="r" calcMode="spline" values="0;10" keyTimes="0;1" dur="1.6"
                                 keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite">

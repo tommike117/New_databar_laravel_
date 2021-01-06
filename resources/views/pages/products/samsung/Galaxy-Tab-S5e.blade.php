@@ -3,7 +3,7 @@
 @section('title', 'Galaxy Tab S5e | Samsung Tablet | DATABAR COMPANY LIMITED')
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::asset('css/page-style/samsung/tablet/tab-s5e/main.css')}}">
+<link rel="stylesheet" href="{{ URL::asset('css/new-website/products/samsung/tablet/tab-s5e/main.css')}}">
 
 @endsection
 

@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/tablet/tab-s2-9-7/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/tablet/tab-s2-9-7/main.css')}}">
 
 @endsection
 

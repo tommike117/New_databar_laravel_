@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-tab-a-10-5/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-tab-a-10-5/main.css')}}">
 
 @endsection
 
@@ -82,7 +82,7 @@
     </div>
 </div>
 <div class="container-fluid">
-    
+
     <div class="slide slide-three">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding-top:200px;">
@@ -136,7 +136,7 @@
             </div>
         </div>
     </div>
-   
+
     <div class="slide slide-five">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding-top:200px;">

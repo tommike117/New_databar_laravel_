@@ -3,7 +3,7 @@
 @section('title', 'Galaxy Tab A 2019 | Samsung Tablet | DATABAR COMPANY LIMITED')
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::asset('css/page-style/samsung/tablet/tab-a-2019/main.css')}}">
+<link rel="stylesheet" href="{{ URL::asset('css/new-website/samsung/tab-a-2019/main.css')}}">
 {{-- <link rel="stylesheet" href="{{URL::asset('css/product-list.css')}}"> --}}
 
 @endsection

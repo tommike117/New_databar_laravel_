@@ -18,8 +18,8 @@
 
 <section>
     <div style="position: relative">
-        <div style="overflow: hidden;margin-left: -15%;">
-            <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_kv_00.jpg" alt="samsung galaxy S20 S20+ S20 Ultra 5G">
+        <div style="overflow: hidden; margin-left: -15%;">
+            <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_kv_00.jpg" class="image-1" alt="samsung galaxy S20 S20+ S20 Ultra 5G">
         </div>
         <div class="header-s20">
             <h1 style="font-size:65px;font-weight:600">Galaxy S20, S20+ and S20 Ultra 5G</h1>
@@ -45,12 +45,12 @@
         <p class="color-white-s20">A massive leap forward in resolution and zoom for mobile photography</p>
     </div>
     <p class="text-white-center" style="font-size: 18px">HIGH RESOLUTION</p>
-    <h3 class="text-white-center" style="margin-top: 20px;font-size: 39px">108MP lets you pinch in. Again. And <br> again.</h3>
+    <h3 class="text-white-center text-sec-4" style="margin-top: 20px;font-size: 39px">108MP lets you pinch in. Again. And <br> again.</h3>
     <div style="padding: 7%">
         <img src="/images/samsung/galaxy-s20/108mp-samsung.png" style="width: 100%" alt="zoom 108MP">
     </div>
-        <div class="col-12" style="display: flex; padding-bottom:5%">
-            <div class="col-6 text-white-center" style="display: flex;padding: 0px 0 5% 9%;text-align:left">
+        <div class="col-12 d-flex-none" style="display: flex; padding-bottom:5%">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-white-center" style="display: flex;padding: 0px 0 5% 9%;text-align:left">
                 <div class="col-6">
                     <h2 style="font-size: 17px;font-weight: 600;">Galaxy S20 & Galaxy S20+</h2>
                     <p style="font-size: 35px;font-weight: 600;border-right:solid 1px;">64MP</p>
@@ -60,7 +60,7 @@
                     <p style="font-size: 35px;font-weight: 600;">108MP</p>
                 </div>
             </div>
-            <div class="col-6" style="color: white;">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-sup-4" style="color: white;">
                 <p style="width: 75%;font-size: 18px;">Far beyond the 12 megapixel category, Galaxy S20 Ultra gives you millions more pixels in each photograph. Which means for the first time ever you can pinch in for details you'd never have seen before.</p>
 
             </div>
@@ -74,7 +74,7 @@
         <p class="color-black-s20" style="margin:10% 0;">Our most advanced zoom yet takes you places no mobile has been before</p>
     </div>
     <p class="text-black text-center" style="font-size: 18px">SPACE ZOOM</p>
-    <h3 class="text-black text-center" style="margin-top: 20px;font-size: 39px">Zoom in 100x to find shots you never <br> knew existed</h3>
+    <h3 class="text-black text-center text-sec-5" style="margin-top: 20px;font-size: 39px">Zoom in 100x to find shots you never <br> knew existed</h3>
 
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div data-aos="fade-down" data-aos-offset="0" data-aos-delay="0" data-aos-duration="300"
@@ -108,26 +108,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12" style="display: flex;margin-top:5%">
-                <div class="col-6 text-black" style="display: flex;padding: 0px 0 5% 9%;text-align:left">
-                    <div class="col-6">
+            <div class="col-12 d-flex-none" style="display: flex;margin-top:5%">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-black" style="display: flex;padding: 0px 0 5% 9%;text-align:left">
+                    <div class="col-6 text-sup-5">
                         <h2 style="font-size: 17px;font-weight: 600;">Galaxy S20 & Galaxy S20+</h2>
-                        <p style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">3X</p>
+                        <h3 style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">3X</h3>
                         <p style="width: 80%;font-size: 17px;">Hybrid Optic Zoom</p>
-                        <p style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 1rem;">Up to 30x</p>
+                        <h3 style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 1rem;">Up to 30x</h3>
                         <p style="width: 80%;font-size: 17px;">Super Resolution Zoom</p>
 
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 text-sup-5">
                         <h2 style="font-size: 17px;font-weight: 600;">Galaxy S20 Ultra</h2>
-                        <p style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">10X</p>
+                        <h3 style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">10X</h3>
                         <p style="width: 80%;font-size: 17px;">Hybrid Optic Zoom</p>
-                        <p style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 1rem;">Up to 100x</p>
+                        <h3 style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 1rem;">Up to 100x</h3>
                         <p style="width: 80%;font-size: 17px;">Super Resolution Zoom</p>
 
                     </div>
                 </div>
-                <div class="col-6 text-left" style="color: black;">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-left" style="color: black;">
                     <p style="width: 75%;font-size: 18px;">It starts with 10x Hybrid Optic Zoom enabled by a revolutionary folded lens and high resolution image sensor. Couple that with Super Resolution Zoom enhanced by camera AI to get close up to the action and capture moments you might have missed.</p>
                 </div>
             </div>
@@ -138,23 +138,23 @@
         <p class="color-black-s20" style="margin:10% 0;font-size: 100px;font-weight: 400;">Let there be night</p>
 
         <p class="text-black text-left" style="font-size: 18px;padding-left: 15px;padding-left:5%">BRIGHT NIGHT</p>
-        <div style="display: flex; margin:5% 0">
-            <div class="col-6">
+        <div class="col-12 d-flex-none" style="display: flex; margin:5% 0">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-sec-6">
                 <h3 class="text-black text-left" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">We've upped the <br> sensor size so you can shoot more of the <br> night</h3>
 
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <p class="text-black text-left" style="font-size: 18px;padding: 20px 0px 20px 7%;">In low light, the pro-grade camera system captures multiple photos at once, merging them into one stunning shot with less blur and noise. With larger image sensors and AI, switching to Night Mode means you can shoot night time scenes clearer.</p>
             </div>
         </div>
-        <div style="display: flex">
-            <div class="col-6">
+        <div class="col-12 d-flex-none" style="display: flex">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div>
                     <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_brightnight-off.webp" style="width: 100%;border-radius: 60px;" alt="off night off">
                     <h2 class="night-mode samsung-small">Night mode off</h2>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div>
                     <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_brightnight-on.webp" style="width: 100%;border-radius: 60px;" alt="off night on">
                     <h2 class="night-mode samsung-small" >Night mode on</h2>
@@ -165,42 +165,42 @@
 </section>
 
 <section style="background-color: black; height:auto; padding-bottom: 10%">
-    <div class="container" style="padding:10% 5%;">
-        <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_visual-8k.webp" style="width:100%" alt="8k video">
+    <div class="container" style="padding:10% 5%; text-align:center;">
+        <img src="/images/samsung/galaxy-s20/galaxy-s20_highlights_visual-8k.webp" class="image-7" style="width:100%" alt="8k video">
         <p class="color-white-s20" style="font-size: 50px; padding:20% 5%">8K Video Snap revolutionises how you capture photos and video</p>
     </div>
     <div class="container">
         <p class="text-white text-left" style="font-size: 18px;padding-left: 15px;padding-left:5%">8K VIDEO</p>
-        <div style="display: flex; margin:5% 0">
-            <div class="col-6">
-                <h3 class="text-white text-left" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">Now the highest-resolution video on a smartphone</h3>
+        <div class="col-12 d-flex-none" style="display: flex; margin:5% 0">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="text-white text-left text-sec-7" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">Now the highest resolution video on a smartphone</h3>
 
             </div>
-            <div class="col-6">
-                <p class="text-white text-left" style="font-size: 18px;padding: 20px 0px 20px 7%;">We've taken mobile resolution from 4K all the way to 8K. That's 4 times bigger than UHD and 16 times bigger than FHD. That means you'll capture moments in super-sharp resolution.</p>
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <h3 class="text-white text-left " style="font-size: 18px;padding: 20px 0px 20px 7%;">We've taken mobile resolution from 4K all the way to 8K. That's 4 times bigger than UHD and 16 times bigger than FHD. That means you'll capture moments in super-sharp resolution.</h3>
             </div>
         </div>
         <div style="display: flex">
-            <video autoplay muted loop style="width: 100%; border-radius: 50px;">
+            <video autoplay muted loop style="width: 100%; border-radius: 50px;text-align: center;">
                 <source src="/images/samsung/galaxy-s20/galaxy-s20_highlights_8k.webm" type="video/mp4">
             </video>
         </div>
         <div style="margin:5% 0;">
             <p class="text-white text-left" style="font-size: 18px;padding-left: 15px;padding-left:5%">8K VIDEO SNAP</p>
-            <div style="display: flex; margin:5% 0">
-                <div class="col-6">
-                    <h3 class="text-white text-left" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">You can even pull 33MP <br> stills right out of 8K <br> video</h3>
+            <div class="col-12 d-flex-none" style="display: flex; margin:5% 0">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h3 class="text-white text-left text-sec-7" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">You can even pull 33MP <br> stills right out of 8K <br> video</h3>
 
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-white text-left" style="font-size: 18px;padding: 20px 0px 20px 7%;">It's a whole new way to capture still photography every time you hit record. 8K video turns every frame into a high-resolution still that you can pinch in on for once-in-a-lifetime shots.</p>
                     <div style="display: flex">
                         <div class="col-6">
-                            <p class="text-white text-center" style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem; border-right:solid 1px ">8KVideo</p>
+                            <p class="text-white text-center text-sup-7" style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem; border-right:solid 1px ">8KVideo</p>
 
                         </div>
                         <div class="col-6" >
-                            <p class="text-white text-center" style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">33MPStill</p>
+                            <p class="text-white text-center text-sup-7" style="font-size: 35px;font-weight: 600;margin-bottom: 0rem;margin-top: 2rem;">33MPStill</p>
                         </div>
                     </div>
                 </div>

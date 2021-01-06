@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-a7/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a7/main.css')}}">
 
 @endsection
 
@@ -455,8 +455,8 @@ padding: 0px 15%;">*Up to 512GB additional storage with external microSD card, s
                     separately. Availability and launch date may vary by country. External Memory may be used to
                     store media (photos, video, and music files) but not applications.</p>
             </div>
-                
-            
+
+
             <div class="col-xs-12 col-sm-12 col-md-6" style="padding:0;">
                 <div data-aos="fade"  data-aos-duration="700"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
@@ -488,7 +488,7 @@ padding: 0px 15%;">*Up to 512GB additional storage with external microSD card, s
                     <p class="section13_text_line2" style="font-size:17px;">Meet your personal health manager. Samsung Health tracks your activity, nutrition habits and sleep patterns all in one convenient place.</p>
 
                 </div>
-                
+
             <p style="font-size: 12px;
 position: absolute;
 bottom: calc((100% - 500px) / 2);

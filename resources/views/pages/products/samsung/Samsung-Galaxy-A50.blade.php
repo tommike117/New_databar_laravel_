@@ -5,7 +5,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-a50/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a50/main.css')}}">
 
 @endsection
 
@@ -226,7 +226,7 @@
     </section>
     <!-- end section11 -->
 
-   
+
 </div>
 @endsection
 

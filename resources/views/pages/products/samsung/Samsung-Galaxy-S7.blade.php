@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-s7/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-s7/main.css')}}">
 
 @endsection
 
@@ -90,7 +90,7 @@ top: 140px;"
     <section style="padding-top:100px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-down"  data-aos-duration="600" 
+                <div data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <label class="section2_text_line1" for="" style="font-size:80px;font-weight:bold;">Galaxy S7</label><br>
@@ -106,7 +106,7 @@ top: 140px;"
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0;">
 
-                    <div data-aos="fade-up"  data-aos-duration="600" 
+                    <div data-aos="fade-up"  data-aos-duration="600"
                         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                         data-aos-anchor-placement="top-center">
                         <figure style="z-index: 1;position: absolute;">
@@ -143,7 +143,7 @@ top: 140px;"
     <section style="padding-top:200px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-down"  data-aos-duration="600" 
+                <div data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <label class="section3_text_line1" for="" style="font-size:100px;font-weight:bold;">Design</label><br>
@@ -156,7 +156,7 @@ top: 140px;"
         </div>
         <div class="row" style="margin-top:20px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade"  data-aos-duration="600" 
+                <div data-aos="fade"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center" style="display:inline-flex;height:460px;overflow:hidden;">
                     <figure>
@@ -172,7 +172,7 @@ top: 140px;"
     <section>
         <div class="row" style="background:black">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0;">
-                <div data-aos="fade"  data-aos-duration="600" 
+                <div data-aos="fade"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <figure style="padding:10%;">
@@ -198,7 +198,7 @@ right: 0;">
                     S7, you own the night.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-up"  data-aos-duration="600" 
+                <div data-aos="fade-up"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <figure>
@@ -211,7 +211,7 @@ right: 0;">
     <section>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-                <div class="ani_starwar" data-aos="fade-down"  data-aos-duration="600" 
+                <div class="ani_starwar" data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center" style="position:absolute;top:5%;z-index:1;text-align:center;">
                     <label class="section4_text_line1" for="" style="font-size:100px;font-weight:bold;color:white;">Gaming</label><br>
@@ -225,7 +225,7 @@ right: 0;">
                         <img src="{{URL::asset('images/samsung/galaxy-s7/s7_banner_game.jpg')}}" style="width:100%;" alt="">
                     </figure>
                 </div>
-                <div class="starwar_last_content" data-aos="fade-down" data-aos-offset="-100" data-aos-duration="600" 
+                <div class="starwar_last_content" data-aos="fade-down" data-aos-offset="-100" data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center" style="position:absolute;bottom:10%;z-index:1;text-align:center;">
                     <p class="section4_text_line3" style="color:white;padding:0 10%;font-size:15px;">Star Wars ™: Galaxy of Heroes
@@ -242,7 +242,7 @@ right: 0;">
             data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
             <div class="row" style="background:black;">
                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;text-align:center;">
-                    <div data-aos="fade-down"  data-aos-duration="600" 
+                    <div data-aos="fade-down"  data-aos-duration="600"
                         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                         data-aos-anchor-placement="top-center">
                         <label class="section5_text_line1" for="" style="font-size:150px;font-weight:bold;color:white;">Hardware</label><br>
@@ -251,7 +251,7 @@ right: 0;">
                             edge and S7 run smoothly and quickly, handling every bit of the additional data on your
                             microSD card with confidence. Even with the bigger battery, charging’s still fast.</p>
                     </div>
-                    <div data-aos="fade-up"  data-aos-duration="600" 
+                    <div data-aos="fade-up"  data-aos-duration="600"
                         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                         data-aos-anchor-placement="top-center">
                         <figure style="text-align:center;margin-top:10%;">
@@ -261,7 +261,7 @@ right: 0;">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;text-align:center;">
-                    <div class="ani_resistance" data-aos="fade-down"  data-aos-duration="600" 
+                    <div class="ani_resistance" data-aos="fade-down"  data-aos-duration="600"
                         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                         data-aos-anchor-placement="top-center" style="position:absolute;top:10%;margin:auto;left:0;right:0;text-align:center;z-index:3">
                         <label class="section6_text_line1" for="" style="font-size:150px;font-weight:bold;color:white;line-height:150px;">Water
@@ -272,7 +272,7 @@ right: 0;">
                             completely seal off the inside components whilst keeping micro USB ports, earphone
                             jacks open, so you won't have to fiddle with extra caps or covers.</p>
                     </div>
-                    <div data-aos="fade"  data-aos-duration="600" 
+                    <div data-aos="fade"  data-aos-duration="600"
                         data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                         data-aos-anchor-placement="top-center" style="margin-top:20%;">
                         <figure>
@@ -286,7 +286,7 @@ right: 0;">
     <section>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-                <div data-aos="fade"  data-aos-duration="600" 
+                <div data-aos="fade"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <figure style="padding:10%;">
@@ -307,7 +307,7 @@ right: 0;">
     <section>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-down"  data-aos-duration="600" 
+                <div data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <label class="section7_text_line1" for="" style="font-size:80px;font-weight:bold;">Shortcuts</label><br>
@@ -331,7 +331,7 @@ right: 0;">
     <section style="padding-top:100px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-down"  data-aos-duration="600" 
+                <div data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center">
                     <label class="section8_text_line1" for="" style="font-size:150px;font-weight:bold;">ACCESSORIES</label><br>
@@ -343,7 +343,7 @@ right: 0;">
         </div>
         <div class="row accessories" style="margin-top:1000px">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade"  data-aos-duration="600" 
+                <div data-aos="fade"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center" style="position: absolute;bottom: 0;margin:auto;left:0;right:0;z-index:1">
                     <figure>
@@ -371,7 +371,7 @@ right: 0;">
                         <img src="{{URL::asset('images/samsung/galaxy-s7/s7_banner_3.jpg')}}" style="width:100%;" alt="">
                     </figure>
                 </div>
-                <div class="knox" data-aos="fade-down"  data-aos-duration="600" 
+                <div class="knox" data-aos="fade-down"  data-aos-duration="600"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     data-aos-anchor-placement="top-center" style="position:absolute;z-index:1;top:20%;right:0;margin:auto;width:50%;">
                     <p class="section9_text_line2" style="font-size:20px;color:white;padding:0 20%;">Samsung KNOX. Our dedicated security
@@ -392,7 +392,7 @@ right: 0;">
                     </figure>
                 </div>
             </div>
-            <div class="smartswitch" data-aos="fade-down" data-aos-offset="-100" data-aos-duration="600" 
+            <div class="smartswitch" data-aos="fade-down" data-aos-offset="-100" data-aos-duration="600"
                 data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                 data-aos-anchor-placement="top-center" style="       width: 60%;position:absolute;">
                 <p style="font-size: 25px;
@@ -404,7 +404,7 @@ top: 130px;height:300px;">Smart Switch. Our phones wouldn't mean as much to us w
                     Smart Switch app. It's incredibly easy.</p>
             </div>
         </div>
-        
+
     </section>
 </div>
 @endsection

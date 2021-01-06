@@ -5,8 +5,8 @@
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-tab-s6-lte/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-tab-s6-lte/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-tab-s6-lte/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-tab-s6-lte/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection

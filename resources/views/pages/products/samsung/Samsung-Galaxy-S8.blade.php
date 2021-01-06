@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-s8/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-s8/main.css')}}">
 
 @endsection
 
@@ -157,7 +157,7 @@
 
     <section class="car">
         <div class="row" style="margin-top:-2px;">
-            
+
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
                 <div data-aos="fade" data-aos-offset="0" data-aos-delay="0" data-aos-duration="1400"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"

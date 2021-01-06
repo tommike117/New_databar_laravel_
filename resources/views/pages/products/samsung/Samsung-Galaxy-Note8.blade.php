@@ -4,7 +4,7 @@
 
 @section('link')
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-note8/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-note8/main.css')}}">
 
 @endsection
 
@@ -286,8 +286,8 @@ text-align: center;">
                         </li>
                     </ul>
                 </div>
-                <div data-aos="fade"  data-aos-delay="800" 
-                      
+                <div data-aos="fade"  data-aos-delay="800"
+
                     >
                     <figure>
                         <video autoplay="autoplay" loop="loop" style="width:80%;">
@@ -295,8 +295,8 @@ text-align: center;">
                         </video>
                     </figure>
                 </div>
-                <div class="animation_design" data-aos="fade-up"  data-aos-delay="0" 
-                      
+                <div class="animation_design" data-aos="fade-up"  data-aos-delay="0"
+
                      style="position: absolute;
 left: 0;
 right: 0;
@@ -315,8 +315,8 @@ bottom: calc((100% - 950px) / 2);">
     <section style="padding-top:100px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0;">
-                <div data-aos="fade-up"  data-aos-delay="0" 
-                     data-aos-mirror="false" 
+                <div data-aos="fade-up"  data-aos-delay="0"
+                     data-aos-mirror="false"
                     >
                     <label class="design_line1" for="" style="font-weight:bold;font-size:20px;">PHONE+</label><br>
                     <label class="design_line2" for="" style="font-weight:bold;font-size:70px;width:50%;">Connect to a bigger world with
@@ -332,8 +332,8 @@ bottom: calc((100% - 950px) / 2);">
     <section style="padding-top:100px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;text-align:center;">
-                <div data-aos="fade-up"  data-aos-delay="0" 
-                      
+                <div data-aos="fade-up"  data-aos-delay="0"
+
                     data-aos-anchor-placement="center-bottom">
                     <label for="" style="font-weight:bold;font-size:25px;">Connect to a bigger world with Phone+</label><br>
                     <ul class="ul_product" style="padding-left:0;">
@@ -371,8 +371,8 @@ bottom: calc((100% - 950px) / 2);">
         </div>
         <div class="row" style="padding-top:100px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade" data-aos-offset="100" data-aos-delay="500" 
-                      
+                <div data-aos="fade" data-aos-offset="100" data-aos-delay="500"
+
                     data-aos-anchor-placement="center-bottom" style="display:inline-flex;">
                     <figure>
                         <img class="product_1" src="{{URL::asset('images/samsung/galaxy-note8/galaxy-note8_phone-plus_product01.png')}}"
@@ -395,8 +395,8 @@ bottom: calc((100% - 950px) / 2);">
         </div>
         <div class="row" style="position:relative;bottom:50px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="500" 
-                      
+                <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="500"
+
                     data-aos-anchor-placement="center-bottom">
                     <label class="remark_text" for="" style="font-size:16px;">*DeX Station, Gear VR with controller, and Gear 360 sold
                         separately. Some Bixby features may not be available depending on country, region, or
@@ -409,8 +409,8 @@ bottom: calc((100% - 950px) / 2);">
     <section style="padding-top:100px;">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0;">
-                <div data-aos="fade-up"  data-aos-delay="0" 
-                     data-aos-mirror="false" 
+                <div data-aos="fade-up"  data-aos-delay="0"
+                     data-aos-mirror="false"
                     >
                     <label class="design_line1" for="" style="font-weight:bold;font-size:25px;">Accessories</label><br>
                     <label class="design_line2" for="" style="font-weight:bold;font-size:50px;width:50%;">Accessories made for people
@@ -422,8 +422,8 @@ bottom: calc((100% - 950px) / 2);">
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
-                <div data-aos="fade"  data-aos-delay="0" 
-                     data-aos-mirror="false" 
+                <div data-aos="fade"  data-aos-delay="0"
+                     data-aos-mirror="false"
                      style="height:500px;">
                     <figure>
                         <img src="{{URL::asset('images/samsung/galaxy-note8/galaxy-note8_acc.jpg')}}" style="width:40%;margin-bottom:100px;margin-top:50px;"

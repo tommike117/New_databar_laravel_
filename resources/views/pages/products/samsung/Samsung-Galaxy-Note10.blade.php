@@ -5,7 +5,7 @@
 @section('link')
 
 
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-note10/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-note10/style.css')}}">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="stylesheet" href="{{ URL::to('/css/aos.css')}}">
 

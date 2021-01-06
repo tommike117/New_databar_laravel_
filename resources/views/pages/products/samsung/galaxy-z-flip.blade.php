@@ -4,7 +4,7 @@
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-z-flip/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-z-flip/main.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection

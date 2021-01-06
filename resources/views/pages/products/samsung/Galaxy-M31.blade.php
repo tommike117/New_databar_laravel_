@@ -4,8 +4,8 @@
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-m31/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-m31/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-m31/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-m31/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection

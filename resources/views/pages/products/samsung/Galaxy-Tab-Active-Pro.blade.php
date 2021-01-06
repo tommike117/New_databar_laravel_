@@ -8,7 +8,7 @@
 
 @section('canonical')
 <link rel="canonical" href="https://www.databar.co.th/">
-<link rel="stylesheet" type="text/css" href="/css/page-style/samsung/galaxy-tab-active-pro/main.css">
+<link rel="stylesheet" type="text/css" href="/css/new-website/products/samsung/galaxy-tab-active-pro/main.css">
 
 @endsection
 
