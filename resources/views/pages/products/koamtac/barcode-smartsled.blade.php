@@ -37,7 +37,7 @@
         </p>
     </section>
     <section class="section-2" style="display: flex">
-        <div class="row">
+        <div class="row w-100">
             @foreach ($data as $item)
                 <div class="flex-25 box-product">
                     <figure class="flex-100" style="text-align: center; padding-top:15%;">
