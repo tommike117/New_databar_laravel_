@@ -52,7 +52,7 @@
             <figure>
                 <img src="/images/new-website/products/armor-x/product1_1.jpg" width="100%" alt="accessory">
             </figure>
-            <a href="/contact">
+            <a href="/products/armor-x/device-case/water-proof-case-note20">
                 <button class="btn btn-banner button-sec-3 ">View more</button>
             </a>
         </div>

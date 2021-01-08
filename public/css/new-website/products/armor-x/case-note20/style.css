@@ -1,0 +1,122 @@
+.ghz{
+    font-size: 35px;
+    font-weight: 600;
+}
+.border-right-solid{
+    border-right: solid 1px #b5b5b5;
+    padding: 30px;
+}
+.extra-line{
+    font-size: 10px;
+    text-align: center;
+}
+.section3_text_line1{
+    text-align: left;
+    font-size: 40px;
+}
+.set-middle{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+.section1_text_line_svg{
+    text-align: center;
+    padding: 20px 100px;
+}
+/* .section1_text_line2{
+    text-align: center;
+} */
+.section1_text_line2{
+    text-align: center;
+    padding: 0 10%;
+}
+.margin-top{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.set-closer{
+
+        display: flex;
+        align-items: center;
+        padding: 20px 0 0 200px;
+}
+.text-js{
+
+        display: flex;
+        align-items: center;
+        padding: 20px 0 200px 200px;
+}
+/* .section1_text_line2{
+    text-align: left;
+} */
+.section1_text_line_svg{
+    text-align: center;
+}
+.flex-full{
+    flex-direction: row;
+    display: flex;
+    flex:0 0 50%;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }
+.long-text{
+    padding:100px;
+}
+.select{
+    color: rgb(38, 0, 255);
+    border: 2px solid black;
+    transition: 1s;
+}
+@media only screen and (min-width:992px){
+    .section-1{
+        margin-top: 10%;
+    }
+    .head-text-1{
+        text-align: center;
+    }
+    .head-text-1 > h2{
+        color: #3399ff;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .head-text-1 > p{
+        font-size: 1.2vw;
+        margin-top: 15px;
+    }
+    .section-2{
+        margin-top: 10%;
+    }
+    .head-text-2{
+        text-align: center;
+    }
+    .head-text-2 > h2{
+        color: #3399ff;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .head-text-2 > p{
+        font-weight: 200;
+        font-size: 1vw;
+        margin-top: 15px;
+        margin: 0 8%;
+    }
+    .text-2{
+        text-align: center;
+    }
+    .text-2 > h2{
+        color: #3399ff;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .text-2 > p{
+        font-weight: 200;
+        font-size: 1vw;
+        margin-top: 15px;
+        margin: 0 10%;
+    }
+
+}

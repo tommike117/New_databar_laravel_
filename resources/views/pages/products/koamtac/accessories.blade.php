@@ -13,11 +13,11 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
+        {{-- <div class="text-product desktop-none">
             <a class="hover-sec-1" href="/products/koamtac/pocket-scanner">Pocket Barcode Scanner</a>
             <a class="hover-sec-2" href="/products/koamtac/barcode-smartsled" >Barcode SmartSled</a>
             <a class="hover-sec-2" style="font-weight: 600" >Accessories</a>
-        </div>
+        </div> --}}
         <div class="text-section-1">
             <h1>
                 Accessories
@@ -27,7 +27,7 @@
             <img src="/images/new-website/products/koamtac/banner3-07.jpg"class="desktop-only" alt="Banner" width="100%">
             <img src="/images/new-website/products/koamtac/banner3-08.jpg"class="mobile-only" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product ">
             <a class="hover-sec-1" href="/products/koamtac/pocket-scanner">Pocket Barcode Scanner</a>
             <a class="hover-sec-2" href="/products/koamtac/barcode-smartsled" >Barcode SmartSled</a>
             <a class="hover-sec-2" style="font-weight: 600" >Accessories</a>

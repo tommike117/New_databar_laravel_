@@ -33,7 +33,172 @@
             <a class="hover-sec-2" href="/products/armor-x/mounting-product">Mounting Product</a>
         </div>
         <p class="text-all-product">
-            ALL Device Case
+            ALL Smartphone Cases
+        </p>
+    </section>
+    <section class="section-2" style="display: flex">
+        <div class="row">
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="/images/new-website/products/armor-x/armor-x-_0.png" width="100%" alt="product">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-25 box-product">
+                <figure class="flex-100">
+                    <img src="" alt="">
+                </figure>
+                <h2 class="flex-100">
+                    HX.xxxxxxxxx
+                </h2>
+                <div class="flex-100">
+                    <a href="/contact">
+                        <button class="btn btn-banner button-sec-2">View More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="text-all-product">
+            ALL Tablet Cases
         </p>
     </section>
     <section class="section-2" style="display: flex">
