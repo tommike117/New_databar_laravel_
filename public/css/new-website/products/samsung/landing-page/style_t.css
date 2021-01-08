@@ -1,6 +1,8 @@
 
     @media screen and (min-width: 784px) and (max-width: 991px) {
-
+        .desktop-none{
+            display: none !important;
+        }
         .bg-section1{
             padding-top: 65px;
         }

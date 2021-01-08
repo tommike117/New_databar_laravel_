@@ -23,12 +23,15 @@
 
 <section>
     <div class="bg-section1">
-        <div class="video-banner">
-            <video class="video-section" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop >
+        <div class="video-banner" style="position: relative" >
+            <video class="video-section desktop-none" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop >
                 <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.mp4')}}" type="video/mp4">
                 <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.ogg')}}" type="video/ogg">
             </video>
-            <div style="width: 100%; position: absolute;right:0;">
+            <figure class="mobile" style="text-align: center;">
+                <img src="/images/samsung/galaxy-xcover-pro/uk-feature-durability-for-outdoor-206665282.webp"  width="100%" class="pic-banner " alt="">
+            </figure>
+            <div style="width: 100%; position: absolute;right:0;top: 83%;">
                 <p>Manage your entire business with Samsung <br>
                 Connect all your processes and transform your growing business. </p>
             </div>

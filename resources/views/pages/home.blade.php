@@ -327,28 +327,28 @@ services')
                             Brands
                         </h2>
                         <ul data-aos="fade-up"data-aos-duration="500">
-                            <li><a href="/products">Samsung</a></li>
-                            <li><a href="/products">Armor-X</a></li>
-                            <li><a href="/products">Bixolon</a></li>
-                            <li><a href="/products">Caterpillar</a></li>
-                            <li><a href="/products">Datalogic</a></li>
-                            <li><a href="/products">Ecom-EX</a></li>
-                            <li><a href="/products">Gamber-Johnson</a></li>
-                            <li><a href="/products">iKey</a></li>
-                            <li><a href="/products">Ivy Mobility</a></li>
+                            <li><a href="/products/samsung">Samsung</a></li>
+                            <li><a href="/products/armor-x">Armor-X</a></li>
+                            <li><a href="/products/bixolon">Bixolon</a></li>
+                            <li><a href="/products/caterpillar">Caterpillar</a></li>
+                            <li><a href="/products/datalogic">Datalogic</a></li>
+                            <li><a href="/products/ecom-ex">Ecom-EX</a></li>
+                            <li><a href="/products/gamber-johnson">Gamber-Johnson</a></li>
+                            <li><a href="/products/ikey">iKey</a></li>
+                            <li><a href="/products/ivymobility">Ivy Mobility</a></li>
                         </ul>
                     </div>
                     <div class="footer-flex-50">
                         <ul data-aos="fade-up"data-aos-duration="500" style="margin-top: 29px;" >
-                            <li><a href="/products">Koamtac</a></li>
-                            <li><a href="/products">Ram-Mounts</a></li>
-                            <li><a href="/products">Sam4s</a></li>
-                            <li><a href="/products">Star2star</a></li>
-                            <li><a href="/products">Toshiba Tec</a></li>
-                            <li><a href="/products">Unitech</a></li>
-                            <li><a href="/products">Wandera</a></li>
-                            <li><a href="/products">WeGuard</a></a></li>
-                            <li><a href="/products">42Gears</a></li>
+                            <li><a href="/products/koamtac">Koamtac</a></li>
+                            <li><a href="/products/ram-mounts">Ram-Mounts</a></li>
+                            <li><a href="/products/sam4s">Sam4s</a></li>
+                            <li><a href="/products/star2star">Star2star</a></li>
+                            <li><a href="/products/toshiba-tec">Toshiba Tec</a></li>
+                            <li><a href="/products/unitech">Unitech</a></li>
+                            <li><a href="/products/wandera">Wandera</a></li>
+                            <li><a href="/products/weguard">WeGuard</a></a></li>
+                            <li><a href="/products/42gears">42Gears</a></li>
                         </ul>
                     </div>
                 </div>

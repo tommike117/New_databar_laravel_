@@ -11,8 +11,8 @@
                 <a href="tel:02-102-2591">
                     <img src="/images/new-website/icon_phone-03.png" alt="" width="100%";>
                 </a>
-                <a href="#" target="_blank">
-                    <img src="/images/new-website/icon_mail-04.png" alt="" width="100%";>
+                <a>
+                    <img src="/images/new-website/icon_mail-04.png" id="mail" style="cursor: pointer;" alt="" width="100%";>
                 </a>
                 <a>
                     <img src="/images/new-website/icon_line-05.png" id="myline-nav"alt="" width="100%";>
@@ -45,6 +45,21 @@
       </div>
     </div>
   </div>
+  {{-- mail- --}}
+<div class="modal fade" id="mail-Modal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Mail</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body text-center">
+            <h4 style="color:3399ff">Sales@databar.co.th</h4>
+        </div>
+      </div>
+    </div>
+</div>
 <style>
 @media (max-width: 767.98px) {
 
@@ -69,6 +84,9 @@
     $(document).ready(function(){
     $("#myline-nav").click(function(){
         $("#myline-popup-nav").modal();
-    });
+        });
+    $("#mail").click(function(){
+            $("#mail-Modal").modal();
+        });
     });
 </script>

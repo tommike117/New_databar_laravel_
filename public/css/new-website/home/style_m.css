@@ -2,64 +2,68 @@
     .col-mobile-1 {
         flex: 0 0 8.3333333333% !important;
         max-width: 8.3333333333% !important;
-      }
+        }
 
-      .col-mobile-2 {
+        .col-mobile-2 {
         flex: 0 0 16.6666666667% !important;
         max-width: 16.6666666667% !important;
-      }
+        }
 
-      .col-mobile-3 {
+        .col-mobile-3 {
         flex: 0 0 25% !important;
         max-width: 25% !important;
-      }
+        }
 
-      .col-mobile-4 {
+        .col-mobile-4 {
         flex: 0 0 33.3333333333% !important;
         max-width: 33.3333333333% !important;
-      }
+        }
 
-      .col-mobile-5 {
+        .col-mobile-5 {
         flex: 0 0 41.6666666667% !important;
         max-width: 41.6666666667% !important;
-      }
+        }
 
-      .col-mobile-6 {
+        .col-mobile-6 {
         flex: 0 0 50% !important;
         max-width: 50% !important;
-      }
+        }
 
-      .col-mobile-7 {
+        .col-mobile-7 {
         flex: 0 0 58.3333333333% !important;
         max-width: 58.3333333333% !important;
-      }
+        }
 
-      .col-mobile-8 {
+        .col-mobile-8 {
         flex: 0 0 66.6666666667% !important;
         max-width: 66.6666666667% !important;
-      }
+        }
 
-      .col-mobile-9 {
+        .col-mobile-9 {
         flex: 0 0 75% !important;
         max-width: 75% !important;
-      }
+        }
 
-      .col-mobile-10 {
+        .col-mobile-10 {
         flex: 0 0 83.3333333333% !important;
         max-width: 83.3333333333% !important;
-      }
+        }
 
-      .col-mobile-11 {
+        .col-mobile-11 {
         flex: 0 0 91.6666666667% !important;
         max-width: 91.6666666667% !important;
-      }
+        }
 
-      .col-mobile-12 {
+        .col-mobile-12 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
-      }
-   .for-desktop{
+        }
+    .for-desktop{
         display: none;
+    }
+    .section-2{
+        height: 100vh;
+        width: auto;
     }
     .video-banner{
         height: 53vh;

@@ -332,7 +332,7 @@ services')
           </div>
         </div>
     </div>
-     {{-- mail-number --}}
+     {{-- mail- --}}
      <div class="modal fade" id="mail-Modal" role="dialog">
         <div class="modal-dialog">
           <!-- Modal content-->

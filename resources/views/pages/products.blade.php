@@ -59,7 +59,7 @@ services')
                                 {{-- <h1>COMING SOON</h1>
                                 <hr>
                                 <p id="countdown" style="font-size:24px"></p> --}}
-                                <video class="video-section "  title="home-page video" autoplay muted loop>
+                                <video class="video-section mobile-none "  title="home-page video" autoplay muted loop>
                                     <source src="{{URL::to('videos/home_page/products/Galaxy_S20_Ultra_Official_Introduction.mp4')}}" type="video/mp4">
                                 </video>
 

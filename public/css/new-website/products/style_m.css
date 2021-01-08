@@ -1,4 +1,7 @@
 @media (max-width: 767.98px){
+    .mobile-none{
+        display: none !important;
+    }
     .img-bg{
         background-image: url('/images/new-website/products/Bg_product_phone-01.jpg');
         height: 100vh;
@@ -33,10 +36,10 @@
         font-size: 13px;
     }
     .pic-banner{
-        width: 198%;
+        width: 100vh;
         transform: scaleX(-1);
         position: absolute;
-        top: 43%;
+        top: 10%;
         left: 6%;
         border-radius: 0 27px 27px 0;
     }

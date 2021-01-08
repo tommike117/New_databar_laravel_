@@ -1,6 +1,7 @@
 @media (max-width: 767.98px) {
-
-
+    .desktop-none{
+        display: none !important;
+    }
     .bg-section1{
         padding-top: 65px;
     }
