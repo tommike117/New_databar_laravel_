@@ -163,7 +163,6 @@
     }
     .text-product{
         padding: 3% 10% 0 15%;
-        position: fixed;
         z-index: 1;
     }
     .text-product > a{
@@ -284,7 +283,6 @@
     }
     .text-product{
         padding: 3% 10% 0 10%;
-        position: fixed;
         z-index: 1;
     }
     .text-product > a{
@@ -407,7 +405,6 @@
     }
     .text-product{
         padding: 3% 10% 0 10%;
-        position: fixed;
         z-index: 1;
     }
     .text-product > a{

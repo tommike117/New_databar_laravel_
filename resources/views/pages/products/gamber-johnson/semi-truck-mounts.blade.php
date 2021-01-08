@@ -13,12 +13,6 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
-            <a class="hover-sec-1" href="/products/gamber-johnson/folklift">Folklift Mounts</a>
-            <a class="hover-sec-2" href="/products/gamber-johnson/desktop-mounts">Desktop Mounts</a>
-            <a class="hover-sec-2" href="/products/gamber-johnson/zirkona">Zirkona Solution</a>
-            <a class="hover-sec-2" style="font-weight: 600">Semi-Truck Mounts</a>
-        </div>
         <div class="text-section-1">
             <h1>
                 Semi Truck Mounts
@@ -27,7 +21,7 @@
         <figure class="pic-sec-1">
             <img src="/images/new-website/products/gamber-johnson/banner-01.jpg" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product ">
             <a class="hover-sec-1" href="/products/gamber-johnson/folklift">Folklift Mounts</a>
             <a class="hover-sec-2" href="/products/gamber-johnson/desktop-mounts">Desktop Mounts</a>
             <a class="hover-sec-2" href="/products/gamber-johnson/zirkona">Zirkona Solution</a>

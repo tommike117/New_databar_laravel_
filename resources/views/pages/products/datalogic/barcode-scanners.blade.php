@@ -13,11 +13,6 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
-            <a style="font-weight: 600">Barcode Scanners</a>
-            <a class="hover-sec-1" href="/products/datalogic/mobile-computers">Mobile Computers</a>
-            <a class="hover-sec-2" href="/products/datalogic/automation">Automation</a>
-        </div>
         <div class="text-section-1">
             <h1>
                Datalogic Barcode Scanners
@@ -26,7 +21,7 @@
         <figure class="pic-sec-1">
             <img src="/images/new-website/products/datalogic/banner-1.jpg" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product ">
             <a style="font-weight: 600">Barcode Scanners</a>
             <a class="hover-sec-1" href="/products/datalogic/mobile-computers">Mobile Computers</a>
             <a class="hover-sec-2" href="/products/datalogic/automation">Automation</a>

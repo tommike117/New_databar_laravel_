@@ -13,10 +13,6 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
-            <a class="hover-sec-1" href="/products/bixolon/pos-printer">POS Printers</a>
-            <a class="hover-sec-2" style="font-weight: 600">Mobile Printers</a>
-        </div>
         <div class="text-section-1">
             <h1>
                 Mobile Printers
@@ -25,7 +21,7 @@
         <figure class="pic-sec-1">
             <img src="/images/new-website/products/bixolon/banner1920.jpg" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product">
             <a class="hover-sec-1"  href="/products/bixolon/pos-printer">POS Printers</a>
             <a class="hover-sec-2" style="font-weight: 600">Mobile Printers</a>
         </div>

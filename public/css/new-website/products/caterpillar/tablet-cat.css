@@ -34,7 +34,6 @@
         padding-top: 18px;
     }
     .text-product{
-        padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         text-align: center;
         margin-top: 15px;
@@ -66,7 +65,6 @@
         color: #4d4d4d;
         padding-left: 1%;
         margin-top: 5%;
-
     }
     .section-2{
         padding: 0 6% 0 8%;
@@ -95,7 +93,6 @@
     }
     .box-product > h2{
         text-align: center;
-        font-size: 25px;
         color: #4d4d4d;
         font-weight: 500;
         margin: 10%;
@@ -164,8 +161,7 @@
         padding: 0 5% 0 11%;
     }
     .text-product{
-        padding: 3% 10% 0 50%;
-        position: fixed;
+        padding: 0% 10% 0 33%;
         z-index: 1;
     }
     .text-product > a{
@@ -215,7 +211,6 @@
     }
     .box-product > h2{
         text-align: center;
-        font-size: 25px;
         color: #4d4d4d;
         font-weight: 500;
         margin: 10%;
@@ -285,10 +280,8 @@
         padding:0 5% 0 11%;
     }
     .text-product{
-        padding: 3% 10% 0 47%;
-        position: fixed;
+        padding: 0% 10% 0 31%;
         z-index: 1;
-        margin-top: 15px;
     }
     .text-product > a{
         font-size: 1.6vw;
@@ -337,7 +330,6 @@
     }
     .box-product > h2{
         text-align: center;
-        font-size: 25px;
         color: #4d4d4d;
         font-weight: 500;
         margin: 10%;
@@ -410,11 +402,10 @@
     }
     .text-product{
         padding: 3% 10% 0 29%;
-        position: fixed;
         z-index: 1;
     }
     .text-product > a{
-        font-size: 1.6vw;
+        font-size: 2vw;
         color: #4d4d4d !important;
         margin: 0px 17px;
     }
@@ -460,7 +451,6 @@
     }
     .box-product > h2{
         text-align: center;
-        font-size: 17px;
         color: #4d4d4d;
         font-weight: 500;
         margin: 4%;

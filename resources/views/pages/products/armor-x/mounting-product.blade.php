@@ -14,19 +14,16 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
-            <a class="hover-sec-1" href="/products/armor-x/device-case">Device Case</a>
-            <a class="hover-sec-2" style="font-weight: 600 ">Mounting Product</a>
-        </div>
         <div class="text-section-1">
             <h1>
                 ARMOR-X Mounting Product
             </h1>
         </div>
         <figure class="pic-sec-1">
-            <img src="/images/new-website/products/armor-x/banner-02.jpg" alt="Banner" width="100%">
+            <img src="/images/new-website/products/armor-x/banner-02.jpg" class="tap-mobile-none" alt="Banner" width="100%">
+            <img src="/images/new-website/products/armor-x/banner_phone-02.jpg" class="desktop-none" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product ">
             <a class="hover-sec-1" href="/products/armor-x/device-case">Device Case</a>
             <a class="hover-sec-2" style="font-weight: 600 ">Mounting Product</a>
         </div>

@@ -13,10 +13,6 @@
 @section('content')
 <div class="bg-section-1">
     <section class="section-1">
-        <div class="text-product desktop-none">
-            <a class="hover-sec-1" style="font-weight: 600">Tablet for hazardous areas</a>
-            <a class="hover-sec-2" href="/products/ecom-ex/smartphone">Smartphones protection</a>
-        </div>
         <div class="text-section-1">
             <h1>
                 Tablet for hazardous areas
@@ -25,7 +21,7 @@
         <figure class="pic-sec-1">
             <img src="/images/new-website/products/ecom-ex/banner-01.jpg" alt="Banner" width="100%">
         </figure>
-        <div class="text-product tap-mobile-none">
+        <div class="text-product ">
             <a class="hover-sec-1" style="font-weight: 600">Tablet for hazardous areas</a>
             <a class="hover-sec-2" href="/products/ecom-ex/smartphone">Smartphones protection</a>
         </div>
