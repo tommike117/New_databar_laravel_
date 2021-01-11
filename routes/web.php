@@ -184,6 +184,9 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/device-case/water-proof-case-note20', function () {
                 return view('/pages/products/armor-x/products/water-proof-case-note20');
             });
+            Route::get('/device-case/rugged-case-gta-pro', function () {
+                return view('/pages/products/armor-x/products/rugged-case-gta-pro');
+            });
         Route::get('/mounting-product', function () {
             return view('/pages/products/armor-x/mounting-product');
         });

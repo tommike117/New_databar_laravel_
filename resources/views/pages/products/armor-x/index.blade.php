@@ -79,7 +79,7 @@
             <figure class="tab-mobile-none">
                 <img src="/images/new-website/products/armor-x/750px-04.png" width="65%"  alt="accessory-1" >
             </figure>
-            <a href="/contact">
+            <a href="/products/armor-x/device-case/rugged-case-gta-pro">
                 <button class="btn btn-banner button-sec-4">View more</button>
             </a>
         </div>
