@@ -23,7 +23,7 @@
         </figure>
         <div class="text-product ">
             <a class="hover-sec-1" style="font-weight: 600">Tablet for hazardous areas</a>
-            <a class="hover-sec-2" href="/products/ecom-ex/smartphone">Smartphones protection</a>
+            {{-- <a class="hover-sec-2" href="/products/ecom-ex/smartphone">Smartphones protection</a> --}}
         </div>
         <p class="text-all-product">
             All Tablet

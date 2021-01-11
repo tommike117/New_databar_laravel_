@@ -71,7 +71,7 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/ecom-ex/csm_tab-ex_02_dz1_description_1dd1dbc820.png" class="pic-1" width="50%" alt="accessory">
+                        <img src="/images/new-website/products/ecom-ex/ecom-01.png" class="pic-1" width="65%" alt="accessory">
                     </figure>
                     <h2>
                         Tab-Ex® 02
@@ -85,7 +85,7 @@
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/ecom-ex/csm_pad-ex_p8_teaser_cont_3a50bdc8c3.png" class="pic-2" width="65%" alt="accessory">
+                        <img src="/images/new-website/products/ecom-ex/ecom-02.png" class="pic-2" width="65%" alt="accessory">
                     </figure>
                     <h2>
                         Pad-Ex® 01 P8 DZ2
@@ -101,7 +101,7 @@
         </div>
     </div>
 </section>
-<section class="section-4">
+{{-- <section class="section-4">
     <div class="bg-section-4">
         <div class="text-section-4">
             <h2>
@@ -151,7 +151,7 @@
                 </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <section>
     @include('includes/footer')
