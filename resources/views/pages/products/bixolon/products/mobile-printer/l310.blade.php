@@ -141,109 +141,52 @@
                 </div>
             </section>
             <section class="section-2">
-                <div class="head-text-2">
-                    <h2>
-                        ONE SYSTEM. <br> ENDLESS ADVENTURES.
-                    </h2>
-                </div>
-                <div class="col-12 d-flex" style="margin-top:5%;">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                        <figure>
-                            <img src="/images/new-website/products/armor-x/case-note20/pic3.jpg" width="100%" alt="armor-x">
-                        </figure>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
-                        <div class="text-2">
-                            <h2>
-                                MUST-HAVE GADGET <br>
-                                FOR CITY DWELLERS
-                            </h2>
-                            <p>
-                                With the patented X-Mount System, your smartphone or other devices can now latch on to anywhere you can possibly think of. Works seamlessly with your favourite APPs. Always let you stay connected with your friends.
-                            </p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-12 flex-row-reverse d-flex" style="margin-top:5%;">
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <figure>
-                            <img src="/images/new-website/products/armor-x/case-note20/pic4.jpg" width="100%" alt="armor-x">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562839384811856.png" width="100%" alt="armor-x">
                         </figure>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
                         <div class="text-2">
                             <h2>
-                                ATTENTION TO DETAILS
+                                SPP-L310
                             </h2>
+                            <h3>
+                                SPP-L310
+                            </h3>
                             <p>
-                                ActiveKEY makes one of the most versatile and stylish iPhone cases out there for all occasions. Using our innovative grip strap for total security and one-handed. Reach your thumb all the way up and across from corner to corner. We have taken a holistic approach in our design by streamlining mini-size tools into one compact, shockproof case with our latest customizable KEY tools system and multifunctional carabiner tool.
+                                The mid-tier 3-inch (80mm) SPP-L310 Mobile label printer offers on-the-go labelling to many Verticals and applications, including pharmacy labelling, record management, picking and packing and bedside labelling. With operating environments extending through Retail, Warehousing and Healthcare, the printer’s full feature set ensures that integration and use is swift and easy.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-flex" style="margin-top:5%;">
+                <div class="col-12 flex-row-reverse d-flex" >
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <figure>
-                            <img src="/images/new-website/products/armor-x/case-note20/pic5.jpg" width="100%" alt="armor-x">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/Blinerless.png" width="100%" alt="armor-x">
                         </figure>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
                         <div class="text-2">
                             <h2>
-                                INNOVATIVE MAGNET TECHNOLOGY
+                                SUPPLIES
                             </h2>
+                            <h3>
+                                Supplies
+                            </h3>
                             <p>
-                                Discover new ways to use your smartphone with ARMOR-X magnetic technology, from non-obtrusive GPS navigation device to recipe book in the kitchen. Specially designed Neodymium magnet allows you to stick your phone to almost any magnetic surface Will not negatively impact your GPS, credit cards, Wi-Fi, Apple Pay, or Bluetooth.
+                                B-linerless™ is a BIXOLON's Linerless Label of printer supply lineup. B-linerless™ has two different types of adhesive strengths including B-linerless™ Permanent and B-linerless™ Restick.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12" style="margin-top: 5%;">
-                    <figure style="text-align: center;">
-                        <img src="/images/new-website/products/armor-x/case-note20/pic6.jpg" width="97%" alt="armor-x">
-                    </figure>
-                    <div class="text-2" style="margin-top: 3%;">
-                        <h2>
-                            EXPANDABLE KEY TOOLS DESIGN
-                        </h2>
-                        <p>
-                            ActiveKEY - An innovative ecosystem introduced by ARMOR-X. Providing a wide selection of KEY tools including magnet grip holder, SIM & eject tool compartment or a tool box, it extends and explores a variety of functions by transforming your smartphone into a gadget hub. Here at ARMOR-X, we keep inventing new possibilities for you.
-                        </p>
-                    </div>
-                    <div class="col-12 flex-row-reverse d-flex" style="margin-top:5%;">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <figure>
-                                <img src="/images/new-website/products/armor-x/case-note20/pic7.jpg" width="100%" alt="armor-x">
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
-                            <div class="text-2">
-                                <h2>
-                                    MOST SECURE MOUNTING SYSTEM
-                                </h2>
-                                <p>
-                                    What’s more? With the patented X-Mount System, you can attach to other daily essentials such as the belt clip, car mount and armband. Holding your phone firmly in place, now you can easily bring your phone or device around and leave your hand free.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 d-flex" style="margin-top:5%;">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <figure>
-                                <img src="/images/new-website/products/armor-x/case-note20/pic8.jpg" width="100%" alt="armor-x">
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
-                            <div class="text-2">
-                                <h2>
-                                    GET READY FOR THE BIG CHANGE
-                                </h2>
-                                <p>
-                                    With our patented X-MOUNT eco-system, it change the way you are using your smartphone & tablet. One system. Endless Adventure.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            </section>
+            <section class="section-3">
+                <div class="text-3">
+                    <h2>
+                        Accessories
+                    </h2>
                 </div>
             </section>
         </div>
