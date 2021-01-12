@@ -211,6 +211,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/pos-printer','ProductListController@bixolon_pos_printer');
 
         Route::get('/mobile-printer','ProductListController@bixolon_mobile_printer');
+        Route::get('/mobile-printer/l310', function () {
+            return view('/pages/products/bixolon/products/mobile-printer/l310');
+        });
     });
 
     Route::group(['prefix' => '/datalogic'], function () {

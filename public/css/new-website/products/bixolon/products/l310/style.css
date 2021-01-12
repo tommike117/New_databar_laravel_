@@ -79,12 +79,23 @@
         height: 100%;
         width: auto;
 }
+.card-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+.text-sec1{
+    font-size: 12px;
+    font-weight: 200;
+}
+
 @media only screen and (min-width:992px){
     .section-1{
         margin-top: 10%;
     }
     .head-text-1{
-        text-align: center;
+        text-align: left;
+        margin-bottom: 25px;
     }
     .head-text-1 > h2{
         color: #3399ff;

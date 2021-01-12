@@ -71,6 +71,14 @@
     border: 2px solid black;
     transition: 1s;
 }
+.bg-body{
+    background-image: url("/images/new-website/products/armor-x/bg_product1920.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+}
 @media only screen and (min-width:992px){
     .section-1{
         margin-top: 10%;

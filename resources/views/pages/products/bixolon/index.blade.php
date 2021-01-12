@@ -147,12 +147,12 @@
                         <img src="/images/new-website/products/bixolon/hi_-04.png" class="pic-4" alt="accessory">
                     </figure>
                     <h2>
-                        SPP-R310
+                        SPP-L310
                     </h2>
                     <p>
                         MFi Bluetooth / WiFi mobile receipt printer
                     </p>
-                    <a href="/products/bixolon/mobile-printer">
+                    <a href="/products/bixolon/mobile-printer/l310">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

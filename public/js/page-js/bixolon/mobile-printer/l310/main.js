@@ -1,16 +1,16 @@
 $(function(){
 
     $($('.li-product_color1')[0]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_1.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png')
     });
     $($('.li-product_color1')[1]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_2.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_2.png')
     });
     $($('.li-product_color1')[2]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_4.jpg')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_3.png')
     });
     $($('.li-product_color1')[3]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_5.jpg')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_4.png')
     });
 
 

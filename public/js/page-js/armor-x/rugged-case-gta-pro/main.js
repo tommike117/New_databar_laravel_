@@ -1,17 +1,18 @@
 $(function(){
 
     $($('.li-product_color1')[0]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_1.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/rugged-case-gta-pro/jln-ss-t515-samsung-galaxy-tab-1.png')
     });
     $($('.li-product_color1')[1]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_2.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/rugged-case-gta-pro/jln-ss-t515-samsung-galaxy-tab-2.jpg')
     });
     $($('.li-product_color1')[2]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_4.jpg')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/rugged-case-gta-pro/jln-ss-t515-samsung-galaxy-tab-3.jpg')
     });
     $($('.li-product_color1')[3]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_5.jpg')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/armor-x/rugged-case-gta-pro/jln-ss-t515-samsung-galaxy-tab-4.jpg')
     });
+
 
 
 

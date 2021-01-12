@@ -1,11 +1,11 @@
 @extends('layouts/main-all-products')
 
-@section('title', 'SAMSUNG GALAXY NOTE 20 WATERPROOF CASE | Armor-X | DATABAR COMPANY LIMITED')
+@section('title', 'L310 MOBILE PRINTER | BIXOLON | DATABAR COMPANY LIMITED')
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/armor-x/case-note20/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/armor-x/case-note20/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/l310/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/l310/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection
@@ -21,29 +21,29 @@
                         <nav aria-label="breadcrumb" id="breadcrumb">
                             <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;margin-top: 60px !important; ">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/armor-x"><span itemprop="name">Armor-X</span></a></li>
+                                <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/armor-x"><span itemprop="name">Bixolon</span></a></li>
                                 <li class="breadcrumb-item d-flex active" aria-current="page">
-                                    <h1 itemprop="name" class="m-auto" style="font-size: 12px !important;">SAMSUNG GALAXY NOTE 20 WATERPROOF CASE</h1>
+                                    <h1 itemprop="name" class="m-auto" style="font-size: 12px !important;">SPP-L310</h1>
                                 </li>
                             </ol>
                         </nav>
                     </div>
-                    <figure style="text-align: center; padding-left: 50px;">
-                        <img id="a01" src="{{URL::asset('/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_1.png')}}" style="width:80%;" alt="Galaxy a01" title="note-20-ultra-armor-x">
+                    <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
+                        <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png')}}" style="width:100%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                     </figure>
                     <div class="thumbnails">
                         <ul class="ul-product">
                             <li class="li-product_color1">
-                                <img src="/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_1.png" alt="note-20-ultra-armor-x preview1">
+                                <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png" alt="note-20-ultra-armor-x preview1">
                             </li>
                             <li class="li-product_color1">
-                                <img src="/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_2.png" alt="note-20-ultra-armor-x preview2">
+                                <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_2.png" alt="note-20-ultra-armor-x preview2">
                             </li>
                             <li class="li-product_color1">
-                                <img src="/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_4.jpg" alt="note-20-ultra-armor-x preview3">
+                                <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_3.png" alt="note-20-ultra-armor-x preview3">
                             </li>
                             <li class="li-product_color1">
-                                <img src="/images/new-website/products/armor-x/case-note20/mx-ss20-n20u-samsung-galaxy-note-20-ultra-armor-x-armorx-ip68-waterproof-shockproof-rugged-case-cases-cover-with-carabiner_5.jpg" alt="note-20-ultra-armor-x preview4">
+                                <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_4.png" alt="note-20-ultra-armor-x preview4">
                             </li>
                         </ul>
                     </div>
@@ -51,61 +51,32 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="row" style="margin-top: 50px;">
                         <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:10px;padding:20px !important; border-radius: 15px;">
-                            <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Device Case</h2>
-                            <h1 class="product_name" style="color:#4a4a4a;">SAMSUNG GALAXY NOTE 20
-                                WATERPROOF CASE</h1>
+                            <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Bluetooth / WiFi Receipt and Label Mobile Printer</h2>
+                            <h1 class="product_name" style="color:#4a4a4a;">SPP-L310</h1>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
-                                    <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">SPECIFICATION</h3><br>
-                                    <ul style="line-height: 0.8vw;">
+                                    <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
+                                    <ul style="line-height: 1.2vw;font-weight:200;">
                                         <li>
-                                            <label for="">IP68 Waterproof with fully submergible to 6.6' / 2 meter for 1 hour</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Shockproof withstands drops from 3.9' / 1.2 meter complied to MIL STD 810F-516</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Built-in screen cover for total touchscreen protection</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Full access to buttons and controls - charge and sync through the USB port</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Face ID supported</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Precise shielded slot cover and tactile buttons ensure secure access and feedback</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Fully protected from extreme environment - snow, ice, dirt & dust particles</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Sleek design with precision form factor retains device thinness</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Integrated X-MOUNT adaptor with secure mounting solutions</label>
-                                        </li>
-                                        <li>
-                                            <label for="">A wide selection of mounts design for outdoor adventures and sports</label>
-                                        </li>
-                                        <li>
-                                            <label for="">ActiveKEY - An expandable key tools system</label>
-                                        </li>
-                                        <li>
-                                            <label for="">3 Key tools design is included - Magnet holder, SIM / ejector pin holder and Tool box holder</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Innovative grip strap for total security and one-handed</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Carabiner & strap holder design for outdoors</label>
-                                        </li>
-                                        <li>
-                                            <label for="">Compatible with wireless charging ( support with SIM and Tool holder only )</label>
+                                            <p>The ergonomic design of the 3-inch (80mm) SPP-L310 offers a small form factor, but large feature set for when you need to take label printing on-the-go.
+                                                Supporting marketing leading programming languages, including BPL-Z™ and BPL-C™, and offering extensive memory for the storage and processing of your many formats, fonts or graphics, the 203 dpi Direct Thermal SPP-L310 provide simple Near Field Communication (NFC) auto-pairing and print speeds of up to 5 ips. Wired or wireless connectivity choices - Serial, USB, Bluetooth (MFi certified) or WLAN and the ability to handle both liner and linerless media ensures that the SPP-L310 can be used for all of your mobile labelling needs. Supported by its broad range of drivers, utilities and SDKs across various platforms, including Windows, Android and iOS, the SPP-L310 is the mobile worker's chosen brand.
+                                                icon</p>
                                         </li>
                                     </ul>
-                                    <p style="font-size: 0.8rem;
-                                    font-weight: 400;">* Optional X-MOUNT such as, Bike mount, belt clip and armband are NOT included</p>
+                                    <ul style="display: flex;  text-align:center;">
+                                        <figure>
+                                            <img src="/images/new-website/products/bixolon/products/icon/icon_bixolon-01.png" width="80%" alt="">
+                                        </figure>
+                                        <figure>
+                                            <img src="/images/new-website/products/bixolon/products/icon/icon_bixolon-02.png" width="80%"alt="">
+                                        </figure>
+                                        <figure>
+                                            <img src="/images/new-website/products/bixolon/products/icon/icon_bixolon-03.png" width="80%"alt="">
+                                        </figure>
+                                        <figure>
+                                            <img src="/images/new-website/products/bixolon/products/icon/icon_bixolon-04.png" width="80%"alt="">
+                                        </figure>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -115,26 +86,65 @@
             <section class="section-1">
                 <div class="head-text-1">
                     <h2>
-                        OVERVIEW
+                        FEATURES
                     </h2>
-                    <p>
-                        MOUNTABLE SHOCKPROOF CASE FOR SAMSUNG GALAXY NOTE 20 ULTRA <br>
-                        <span style="font-weight: 200;font-size:1vw;">Revolutionary Mounting Eco-System With Everyday Essential Tools</span>
-                    </p>
                 </div>
-                <figure style="text-align: center; margin-top:5%;">
-                    <img src="/images/new-website/products/armor-x/case-note20/pic1-01.svg" width="80%" alt="armor-x">
-                    <img src="/images/new-website/products/armor-x/case-note20/pic_02.jpg" width="90%" alt="armor-x">
-                </figure>
+                <div class="w-100 d-flex">
+                    <div class="card col-sm-12 col-md-4 col-lg-4" style="border:0;background-color: #fff0;">
+                        <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274315438.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Exceptional Perfoarmance
+                            </h2>
+                            <p class="card-text">
+                                <div class="text-sec1">
+                                    <li>Fully compatible with market-leading programming languages: SLCS, BPL-Z™, BPL-C™ </li>
+                                    <li>Interchange programming language without setting the mode </li>
+                                    <li>Fast data processing and printing speed up to 5 ips (127 mm/sec)</li>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-4 col-lg-4"style="border:0;background-color: #fff0;">
+                        <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316659.png" alt="" class="card-img-top" style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                The Perfect Fit for Mobile Environment
+                            </h2>
+                            <p class="card-text">
+                                <div class="text-sec1">
+                                    <li>Wireless and wired connectivity options including Bluetooth, WLAN, USB and Serial </li>
+                                    <li>Compatible with all major operating systems including Android™, iOS™ and Windows </li>
+                                    <li>Supports Easy Bluetooth Pairing™ via embedded NFC tag enabling auto pairing</li>
+                                    <li>Smart Wi-Fi setting via mobile devices available</li>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-4 col-lg-4"style="border:0;background-color: #fff0;">
+                        <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316203.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Optimized for Field Operation
+                            </h2>
+                            <p class="card-text">
+                                <div class="text-sec1">
+                                    <li>Super compact and light-weight(385g) yet powerful </li>
+                                    <li>1.8 m / 6 ft. drop rate </li>
+                                    <li>IP54 water and dust proof</li>
+                                    <li>Various accessories and connectivity ports</li>
+                                    <li>Supports transmissive gap sensor, black mark reflective sensor</li>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="section-2">
                 <div class="head-text-2">
                     <h2>
                         ONE SYSTEM. <br> ENDLESS ADVENTURES.
                     </h2>
-                    <p>
-                        <span style="font-weight: 200;font-size:1vw;">X-MOUNT is the only mounting system that allows you to fully integrate your Smartphone into an active lifestyle. It allows you to securely attach your Smartphone to your bike while you’re cycling, to your arm when you’re running, and in your car’s dashboard when you drive.  ARMOR-X makes it much easier and safer to interact with the many sports, fitness and navigation apps that are available in App Store / Google Play.</span>
-                    </p>
                 </div>
                 <div class="col-12 d-flex" style="margin-top:5%;">
                     <div class="col-sm-12 col-md-12 col-lg-6">
@@ -246,5 +256,5 @@
 
 
 @section('script')
-    <script src="{{ URL::asset('/js/page-js/armor-x/case-note20/main.js')}}"></script>
+    <script src="{{ URL::asset('/js/page-js/bixolon/mobile-printer/l310/main.js')}}"></script>
 @endsection
