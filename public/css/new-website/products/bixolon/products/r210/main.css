@@ -1,5 +1,5 @@
 .thumbnails{
-    right: 120px;
+    right: 0;
     top: 0;
     position: absolute;
     height: 100%;
@@ -8,7 +8,7 @@
 }
 .ul-product{
     display: block;
-    width:28%;
+    width:25%;
 }
 ul > li > label{
     font-size:0.7vw;
@@ -20,7 +20,7 @@ ul > li > label{
     right: 20px;
 }
 .li-product_color1>img{
-    width:100%;
+    width:80%;
     border:1px solid lightgrey;
 }
 .li-product_color2{

@@ -1,11 +1,11 @@
 @extends('layouts/main-all-products')
 
-@section('title', 'SPP-L310 MOBILE PRINTER | BIXOLON | DATABAR COMPANY LIMITED')
+@section('title', 'SPP-R210 MOBILE PRINTER | BIXOLON | DATABAR COMPANY LIMITED')
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/l310/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/l310/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/r210/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/bixolon/products/r210/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection
@@ -23,27 +23,27 @@
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/bixolon"><span itemprop="name">Bixolon</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">SPP-L310</h1>
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">SPP-R210</h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
                         <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
-                            <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png')}}" style="width:100%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
+                            <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/1562839450690080.png')}}" style="width:100%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                         </figure>
                         <div class="thumbnails">
                             <ul class="ul-product">
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png" alt="SPP-L310 preview1">
+                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/1562839450690080.png" alt="SPP-R210 preview1">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_2.png" alt="SPP-L310 preview2">
+                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-R210.png" alt="SPP-R210 preview2">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_3.png" alt="SPP-L310 preview3">
+                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-R210_2.png" alt="SPP-R210 preview3">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_4.png" alt="SPP-L310 preview4">
+                                    <img src="/images/new-website/products/bixolon/products/mobile-printer/SPP-R210_3.png" alt="SPP-R210 preview4">
                                 </li>
                             </ul>
                         </div>
@@ -53,14 +53,13 @@
                         <div class="row" style="margin-top: 50px;">
                             <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:70px;padding:20px !important; border-radius: 15px;">
                                 <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Bluetooth / WiFi Receipt and Label Mobile Printer</h2>
-                                <h1 class="product_name" style="color:#4a4a4a;">SPP-L310</h1>
+                                <h1 class="product_name" style="color:#4a4a4a;">SPP-R210</h1>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
                                         <ul style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
                                             <li>
-                                                <p>The ergonomic design of the 3-inch (80mm) SPP-L310 offers a small form factor, but large feature set for when you need to take label printing on-the-go.
-                                                    Supporting marketing leading programming languages, including BPL-Z™ and BPL-C™, and offering extensive memory for the storage and processing of your many formats, fonts or graphics, the 203 dpi Direct Thermal SPP-L310 provide simple Near Field Communication (NFC) auto-pairing and print speeds of up to 5 ips. Wired or wireless connectivity choices - Serial, USB, Bluetooth (MFi certified) or WLAN and the ability to handle both liner and linerless media ensures that the SPP-L310 can be used for all of your mobile labelling needs. Supported by its broad range of drivers, utilities and SDKs across various platforms, including Windows, Android and iOS, the SPP-L310 is the mobile worker's chosen brand.
+                                                <p>BIXOLON's SPP-R210 is its most compact 2-inch (58mm) mobile receipt printer. A clear, precise design offering easy drop-in receipt loading and single touch opening. The small form factor is optimised for your Mobile workforce with ruggedness up to IP54 and a design to resist multiple drops. Offering wired and wireless: WLAN and MFi certified Bluetooth, connectivity, the SPP-R210 can be controlled via fixed or mobile devices - handheld, tablet or terminal, and its long-lasting battery will ensure your workforce maintain uptime. Offering integrated magnetic and smart card reader options, the printer is capable of handling your transactional routine.
                                                     icon</p>
                                             </li>
                                         </ul>
@@ -80,49 +79,47 @@
                     </div>
                     <div class="w-100 d-flex">
                         <div class="card col-sm-12 col-md-4 col-lg-4" style="border:0;background-color: #fff0;">
-                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274315438.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588234930.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
                                 <h2 class="card-title">
-                                    Exceptional Perfoarmance
+                                    Seamless Mobility
                                 </h2>
                                 <p class="card-text">
                                     <div class="text-sec1">
-                                        <li>Fully compatible with market-leading programming languages: SLCS, BPL-Z™, BPL-C™ </li>
-                                        <li>Interchange programming language without setting the mode </li>
-                                        <li>Fast data processing and printing speed up to 5 ips (127 mm/sec)</li>
+                                        <li>Ideal for using smart devices including iPhone,iPad, and Android</li>
+                                        <li>Versatile connectivity supported (802.11 b/g/n and more) </li>
+                                        <li>232g (0.51 lbs.) light weight, 20% slimmer and 25% smaller than SPP-R200II</li>
                                     </div>
                                 </p>
                             </div>
                         </div>
                         <div class="card col-sm-12 col-md-4 col-lg-4"style="border:0;background-color: #fff0;">
-                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316659.png" alt="" class="card-img-top" style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588235613.png" alt="" class="card-img-top" style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
                                 <h2 class="card-title">
-                                    The Perfect Fit for Mobile Environment
+                                    Field-work Optimization
                                 </h2>
                                 <p class="card-text">
                                     <div class="text-sec1">
-                                        <li>Wireless and wired connectivity options including Bluetooth, WLAN, USB and Serial </li>
-                                        <li>Compatible with all major operating systems including Android™, iOS™ and Windows </li>
-                                        <li>Supports Easy Bluetooth Pairing™ via embedded NFC tag enabling auto pairing</li>
-                                        <li>Smart Wi-Fi setting via mobile devices available</li>
+                                        <li>IP54 rated rugged design (with protective case)</li>
+                                        <li>1.2 m drop resistant </li>
+                                        <li>Optional integrated card reader (MSR or MSR + SCR)</li>
+                                        <li>Long-lasting battery life</li>
                                     </div>
                                 </p>
                             </div>
                         </div>
                         <div class="card col-sm-12 col-md-4 col-lg-4"style="border:0;background-color: #fff0;">
-                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316203.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588236305.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
                                 <h2 class="card-title">
-                                    Optimized for Field Operation
+                                    Outstanding Performance
                                 </h2>
                                 <p class="card-text">
                                     <div class="text-sec1">
-                                        <li>Super compact and light-weight(385g) yet powerful </li>
-                                        <li>1.8 m / 6 ft. drop rate </li>
-                                        <li>IP54 water and dust proof</li>
-                                        <li>Various accessories and connectivity ports</li>
-                                        <li>Supports transmissive gap sensor, black mark reflective sensor</li>
+                                        <li>Print speeds up to 90 mm/sec (Receipt) </li>
+                                        <li>Linerless label printing (Optional)</li>
+                                        <li>Low-temp (-15°C) printing</li>
                                     </div>
                                 </p>
                             </div>
@@ -139,33 +136,14 @@
                         <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
                             <div class="text-2">
                                 <h2>
-                                    SPP-L310
+                                    SPP-R210
                                 </h2>
                                 <h3>
-                                    SPP-L310
+                                    2 inch Mobile <br>
+                                    Receipt Printer
                                 </h3>
                                 <p>
                                     The mid-tier 3-inch (80mm) SPP-L310 Mobile label printer offers on-the-go labelling to many Verticals and applications, including pharmacy labelling, record management, picking and packing and bedside labelling. With operating environments extending through Retail, Warehousing and Healthcare, the printer’s full feature set ensures that integration and use is swift and easy.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 flex-row-reverse d-flex" >
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <figure>
-                                <img src="/images/new-website/products/bixolon/products/mobile-printer/Blinerless.png" width="100%" alt="armor-x">
-                            </figure>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6" style="margin: auto;">
-                            <div class="text-2">
-                                <h2>
-                                    SUPPLIES
-                                </h2>
-                                <h3>
-                                    Supplies
-                                </h3>
-                                <p>
-                                    B-linerless™ is a BIXOLON's Linerless Label of printer supply lineup. B-linerless™ has two different types of adhesive strengths including B-linerless™ Permanent and B-linerless™ Restick.
                                 </p>
                             </div>
                         </div>
@@ -177,6 +155,7 @@
                             Accessories
                         </h2>
                     </div>
+
                     <ul class="accessory-list">
                         <li>
                             <img src="/images/new-website/products/bixolon/accessories/1_Serial Cable.png" alt="accessories-bixolon">
@@ -224,6 +203,15 @@
                             </p>
                         </li>
                         <li>
+                            <img src="/images/new-website/products/bixolon/accessories/6_Battery Pack_V2.png" alt="accessories-bixolon">
+                            <h3>
+                                Battery Pack V.2
+                            </h3>
+                            <p>
+                                Battery pack with outer contacts for 2-inch Mobile Printers
+                            </p>
+                        </li>
+                        <li>
                             <img src="/images/new-website/products/bixolon/accessories/6_Battery Pack.png" alt="accessories-bixolon">
                             <h3>
                                 Battery Pack
@@ -233,7 +221,7 @@
                             </p>
                         </li>
                         <li>
-                            <img src="/images/new-website/products/bixolon/accessories/7_Single Battery Cradle.png" alt="accessories-bixolon">
+                            <img src="/images/new-website/products/bixolon/accessories/8_Single Battery Cradle.png" alt="accessories-bixolon">
                             <h3>
                                 Single Battery Cradle
                             </h3>
@@ -251,21 +239,21 @@
                             </p>
                         </li>
                         <li>
-                            <img src="/images/new-website/products/bixolon/accessories/12_Vehicle Charger.png" alt="accessories-bixolon">
+                            <img src="/images/new-website/products/bixolon/accessories/10_Quad Battery Cradle.png" alt="accessories-bixolon">
                             <h3>
-                                Vehicle Charger
+                                Quad Battery Cradle
                             </h3>
                             <p>
-                                12V vehicle cigerette lighter charger
+                                Quad battery cradle charges up to four 3 & 4-inch batteries at once
                             </p>
                         </li>
                         <li>
-                            <img src="/images/new-website/products/bixolon/accessories/10_Case.png" alt="accessories-bixolon">
+                            <img src="/images/new-website/products/bixolon/accessories/11_Quad Battery Cradle.png" alt="accessories-bixolon">
                             <h3>
-                                Case
+                                Single Docking Cradle
                             </h3>
                             <p>
-                                3-inch mobile case
+                                Docking cradle charges one single 2-inch printers
                             </p>
                         </li>
                         <li>
@@ -275,24 +263,6 @@
                             </h3>
                             <p>
                                 IP54 rated water and dust protective leather case for 3-inch Mobile Printers
-                            </p>
-                        </li>
-                        <li>
-                            <img src="/images/new-website/products/bixolon/accessories/12_Vehicle Holder.png" alt="accessories-bixolon">
-                            <h3>
-                                Vehicle Holder
-                            </h3>
-                            <p>
-                                Suction mounted holding solution for 2, 3-inch mobile printers
-                            </p>
-                        </li>
-                        <li>
-                            <img src="/images/new-website/products/bixolon/accessories/13_Ram Mount Vehicle Holder.png" alt="accessories-bixolon">
-                            <h3>
-                                Ram Mount Vehicle Holder
-                            </h3>
-                            <p>
-                                Secure and rugged ram mount holding solutions for all Mobile Printers
                             </p>
                         </li>
                     </ul>
@@ -307,5 +277,5 @@
 
 
 @section('script')
-    <script src="{{ URL::asset('/js/page-js/bixolon/mobile-printer/l310/main.js')}}"></script>
+    <script src="{{ URL::asset('/js/page-js/bixolon/mobile-printer/r210/main.js')}}"></script>
 @endsection

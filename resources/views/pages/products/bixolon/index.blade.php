@@ -138,7 +138,7 @@
                     <p>
                         Bluetooth / WiFi Receipt nad Lable Mobile Printer
                     </p>
-                    <a href="/products/bixolon/mobile-printer">
+                    <a href="/products/bixolon/mobile-printer/r210">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

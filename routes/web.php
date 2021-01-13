@@ -214,6 +214,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/mobile-printer/l310', function () {
             return view('/pages/products/bixolon/products/mobile-printer/l310');
         });
+        Route::get('/mobile-printer/r210', function () {
+            return view('/pages/products/bixolon/products/mobile-printer/r210');
+        });
     });
 
     Route::group(['prefix' => '/datalogic'], function () {
