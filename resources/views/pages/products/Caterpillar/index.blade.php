@@ -114,7 +114,7 @@
                 Cat phones are military spec ‘rugged’ devices. Designed and built to be extremely
                 tough and robust, making them suitable for use in any environment, indoors or outdoors.
                 </p>
-                <a href="/products/caterpillar/smart-phone-cat">
+                <a href="/products/caterpillar/smart-phone-cat/s42">
                     <button class="btn btn-banner button-sec-3 ">View more</button>
                 </a>
             </div>
@@ -144,7 +144,7 @@
             <p class="text-t20" style="font-family: quicksand">
                 Databar we sell Caterpillar T20 TABLET that have many feature such as Rugged , Drop proof up to 1.8 m, With windows 10 pro , Free sceen repair.
             </p>
-            <a href="/products/caterpillar/tablet-cat">
+            <a href="/products/caterpillar/tablet-cat/t20">
                 <button class="btn btn-banner button-sec-6 ">View more</button>
             </a>
         </div>

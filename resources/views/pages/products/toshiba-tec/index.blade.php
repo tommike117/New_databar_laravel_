@@ -55,11 +55,10 @@
                         <img src="/images/new-website/products/toshiba-tec/Toshiba-B-SA4TP-links-Eti.jpg" class="pic-1" width="50%" alt="accessory">
                     </figure>
                     <h2>
-                        Receipt Printer <br>
-                        GIANT PRO
+                        Toshiba BSA4TP
                     </h2>
                     <p>
-                        NFC Receipt printers
+                        Label Printers
                     </p>
                     <a href="/products/toshiba-tec/label-printers">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
@@ -70,11 +69,10 @@
                         <img src="/images/new-website/products/toshiba-tec/B-SA4TM-R.jpg" class="pic-2" width="50%" alt="accessory">
                     </figure>
                     <h2>
-                        Receipt Printer <br>
-                        GIANT-100
+                        Toshiba B-SA4TM
                     </h2>
                     <p>
-                        COMPACT Receipt printers
+                        Label Printers
                     </p>
                     <a href="/products/toshiba-tec/label-printers">
                         <button class="btn btn-banner button-sec-3 ">View more</button>

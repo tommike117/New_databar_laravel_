@@ -227,7 +227,7 @@ services')
                         Tailored for<br>your industry
                     </h2>
                     <p>
-                        Althorized repair service and technical support professional Samsung , Non Samsung , onsite service.
+                        Authorized repair service and technical support professional Samsung , Non Samsung , onsite service.
                     </p>
                 </div>
                 <div class="icon-section-3">

@@ -208,8 +208,14 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/smart-phone-cat/s52', function () {
             return view('/pages/products/caterpillar/products/smartphone/s52');
         });
+        Route::get('/smart-phone-cat/s42', function () {
+            return view('/pages/products/caterpillar/products/smartphone/s42');
+        });
 
         Route::get('/tablet-cat','ProductListController@tablet_cat');
+        Route::get('/tablet-cat/t20', function () {
+            return view('/pages/products/caterpillar/products/tablet/t20');
+        });
 
     });
 
