@@ -142,10 +142,11 @@
     .text-2{
         text-align: left;
         margin-top: 10%;
+        padding-left: 3%;
     }
     .text-2 > h2{
         color: #3399ff;
-        font-size: 1.4vw;
+        font-size: 1.8vw;
         font-weight: 600;
     }
     .text-2 > h3{
@@ -157,8 +158,33 @@
         font-size: 1vw;
         margin-top: 15px;
     }
+    .text-sup-2{
+        line-height: 0.5;
+        margin-top: 3%;
+        text-align: start;
+        padding-left: 4%;
+    }
+    .text-sup-2 > h2{
+        font-size: 1.2vw;
+        font-weight: 200;
+        color: #4a4a4a;
+    }
+    .text-sup-2 > p{
+        font-size: 0.9vw;
+        font-weight: 200;
+        color: #4a4a4a;
+    }
+    .text-sup-2-1{
+        padding: 0 5%;
+        margin-top: 3%;
+    }
+    .text-sup-2-1 > p{
+        font-size: 0.9vw;
+        font-weight: 200;
+        color: #4a4a4a;
+    }
     .section-3{
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .text-3{
         text-align: left;
@@ -169,8 +195,8 @@
         font-weight: 600;
     }
     .text-3 > h3{
-        font-size: 1.4vw;
-        font-weight: 600;
+        font-size: 1.2vw;
+        font-weight: 200;
         color: #4a4a4a;
     }
     .text-3 > p{
@@ -191,7 +217,7 @@
         font-weight: 200;
     }
     .section-4{
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .text-4 > h2{
         font-size: 1.4vw;

@@ -26,7 +26,7 @@
         <div class="video-banner" style="position: relative" >
             <video class="video-section desktop-none" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop >
                 <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.mp4')}}" type="video/mp4">
-                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.webm')}}" type="video/webm">
+                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.ogg')}}" type="video/ogg">
             </video>
             <figure class="mobile" style="text-align: center;">
                 <img src="/images/samsung/galaxy-xcover-pro/uk-feature-durability-for-outdoor-206665282.webp"  width="100%" class="pic-banner " alt="">
@@ -117,7 +117,7 @@
                                         </a>
                                         <video title="Samsung Galaxy Watch Active2" id="newsvideo1" class="mfp-hide"
                                             width="853" height="480" controls>
-                                            <source src="/videos/home_page/Galaxy Watch Active2.mp4" type="video/ogg">
+                                            <source src="/videos/home_page/Galaxy Watch Active2.mp4" type="video/mp4">
                                             <source src="/videos/home_page/Galaxy Watch Active2.ogg" type="video/ogg">
                                         </video>
                                     </div>
