@@ -75,12 +75,12 @@
     transition: 1s;
 }
 .bg-body{
-        background-image: url("/images/new-website/products/armor-x/bg_product1920.jpg");
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-attachment: fixed;
-        height: 100%;
-        width: auto;
+    background-image: url("/images/new-website/products/caterpillar/products/t20/BG_product-01.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
 }
 .card-title{
     font-size: 15px;
@@ -103,7 +103,7 @@
 
 @media only screen and (min-width:992px){
     .section-1{
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .head-text-1{
         text-align: left;
@@ -118,8 +118,12 @@
         font-size: 1.2vw;
         margin-top: 15px;
     }
+    .box-spec{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
     .section-2{
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .head-text-2{
         text-align: center;

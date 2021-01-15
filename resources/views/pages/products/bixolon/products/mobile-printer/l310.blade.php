@@ -14,7 +14,7 @@
 @section('content')
 
         <div class="bg-body">
-            <div class="container">
+            <div class="body-standard">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 firstrow" style="overflow:hidden;">
                         <div>
@@ -28,7 +28,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
+                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png')}}" style="width:100%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                         </figure>
                         <div class="thumbnails">
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="row" style="margin-top: 50px;">
+                        <div class="row box-spec" >
                             <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:70px;padding:20px !important; border-radius: 15px;">
                                 <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Bluetooth / WiFi Receipt and Label Mobile Printer</h2>
                                 <h1 class="product_name" style="color:#4a4a4a;">SPP-L310</h1>

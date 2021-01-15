@@ -858,14 +858,9 @@
         width: auto;
      }
      .bg-main-1{
-        background-image: url("/images/new-website/Web_bg_1080.jpg");
-        background-repeat: no-repeat;
-        background-size: contain;
         height: 100vh;
         width: auto;
         margin-bottom: 15%;
-        margin-top: 0%;
-
       }
      .block{
          height: 700px;
