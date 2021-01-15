@@ -33,6 +33,10 @@ Route::get('/MY-ADMIN-BACKUP-DATABASE-ALL-AUTOMATIC', 'System\BackupController@b
 Route::get('/SendMailservice', 'SendEmailservice@index');
 Route::post('/SendEmailservice/send','SendEmailservice@send');
 
+// download function
+Route::get('/viewALLdownloadfile', 'DownloadController@downloadcat');
+
+
 
 Route::get('/home', function () {
     return view('pages/home');
@@ -198,6 +202,12 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/caterpillar/index');
         });
         Route::get('/smart-phone-cat','ProductListController@smart_phone_cat');
+        Route::get('/smart-phone-cat/s62', function () {
+            return view('/pages/products/caterpillar/products/smartphone/s62');
+        });
+        Route::get('/smart-phone-cat/s52', function () {
+            return view('/pages/products/caterpillar/products/smartphone/s52');
+        });
 
         Route::get('/tablet-cat','ProductListController@tablet_cat');
 
@@ -209,6 +219,12 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/bixolon/index');
         });
         Route::get('/pos-printer','ProductListController@bixolon_pos_printer');
+        Route::get('/pos-printer/q300', function () {
+            return view('/pages/products/bixolon/products/pos/q300');
+        });
+        Route::get('/pos-printer/srp275', function () {
+            return view('/pages/products/bixolon/products/pos/srp275');
+        });
 
         Route::get('/mobile-printer','ProductListController@bixolon_mobile_printer');
         Route::get('/mobile-printer/l310', function () {

@@ -206,14 +206,20 @@ class ProductListController extends Controller
     // cat Smart phone
     public function smart_phone_cat ()
     {
-        $data = DB::table('db_product_list')->where('Pline_ID', '=', 28)->get();
+        $data = DB::table('db_product_list')
+        ->where('Pline_ID', '=', 28)
+        ->orderBy('Plist_Priority','DESC')
+        ->get();
 
         return view('pages/products/caterpillar/smart-phone-cat', ['data'=> $data]);
     }
      // cat Smart phone
      public function tablet_cat ()
      {
-         $data = DB::table('db_product_list')->where('Pline_ID', '=', 29)->get();
+         $data = DB::table('db_product_list')
+         ->where('Pline_ID', '=', 29)
+         ->orderBy('Plist_Priority','DESC')
+         ->get();
 
          return view('pages/products/caterpillar/tablet-cat', ['data'=> $data]);
      }

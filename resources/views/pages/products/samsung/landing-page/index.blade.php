@@ -26,7 +26,7 @@
         <div class="video-banner" style="position: relative" >
             <video class="video-section desktop-none" style="width: 68%; height: auto;" title="home-page video" autoplay muted loop >
                 <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.mp4')}}" type="video/mp4">
-                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.ogg')}}" type="video/ogg">
+                <source src="{{URL::to('videos/samsung/landing/Introducing_the_Galaxy_XCover_Pro.webm')}}" type="video/webm">
             </video>
             <figure class="mobile" style="text-align: center;">
                 <img src="/images/samsung/galaxy-xcover-pro/uk-feature-durability-for-outdoor-206665282.webp"  width="100%" class="pic-banner " alt="">

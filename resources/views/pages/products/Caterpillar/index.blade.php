@@ -30,6 +30,9 @@
             <p style="font-family: quicksand">
                 In a world where we expect our phones to go  further, all Cat phones can be fully submerged,are fully water and dust  proof,drop tested from 1.8m and are protected by our 2 year warranty.
             </p>
+            <a href="/products/caterpillar/smart-phone-cat">
+                <button class="btn btn-banner button-sec-3 ">Products</button>
+            </a>
         </div>
     </div>
 </section>
@@ -61,7 +64,7 @@
                 tough and robust, making them suitable for use in any environment, indoors or outdoors.
 
             </p>
-            <a href="/products/caterpillar/smart-phone-cat">
+            <a href="/products/caterpillar/smart-phone-cat/s62">
                 <button class="btn btn-banner button-sec-3 ">View more</button>
             </a>
         </div>
@@ -86,7 +89,7 @@
                     in a case, it’s the phone that life won’t break. Use it with confidence without the stress
                     or fear of breakage from everyday drops and mishaps.
                 </p>
-                <a href="/products/caterpillar/smart-phone-cat">
+                <a href="/products/caterpillar/smart-phone-cat/s52">
                     <button class="btn btn-banner button-sec-3 ">View more</button>
                 </a>
             </div>

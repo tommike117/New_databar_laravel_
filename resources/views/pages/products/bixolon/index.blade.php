@@ -87,7 +87,7 @@
                     <p>
                         Durable and Cost-Efficient POS Printer
                     </p>
-                    <a href="/products/bixolon/pos-printer">
+                    <a href="/products/bixolon/pos-printer/q300">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -101,7 +101,7 @@
                     <p>
                         MMFi Bluetooth / WiFi mobile receipt printer
                     </p>
-                    <a href="/products/bixolon/pos-printer">
+                    <a href="/products/bixolon/pos-printer/srp275">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
