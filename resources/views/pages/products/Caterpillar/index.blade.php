@@ -30,9 +30,7 @@
             <p style="font-family: quicksand">
                 In a world where we expect our phones to go  further, all Cat phones can be fully submerged,are fully water and dust  proof,drop tested from 1.8m and are protected by our 2 year warranty.
             </p>
-            <a href="/products/caterpillar/smart-phone-cat">
-                <button class="btn btn-banner button-sec-3 ">Products</button>
-            </a>
+
         </div>
     </div>
 </section>
@@ -47,6 +45,9 @@
                 the best rugged phone for your needs. Buy today.
                 View all
             </p>
+            <a href="/products/caterpillar/smart-phone-cat">
+                <button class="btn btn-banner  " style="margin-bottom: 2%;" >View all</button>
+            </a>
             <figure class="flex-100">
                 <div class="flex-65">
                     <img class="tab-mobile-none" src="/images/new-website/products/caterpillar/S62-01-web.png" width="100%" alt="accessory">
@@ -65,7 +66,7 @@
 
             </p>
             <a href="/products/caterpillar/smart-phone-cat/s62">
-                <button class="btn btn-banner button-sec-3 ">View more</button>
+                <button class="btn btn-banner" >View more</button>
             </a>
         </div>
     </section>
@@ -90,7 +91,7 @@
                     or fear of breakage from everyday drops and mishaps.
                 </p>
                 <a href="/products/caterpillar/smart-phone-cat/s52">
-                    <button class="btn btn-banner button-sec-3 ">View more</button>
+                    <button class="btn btn-banner  ">View more</button>
                 </a>
             </div>
         </div>
@@ -115,7 +116,7 @@
                 tough and robust, making them suitable for use in any environment, indoors or outdoors.
                 </p>
                 <a href="/products/caterpillar/smart-phone-cat/s42">
-                    <button class="btn btn-banner button-sec-3 ">View more</button>
+                    <button class="btn btn-banner  ">View more</button>
                 </a>
             </div>
         </div>
@@ -129,6 +130,9 @@
                 Meet the demands of the most challenging working environments.
                 With Windows 10 Pro
             </p>
+            <a href="/products/caterpillar/tablet-cat">
+                <button class="btn btn-banner button-sec-3 " style="margin-bottom: 2%;" >View all</button>
+            </a>
             <figure class="flex-100">
                 <div class="flex-33 tab-mobile-none">
                     <img src="/images/new-website/products/caterpillar/tap-09.jpg" width="98%" alt="accessory-1">

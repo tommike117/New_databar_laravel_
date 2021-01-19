@@ -39,7 +39,7 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/datalogic/Magellan 1500i-882x882.png" width="60%" alt="accessory">
+                        <img src="/images/new-website/products/datalogic/MAGELLAN™ 1500i.png" width="60%" alt="accessory">
                     </figure>
                     <h2>
                         Magellan 1500i
@@ -47,13 +47,13 @@
                     <p>
                         Barcode Scanners General
                     </p>
-                    <a href="#">
+                    <a href="/products/datalogic/barcode-scanners/magellan1500">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/datalogic/QuickScan I QD2400.png" width="60%" alt="accessory">
+                        <img src="/images/new-website/products/datalogic/QD2400.png" width="60%" alt="accessory">
                     </figure>
                     <h2>
                         QuickScan I QD2400
@@ -61,7 +61,7 @@
                     <p>
                         Barcode Scanners Industrial
                     </p>
-                    <a href="#">
+                    <a href="/products/datalogic/barcode-scanners/qd2400">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -92,7 +92,7 @@
                     <p>
                         Mobile Computers (PDA)
                     </p>
-                    <a href="#">
+                    <a href="/products/datalogic/mobile-computer/memor20">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -106,7 +106,7 @@
                     <p>
                         Mobile Computers (PDA)
                     </p>
-                    <a href="#">
+                    <a href="/products/datalogic/mobile-computer/falcon-x4">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -138,7 +138,7 @@ Engineered for applications that are not permanently monitored by operators: Bar
                     <p>
                         Stationary Industrial Scanners
                     </p>
-                    <a href="/contact">
+                    <a href="/products/datalogic/automation/av900">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -152,7 +152,7 @@ Engineered for applications that are not permanently monitored by operators: Bar
                     <p>
                         Vision Systems
                     </p>
-                    <a href="/contact">
+                    <a href="/products/datalogic/automation/matrix120">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

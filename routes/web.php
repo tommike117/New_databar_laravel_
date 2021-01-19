@@ -247,10 +247,29 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/datalogic/index');
         });
         Route::get('/barcode-scanners','ProductListController@datalogic_barcode_scanners');
+        Route::get('/barcode-scanners/magellan1500', function () {
+            return view('/pages/products/datalogic/products/barcode/magellan1500');
+        });
+        Route::get('/barcode-scanners/qd2400', function () {
+            return view('/pages/products/datalogic/products/barcode/qd2400');
+        });
 
         Route::get('/mobile-computers','ProductListController@datalogic_mobile_computers');
+        Route::get('/mobile-computer/memor20', function () {
+            return view('/pages/products/datalogic/products/mobile-computer/memor20');
+        });
+        Route::get('/mobile-computer/falcon-x4', function () {
+            return view('/pages/products/datalogic/products/mobile-computer/falcon-x4');
+        });
+
 
         Route::get('/automation','ProductListController@datalogic_automation');
+        Route::get('/automation/av900', function () {
+            return view('/pages/products/datalogic/products/automation/av900');
+        });
+        Route::get('/automation/matrix120', function () {
+            return view('/pages/products/datalogic/products/automation/matrix120');
+        });
     });
 
     Route::group(['prefix' => '/ecom-ex'], function () {

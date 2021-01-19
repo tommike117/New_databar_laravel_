@@ -63,6 +63,9 @@
         width: 32%;
         font-weight: 300;
     }
+    .button-sec-3{
+        margin-right: 30px;
+    }
     .flex-100 > .flex-65{
         padding-right: 30px;
     }
