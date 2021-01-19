@@ -144,6 +144,9 @@
             </div>
         </div>
 <section>
+    @include('includes/arrow-top')
+</section>
+<section>
     @include('includes/footer')
 </section>
 @endsection
