@@ -1,17 +1,19 @@
 $(function(){
 
     $($('.li-product_color1')[0]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/datalogic/automation/Matrix 120.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/ecom-ex/tab-ex-pro2/Pro D2_1.png')
     });
     $($('.li-product_color1')[1]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/datalogic/automation/Matrix 120_2.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/ecom-ex/tab-ex-pro2/Pro D2_2.png')
     });
     $($('.li-product_color1')[2]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/datalogic/automation/Matrix 120_3.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/ecom-ex/tab-ex-pro2/Pro D2_3.png')
     });
-    $($('.li-product_color1')[3]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/datalogic/automation/Matrix 120_4.png')
-    });
+
+
+
+
+
 
 
 

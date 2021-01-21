@@ -278,6 +278,12 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/ecom-ex/index');
         });
         Route::get('/tablet','ProductListController@ecom_tablet');
+        Route::get('/tablet/tab-ex2', function () {
+            return view('/pages/products/ecom-ex/products/tab-ex2/tab-ex2');
+        });
+        Route::get('/tablet/tab-ex-pro2', function () {
+            return view('/pages/products/ecom-ex/products/tab-ex-pro2/tab-ex-pro2');
+        });
 
         Route::get('/smartphone','ProductListController@ecom_smartphone');
     });

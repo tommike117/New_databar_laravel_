@@ -79,7 +79,7 @@
                     <p>
                         Ensuring and maximizing mobile worker's efficiency & productivity
                     </p>
-                    <a href="/products/ecom-ex/tablet">
+                    <a href="/products/ecom-ex/tablet/tab-ex2">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -93,7 +93,7 @@
                     <p>
                         Rugged revolution thin, light and strong.
                     </p>
-                    <a href="/products/ecom-ex/tablet">
+                    <a href="/products/ecom-ex/tablet/tab-ex-pro2">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
