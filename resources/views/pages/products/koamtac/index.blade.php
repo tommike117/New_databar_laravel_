@@ -83,7 +83,7 @@
                     <p>
                         Barcode Scanners
                     </p>
-                    <a href="/products/koamtac/pocket-scanner">
+                    <a href="/products/koamtac/pocket-scanner/kdc270">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

@@ -339,6 +339,10 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/koamtac/index');
         });
         Route::get('/pocket-scanner','ProductListController@koamtac_scanner');
+        Route::get('/pocket-scanner/kdc270', function () {
+            return view('/pages/products/koamtac/products/kdc270/kdc270');
+        });
+
         Route::get('/barcode-smartsled','ProductListController@koamtac_smartleds');
         Route::get('/accessories','ProductListController@accessories');
     });

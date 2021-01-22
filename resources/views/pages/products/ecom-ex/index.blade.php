@@ -74,12 +74,13 @@
                         <img src="/images/new-website/products/ecom-ex/ecom-01.png" class="pic-1" width="65%" alt="accessory">
                     </figure>
                     <h2>
-                        Tab-Ex® 02
+                        Tab-Ex® Pro DZ2
                     </h2>
                     <p>
-                        Ensuring and maximizing mobile worker's efficiency & productivity
+                        Rugged revolution thin, light and strong.
                     </p>
-                    <a href="/products/ecom-ex/tablet/tab-ex2">
+
+                    <a href="/products/ecom-ex/tablet/tab-ex-pro2">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -88,12 +89,12 @@
                         <img src="/images/new-website/products/ecom-ex/ecom-02.png" class="pic-2" width="65%" alt="accessory">
                     </figure>
                     <h2>
-                        Pad-Ex® 01 P8 DZ2
+                        Tab-Ex® 02
                     </h2>
                     <p>
-                        Rugged revolution thin, light and strong.
+                        Ensuring and maximizing mobile worker's efficiency & productivity
                     </p>
-                    <a href="/products/ecom-ex/tablet/tab-ex-pro2">
+                    <a href="/products/ecom-ex/tablet/tab-ex2">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
