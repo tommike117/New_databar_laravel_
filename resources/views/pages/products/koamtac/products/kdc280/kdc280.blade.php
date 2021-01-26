@@ -1,6 +1,6 @@
 @extends('layouts/main-all-products')
 
-@section('title', 'KDC270 Bluetooth Barcode Scanner | Koamtac | DATABAR COMPANY LIMITED')
+@section('title', 'KDC280 Bluetooth Barcode Scanner | Koamtac | DATABAR COMPANY LIMITED')
 
 
 @section('link')
@@ -22,14 +22,14 @@
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/koamtac"><span itemprop="name">Koamtac</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">KDC270 Bluetooth Barcode Scanner
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">KDC280 Bluetooth Barcode Scanner
                                         </h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
                         <figure style=" text-align: center; padding-left: 100px; margin-top:0px">
-                            <img id="a01" src="{{URL::asset('/images/new-website/products/koamtac/pocket-barcode/kdc270/kdc270.png')}}" style="width:100%;" alt="Tab-Ex® 02" title="Tab-Ex® 02">
+                            <img id="a01" src="{{URL::asset('/images/new-website/products/koamtac/pocket-barcode/kdc270/kdc280.png')}}" style="width:100%;" alt="Tab-Ex® 02" title="Tab-Ex® 02">
                         </figure>
                     </div>
 
@@ -37,13 +37,19 @@
                         <div class="row box-spec">
                             <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:85px;padding:20px !important; border-radius: 15px;">
                                 <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Barcode Scanners</h2>
-                                <h1 class="product_name" style="color:#4a4a4a;">KDC270 Bluetooth Barcode Scanner
+                                <h1 class="product_name" style="color:#4a4a4a;">KDC280 Bluetooth Barcode Scanner
                                 </h1>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
-                                        <p style="margin-bottom: 10%;">
-                                            The KDC270 enables diverse mobile Auto-Identification applications for collecting and storing barcode data. A built-in display and keypad eliminate blind erroneous data collection and enable interactive processes.A rechargeable battery that is easily replaced can charge from any USB port and allows more than 17,000 barcode scans with a 1-second interval. With 8MB of onboard memory that stores over 400,000 UPC product barcodes or 60,000 product database records, memory shortages are no longer a concern.The KDC270 comes with KTSync® software and SDK for Android, iOS, and Windows devices. KTSync includes a keyboard wedging feature, application generation, DB lookup, inventory management, and KDC configuration features. SDK provides technical support from our top engineers and development team.
+                                        <p>
+                                            The KDC280 enables diverse mobile Auto-Identification applications for collecting and storing barcode data. The newest model to the KDC family features Bluetooth Low Energy (BLE) to enable faster and simpler connection methods as well as use with smartwatches, smartglasses, and other wearable smart devices.
+                                        </p>
+                                        <p>
+                                            A built-in display and keypad eliminate blind erroneous data collection and enable interactive processes. A rechargeable battery that is easily replaced can recharge from any USB port and allows more than 17,000 barcode scans with a 1-second interval. With 8MB of onboard memory that stores over 400,000 UPC product barcodes or 60,000 product database records, memory shortages are no longer a concern.
+                                        </p>
+                                        <p>
+                                            The KDC280 comes with KTSync® software and SDK for Android, iOS, and Windows devices. KTSync includes a keyboard wedging feature, application generation, DB lookup, inventory management, and KDC configuration features. SDK provides technical support from our top engineers and development team.
                                         </p>
                                     </div>
                                 </div>
@@ -64,7 +70,7 @@
                         <p>
                             R&TTE, FCC, KC, TELEC, VCCI, SRRC, RoHS Compliant <br>
                             Laser Safety : IEC60825/CDRH Class II <br>
-                            LED Safety : IEC62471 : 2006
+                            LED Safety : IEC62471:2006
                         </p>
                         <h3>
                             Scan Range (10mil Code39)
@@ -82,14 +88,6 @@
                             Code 128, Interleaved 2 of 5, Codabar, GS1-128, Code 93, <br>
                             Code 35, Bookland EAN-13, EAN-13/8 incl. add on, UPC-A/E <br>
                             incl. add on, GS1 Omni, GS1 Limited, GS1 Expanded
-                        </p>
-                        <h3>
-                            Scan Range (10mil Code39)
-                        </h3>
-                        <p>
-                            Laser: 1.97″ to 7.48″ (50 mm to 190 mm) <br>
-                            CCD: 2.17″ to 11.81″ (55 mm to 300 mm) <br>
-                            Imager: 1.81″ to 9.68″ (46 mm to 246 mm)
                         </p>
                         <p>
                             CCD (1D): EAN-13, EAN-8, UPC-A, UPC-E, Code 39, ITF14, <br>
@@ -131,8 +129,18 @@
                             Interfaces
                         </h3>
                         <p>
-                            Bluetooth® V2.1+EDR (Class2): HID, SPP/MFi <br>
-                            Micro USB: Flash Memory (Windows), USB HID, USB Serial (Android with OTG cable / Windows)
+                            Bluetooth® Low Energy 5.0: HID (Android/iOS/Windows), SPP <br>
+                            Micro USB : Flash Memory (Windows), USB HID, USB Serial (Android with OTG cable / Windows)
+                        </p>
+                        <h3>
+                            User Environment
+                        </h3>
+                        <p>
+                            Ingress Protection Rating: IP65<br>
+                            Drop Spec : 5′ (1.5 m) <br>
+                            Operating : 14˚F to 122˚F (-10˚C to 50˚C) <br>
+                            Storage : -4˚F to 140˚F (-20˚C to 60˚C) <br>
+                            Humidity : 5% to 95% (non-condensing)
                         </p>
                     </div>
                 </section>

@@ -78,7 +78,7 @@
                         <img src="/images/new-website/products/koamtac/KDC270.png" class="pic-1" width="50%" alt="accessory">
                     </figure>
                     <h2>
-                       KDC270 Bluetooth <br>Barcode Scanner
+                        KDC270 Bluetooth <br>Barcode Scanner
                     </h2>
                     <p>
                         Barcode Scanners
@@ -97,7 +97,7 @@
                     <p>
                         Barcode Scanner
                     </p>
-                    <a href="/products/koamtac/pocket-scanner">
+                    <a href="/products/koamtac/pocket-scanner/kdc280">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -130,7 +130,7 @@
                     <p>
                         Barcode Scanners
                     </p>
-                    <a href="/products/koamtac/barcode-smartsled">
+                    <a href="/products/koamtac/barcode-smartsled/kdc470">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -142,14 +142,12 @@
     <div class="bg-section-5">
         <div class="text-section-3">
             <h2>
-               Accessories
+               RFID Readers
             </h2>
             <p>
-                Wireless scanner provides not only Bluetooth connectivity
-                to a smartphone, tablet, or PC but also Wi-Fi connectivity
-                to server.
+                Whether you need to read High Frequency or Ultra High Frequency RFID tags, KOAMTAC has an RFID Reader for you. The full collection of RFID Readers include the companions for the KDC470 & KDC475 Barcode SmartSled® modular solutions as well as other KDC400 series sleds with MSR Card readers and the brand-new KDC180U, a wearable RFID Reader.
             </p>
-            <a href="/products/koamtac/accessories">
+            <a href="/products/koamtac/rfid-readers">
                 <button class="btn btn-banner button-sec-3 ">View more</button>
             </a>
             {{-- <a href="/contact" class="tab-mobile-none">
@@ -158,29 +156,29 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/koamtac/GTA2ChargingCradles.jpg" class="pic-5" width="50%" alt="accessory">
+                        <img src="/images/new-website/products/koamtac/rfid-readers/1w_uhf_reader_companion.png" class="pic-5" width="70%" alt="accessory">
                     </figure>
                     <h2>
-                       KDC270 Bluetooth <br>Barcode Scanner
+                        1.0W UHF RFID Reader Companion
                     </h2>
                     <p>
-                        Barcode Scanners
+                        RFID Reader
                     </p>
-                    <a href="/products/koamtac/accessories">
+                    <a href="/products/koamtac/rfid-readers/1.0w-uhf-readers">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/koamtac/270ChargingCradles-300x300.jpg" class="pic-6" width="55%" alt="accessory">
+                        <img src="/images/new-website/products/koamtac/rfid-readers/hf_reader_companion.png" class="pic-6" width="70%" alt="accessory">
                     </figure>
                     <h2>
-                        KDC350-R2 Wireless <br>Barcode Scanner
+                        HF Reader Companion
                     </h2>
                     <p>
-                        Barcode Scanner
+                        for KDC470 and KDC475
                     </p>
-                    <a href="/products/koamtac/accessories">
+                    <a href="/products/koamtac/rfid-readers/hf-readers">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

@@ -342,9 +342,21 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/pocket-scanner/kdc270', function () {
             return view('/pages/products/koamtac/products/kdc270/kdc270');
         });
+        Route::get('/pocket-scanner/kdc280', function () {
+            return view('/pages/products/koamtac/products/kdc280/kdc280');
+        });
 
         Route::get('/barcode-smartsled','ProductListController@koamtac_smartleds');
-        Route::get('/accessories','ProductListController@accessories');
+        Route::get('/barcode-smartsled/kdc470', function () {
+            return view('/pages/products/koamtac/products/kdc470/kdc470');
+        });
+        Route::get('/rfid-readers','ProductListController@accessories');
+        Route::get('/rfid-readers/1.0w-uhf-readers', function () {
+            return view('/pages/products/koamtac/products/uhf-readers/uhf-readers');
+        });
+        Route::get('/rfid-readers/hf-readers', function () {
+            return view('/pages/products/koamtac/products/hf-readers/hf-readers');
+        });
     });
 
     Route::group(['prefix' => '/ram-mounts'], function () {

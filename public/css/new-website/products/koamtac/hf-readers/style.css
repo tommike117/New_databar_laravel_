@@ -111,8 +111,15 @@
         margin-bottom: 5px;
         font-size: 13px;
     }
+    .text-spec > p{
+        font-size: 0.9vw;
+        color: #4a4a4a;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
     .section-1{
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
     }
     .head-text-1{
         text-align: start;
@@ -126,7 +133,7 @@
     .head-text-1 > h3{
         font-size: 1.2vw;
         color: #3399ff;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     .head-text-1 > p{
         font-size: 1.1vw;
