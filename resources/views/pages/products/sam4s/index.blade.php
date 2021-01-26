@@ -83,7 +83,7 @@
                     <p>
                         NFC Receipt printers
                     </p>
-                    <a href="/products/sam4s/receipt-printers">
+                    <a href="/products/sam4s/receipt-printers/giant-pro">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

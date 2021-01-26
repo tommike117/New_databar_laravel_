@@ -383,6 +383,9 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/handheld-computer','ProductListController@hand_held');
 
         Route::get('/receipt-printers','ProductListController@receipt_printers');
+        Route::get('/receipt-printers/giant-pro', function () {
+            return view('/pages/products/sam4s/products/receipt-printers/giant-pro');
+        });
     });
     Route::group(['prefix' => '/star2star'], function () {
 
