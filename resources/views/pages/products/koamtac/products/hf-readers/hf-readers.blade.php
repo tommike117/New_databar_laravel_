@@ -34,12 +34,12 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <div class="row box-spec">
-                            <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:85px;padding:20px !important; border-radius: 15px;">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 " style="background: rgba(0,0,0,0.1);margin-top:85px;padding:20px !important; border-radius: 15px;">
                                 <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">RFID Reader</h2>
                                 <h1 class="product_name" style="color:#4a4a4a;">HF Reader Companion for KDC470 and KDC475
                                 </h1>
-                                <div class="row">
+                                <div class="row box-spec">
                                     <div class="col-xs-12 col-sm-12 col-md-12 text-spec" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
                                         <p>
