@@ -103,8 +103,8 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/smartphones/Galaxy-S20', function () {
                 return view('/pages/products/samsung/Galaxy-S20');
             });
-            Route::get('/smartphones/Samsung-Galaxy-Note10', function () {
-                return view('/pages/products/samsung/Samsung-Galaxy-Note10');
+            Route::get('/smartphones/Samsung-Galaxy-Note10+', function () {
+                return view('/pages/products/samsung/Samsung-Galaxy-Note10+');
             });
             Route::get('/smartphones/Samsung-Galaxy-S10', function () {
                 return view('/pages/products/samsung/Samsung-Galaxy-S10');
@@ -142,8 +142,11 @@ Route::group(['prefix' => 'products'], function () {
 
 
 
-        Route::get('/tablets', 'NewDatabarProducts@samsung_tablets');
+        Route::get('/tablets', 'NewDatabarProducts@samsung_tablets')->name('samsung_tablets');
 
+            Route::get('/tablets/Galaxy-Tab-Active3', function () {
+                return view('/pages/products/samsung/Galaxy-Tab-Active3');
+            });
             Route::get('/tablets/Galaxy-Tab-Active-Pro', function () {
                 return view('/pages/products/samsung/Galaxy-Tab-Active-Pro');
             });
