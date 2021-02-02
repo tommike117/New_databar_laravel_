@@ -385,9 +385,20 @@ Route::group(['prefix' => 'products'], function () {
 
         Route::get('/handheld-computer','ProductListController@hand_held');
 
+        Route::get('/handheld-computer/shr-1000', function () {
+            return view('/pages/products/sam4s/products/handheld-computer/shr-1000');
+        });
+        Route::get('/handheld-computer/shm-200', function () {
+            return view('/pages/products/sam4s/products/handheld-computer/shm-200');
+        });
+
         Route::get('/receipt-printers','ProductListController@receipt_printers');
+
         Route::get('/receipt-printers/giant-pro', function () {
             return view('/pages/products/sam4s/products/receipt-printers/giant-pro');
+        });
+        Route::get('/receipt-printers/giant-100', function () {
+            return view('/pages/products/sam4s/products/receipt-printers/giant-100');
         });
     });
     Route::group(['prefix' => '/star2star'], function () {
@@ -407,6 +418,12 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/toshiba-tec/index');
         });
         Route::get('/label-printers','ProductListController@toshiba_tec_label_printers');
+        Route::get('/label-printers/bsa4t', function () {
+            return view('/pages/products/toshiba-tec/label-printers/bsa4t');
+        });
+        Route::get('/label-printers/bsa4tm', function () {
+            return view('/pages/products/toshiba-tec/label-printers/bsa4tm');
+        });
     });
 
     Route::group(['prefix' => '/unitech'], function () {
@@ -414,6 +431,13 @@ Route::group(['prefix' => 'products'], function () {
             return view('/pages/products/unitech/index');
         });
         Route::get('/mobile-computer','ProductListController@unitech_mobile_computer');
+
+        Route::get('/mobile-computer/ea602', function () {
+            return view('/pages/products/unitech/mobile-computer/ea602');
+        });
+        Route::get('/mobile-computer/ea630', function () {
+            return view('/pages/products/unitech/mobile-computer/ea630');
+        });
 
         Route::get('/enterprise-tablet','ProductListController@unitech_enterprise_tablet');
     });

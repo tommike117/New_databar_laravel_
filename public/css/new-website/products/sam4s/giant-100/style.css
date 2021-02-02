@@ -113,69 +113,43 @@
     }
     .section-1{
         margin-top: 5%;
-        position: relative;
     }
-    .position-absolute > h2{
+    .section-1 > h2{
+
+        color: #3399ff;
         font-size: 2vw;
         font-weight: 600;
-        color: #f0f8ffba;
-    }
-    .position-absolute > p{
-        color: #f0f8ffba;
-    }
-    .head-text-1{
-        margin-bottom: 25px;
-        width: max-content;
+        margin-bottom: 5%;
         text-align: center;
     }
-    .head-text-1 > h2{
+    .text-1{
+        border-bottom: solid 1px #4a4a4a14 ;
+        margin-top: 7px;
+    }
+    .text-1 > h2{
         color: #3399ff;
-        font-size: 2vw;
-        font-weight: 600;
-        border-bottom: solid 4px #edc91d;
-    }
-    .head-text-1 > p{
-        font-size: 1.2vw;
-        margin-top: 0;
-    }
-    .box-spec{
-        margin-top: 50px;
-        margin-left: 80px;
-    }
-    .video-box{
-        text-align: end;
-        margin: auto;
-    }
-    .text-3{
-        text-align: start;
-        margin: auto;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-bottom: 0;
 
     }
-    .text-3 > h2{
-        color: #3399ff;
-        font-size: 1.4vw;
-        font-weight: 600;
-    }
-    .text-3 > h3{
+    .text-1 > p{
         font-size: 1vw;
         font-weight: 200;
         color: #4a4a4a;
+        margin-bottom: 0;
     }
-    .text-3 > p{
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #4a4a4a;
+    .section-2{
+        margin-top: 5%;
     }
-    .text-3-1{
-        margin-top: 20px;
+    .section-2 > div > div > p{
+        color: #3399ff;
+        font-size: 1.8vw;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 3%;
     }
-    .text-3-1 > h2{
-        margin-bottom: 0%;
-        font-size: 1.2vw;
-        font-weight: 200;
-    }
-    .text-3-1 > p{
-        font-size: 0.8vw;
-        font-weight: 200;
+    .pic-2{
+        justify-content: center;
     }
 }

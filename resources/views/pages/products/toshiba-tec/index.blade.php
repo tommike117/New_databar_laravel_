@@ -52,7 +52,7 @@
             <div class="flex-sec-3">
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/toshiba-tec/Toshiba-B-SA4TP-links-Eti.jpg" class="pic-1" width="50%" alt="accessory">
+                        <img src="/images/new-website/products/toshiba-tec/label-printers/sa4tp.png" class="pic-1" width="50%" alt="accessory">
                     </figure>
                     <h2>
                         Toshiba BSA4TP
@@ -60,13 +60,13 @@
                     <p>
                         Label Printers
                     </p>
-                    <a href="/products/toshiba-tec/label-printers">
+                    <a href="/products/toshiba-tec/label-printers/bsa4t">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
                 <div>
                     <figure>
-                        <img src="/images/new-website/products/toshiba-tec/B-SA4TM-R.jpg" class="pic-2" width="50%" alt="accessory">
+                        <img src="/images/new-website/products/toshiba-tec/label-printers/b-sa4tm-r.png" class="pic-2" width="50%" alt="accessory">
                     </figure>
                     <h2>
                         Toshiba B-SA4TM
@@ -74,7 +74,7 @@
                     <p>
                         Label Printers
                     </p>
-                    <a href="/products/toshiba-tec/label-printers">
+                    <a href="/products/toshiba-tec/label-printers/bsa4tm">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

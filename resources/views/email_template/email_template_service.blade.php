@@ -3,7 +3,7 @@
     p{
         font-size: 12pt;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: blue;
+        color: rgba(0, 0, 255, 0.329);
     }
 </style>
 <h2>INFOMATION FORM.</h2>

@@ -67,7 +67,7 @@
                     <p>
                         Rugged Smartphone
                     </p>
-                    <a href="/products/unitech/mobile-computer">
+                    <a href="/products/unitech/mobile-computer/ea630">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -81,7 +81,7 @@
                     <p>
                         Rugged Smartphone
                     </p>
-                    <a href="/products/unitech/mobile-computer">
+                    <a href="/products/unitech/mobile-computer/ea602">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

@@ -98,7 +98,7 @@
                     <p>
                         COMPACT Receipt printers
                     </p>
-                    <a href="/products/sam4s/receipt-printers">
+                    <a href="/products/sam4s/receipt-printers/giant-100">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -119,7 +119,7 @@
                 Over 90% domestic market share in
                 Department stores More Than You Think, Mobile Solution
             </p>
-            <a href="/products/ram-mounts/tablet-mounts">
+            <a href="/products/sam4s/handheld-computer">
                 <button class="btn btn-banner button-head ">View more</button>
             </a>
             <div class="flex-sec-3">
@@ -128,13 +128,13 @@
                         <img src="/images/new-website/products/sam4s/20171031173649_pdt.jpg" class="pic-1" width="50%" alt="accessory">
                     </figure>
                     <h2>
-                        Receipt Printer <br>
-                        GIANT-100
+                        HANDHELD COMPUTER <br>
+                        SHR-1000
                     </h2>
                     <p>
-                        COMPACT Receipt printers
+                        Fully Rugged Handheld Terminal
                     </p>
-                    <a href="/products/ram-mounts/tablet-mounts">
+                    <a href="/products/sam4s/handheld-computer/shr-1000">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -143,13 +143,14 @@
                         <img src="/images/new-website/products/sam4s/20171031174224_pdt(0).jpg" class="pic-2" width="50%" alt="accessory">
                     </figure>
                     <h2>
-                        Receipt Printer <br>
-                        GIANT-100
+                        HANDHELD COMPUTER <br>
+                        SHM-200
                     </h2>
                     <p>
-                        COMPACT Receipt printers
+                        Android,All.in.one <br>
+                        Mobile Computer
                     </p>
-                    <a href="/products/ram-mounts/tablet-mounts">
+                    <a href="/products/sam4s/handheld-computer/shm-200">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

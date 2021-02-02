@@ -238,7 +238,10 @@
             </section>
         </div>
     </div>
-        <section>
+<section>
+    @include('includes/arrow-top')
+</section>
+<section>
     @include('includes/footer')
 </section>
         @endsection
