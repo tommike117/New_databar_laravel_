@@ -1,11 +1,11 @@
 @extends('layouts/main-all-products')
 
-@section('title', 'BSA4T | TOSHIBA-TEC | DATABAR COMPANY LIMITED')
+@section('title', 'EA602 | Unitech | DATABAR COMPANY LIMITED')
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/toshiba-tec/bsa4t/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/toshiba-tec/bsa4t/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/unitech/ea602/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/unitech/ea602/style.css')}}">
 <link rel="stylesheet" href="/css/animate.css">
 @endsection
 
@@ -20,29 +20,29 @@
                             <nav aria-label="breadcrumb" id="breadcrumb">
                                 <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;margin-top: 60px !important; ">
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/toshiba-tec"><span itemprop="name">Toshiba-tec</span></a></li>
+                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/unitech"><span itemprop="name">Unitech</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">Toshiba BSA4TP</h1>
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">EA602</h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
                         <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
-                            <img id="a01" src="{{URL::asset('/images/new-website/products/toshiba-tec/label-printers/sa4tp.png')}}" style="width:100%;" alt="Matrix 120" title="Toshiba BSA4TP">
+                            <img id="a01" src="{{URL::asset('/images/new-website/products/unitech/mobile-computer/ea602_1.png')}}" style="width:100%;" alt="EA602" title="EA630">
                         </figure>
                         <div class="thumbnails">
                             <ul class="ul-product">
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/toshiba-tec/label-printers/sa4tp.png" alt="Toshiba BSA4TP preview1">
+                                    <img src="/images/new-website/products/unitech/mobile-computer/ea602_1.png" alt="EA630 preview1">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/toshiba-tec/label-printers/im01.png" alt="Toshiba BSA4TP preview2">
+                                    <img src="/images/new-website/products/unitech/mobile-computer/ea602_2.png" alt="EA630 preview2">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/toshiba-tec/label-printers/im03.png" alt="Toshiba BSA4TP preview3">
+                                    <img src="/images/new-website/products/unitech/mobile-computer/ea602_3.png" alt="EA630 preview3">
                                 </li>
                                 <li class="li-product_color1">
-                                    <img src="/images/new-website/products/toshiba-tec/label-printers/im04.png" alt="Toshiba BSA4TP preview3">
+                                    <img src="/images/new-website/products/unitech/mobile-computer/ea602_4.png" alt="EA630 preview3">
                                 </li>
                             </ul>
                         </div>
@@ -51,44 +51,38 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="row box-spec">
                             <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:70px;padding:20px !important; border-radius: 15px;">
-                                <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">TOSHIBA B-SA4T Series</h2>
-                                <h1 class="product_name" style="color:#4a4a4a;">Toshiba BSA4TP</h1>
+                                <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Rugged Smartphone</h2>
+                                <h1 class="product_name" style="color:#4a4a4a;">EA602</h1>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
-                                        <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3>
-                                        <p>
-                                            The TOSHIBA Tec B-SA4 barcode label printer provides the functionality and robustness of an industrial printer with the compact footprint and ease of use of a desktop printer.For ultimate networking capabilities, it comes with a wide variety of communication interfaces, enabling you to manage your whole network of printers from a central source.
-                                        </p>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200; margin-bottom:10%;">
+                                        <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Features</h3> <br>
+                                        <ul class="text-box" style="line-height: 1.5vw;font-weight:200; margin-bottom:16%;">
                                             <li>
-                                                <p>
-                                                    high speed printing leading to increased efficiency and productivity
-                                                </p>
+                                                All-in-one box; EA602 comes with USB cradle and power supply
                                             </li>
                                             <li>
-                                                <p>
-                                                    time-saving and minimal training due to fast and easy handling
-                                                </p>
+                                                Android 9.0 OS with GMS & AER Certification
                                             </li>
                                             <li>
-                                                <p>
-                                                    lower servicing and maintenance cost with user toolless replacement of the print head and platen
-                                                </p>
+                                                All-in-one function: 2D Imager, HF/NFC and 8MP Camera
                                             </li>
                                             <li>
-                                                <p>
-                                                    versatile design to suit any environment or application
-                                                </p>
+                                                Industrial grade: 1.4GHz Octa-Core processor with Android 7.1 OS
                                             </li>
                                             <li>
-                                                <p>
-                                                    perfect readability of labels and barcodes due to flexible high quality print technology
-                                                </p>
+                                                Suitable for any mobile worker: 2G / 3G / 4G LTE, Dual-Band 802.11 a/b/g/n/ac WiFi, GPS and Bluetooth® 4.2
                                             </li>
                                             <li>
-                                                <p>
-                                                    Bartender UltraLite labelling software.
-                                                </p>
+                                                5” HD display. Ultra-sensitive capacitive touch screen (compatible with gloves and supports wet resistance)
+                                            </li>
+                                            <li>
+                                                Rugged: Corning® Gorilla Glass® 3, IP65 rated and 5-foot drop specification
+                                            </li>
+                                            <li>
+                                                Dual scanning buttons (left and right side) and programmable key
+                                            </li>
+                                            <li>
+                                                Supported MDM software solutions: SOTI, Airwatch, 42Gears, 12Manage and MoboLink
                                             </li>
                                         </ul>
                                     </div>
@@ -100,150 +94,187 @@
             </div>
             <div class="body-standard">
                 <section class="section-1">
-                    <h2>ADDITIONAL SPECIFICATIONS</h2>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Technology
-                            </h2>
+                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <figure style="text-align: center">
+                                <img src="/images/new-website/products/unitech/mobile-computer/ea602_icon.png" width="80%" alt="">
+                            </figure>
                         </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Thermal Transfer / direct thermal
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Resolution
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                8 dots/mm (203 dpi), optional 11.8 dots/mm (300 dpi)
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Print Width
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Maximum 104 mm, up to 105.7 mm with 300 dpi printhead
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Print Speed
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Up to 152.4 mm/sec (6 ips)
-                            </p>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="text-1-1 text-1">
+                                <h2>
+                                    Entry Level Handheld (Android)
+                                </h2>
+                                <p>
+                                    The EA602 is a rugged 5” mobile enterprise computer combining strong features with powerful data collection. The EA602 provides convenient connectivity, reading capabilities, and enhances the service level for a variety of vertical applications within the retail, transportation, logistics, and field service sectors.
+                                </p>
+                                <p>
+                                    Step into next-level data collection with a handheld designed to optimize and streamline your workflow.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Everything you need is in the box! The EA602 includes device, USB cable, and power supply
+                                    </li>
+                                    <li>
+                                        16 MP Rear Camera
+                                    </li>
+                                    <li>
+                                        4G LTE
+                                    </li>
+                                    <li>
+                                        A powerful 1.4GHz Octa-Core processor lives inside which means faster app running and less battery drainage
+                                    </li>
+                                    <li>
+                                        A 5" capacitive HD touch screen works with gloved or wet hands making it a true all-weather device
+                                    </li>
+                                </ul>
+                                <h2>
+                                    Powerful Data Collection
+                                </h2>
+                                <p>
+                                    Equipped with a 1.4GHz Octa-Core processor and running on the Android 7.1 operating system, makes this device suitable for data intensive applications in highly mobile environments. Mobile workers can easily accelerate their workflow as this device is equipped with a 2GB RAM, 16GB ROM and supports an additional microSD expansion (up to 32GB storage capacity).
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Interfaces
-                            </h2>
+                </section>
+                <section class="section-2">
+                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <video title="ea602" width="553" height="380" autoplay muted loop>
+                            <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.mp4" type="video/mp4">
+                            <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.ogg" type="video/ogg">
+                        </video>
                         </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Bidirectional parallel port, USB 2.0, LAN (100BASE), serial port*, wireless LAN*
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Barcodes
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                UPC/EAN/JAN, Code 39, Code 93, Code 128, EAN 128, NW7, MSI, Industrial 2 of 5, ITF, Postnet, RM4SCC, KIX-code, RSS14, Customer Bar Code
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                2D Codes
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Data Matrix, PDF 417, Maxicode, QR code, Micro PDF 417, CP Code
-                            </p>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="text-2">
+                                <h2>
+                                    One Functionality
+                                </h2>
+                                <p>
+                                    02 offers an integrated 2D scanning capability, as well as an integrated HF/NFC RFID reader/writer, GPS and a high resolution 8.0 MP camera.
+                                    Holding a 4000mAh removable battery the EA602 provides continuous usage time without needing to worry about running out of juice. This device offers everything you’ll need. By supporting a dual SIM slot, the EA602 meets the requirements of data transmission and phone.
+                                    Enjoy the fastest data speeds out there with the integrated Bluetooth® 4.2, Dual-band 802.11 a/b/g/n/ac WiFi and 4G connectivity. This device is truly an excellent mobility device and offers improvement of job efficiency at a competitive price!
+                                </p>
+                                <h2>
+                                    Rugged Design
+                                </h2>
+                                <p>
+                                    Capable to withstand a multiple 1.5m drops to concrete and IP65 rated against water and dust, makes this EA602 a rugged device. Equipped with a POGO PIN (for quick and non-intrusive charging) it will prolong it life span and durability and offers quick and non-intrusive charging.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Fonts
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
-                            <p>
-                                Bitmap font (21 fonts), Outline font (4 types), Price font (3 types)
-                            </p>
-                        </div>
+                </section>
+                <section class="section-3">
+                    <div class="text-3">
+                        <h2>
+                            Accessories
+                        </h2>
                     </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Optional
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
+                    <ul class="accessory-list">
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_1.jpg" alt="accessories-unitech">
+                            <h3>
+                                Screen Protector (For EA602)
+                            </h3>
                             <p>
-                                Cutter module, strip module, wireless LAN board, serial interface board, RFID modules, 300 dpi printhead, RTC (real time clock)
                             </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Dimensions
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_2.jpg" alt="accessories-unitech">
+                            <h3>
+                                Styrus with Coiled Strap for EA602
+                            </h3>
                             <p>
-                                238 (W) x 339 (D) x 332 (H) mm
+
                             </p>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
-                            <h2>
-                                Weight
-                            </h2>
-                        </div>
-                        <div class="col-sm-7 col-md-7 col-lg-7 text-1">
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_3.jpg" alt="accessories-unitech">
+                            <h3>
+                                USB Cable
+                            </h3>
                             <p>
-                                12 kg (without media and ribbon)
+
                             </p>
-                        </div>
-                    </div>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_4.png" alt="accessories-unitech">
+                            <h3>
+                                Power Adapter for Gun Grip Charging Cradle / Direct Charging
+                            </h3>
+                            <p>
+
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_5.jpg" alt="accessories-unitech">
+                            <h3>
+                               Power Adapter
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_6.jpg" alt="accessories-unitech">
+                            <h3>
+                                Battery
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_7.png" alt="accessories-unitech">
+                            <h3>
+                                Gun Grip
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_8.jpg" alt="accessories-unitech">
+                            <h3>
+                                USB Cradle(1slot) <br>
+                                (Rubber Boot Compatible)
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_9.jpg" alt="accessories-unitech">
+                            <h3>
+                                Wrist Strap
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_10.jpg" alt="accessories-unitech">
+                            <h3>
+                                Protective Case <br>
+                                With Hand Strap / Styrus
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_11.jpg" alt="accessories-unitech">
+                            <h3>
+                                Vehical Cradle with Protective Case
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="/images/new-website/products/unitech/mobile-computer/acc_12.jpg" alt="accessories-unitech">
+                            <h3>
+                                Gun Grip Charging Cradle
+                            </h3>
+                            <p>
+                            </p>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </div>
@@ -258,5 +289,5 @@
 
 
 @section('script')
-    <script src="{{ URL::asset('/js/page-js/toshiba-tec/bsa4t/main.js')}}"></script>
+    <script src="{{ URL::asset('/js/page-js/unitech/ea602/main.js')}}"></script>
 @endsection

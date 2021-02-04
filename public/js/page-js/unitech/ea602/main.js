@@ -1,16 +1,16 @@
 $(function(){
 
     $($('.li-product_color1')[0]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/toshiba-tec/label-printers/b-sa4tm-r.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/unitech/mobile-computer/ea602_1.png')
     });
     $($('.li-product_color1')[1]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/toshiba-tec/label-printers/im01.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/unitech/mobile-computer/ea602_2.png')
     });
     $($('.li-product_color1')[2]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/toshiba-tec/label-printers/im03.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/unitech/mobile-computer/ea602_3.png')
     });
     $($('.li-product_color1')[3]).on('click',()=>{
-        $("#a01").removeAttr('src').attr('src','/images/new-website/products/toshiba-tec/label-printers/im04.png')
+        $("#a01").removeAttr('src').attr('src','/images/new-website/products/unitech/mobile-computer/ea602_4.png')
     });
 
 
