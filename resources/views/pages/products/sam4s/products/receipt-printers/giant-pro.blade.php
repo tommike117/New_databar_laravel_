@@ -20,7 +20,7 @@
                             <nav aria-label="breadcrumb" id="breadcrumb">
                                 <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;margin-top: 60px !important; ">
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/datalogic"><span itemprop="name">Datalogic</span></a></li>
+                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/sam4s"><span itemprop="name">Sam4s</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
                                         <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">GIANT PRO</h1>
                                     </li>

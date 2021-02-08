@@ -120,7 +120,7 @@
                     <p>
                         Window 10 Rugged Tablet
                     </p>
-                    <a href="/products/unitech/enterprise-tablet">
+                    <a href="/products/unitech/enterprise-tablet/tb162">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>
@@ -134,7 +134,7 @@
                     <p>
                         Android Rugged Tablet
                     </p>
-                    <a href="/products/unitech/enterprise-tablet">
+                    <a href="/products/unitech/enterprise-tablet/tb85">
                         <button class="btn btn-banner button-sec-3 ">View more</button>
                     </a>
                 </div>

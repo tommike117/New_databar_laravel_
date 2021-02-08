@@ -440,6 +440,12 @@ Route::group(['prefix' => 'products'], function () {
         });
 
         Route::get('/enterprise-tablet','ProductListController@unitech_enterprise_tablet');
+        Route::get('/enterprise-tablet/tb162', function () {
+            return view('/pages/products/unitech/tablet/tb162');
+        });
+        Route::get('/enterprise-tablet/tb85', function () {
+            return view('/pages/products/unitech/tablet/tb85');
+        });
     });
 
     Route::group(['prefix' => '/wandera'], function () {
