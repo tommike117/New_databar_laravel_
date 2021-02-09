@@ -1,6 +1,9 @@
 :root {
     --databar_blue : #3399ff;
 }
+body{
+    font-family: poppins !important;
+}
 .sidenav{
     z-index: 5 !important;
 }
@@ -28,7 +31,6 @@ section{
 }
 
 .section-picture-1{
-    min-width: 320px;
     height: 100%;
     display: block;
     max-width: 100%;
@@ -98,12 +100,12 @@ section{
 
 .detail-section-2{
     text-align: right;
-    color:darkgrey;
+    color:#4d4d4d;
     font-size:13px;
 }
 .detail-section-4{
     text-align: right;
-    color:darkgrey;
+    color:#4d4d4d;
     font-size:13px;
 }
 
@@ -122,6 +124,24 @@ section:not(:first-of-type){
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+.flexbox{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 10px;
+}
+.flexbox h2{
+    font-size: 3.7vw;
+    font-weight: 600;
+    color:var(--databar_blue);
+}
+.flexbox p{
+    font-size: 3vw;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+.container-fluid{
+    position: relative;
+}
 
 @media only screen and (min-width:320px){
     .bg-footer-section-2{
@@ -138,7 +158,8 @@ section:not(:first-of-type){
         margin:0;
     }
     .container-fluid{
-        padding:0 30px;
+        padding:0 40px;
+        position: relative;
     }
     .card-block-section-2{
         height: auto;
@@ -169,7 +190,7 @@ section:not(:first-of-type){
     .card-section-2 > ul > li {
         font-size: 13px;
         font-weight: bold;
-        color: darkgrey;
+        color: #4d4d4d91;
         letter-spacing: 0.5px;
     }
     .card-section-2 > ul > p {
@@ -185,7 +206,6 @@ section:not(:first-of-type){
         right: calc((100% - 187px) / 3);
         align-items: flex-end !important;
         z-index: 2;
-        bottom: -130px;
         mix-blend-mode: darken;
     }
     #carouselExampleIndicators{
@@ -245,13 +265,18 @@ section:not(:first-of-type){
     }
     .figure-section2 > img{
         width:calc((100vh - 300px) / 2);
-        transform: scale(1.1); 
+        transform: scale(1.1);
     }
     .nav-slide-down-content.flex-column{
         position: relative;
-    top: 6%;
-    width: 100%;
-    text-align: right;
+        top: 6%;
+        width: 100%;
+        text-align: right;
+    }
+    .btn-databar {
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
     }
 }
 
@@ -273,7 +298,6 @@ section:not(:first-of-type){
 @media only screen and (min-width:440px){
     .bg-footer-section-2{
         position: absolute;
-        bottom: -170px;
         left: -70px;
         mix-blend-mode: darken;
         z-index: 2;
@@ -296,12 +320,21 @@ section:not(:first-of-type){
 @media only screen and (min-width:612.98px){
     .bg-footer-section-2{
         position: absolute;
-        bottom: -190px;
         left: -70px;
         mix-blend-mode: darken;
         z-index: 2;
     }
-    
+    .flexbox h2{
+        font-size: 2vw;
+        font-weight: 600;
+        color:var(--databar_blue);
+    }
+    .flexbox p{
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: #4d4d4d;
+    }
+
 }
 @media only screen and (min-width:767.98px){
     .carousel-block{
@@ -316,7 +349,7 @@ section:not(:first-of-type){
         height:1000px;
     }
     .detail-section-2{
-        width:70%;
+        width:33%;
     }
     .card-block-section-2{
         width:70%;
@@ -326,13 +359,12 @@ section:not(:first-of-type){
         max-width: 800px;
         width: 100%;
         min-width: 560px;
-        left: -40%;
     }
     .figure-section2{
         right:30%;
     }
     .figure-section2 > img{
-        transform: scale(1.5); 
+        transform: scale(0.7);
     }
     .title-section-3{
         margin-top:30px;
@@ -344,5 +376,105 @@ section:not(:first-of-type){
         margin-bottom:50px;
         max-width:600px;
     }
+    .flexbox h2{
+        font-size: 2vw;
+        font-weight: 600;
+        color:var(--databar_blue);
+    }
+    .flexbox p{
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: #4d4d4d;
+    }
 }
+@media only screen and (min-width:1024px){
+    .card-block-section-2{
+        width:50%;
+    }
+    .container-fluid{
+        padding: 0 90px 0 40px;
+        position: relative;
+    }
+    .figure-section2 {
+        display: flex;
+        position: absolute;
+        top: calc((100%) / 1.9);
+        right: calc((100% - 187px) / 1.5);
+        align-items: flex-end !important;
+        z-index: 2;
+        mix-blend-mode: darken;
+    }
+    .figure-section2 > img {
+        width: calc((100vh - 300px) / 1);
+    }
+    .title-section-2 >.text-block-section-2 > div > .title,
+    .title-section-2 >.text-block-section-2 > div > h1 {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 600;
+    color:var(--databar_blue);
+    }
+    .detail-section-2 p{
+        font-size: 1vw;
+        font-weight: 400;
+        color: #4d4d4d;
+    }
+    .title-section-4 >.text-block-section-4 > div > .title,
+    .title-section-4 >.text-block-section-4 > div > h1 {
+        margin: 0;
+        font-size: 2vw;
+        font-weight: 600;
+        color:var(--databar_blue);
+    }
+    .detail-section-4 p{
+        font-size: 1vw;
+        font-weight: 200;
+        color: #4d4d4d;
+    }
+    .title-section-4 > .text-block-section-4 {
+        width: 40%;
+        align-items: flex-start;
+        padding-left: 4%;
+        margin-top: 7%;
+    }
+    .detail-section-4{
+         padding: 0;
+         text-align: left;
+    }
+    .flexbox{
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 0 20px;
+    }
+    .flexbox h2{
+        font-size: 1.5vw;
+        font-weight: 600;
+        color:var(--databar_blue);
+        padding-left: 10%;
+    }
+    .flexbox p{
+        font-size: 1vw;
+        font-weight: 300;
+        color: #4d4d4d;
+        padding-left: 10%;
+    }
+    .figure-picture-1{
+        display: flex;
+        position: absolute;
+        flex: 0 0 50%;
+        max-width: 50%;
+        justify-content: flex-end;
+        z-index: 5;
+        top: 0%;
+        right: 6%;
+        mix-blend-mode: darken;
+    }
+    .pic-sec4{
+        width: 85% !important;
+    }
+    .button-box{
+        padding-left: 10%;
+    }
 
+
+}

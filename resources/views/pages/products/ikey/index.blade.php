@@ -81,6 +81,7 @@
                     <p>With many industry firsts, iKey is always the market leader in rugged peripherals.</p>
                 </ul>
             </div>
+        </div>
             <picture class="bg-footer-section-2">
                 <source media="(max-width: 767.98px)" srcset="{{URL::to('images/ikey/phone/Bg_750px-02.jpg')}}">
                 <source media="(max-width: 1023.98px)" srcset="{{URL::to('images/ikey/tap/ikry2048px-02.jpg')}}">
@@ -89,12 +90,11 @@
             <figure class="m-0 figure-section2 flex-column" >
                 <img src="{{URL::to('images/ikey/logo.png')}}" alt="">
             </figure>
-        </div>
     </div>
 </section>
 
 {{-- section3 --}}
-<section id="section3">
+{{-- <section id="section3">
     <div class="container-fluid">
         <div class="title-section-2">
             <div class="text-block-section-2">
@@ -169,7 +169,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 {{-- section3 --}}
 <section>
@@ -189,29 +189,46 @@
                 </a>
             </div>
         </div>
-
-        <div class="title-section-4">
-            <div class="text-block-section-4">
-                <div class="d-flex flex-row align-items-center">
-                    <p class="title">Product Industry</p>
-                </div>
+        <div class="highlight w-100 d-flex">
+            <div class="flexbox">
+                <figure>
+                    <img src="/images/new-website/products/ikey/main/ikey_tab active2-1.png" width="100%" alt="">
+                </figure>
+                <h2>
+                    SM-T397UZKAXAA
+                </h2>
+                <p>
+                    Samsung® Galaxy® Tab Active2 Rugged Tablet + iKey® Keyboard
+                </p>
+                <a class="button-box" href="">
+                    <button class="btn-databar">
+                        View more
+                    </button>
+                </a>
             </div>
-            <div class="ikey-product-menu">
-                <div class="nav-slide-down-content m-sm-t-0 p-sm-right-0 d-flex flex-column">
-                    <a class="menu-color" href="">Medical</a>
-                    <a class="menu-color" href="">Fleet</a>
-                    <a class="menu-color" href="">Public Safety</a>
-                    <a class="menu-color" href="">Oil & Gas</a>
-                    <a class="menu-color" href="">Military</a>
-                    <a class="menu-color" href="">Industrial</a>
-                </div>
+            <div class="flexbox">
+                <figure>
+                    <img src="/images/new-website/products/ikey/main/ik-sam-at-ikey.png" width="100%" alt="">
+                </figure>
+                <h2>
+                    IK-SAM-AT
+                </h2>
+                <p>
+                    The IK-SAM-AT Keyboard is unique
+                </p>
+                <a class="button-box" href="">
+                    <button class="btn-databar">
+                        View more
+                    </button>
+                </a>
             </div>
         </div>
 
-        <picture class="section-picture-1">
-            <source media="(max-width: 767.98px)" srcset="{{URL::to('images/ikey/phone/pic_750px.png')}}">
-            <source media="(max-width: 1023.98px)" srcset="{{URL::to('images/ikey/tap/pic_ikey2048px-04.png')}}">
-            <img src="{{URL::to('images/ikey/web/Pic_ikey-05.png')}}" alt="" style="width:100%;height:auto;">
+
+        <picture class="figure-picture-1">
+            <source media="(max-width: 799px)" srcset="{{URL::to('/images/new-website/products/ikey/main/pic-main_newikey-02.png')}}">
+            <source media="(max-width: 1023.98px)" srcset="{{URL::to('/images/new-website/products/ikey/main/pic-main_newikey-02.png')}}">
+            <img src="{{URL::to('/images/new-website/products/ikey/main/pic-main_newikey-02.png')}}" alt="" class="pic-sec4" style="width:100%;height:auto;">
         </picture>
 
     </div>

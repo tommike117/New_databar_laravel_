@@ -49,7 +49,7 @@ services')
                         <div class="catagories">Accessories</div>
                             <a class="brand" href="/products/armor-x">Armor-x</a>
                             <a class="brand" href="/products/gamber-johnson">Gamber Johnson</a>
-                            <a class="brand" href="/products/ikey">iKey</a>
+                            <a class="brand" href="/products">iKey</a>
                             <a class="brand" href="/products/ram-mounts">Ram Mounts</a>
 
                     </div>
