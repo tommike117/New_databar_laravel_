@@ -159,8 +159,8 @@
                         </p>
                     </div>
                     <figure class="d-flex w-100" style="margin-top: 5%">
-                        <img src="/images/new-website/products/unitech/mobile-computer/small_ea630_screen.png" width="80%" alt="">
-                        <img src="/images/new-website/products/unitech/mobile-computer/screen-1.png" width="80%" alt="">
+                        <img src="/images/new-website/products/unitech/mobile-computer/small_ea630_screen.png" width="50%" alt="">
+                        <img src="/images/new-website/products/unitech/mobile-computer/screen-1.png" width="50%" alt="">
                     </figure>
                     <div class="w-100 d-flex" style="margin-top: 5%;">
                         <div class="col-sm-6 col-md-6 col-lg-6">
