@@ -315,6 +315,12 @@ Route::group(['prefix' => 'products'], function () {
         Route::get('/', function () {
             return view('/pages/products/ikey/index');
         });
+        Route::get('/sm-t397uzkaxaa', function () {
+            return view('/pages/products/ikey/products/sm-t397uzkaxaa');
+        });
+        Route::get('/ik-sam-at', function () {
+            return view('/pages/products/ikey/products/ik-sam-at');
+        });
     });
 
     Route::group(['prefix' => '/ivymobility'], function () {

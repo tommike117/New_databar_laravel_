@@ -200,7 +200,7 @@
                 <p>
                     Samsung® Galaxy® Tab Active2 Rugged Tablet + iKey® Keyboard
                 </p>
-                <a class="button-box" href="">
+                <a class="button-box" href="/products/ikey/sm-t397uzkaxaa">
                     <button class="btn-databar">
                         View more
                     </button>
@@ -216,7 +216,7 @@
                 <p>
                     The IK-SAM-AT Keyboard is unique
                 </p>
-                <a class="button-box" href="">
+                <a class="button-box" href="/products/ikey/ik-sam-at">
                     <button class="btn-databar">
                         View more
                     </button>
