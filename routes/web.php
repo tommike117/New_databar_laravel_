@@ -91,6 +91,9 @@ Route::group(['prefix' => 'products'], function () {
         // Smartphone Samsung
         Route::get('/smartphones', 'NewDatabarProducts@samsung_smartphones');
 
+            Route::get('/smartphones/galaxy-s21', function () {
+                return view('/pages/products/samsung/galaxy-s21');
+            });
             Route::get('/smartphones/Samsung-Galaxy-Xcover-Pro', function () {
                 return view('/pages/products/samsung/Samsung-Galaxy-Xcover-Pro');
             });
@@ -123,6 +126,9 @@ Route::group(['prefix' => 'products'], function () {
             });
             Route::get('/smartphones/galaxy-a51', function () {
                 return view('/pages/products/samsung/galaxy-a51');
+            });
+            Route::get('/smartphones/galaxy-a42', function () {
+                return view('/pages/products/samsung/galaxy-a42');
             });
             Route::get('/smartphones/galaxy-a31', function () {
                 return view('/pages/products/samsung/galaxy-a31');

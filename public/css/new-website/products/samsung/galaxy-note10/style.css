@@ -1,5 +1,7 @@
 
-
+.content-container {
+    font-family: 'Samsung Sharp Sans Bold' !important;
+}
 @media (max-width: 991.98px) {
     .samsung-banner{
         display: none;
@@ -18,14 +20,14 @@
         margin-top: 100px;
     }
     .h2-section-3{
-        font-family: 'Samsung Sharp Sans Bold';
+        font-family: 'Samsung Sharp Sans Bold' !important;
         font-size:20px;
         letter-spacing: 1px;
         padding-top: 25px;
     }
     .h3-section-3{
         font-size:25px;
-        font-family: 'Samsung Sharp Sans Bold';
+        font-family: 'Samsung Sharp Sans Bold' !important;
         margin:10px auto;
         padding-bottom: 25px;
     }
@@ -101,11 +103,11 @@
         /* font-family: 'Samsung Sharp Sans Bold'; */
     }
     .ul-section-7 > li > p {
-        font-family: 'SamsungOne 700';
+        font-family: 'SamsungOne 700' !important;
         font-size:12px;
     }
     .ul-section-7 > li > .p-big{
-        font-family: 'Samsung Sharp Sans Bold';
+        font-family: 'Samsung Sharp Sans Bold' !important;
         font-size:30px;
     }
     .block-section-7-left{
@@ -297,7 +299,7 @@
         margin: auto;
         width: 100%;
         text-align: center;
-        font-family: 'Samsung Sharp Sans Bold';
+        font-family: 'Samsung Sharp Sans Bold'!important;
     }
     .video-text-size{
         font-size:40px;
@@ -365,7 +367,7 @@
     .section-4-article > span > p{
         font-size:20px;
         /* font-family: 'SamsungOne 400'; */
-        font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif';
+        font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif' !important;
         margin-top:1.5rem;
     }
 
@@ -392,7 +394,7 @@
         font-size:18px;
         /* font-family: 'SamsungOne 400'; */
         /* font-family: 'SamsungOne 400'; */
-        font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif';
+        font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif' !important;
         letter-spacing: 1px;
     }
     .block-figure-section-6{

@@ -1,6 +1,6 @@
 @extends('layouts/main-all-products')
 
-@section('title', 'SRP-Q300 MOBILE PRINTER | BIXOLON | DATABAR COMPANY LIMITED')
+@section('title', 'SRP-275III MOBILE PRINTER | BIXOLON | DATABAR COMPANY LIMITED')
 
 
 @section('link')
@@ -20,8 +20,8 @@
                         <div>
                             <nav aria-label="breadcrumb" id="breadcrumb">
                                 <ol itemscope itemtype="http://schema.org/Product" class="breadcrumb mt-lg-5" style="background:transparent;margin-top: 60px !important; ">
-                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/bixolon"><span itemprop="name">Bixolon</span></a></li>
+                                    <li class="breadcrumb-item"><a href="/products/bixolon">Bixolon</a></li>
+                                    <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/bixolon/pos-printer"><span itemprop="name">POS-Printer</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
                                         <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">SRP-275III</h1>
                                     </li>

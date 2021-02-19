@@ -1,0 +1,98 @@
+.section-1{
+    position: relative;
+    height: auto;
+}
+.bg-stack-1{
+    position: absolute;
+    top: calc(100% / 6);
+    padding: 0 30%;
+    width: 100%;
+}
+.bg-stack-2{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: calc(100% / 12);
+    margin: -35px -35px 0 0;
+}
+.bg-stack-3{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: calc(100% / 1.3);
+    padding: 0 20%;
+}
+.section-2  {
+    height: auto;
+    margin-top: 10%;
+}
+.text-2{
+    text-align: center;
+    margin-top: 10%;
+}
+.text-2 > h2 {
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text-2 > p{
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #4d4d4d;
+    padding: 0 12%;
+}
+.section-3  {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.text-3{
+    padding-top: 10%;
+    text-align: center;
+}
+.text-3 > h2 {
+    font-size: 4vw;
+    font-weight: 600;
+    color: white;
+}
+.text-3 > p{
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #4d4d4d;
+    padding: 0 12%;
+    color: white;
+
+}
+.icon-wide{
+    max-width: 80%;
+}
+.d-flex{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+.pic-wide{
+    padding: 0 12%;
+}
+.mb-5{
+    font-size: 1vw;
+}
+.section-6{
+    padding: 0 10%;
+    margin-top: 10%;
+}
+.text-6{
+    text-align: start;
+}
+.text-6 > h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text-6 > p{
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #4d4d4d;
+}
+.text-10 > h2{
+    padding: 0 10%;
+}

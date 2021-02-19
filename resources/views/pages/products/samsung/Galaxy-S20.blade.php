@@ -4,8 +4,8 @@
 
 
 @section('link')
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-s20/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/page-style/samsung/galaxy-s20/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-s20/main.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-s20/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection
@@ -217,11 +217,11 @@
 
         <p class="text-black text-left" style="font-size: 18px;padding-left: 15px;padding-left:5%">SUPER STEADY</p>
         <div style="display: flex; margin:5% 0">
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h3 class="text-black text-left" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">Sophisticated AI stabilises video like an action cam</h3>
 
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <p class="text-black text-left" style="font-size: 18px;padding: 20px 0px 20px 7%;">The larger sensor and anti-rolling stabiliser balances camera movement, so your footage won't turn out blurry and unstable but super smooth.</p>
             </div>
         </div>

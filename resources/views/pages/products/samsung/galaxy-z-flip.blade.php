@@ -66,8 +66,11 @@
     <section class="section section-6">
         <div class="block-video">
         <video class="video-section-6" title="Samsung Galaxy z-flip" autoplay muted loop>
-            <source src="/images/samsung/galaxy-z-flip/galaxy-z-flip_around_blackmirror.webm" type="video/mp4">
+            <source src="/images/samsung/galaxy-z-flip/galaxy-z-flip_around_blackmirror.webm" type="video/webm">
         </video>
+        <picture class="pic-none">
+            <img src="/images/samsung/galaxy-z-flip/th-galaxy-z-flip-sm-f700-sm-f700fzkdthl-frontmirrorblack-207745627.png" alt="" width="100%" >
+        </picture>
         </div>
         <div class="block-text-section-6">
             <h3>Absolutely stunning, all the way around</h3>
@@ -84,6 +87,9 @@
                 <video class="video-section-7" title="Samsung Galaxy z-flip" autoplay muted>
                     <source src="/images/samsung/galaxy-z-flip/galaxy-z-flip_screen.webm" type="video/mp4">
                 </video>
+                <picture class="pic-none">
+                    <img src="/images/samsung/galaxy-z-flip/galaxy-z-flip_screen_end.jpg" width="100%" alt="">
+                </picture>
             </div>
             <div class="block-text-section-7 right">
                 <p>Galaxy Z Flip's Infinity Flex Display is an immersive Dynamic AMOLED screen delivering incredible colour quality and reduced blue light. With minimised bezels and no notch, it's 6.7 inches of stunning cinematic viewing.</p>
@@ -121,13 +127,13 @@
         </div>
     </section>
 
-    <section class="section section-10"style="margin-top:200px;">
+    <section class="section section-10 dis-none"style="margin-top:200px;">
         <figure class="figure-image-section-10" >
             <img src="{{URL::to('/images/samsung/galaxy-z-flip/galaxy-z-flip_talking_google_purple.webp')}}" style="width: 100%; border-radius:35px;" alt="">
         </figure>
     </section>
 
-    <section class="section section-11">
+    <section class="section section-11 dis-none">
         <div class="container">
             <div class="row" style="margin-top: 200px">
                 <div class="col-xs-12 col-sm-6 col-md-6 text-flow-5">
@@ -143,7 +149,7 @@
         </div>
     </section>
 
-    <section class="section section-12"style="margin-top:200px;">
+    <section class="section section-12 dis-none"style="margin-top:200px;">
             <div class="block-video-1">
                 <video class="video-section-8" title="Samsung Galaxy z-flip" autoplay muted loop>
                     <source src="/images/samsung/galaxy-z-flip/galaxy-z-flip_cover.webm" type="video/mp4">
@@ -159,7 +165,7 @@
             </div>
     </section>
 
-    <section class="section section-13 "style="margin-top:300px">
+    <section class="section section-13 dis-none"style="margin-top:300px">
         <div class="block-h12">
             <figure class="figure-image-section-12" style="overflow: hidden;">
                 <img src="{{URL::to('/images/samsung/galaxy-z-flip/galaxy-z-flip_outlast_img_purple.jpg')}}"  style="width: 100%;" alt="">
@@ -171,7 +177,7 @@
         </div>
     </section>
 
-    <section class="section section-14" style="margin-top: 200px">
+    <section class="section section-14" >
         <div class="text-flow-8">
             <h13>What's in the box</h13>
         </div>

@@ -1,0 +1,121 @@
+.text{
+    text-align: center;
+    padding-top:10% ;
+}
+.text > h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text > h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text > p{
+    font-size: 2vw;
+    font-weight: 200;
+    color: #4d4d4d;
+}
+.text-1 > p{
+    padding: 0 25%;
+}
+.text-2{
+    text-align: start;
+    padding: 15% 30% 0 41%;
+}
+.text-2 > p {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.section-2 {
+    text-align: center;
+}
+.section-3{
+    padding: 0 20%;
+}
+.text-3{
+    text-align: end;
+    flex: 0 0 50%;
+    padding-top: 0;
+}
+.text-3 > h2{
+    margin-top: 5%;
+}
+.text-3 > p {
+    font-size: 1.5vw;
+}
+.section-5  {
+    position: relative;
+    margin-top: 20%;
+    height: fit-content;
+}
+.text-5{
+    position: absolute;
+    top: 0;
+    padding: 6% 20% 0 12%;
+}
+.text-5-1{
+    position: absolute;
+    padding: 0% 12% 0 50%;
+    bottom: -35%;
+    text-align: start;
+}
+.section-6{
+    height: auto;
+    margin-top: 35%;
+    position: relative;
+}
+.text-6{
+    position: absolute;
+    top: calc(100% / 3);
+    padding: 0 0 0 30%;
+}
+.section-7{
+    position: relative;
+    margin-top: 10%;
+}
+.video-7{
+    width: 100%;
+    filter: brightness(0.5);
+}
+.text-7{
+    position: absolute;
+    top: calc(100% / 3);
+    padding:  0 30%;
+    color: white;
+}
+.pic-none{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .section-2 > img {
+        width: 100%;
+    }
+    .section-3{
+        margin-top: 20%;
+        padding: 0 5%;
+    }
+    .section-4  {
+        margin-top: 20%;
+    }
+    .section-5  {
+        margin-top: 40%;
+    }
+    .text-6{
+        top: calc(100% / 2);
+    }
+    .video-7{
+       display: none;
+    }
+    .pic-none{
+        display: block;
+        filter: brightness(0.5);
+    }
+    .text-7{
+        padding: 0 25%;
+    }
+    .text-7 > h2{
+        font-size: 6vw;
+
+    }
+}

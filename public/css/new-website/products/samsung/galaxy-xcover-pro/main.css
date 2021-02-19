@@ -79,6 +79,11 @@
 h1{
     margin:0;
 }
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media only screen and (min-width:320px) {
     #breadcrumb{
         display:none;
@@ -150,6 +155,7 @@ h1{
     .content_text{
         font-size:15px;
     }
+
 }
 @media only screen and (min-width:320px) {
     .firstrow {
@@ -159,7 +165,7 @@ h1{
         font-size:13px !important;
         padding:0 15px !important;
         width:100% !important;
-    } 
+    }
     .col-md-12{
         padding-top:0 !important;
     }
@@ -179,6 +185,26 @@ h1{
     .slide{
         margin-top:100px !important;
     }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:426px) {
+    .ul-product {
+        width: 20% !important;
+    }
+    .feature-tab{
+        padding: 0 10%;
+    }
+    .border-right-solid > p{
+        font-size: 1.5vw;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 @media only screen and (min-width:768px) {
     .firstrow {
@@ -188,7 +214,7 @@ h1{
         font-size:13px !important;
         padding:0 15px !important;
         width:100% !important;
-    } 
+    }
     .col-md-12{
         padding-top:0 !important;
     }
@@ -208,50 +234,14 @@ h1{
     .slide{
         margin-top:100px !important;
     }
-}
-@media only screen and (min-width:1024px) {
 
-    #breadcrumb{
-        display: block;
-    }
-    .firstrow {
-        margin-top: 0% !important;
-    }
-    .content_text{
-        font-size:13px !important;
-        padding:0 10% !important;
-    } 
-    .text-section1{
-        font-size:60px !important;
-    }
-    .remark{
-        font-size:10px !important;
-        text-align:center !important;
-        margin-top:5% !important;
-        padding:0 10% !important;
-        margin-bottom:0 !important;
-    }
-    .remark:not(first-child){
-        margin:0 !important;
-    }
-    .slide{
-        margin-top:100px !important;
-    }
-    .thumbnails{
-        top:110px;
-    }
 }
 
-@media only screen and (max-width:426px) {
-    .ul-product {
-        width: 20% !important;
-    } 
-}
 
 @media (max-width: 991.98px){
-        
+
     .text-header{
-        font-size: 40px;
+        font-size: 30px;
         margin: 10% 10% 10px 10%;
         text-align: center;
         font-weight: 600;
@@ -286,3 +276,36 @@ h1{
     }
 
 }
+@media only screen and (min-width:1024px) {
+
+    #breadcrumb{
+        display: block;
+    }
+    .firstrow {
+        margin-top: 0% !important;
+    }
+    .content_text{
+        font-size:13px !important;
+        padding:0 10% !important;
+    }
+    .text-section1{
+        font-size:60px !important;
+    }
+    .remark{
+        font-size:10px !important;
+        text-align:center !important;
+        margin-top:5% !important;
+        padding:0 10% !important;
+        margin-bottom:0 !important;
+    }
+    .remark:not(first-child){
+        margin:0 !important;
+    }
+    .slide{
+        margin-top:100px !important;
+    }
+    .thumbnails{
+        top:110px;
+    }
+}
+
