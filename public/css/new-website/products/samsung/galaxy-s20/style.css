@@ -1,4 +1,8 @@
-
+@media screen and (min-width: 598px) and (max-width: 850px) {
+    .d-flex-none-tab{
+        display: block !important;
+    }
+}
 @media screen and (max-width: 598px){
     .image-1{
         width: 120vh !important;

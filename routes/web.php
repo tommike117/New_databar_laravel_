@@ -130,6 +130,9 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/smartphones/galaxy-a42', function () {
                 return view('/pages/products/samsung/galaxy-a42');
             });
+            Route::get('/smartphones/galaxy-a32', function () {
+                return view('/pages/products/samsung/galaxy-a32');
+            });
             Route::get('/smartphones/galaxy-a31', function () {
                 return view('/pages/products/samsung/galaxy-a31');
             });
@@ -141,6 +144,9 @@ Route::group(['prefix' => 'products'], function () {
             });
             Route::get('/smartphones/galaxy-a11', function () {
                 return view('/pages/products/samsung/galaxy-a11');
+            });
+            Route::get('/smartphones/galaxy-a12', function () {
+                return view('/pages/products/samsung/galaxy-a12');
             });
             Route::get('/smartphones/galaxy-a01', function () {
                 return view('/pages/products/samsung/galaxy-a01');
@@ -170,6 +176,9 @@ Route::group(['prefix' => 'products'], function () {
             });
             Route::get('/tablets/galaxy-tab-s6-lte', function () {
                 return view('/pages/products/samsung/galaxy-tab-s6-lte');
+            });
+            Route::get('/tablets/galaxy-tab-s7', function () {
+                return view('/pages/products/samsung/galaxy-tab-s7');
             });
             Route::get('/tablets/Galaxy-Tab-A-10-1', function () {
                 return view('/pages/products/samsung/Galaxy-Tab-A-10-1');

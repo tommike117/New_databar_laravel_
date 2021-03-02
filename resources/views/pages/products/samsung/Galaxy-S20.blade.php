@@ -216,7 +216,7 @@
 
 
         <p class="text-black text-left" style="font-size: 18px;padding-left: 15px;padding-left:5%">SUPER STEADY</p>
-        <div style="display: flex; margin:5% 0">
+        <div style="display: flex; margin:5% 0" class="d-flex-none-tab">
             <div class="col-lg-6 col-sm-12">
                 <h3 class="text-black text-left" style="margin-top: 0px;font-size: 39px;line-height: 55px;padding: 20px 0px 20px 7%;">Sophisticated AI stabilises video like an action cam</h3>
 

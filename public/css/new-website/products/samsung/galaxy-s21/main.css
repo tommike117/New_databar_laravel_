@@ -86,6 +86,219 @@
 .pic-none{
     display: none;
 }
+.section-8{
+    margin-top: 20%;
+}
+.text-8{
+    flex: 0 0 40%;
+    text-align: start;
+    padding-left: 16%;
+}
+.section-9 {
+    margin-top: 5%;
+}
+.pic-9{
+    padding: 5% 5% 0 10%;
+}
+.video-9{
+    width: 100%;
+    padding:  5% 10%;
+}
+.section-10{
+    margin-top: 10%;
+}
+.text-10{
+    flex: 0 0 50%;
+    padding-left: 20%;
+    padding-top: 7%;
+}
+.text-10 > p{
+    font-size:  1.5vw;
+    font-weight: 500;
+}
+.section-11{
+    margin-top: 10%;
+}
+.text-11 > p {
+    font-size:  1.2vw;
+    font-weight: 600;
+    color: #4d4d4db5;
+    padding: 0 10%;
+}
+.pic-click{
+    flex: 0 0 50%;
+    text-align: center;
+    padding: 0 10%;
+}
+.click > h2 {
+    margin-bottom: 10%;
+    width: 70%;
+}
+.click > a{
+    display: flex;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.on-click{
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid #4d4d4db5;
+    width: fit-content;
+    font-weight: 600;
+}
+a:hover{
+    font-weight: 600;
+    transition: 0.6s;
+}
+.section-13{
+    display: block;
+    padding: 0 20%;
+    margin-top: 20%;
+}
+.text-13{
+    text-align: start;
+    padding-top: 0;
+}
+.text-13 > p{
+    font-size:  1.5vw;
+}
+.text-14{
+    position: absolute;
+    top: calc(100% / 4);
+    padding:  0 30%;
+    color: white;
+}
+.text-14 > p{
+    font-weight: 600;
+    color: #797979;
+}
+.text-14-1 > p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #4d4d4d;
+    margin-top: 5%;
+    padding: 0 10% 0 13%;
+}
+.media-15{
+    display: block;
+    padding: 0 10%;
+    margin-top: 10%;
+}
+.text-15-1{
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #4d4d4d;
+    margin-top: 5%;
+    padding: 0 10% 0 13%;
+}
+.text-16 > p{
+    color: #797979;
+    padding: 1% 20% ;
+    font-size: 2vw;
+    text-align: center;
+}
+.section-17{
+    padding: 0 13%;
+}
+.text-17{
+    text-align: start;
+    margin-top: 20%;
+    padding: 0 5%;
+}
+.text-17 > h2{
+    font-size: 3vw;
+}
+.text-17 > p{
+    font-size: 1.5vw;
+}
+.section-18{
+    margin-top: 20%;
+    padding: 0 13%;
+}
+.text-18 > p{
+    margin-top: 3%;
+}
+.section-19{
+    display: flex;
+    margin-top: 20%;
+}
+.text-19{
+    flex: 0 0 50%;
+    padding-left: 15%;
+    text-align: start;
+}
+.text-19 > p{
+    font-size: 1.5vw;
+}
+.pic-19{
+    padding-left: 10%;
+}
+.section-20{
+    margin-top: 20%;
+}
+.text-20{
+    padding: 0 15%;
+    margin-top: 5%;
+}
+.section-21{
+    position: relative;
+    margin-top: 20%;
+}
+.text-21{
+    position: absolute;
+    top: calc(100% /1.6);
+    color: white;
+    text-align: start;
+    padding: 0 20%;
+}
+.text-21 > h2{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.text-21 > h3{
+    font-size: 3vw;
+    font-weight: 600;
+
+}
+.text-21 > p{
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+.section-22{
+    margin-top: 20%;
+}
+.text-22{
+    text-align: start;
+    padding: 0 15%;
+}
+.text-22 > h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text-22 > p{
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: #4d4d4d;
+}
+.section-23{
+    position: relative;
+    margin: 10% 0 ;
+}
+.text-23{
+    position: absolute;
+    top: calc(100%/7);
+    left: calc(100%/1.7);
+}
+.text-23 > h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text-23 > p{
+    font-size: 1.5vw;
+    color: #777777;
+    font-weight: 600;
+}
+
 
 @media screen and (max-width: 850px){
     .section-2 > img {
@@ -109,13 +322,60 @@
     }
     .pic-none{
         display: block;
-        filter: brightness(0.5);
     }
     .text-7{
         padding: 0 25%;
     }
     .text-7 > h2{
         font-size: 6vw;
+    }
+    .video-8{
+        display: none;
+    }
+    .video-9{
+        display: none;
+    }
+    .text-10{
+        padding-top: 19%;
+    }
+    .section-12 > .d-flex{
+        display: block !important;
 
     }
+    .pic-click{
+        flex: 0 0 100%;
+
+    }
+    .pic-click > img{
+        width: 80%;
+    }
+    .click{
+        padding: 0 20%;
+    }
+    .click > h2 {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 3.5vw;
+    }
+    .click > a{
+        margin-top: 1%;
+    }
+    .section-13{
+        padding: 0 10%;
+    }
+    .video-15{
+        display: none;
+    }
+    .section-19{
+        display: block;
+    }
+    .text.text-19 {
+        padding: 0 18%;
+    }
+    .pic-19{
+        display: block;
+        padding: 0 30%;
+    }
+
 }

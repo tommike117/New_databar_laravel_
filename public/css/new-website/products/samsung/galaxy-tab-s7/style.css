@@ -1,0 +1,196 @@
+section {
+    padding: 0 5%;
+}
+.text{
+    text-align: center;
+}
+.text > h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.text > p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.section-1  {
+    padding-top: 10%;
+}
+.text-1{
+    padding: 0 5%;
+}
+.section-2{
+    margin-top: 20%;
+}
+.text-2 > h2{
+    font-size: 3vw;
+}
+.text-2 > p{
+    font-size: 1vw;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box-text{
+    padding: 0 3%;
+}
+.box-text > p{
+    font-size: 0.9vw;
+    font-weight: 600;
+}
+.box-text > ul > li {
+    font-size: 0.9vw;
+    font-weight: 200;
+}
+.sup-text{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.box-text-2{
+
+}
+.section-3{
+    padding: 0 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4{
+    background-color: black;
+}
+.text4{
+    color: white;
+    text-align: start;
+    padding: 10% 20% 0 20%;
+}
+.text-4-1{
+    display: flex;
+    color: white;
+    padding: 10% 15% 0 15%;
+}
+.text-4-1 > div {
+    flex: 0 0 50%;
+}
+.text-4-1 > div > h2{
+    padding-right: 10%;
+}
+.text-4-2 > div {
+    padding-top: 10%;
+}
+.text-5{
+    color: black;
+}
+.text-6{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text-6 > div{
+    padding-top: 10%;
+}
+.text-6 > img{
+}
+.section-6{
+    margin-top: 20%;
+    padding:  0 10%;
+    display: block;
+}
+.text-7{
+    color: black;
+}
+.section-9{
+    margin-top: 20%;
+    padding: 0 10% 0 5%;
+    display: block;
+}
+.section-10{
+    margin-top: 20%;
+    position: relative;
+}
+.text-10{
+    color: black;
+    padding: 0% 15% 0 15%;
+    position: absolute;
+    top: calc(100% /10);
+}
+.section-11{
+    margin-top: 20%;
+    position: relative;
+}
+.text-11{
+    padding: 0% 40% 0 20%;
+    position: absolute;
+    top: calc(100% /10);
+}
+.section-12{
+    margin-top: 20%;
+}
+
+
+@media screen and (max-width: 850px){
+.box-text > picture > img{
+    width: 20%;
+    height: auto;
+
+}
+.text4 > img {
+    width: 30%;
+}
+.text-4-1{
+    display: block;
+}
+.text-6{
+    display: block;
+}
+.text-6 > div{
+    flex: 0 0 100%;
+    padding-top: 10%;
+
+}
+.text-11 {
+    padding: 0% 40% 0 5%;
+    position: absolute;
+    top: calc(100% /50);
+}
+.section-9{
+    padding: 0 10%;
+}
+.text-4-1 > div > h2{
+    font-size: 4vw;
+}
+.text-4-1 > div > p,
+.text-4-1 > p{
+    font-size: 2vw;
+}
+.text-6 > div > h2{
+    font-size: 4vw;
+}
+.text-6 > div > p{
+    font-size: 2vw;
+}
+.text-11 > h2{
+    font-size: 4vw;
+}
+.text-11 > p  {
+    font-size: 2vw;
+}
+.text-12{
+    padding: 0 10%;
+}
+
+}
+@media screen and (max-width: 761px){
+    .text-10{
+        color: black;
+        padding: 0% 15% 0 15%;
+        position: relative;
+    }
+    .section-9{
+        padding: 10% 15% 0 15%;
+    }
+
+
+}
