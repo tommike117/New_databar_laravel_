@@ -140,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="container" style="margin: 8% 0">
+            <div class="container icon-column" style="margin: 8% 0">
                 <div class="row text-center feature-tab" style="align-items: center;">
                         <div class="border-right-solid col-3 feature-tab-icon">
                             <span class="icon icon-quad-camera"></span>
@@ -252,7 +252,7 @@
     <!--choose angle wide ultra wide-->
     <section >
         <div class="container-fluid">
-        <div class="row justify-content-center" style="padding-top:200px;">
+        <div class="row justify-content-center margin-mobile" style="padding-top:200px;">
 
             <div class="block-h1 flex-column"style="text-align:center;">
                 <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
@@ -285,7 +285,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Macro Camera <br>that captures the<br> up-close details</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Quad Camera built-in 5MP Macro Cam (40mm) shoots with clarity and quality helping you bring out the ultra-fine details of your close-up shots. Apply and adjust natural background blur (Bokeh) to isolate your subject and increase its visual impact.
                 </p>
-                <p style="padding-top: 200px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.**Macro Camera feature supported for rear camera only.
+                <p class="p-t" style="padding-top: 200px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.**Macro Camera feature supported for rear camera only.
                     </p>
                 </div>
             </div>
@@ -349,7 +349,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">A selfie camera to see yourself in a new light</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Capture your best angles with Galaxy M31's 32MP front camera. Use Live focus to gently blur the background so all eyes are on you, and get your good side whether you're at a café or at the park.
                 </p>
-                <p style="padding-top: 200px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
+                <p class="p-t" style="padding-top: 200px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
                     </p>
                 </div>
             </div>
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                 <div class="col-xs-6 col-sm-6 col-md-6" style="padding:0;">
-                    <div data-aos="fade-down">
+                    <div class="body-text" data-aos="fade-down">
                         <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Power to get<br> through your <br>day</label><br>
                         <p class="section3_text_line2" style="font-size:17px;padding:0 10%; width:60%;">Whether you’re watching movies or video chatting, you need a phone that can keep up. Galaxy M31’s 6,000mAh (typical*) battery lets you spend more time doing what you love, while up to 15W Fast Charging capability delivers more charge in less time.
                         </p>
@@ -478,7 +478,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
                     <div data-aos="fade">
                         <figure>
-                            <img src="/images/samsung/galaxy-m31/levant-feature-keep-your-device-in-tip-top-condition-with-us-251921722.webp" style="width:100%;" alt="samsung galaxy m31 Display">
+                            <img src="/images/samsung/galaxy-m31/th-feature-keep-your-device-in-tip-top-condition-with-us-219992648.webp" style="width:100%;" alt="samsung galaxy m31 Display">
                         </figure>
                     </div>
                 </div>

@@ -140,7 +140,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-triple-camera"></span>
@@ -255,7 +255,7 @@
 <section >
     <div class="container-fluid">
 
-        <div class="row justify-content-center" style="padding-top:200px; margin: 0;">
+        <div class="row justify-content-center margin-mobile" style="padding-top:200px; margin: 0;">
             <div class="block-h1 flex-column"style="text-align:center;">
                 <label class="section1_text_line1" for="" style="font-size:70px;font-weight:bold;">Capture your world in ultra wide</label><br>
                 <p class="section1_text_line_svg" style="font-size:17px;padding:0 10%;">See more in your photos with the Ultra Wide Camera. The 80° wide angle and 123° ultra wide angle capture the scene as you see it, so you won't miss the moment from where you stand. Now it's even easier to get a great panorama.</p>
@@ -383,8 +383,10 @@
                     </div>
                 </div>
             </div>
-            <div class="flex-banner" style="padding-bottom: 200px;">
-                <img id="changepic" src="{{URL::asset('/images/samsung/galaxy-m21/th-feature-fingerprint-sensor-219992561.webp')}}" style="width:100%;" alt="">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="flex-banner" style="padding-bottom: 200px;">
+                    <img id="changepic" src="{{URL::asset('/images/samsung/galaxy-m21/th-feature-fingerprint-sensor-219992561.webp')}}" style="width:100%;" alt="">
+                </div>
             </div>
         </div>
     </section>

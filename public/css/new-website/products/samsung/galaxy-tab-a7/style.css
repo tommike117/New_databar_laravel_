@@ -1,0 +1,99 @@
+section {
+    padding: 0 5%;
+}
+.text{
+    text-align: center;
+}
+.text > h2{
+    font-size:40px;
+    font-weight: 600;
+}
+.text > p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.text-1{
+    padding: 5% 10% 0 10%;
+}
+.text-1 > h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 2% 0;
+}
+.section-2{
+    margin-top: 5%;
+}
+.video-3{
+    width: 100%;
+    height: 600px;
+}
+.section-7{
+    margin-top: 10%;
+}
+.box-1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box-2{
+    display: flex;
+}
+.box-3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text-box-1,
+.text-box-2,
+.text-box-3 {
+    flex: 0 0 50%;
+    padding: 15% 5% 0 5%;
+}
+.text-box-1 > h2,
+.text-box-2 > h2,
+.text-box-3 > h2{
+    font-weight: 600;
+}
+.pic-3{
+    display: none;
+}
+
+
+@media screen and (max-width: 850px){
+    .pic-3{
+        display: block;
+    }
+    .video-3 {
+        display: none ;
+    }
+    .box-1{
+        display: block;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+    .box-2{
+        display: block;
+        text-align: center;
+    }
+    .box-3{
+        display: block;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 560px){
+    .text-1 > h2{
+        font-size: 25px;
+    }
+    .text-1 > h3{
+        font-size: 13px;
+    }
+    .text-1 > p{
+        font-size: 10px;
+    }
+    .text-box-1 > h2,
+    .text-box-2 > h2,
+    .text-box-3 > h2{
+    font-size: 25px;
+    font-weight: 600;
+    }
+}

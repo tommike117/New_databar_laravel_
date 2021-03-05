@@ -5,7 +5,7 @@
 @section('link')
 
 <link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/samsung-galaxy-s10/main.css')}}">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -52,10 +52,12 @@
             <div class="col-xs-12 col-md-12 col-sm-12" style="text-align:center;">
                 <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="700" data-aos-easing="ease-in-out"
                     data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
-                    <iframe width="100%" height="748"
-                        src="https://www.youtube.com/embed/sbQZ0Mrpp80?playlist=sbQZ0Mrpp80&loop=1&autoplay=1&showinfo=0&controls=0&mute=1"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <picture class="pic-none">
+                        <img src="/images/samsung/samsung-galaxy-s10/27458b0d-3c81-40cc-b8ad-0f719137f682._CR0,0,1464,600_PT0_SX1464__.jpg" width="100%" alt="">
+                    </picture>
+                    <video class="video-none" width="100%" height="768px" autoplay loop muted>
+                        <source src="/images/samsung/samsung-galaxy-s10/Galaxy S10 Official TVC The Next Generation Galaxy.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -98,8 +100,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="padding-top:300px;">
-        <div class="row">
+    <div class="container-fluid" >
+        <div class="row" style="padding-top:300px;">
             <div class="col-xs-12 col-sm-12 col-md-6">
                 <div data-aos="fade" data-aos-delay="0" data-aos-duration="700" data-aos-easing="ease-in-out"
                     data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
@@ -180,8 +182,8 @@
             </div>
         </div>
     </div>
-    <div class="container" style="padding-top:600px;">
-        <div class="row">
+    <div class="container" >
+        <div class="row" style="padding-top:600px;">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div data-aos="fade-down" data-aos-offset="0" data-aos-delay="0" data-aos-duration="700"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
@@ -247,8 +249,8 @@
             </div>
         </div>
     </div>
-    <div class="container" style="padding-top:1000px;">
-        <div class="row">
+    <div class="container" >
+        <div class="row" style="padding-top:1000px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="z-index:3;">
                 <div data-aos="fade-down" data-aos-offset="0" data-aos-delay="0" data-aos-duration="700"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
@@ -426,4 +428,8 @@
 
 @section('script')
 <script src="{{ URL::asset('/js/page-js/samsung/samsung-galaxy-s10/main.js')}}"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 @endsection

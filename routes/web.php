@@ -183,13 +183,18 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/tablets/Galaxy-Tab-A-10-1', function () {
                 return view('/pages/products/samsung/Galaxy-Tab-A-10-1');
             });
+            Route::get('/tablets/galaxy-tab-a7', function () {
+                return view('/pages/products/samsung/galaxy-tab-a7');
+            });
             Route::get('/tablets/Galaxy-Tab-A-2019', function () {
                 return view('/pages/products/samsung/Galaxy-Tab-A-2019');
             });
             Route::get('/tablets/galaxy-tab-a-2019-plus', function () {
                 return view('/pages/products/samsung/galaxy-tab-a-2019-plus');
             });
-
+            Route::get('/tablets/galaxy-z-fold-2', function () {
+                return view('/pages/products/samsung/galaxy-z-fold-2');
+            });
         Route::get('/knox', function () {
             return view('/pages/products/samsung/samsung-knox/index');
         });
