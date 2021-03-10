@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" >
+        <div class="container icon-column" >
             <div class="row text-center feature-tab" style="align-items: center;">
                 <div class="border-right-solid col-3 " style="padding:50px">
                     <img src="/images/samsung/galaxy-xcover-pro/icon-ip68.png" style="width: 70%" alt="ip68">

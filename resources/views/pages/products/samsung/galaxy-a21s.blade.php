@@ -137,12 +137,8 @@
                     </ul>
                 </div>
             </div>
-
-
-
-
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-display-6-5"></span>
@@ -258,7 +254,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Quad Cam lets you shoot with more perspective</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Go ultra high-res with a 48MP Main Cam for crisp, clear photos day and night. A 123° 8MP Ultra Wide Cam captures more of the view. Choose the upgraded 2MP Macro Cam for highly refined close-ups, and make sure the subject always stands out with the 2MP Depth Camera’s multiple Live Focus effects.
                 </p>
-                <p style="padding-top: 150px; width:70%; font-size:13px;">*Color availability may vary by country or carrier.
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">*Color availability may vary by country or carrier.
                     </p>
                 </div>
             </div>
@@ -299,7 +295,7 @@
             <img id="changecamerawide" src="{{URL::asset('/images/samsung/galaxy-a21s/levant-feature---251921766.webp')}}" style="width:100%;" alt="">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
-            <p style="padding-top: 0px; font-size:13px; text-align:center;">*Images simulated for illustrative purposes.<br>
+            <p class="extra-line" style="padding-top: 0px; font-size:13px; text-align:center;">*Images simulated for illustrative purposes.<br>
                 **Ultra wide experience (photo/video) is supported for rear camera only.
             </p>
         </div>
@@ -315,7 +311,7 @@
                 <div data-aos="fade-down">
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Macro Cam that captures the up-close details</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Quad Cam’s built-in 2MP Macro Cam (40mm) shoots with clarity and quality helping you bring out the ultra-fine details of your close-up shots. Apply natural background blur to isolate your subject and make it stand out.
-                <p style="padding-top: 150px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.<br>
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.<br>
                     **Macro Camera feature supported for rear camera only.
                     </p>
                 </div>
@@ -385,7 +381,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Attention-grabbing selfies made easy</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">You want your selfie to look good. So for stunning daytime looks, Galaxy A21s' 13MP front camera gives you clear, high-resolution photos. And with Live focus to gently blur the background, your face becomes the star.
                 </p>
-                <p style="padding-top: 100px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
+                <p class="extra-line" style="padding-top: 100px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
                     </p>
                 </div>
             </div>

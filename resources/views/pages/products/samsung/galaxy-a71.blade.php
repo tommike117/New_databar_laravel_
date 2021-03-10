@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-display-6-7"></span>
@@ -307,7 +307,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">cameras to capture more of your world</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Whether the moment calls for a close-up, an ultra-wide shot, a night time photo, or some artistic Bokeh blur, the A71 Quad Cam delivers with pro-level quality and ease. From a 64MP Main Cam to a 123° Ultra Wide Cam, to a close-up Macro Cam and even a specialised Depth Cam, A71 is ready for any moment.
                 </p>
-                <p style="padding-top: 150px; width:70%; font-size:13px;">* Images simulated for illustrative purposes. Colour availability may vary by retailer and carrier.
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">* Images simulated for illustrative purposes. Colour availability may vary by retailer and carrier.
                     </p>
                 </div>
             </div>

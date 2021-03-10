@@ -6,7 +6,9 @@
 @section('title', 'Galaxy Tab Active3 | Samsung Tablet | DATABAR COMPANY LIMITED')
 
 @section('canonical')
-<link rel="stylesheet" type="text/css" href="/css/page-style/samsung/galaxy-tab-active-3/main.css">
+<link rel="stylesheet" type="text/css" href="/css/new-website/products/samsung/galaxy-tab-active-3/main.css">
+<link rel="stylesheet" type="text/css" href="/css/new-website/products/samsung/galaxy-tab-active-3/style.css">
+
 
 @endsection
 
@@ -96,16 +98,10 @@
                     </ul>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </div>
-
-
-
-<div class="container">
+<div class="container icon-column">
     <div class="row text-center feature-tab" style="align-items: center;">
         <div class="border-right-solid col-3 " style="padding:50px">
             <img src="/images/samsung/galaxy-xcover-pro/icon-ip68.png" style="width: 70%" alt="ip68">
@@ -125,82 +121,119 @@
         </div>
     </div>
 </div>
-
-
-{{-- <div class="container container-fluid">
-    <h2 class="text-header">The tablet that can do what others can't</h2>
-    <p class="description-header">Its tough, rugged IP68 and anti-shock design with protective case make it the ultimate device, whether it's used at home, on the road, or the other places life takes you. A large screen and long-lasting replaceable battery let you travel without boundaries and experience more.</p>
-</div>
-<img class="img-header" src="/images/samsung/galaxy-tab-active-pro/uk-feature-the-tablet.webp" alt="galaxy-tab-active-pro">
-<div class="text-center">
-    <sub>*Galaxy Tab Active Pro is available in two models: LTE and Wi-Fi. Model availability may vary by country and region.</sub>
-</div>
-
-<div class="container">
-    <h2 class="text-header">Built to be as active as you</h2>
-    <p class="description-header">Galaxy Tab Active Pro was built to be as active as you, whether indoor or out. IP68 water and dust resistance lets you handle it in various conditions, while anti-shock protection makes it extra durable. The large 10.1 inch screen allows you to see and do more.</p>
-</div>
-<img src="/images/samsung/galaxy-tab-active-pro/feature-built-to-be-as-active-as-you-185437739.webp" alt="#" style="width:100%">
-<div class="container">
-    <h2 class="text-header">Powered to keep going</h2>
-    <p class="description-header">Bring your tablet along with you for the ride with a battery that lasts. A 7,600mAh capacity gives up to 15 hours of video playback from full charge, so you can keep going even when outlets are few and far away. USB-C charging minimises time spent near the socket.</p>
-</div>
-<img src="/images/samsung/galaxy-tab-active-pro/feature-powered-to-keep-going-185437743.webp" alt="#" style="width:100%">
-<div class="container text-center" style="margin-top:30px;">
-    <sub>*Images for demonstration purposes only.*Based on results from internal lab tests for local video playback time conducted by Samsung. Test Results from a pre-release version of the device under default settings (audio volume and brightness levels) without connection to Wi-Fi or mobile network. Battery life varies significantly with settings, usage, and other factors.</sub>
-</div>
-
-
-<div class="container">
-    <h2 class="text-header">Express yourself in the moment</h2>
-    <p class="description-header">The S Pen feels natural to hold, and the 4,096 levels of sensitivity and slim-lined 0.7mm tip mean it's super accurate too. When you're outdoors, you can use it to quickly edit your pictures, follow your inspiration and sketch, and check and make notes on your road map.</p>
-</div>
-<img src="/images/samsung/galaxy-tab-active-pro/uk-feature-express-yourself-in-the-moment-185437723.webp" alt="#" style="width:100%">
-<div class="container text-center" style="margin-top:30px;">
-    <sub>*Images for demonstration purposes only.</sub>
-</div>
-
-<div class="container-fluid" style="margin:10% 0;">
-    <div class="row">
-        <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="container" style="padding:0 15%;">
-                <h2 class="header-col-6">Enhanced performance and storage space</h2>
-                <p class="description-col-6">4GB of memory and 64GB of storage space let Galaxy Tab Active Pro keep up with you and your contents, while a Micro SD adds up to 512GB more to keep all your data in one place. Get quick a connection to other devices with a POGO pin for added productivity and data transfer while simultaneously recharging.</p>
-                <div class="text-left" style="margin-top:30px;">
-                    <sub>*MicroSD card and accessories sold separately.</sub>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
-            <img src="/images/samsung/galaxy-tab-active-pro/uk-feature-enhanced-performance-and-storage-space-185437737.webp" alt="#" style="width:100%">
-        </div>
+<section class="section-1">
+    <div class="text-1">
+        <h2>
+            Built strong from the inside out
+        </h2>
+        <p>
+            Galaxy Tab Active3. Strong inside and out so you can take on the day. The rugged design has water, dust, and 1.5m drop resistance and replaceable battery, boosting productivity with Samsung DeX and enhanced NFC. With touch sensitivity settings, an Active key, and S Pen, put gloves on and get to it.
+        </p>
     </div>
-    <div class="row flex-row-reverse" style="margin-top:15%;">
-        <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="container" style="padding:0 15%;">
-                <h2 class="header-col-6">A PC-like experience that follows you</h2>
-                <p class="description-col-6">Get the PC-like experience of Samsung DeX whether inside or in the great outdoors. Quickly set up Galaxy Tab Active Pro with a keyboard and mouse to express your creativity regardless of location. Or connect to a big screen to make light work of even the chunkiest spreadsheet.</p>
-                <div class="text-left" style="margin-top:30px;">
-                    <sub>*Adapter, keyboard, and external display sold separately.</sub>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12" style="margin:auto;">
-            <img src="/images/samsung/galaxy-tab-active-pro/uk-feature-a-pc-like-experience-that-follows-you-185437731.webp" alt="#" style="width:100%">
-        </div>
+    <figure>
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-built-strong-from-the-inside-out-314915736.webp" width="100%" alt="">
+    </figure>
+    <div class="text-1">
+        <h3>
+            Strong enough for tough environments
+        </h3>
+        <h2>
+            Designed to be sturdy and reliable
+        </h2>
+        <p>
+            Galaxy Tab Active3 is robust and reliable in harsh conditions. With an IP68 rating and the latest MIL-STD-810H certification, the durable 8-inch tablet is resistant to water and dust and can withstand 1.5m drops with Protective Cover. Portable and compact, it's built to tough out your day.
+        </p>
     </div>
-</div>
+    <figure>
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-designed-to-be-sturdy-and-reliable-314915740.jfif" width="100%" alt="">
+    </figure>
+    <div class="text-1">
+        <h2>
+            S Pen handles well even with gloves
+        </h2>
+        <p>
+            The Galaxy Tab Active3 comes with a water- and dust-resistant S Pen in box, for an easy way to get things done on the go — and with no need to charge. Responsive and precise even with gloves on, you can take notes, capture ideas, and draw what inspires you all in the outdoors.
+        </p>
+    </div>
+    <figure>
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-s-pen-handles-well-even-with-gloves-314915746.jfif" width="100%" alt="">
+    </figure>
+    <div class="text-1">
+        <h2>
+            Powerful performance and connectivity
+        </h2>
+        <p>
+            Running on the Exynos 9810 processor, the tablet is powerful enough to run heavy files and demanding programs seamlessly. With Wi-Fi6 and MIMO support and up to 1TB of external storage to boost speed and performance, you can get work done easy.
+        </p>
+    </div>
+    <figure class="pic-1">
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-powerful-performance-and-connectivity-314915728.webp" width="100%" alt="">
+    </figure>
+</section>
+<section class="section-2">
+    <div class="text-1" style="color: black">
+        <h2>
+            Replaceable battery with power that lasts
+        </h2>
+        <p>
+            The Galaxy Tab Active3 is engineered with a powerful 5,050mAh replaceable battery. Bring a fully charged battery while camping under the stars or reaching new heights, then simply switch it out and keep going.
+        </p>
+    </div>
+    <figure class="pic-2">
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-replaceable-battery-with-power-that-lasts-314915750.webp" width="100%" alt="">
+    </figure>
+    <div class="text-1" style="color: black">
+        <h3>
+            Providing strong solutions
+        </h3>
+        <h2>
+            Captures what you see
+        </h2>
+        <p>
+            Life looks even better through the enhanced 13MP rear camera. Capture crisp, clear photos with each snap, then switch to the 5MP front camera for video calls. With Galaxy Tab Active3, you can get more of your best shots.
+        </p>
+    </div>
+    <figure>
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-captures-what-you-see-314915732.webp" width="100%" alt="">
+    </figure>
+    <div class="text-1" style="color: black">
+        <h2>
+            A glove-ready tablet
+        </h2>
+        <p>
+            No need to take off the gloves. By adjusting the touch sensitivity settings, you can keep your gloves on as you get things done. Set an Active key for quick access to a frequently used app without unlocking, or unlock instantly and securely with Face recognition, while being sure others can't.
+        </p>
+    </div>
+    <figure class="pic-2">
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-a-glove-ready-tablet-314915734.jfif" width="100%" alt="">
+    </figure>
+    <div class="text-1" style="color: black">
+        <h2>
+            Enhanced PC-like experience with Samsung DeX
+        </h2>
+        <p>
+            Samsung DeX lets you connect and use two different screens, so you can work more efficiently. Connect the tablet to a monitor and create a report on one screen while analyzing spreadsheets on the other, or connect wirelessly with a smart TV and give impressive sales presentations.
+        </p>
+    </div>
+    <figure class="pic-2">
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-enhanced-pc-like-experience-with-samsung-dex-314915730.jfif" width="100%" alt="">
+    </figure>
+    <div class="text-1" style="color: black">
+        <h2>
+            Security at every level protects what’s yours
+        </h2>
+        <p>
+            Samsung Knox delivers defense-grade security. Your private data is protected from malware and malicious attacks by leveraging the hardware-backed and multi-layered Knox security platform.
+        </p>
+    </div>
+    <figure>
+        <img src="/images/samsung/galaxy-tab-active3/levant-feature-security-at-every-level-protects-what-s-yours-314915726.webp" width="100%" alt="">
+    </figure>
+</section>
+<picture>
 
+</picture>
 
-
-<div class="container">
-    <h2 class="text-header">Finally a reason to put down your phone</h2>
-    <p class="description-header">Stay in touch when your phone is out of reach. Galaxy Tab Active Pro seamlessly synchronises to your Galaxy smartphone, so you can take calls when they come in just like you answer your phone. It also allows you to reply to text messages, so you’re never out of the loop.</p>
-</div>
-<img src="/images/samsung/galaxy-tab-active-pro/uk-feature-finally-a-reason-to-put-down-your-phone-185437721.webp" alt="#" style="width:100%">
-<div class="container text-center" style="margin-top:30px;margin-bottom:50px;">
-    <sub>*Performance may vary depending on distance and network quality. Network connection required to use Call & Message Continuity on both Galaxy smartphone and Galaxy Tab Active Pro.</sub>
-</div> --}}
 
 
 

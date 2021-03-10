@@ -119,7 +119,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                 <div class="border-right-solid col-3 feature-tab-icon">
                     <span class="icon icon-display-6-4"></span>

@@ -121,7 +121,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-s-pen"></span>
@@ -229,7 +229,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Control it</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Bluetooth connectivity gives you the freedom to remotely control your device by a press of the button. Plus, newly added S Pen Air actions let you control your tablet with hand gestures. Move from slide to slide, control video playback and more without needing to reach for the tablet.
                 </p>
-                <p style="padding-top: 100px; width:70%; font-size:13px;">*Microsoft Office requires users to purchase licenses.<br>
+                <p class="extra-line" style="padding-top: 100px; width:70%; font-size:13px;">*Microsoft Office requires users to purchase licenses.<br>
                     **S Pen's operable distance extends approximately 10 meters from the device in open space. Control range may vary depending on surroundings and other factors.
                     </p>
                 </div>
@@ -248,7 +248,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Write it</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Take notes in the moment, write quick memos and check stock in a snap. Pull up Samsung Notes while annotating documents and business charts. Adjust the window transparency without leaving your current app, so your view stays unhindered.
                 </p>
-                <p style="padding-top: 150px; width:70%; font-size:13px;">**Images simulated for illustrative purposes.**Macro Camera feature supported for rear camera only.
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">**Images simulated for illustrative purposes.**Macro Camera feature supported for rear camera only.
                     </p>
                 </div>
             </div>
@@ -281,7 +281,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Sign it</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Replace the traditional pencil with a pen that's ideal for signing contracts and other documents. And for more detailed work, S Pen with its 4,096 different levels of pressure sensitivity lets you draw up detailed diagrams and sketches that make it easy to explain complex concepts to your customers.
                 </p>
-                <p style="padding-top: 100px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
+                <p class="extra-line" style="padding-top: 100px; width:70%; font-size:13px;">*Images simulated for illustrative purposes.
                     </p>
                 </div>
             </div>
@@ -425,7 +425,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Hoard to your heart's content</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Get the best of both worlds with high-level specs inside the slender body of a tablet. Opt for your choice of 6GB memory and 128GB of storage, or 8GB and 256GB. SD card support gives you the option of up to an extra terabyte of storage to keep all your content in one place.
                 </p>
-                <p style="padding-top: 150px; width:70%; font-size:13px;">*Actual storage capacity may vary by country or region.<br>
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">*Actual storage capacity may vary by country or region.<br>
                     **MicroSD card sold separately. Availability may vary by country and manufacturer.
                     </p>
                 </div>
@@ -458,7 +458,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;color:white;">Power to let you get things done</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;color:white;">Galaxy Tab S6's powerful 7,040mAh (typical)* battery lasts for a full 15 hours of video playback**, letting you power through periods of work. Use fast USB type C charging to charge quickly, or opt for the POGO Charging Dock for another way to charge.
                 </p>
-                <p style="padding-top: 100px; width:70%; font-size:10px;color:white;">*Typical value tested under third-party laboratory condition. Typical value is the estimated average value considering the deviation in battery capacity among the battery samples tested under IEC 61960 standard. Rated (minimum) capacity is 6,840mAh(Rated battery capacity). Actual battery life may vary depending on network environment, usage patterns and other factors.
+                <p class="extra-line" style="padding-top: 100px; width:70%; font-size:10px;color:white;">*Typical value tested under third-party laboratory condition. Typical value is the estimated average value considering the deviation in battery capacity among the battery samples tested under IEC 61960 standard. Rated (minimum) capacity is 6,840mAh(Rated battery capacity). Actual battery life may vary depending on network environment, usage patterns and other factors.
                     **Video playback testing designed and conducted to account for carrier and network environments of regions in which device is available for purchase. Tests conducted using development stage prototype and software. Battery capacity in relation to time calculated by measuring current consumption after playing video file (720p) on the device. Video playback may differ from actual time used depending on network connection status, function setup, signal strength, noise, video file type and other factors.
                     ***POGO Charging Dock sold separately.
                     </p>
@@ -478,7 +478,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Stream fast with minimal buffering</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Galaxy Tab S6 lets you connect with LTE for downloads at up to 2.0Gbps and uploads up to 150Mbps. Now you can get to your content when you want it, even when you don't have Wi-Fi nearby.
                 </p>
-                <p style="padding-top: 150px; width:70%; font-size:13px;">*Actual network speed may vary based on distance and network quality.
+                <p class="extra-line" style="padding-top: 150px; width:70%; font-size:13px;">*Actual network speed may vary based on distance and network quality.
                     </p>
                 </div>
             </div>
@@ -521,7 +521,7 @@
 
 {{-- !!important "Layout 6:6 pic left & content right"!! --}}
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: 10%">
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6" style="padding:0;">
                 <div data-aos="fade">

@@ -379,7 +379,7 @@
                 </div>
             </div>
             <div class="flex-banner">
-                <img src="/images/samsung/galaxy-tab-s6/banner_15.webp" style="width:100%;" alt="">
+                <img src="/images/samsung/galaxy-tab-s6/banner_16.webp" style="width:100%;" alt="">
             </div>
             <p class="remark pr-20p pl-20p text-center mt-5-auto text-black">*Each device must be connected to Wi-Fi
                 or other wireless network. For interoperability through Connected+, all the devices should be

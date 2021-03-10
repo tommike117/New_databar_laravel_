@@ -141,7 +141,7 @@
 
 
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-triple-camera"></span>
@@ -173,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top:0px;">
+        <div class="row" style="margin:0px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
                 <div data-aos="fade">
                     <figure>
