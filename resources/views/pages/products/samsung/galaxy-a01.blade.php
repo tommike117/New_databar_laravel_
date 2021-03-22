@@ -5,7 +5,7 @@
 
 @section('link')
 <link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a01/main.css')}}">
-<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/galaxy-a01/style.css')}}">
+<link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a01/style.css')}}">
 
 <link rel="stylesheet" href="/css/animate.css">
 @endsection
@@ -119,7 +119,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 8% 0">
+        <div class="container icon-column" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                     <div class="border-right-solid col-3 feature-tab-icon">
                         <span class="icon icon-duo-camera"></span>
@@ -162,7 +162,7 @@
 <section>
     <div class="container-fluid" style="position: relative">
 
-        <div class="row" style="margin-top:0px;">
+        <div class="row" style="margin-top:50px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
                 <div data-aos="fade">
                     <figure>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin: 70px 0 0 0;position: absolute;top: 0;color:white">
+        <div class="row m-sec-2" style="margin: 70px 0 0 0;position: absolute;top: 0;color:white">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Infinity-V Display. More view for what you do</label><br>
@@ -195,7 +195,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Sleek design made with comfort in mind</label><br>
@@ -228,7 +228,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Dual camera takes your photography to new depths</label><br>
@@ -253,7 +253,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Awesome selfies every time — no edits needed</label><br>
@@ -286,7 +286,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">More power to move faster and last longer</label><br>
@@ -307,7 +307,7 @@
         <div class="row" style="margin-top:0px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="padding:0 10%;">
                 <div data-aos="fade">
-                    <p class="extra-line ">*RAM and internal memory capacity may vary depending on country or region.<br>
+                    <p class="extra-line">*RAM and internal memory capacity may vary depending on country or region.<br>
                         **Actual storage available may vary depending on pre-installed software.<br>
                         ***Typical value tested under third-party laboratory condition. Typical value is the estimated average value considering the deviation in battery capacity among the battery samples tested under IEC 61960 standard. Rated (minimum) capacity is 3,000 mAh. Actual battery life may vary depending on network environment, usage patterns and other factors.
                     </p>
@@ -334,7 +334,7 @@
                 <label class="section3_text_line1" for="" style="font-size:70px;font-weight:bold;">Face unlock detects your look to unlock fast</label><br>
                 <p class="section3_text_line2" style="font-size:17px;padding:0 10%;width:80%;">Now you can unlock your phone instantly by simply holding it to your face. Face Recognition technology grants mobile access for you alone to ensure your personal data doesn't fall into the wrong hands.
                 </p>
-                <p style="padding-top: 100px; width:70%; font-size:13px;">*The availability of this service may vary by country.<br>
+                <p class="extra-line" style="padding-top: 100px; width:70%; font-size:13px;">*The availability of this service may vary by country.<br>
                     **Images simulated for illustrative purposes.
                     </p>
                 </div>
@@ -347,7 +347,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">One UI Core, designed for easy use</label><br>
@@ -381,7 +381,7 @@
 {{--!!text UP image down samsung--}}
 <section>
     <div class="container-fluid">
-        <div class="row" style="margin-top:200px;">
+        <div class="row m-t" style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;padding:0 10%;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Get a theatre-like experience with Dolby Atmos</label><br>
@@ -416,7 +416,7 @@
 {{--!!end Page of samsung!!--}}
 <section>
     <div class="container-fluid">
-        <div class="row"style="margin-top:200px;">
+        <div class="row m-t"style="margin-top:200px;">
             <div class="col-xs-12 col-sm-12 col-md-12" style="text-align:center;">
                 <div data-aos="fade-down">
                     <label class="section1_text_line1" for="" style="font-size:100px; font-weight:bold; width: 70%;">Keep your device in tip top condition with us</label><br>

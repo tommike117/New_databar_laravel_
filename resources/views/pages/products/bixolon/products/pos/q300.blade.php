@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/pos/SRP-Q300 Series_1.png')}}" style="width:90%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                         </figure>
                         <div class="thumbnails">
@@ -53,7 +53,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
                                             <li>
                                                 <p>The SRP-Q300 series is a multi-functional cube 3-inch (80mm) cube Thermal Desktop printer offering flexible mPOS receipt printing from smart devices. Supporting front-exit printing, the SRP-Q300 series is designed to free up counters space and compliment the latest mPOS system. The complete series includes the SRP-Q300 (mPOS Printer), SRP-Q300B(Built-in Battery) and SRP-Q300H (B-gate mPOS hub). The cube printer is complimented with a number of accessories to create the ultimate mPOS printing solution.
                                                     icon</p>
@@ -73,7 +73,7 @@
                             FEATURES
                         </h2>
                     </div>
-                    <div class="w-100 d-flex">
+                    <div class="w-100 d-flex card-sec-1">
                         <div class="card col-sm-12 col-md-4 col-lg-4" style="border:0;background-color: #fff0;">
                             <img src="/images/new-website/products/bixolon/products/pos/1562915811493998.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
@@ -126,9 +126,72 @@
                             </div>
                         </div>
                     </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/images/new-website/products/bixolon/products/pos/1562915811493998.png" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    mPOS Ready
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Compatible with all major operating systems including Android™, iOS™ and Windows®</li>
+                                        <li>Dual-band WLAN (5GHz and 2.4 GHz)</li>
+                                        <li>Bluetooth V5.0 (MFi certified)</li>
+                                        <li>VMSM, NV image tool is supported via Q300 Utility through various connectivity (Bluetooth, WLAN, USB and NFC)</li>
+                                        <li>Easy Bluetooth pairing, Wi-Fi configuration and printer configuration via NFC</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/pos/1562915811494674.png" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Build Your Own Compact mPOS
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>SRP-Q300H supports various USB peripherals, Web & Cloud based printing</li>
+                                        <li>Built-in battery supports the perfect standalone mPOS solutions</li>
+                                        <li>Mini LCD Customer Display enabled by SRP-Q300 series (BCD-3000)</li>
+                                        <li>Robust steel tablet stand safely secures a 10 inch tablet using locking mechanisms and 170° forward-tiling (RTS-Q300)z</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/pos/1562915811495135.png" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Reliable and Convenient
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Cube design optimizes space utilization</li>
+                                        <li>53% smaller than SRP-350plusIII</li>
+                                        <li>Liquid-Barrier™ creates a complete waterproof and dustproof solution (IP21 certified)</li>
+                                        <li>Well-organized cable management</li>
+                                        <li>Fast printing speed up to 220 mm/sec</li>
+                                        <li>All in one Plus™ Interface (Built in USB V2.0FS + Ethernet) + WLAN/Bluetooth V4.2</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
                 </section>
                 <section class="section-2">
-                    <div class="col-12 flex-row-reverse d-flex" >
+                    <div class="col-12 flex-row-reverse d-flex d-bl" >
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/pos/SRP-Q300.png" width="100%" alt="armor-x">
@@ -148,7 +211,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 flex-row-reverse d-flex" >
+                    <div class="col-12 flex-row-reverse d-flex d-bl" >
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/pos/SRP-Q300 B.png" width="100%" alt="armor-x">
@@ -168,7 +231,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 flex-row-reverse d-flex" >
+                    <div class="col-12 flex-row-reverse d-flex d-bl" >
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/pos/SRP-Q300H.png" width="100%" alt="armor-x">
@@ -188,7 +251,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 flex-row-reverse d-flex">
+                    <div class="col-12 flex-row-reverse d-flex d-bl">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/pos/SRP-QE300.png" width="100%" alt="armor-x">

@@ -29,7 +29,7 @@
                             </nav>
                         </div>
                         <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
-                            <img id="a01" src="{{URL::asset('/images/new-website/products/caterpillar/products/s52/CatS52_1.png')}}" style="width:93%;" alt="Cat S62 pro" title="Cat S62 pro">
+                            <img id="a01" src="{{URL::asset('/images/new-website/products/caterpillar/products/s52/CatS52_1.png')}}" style="width:80%;" alt="Cat S62 pro" title="Cat S62 pro">
                         </figure>
                         <div class="thumbnails">
                             <ul class="ul-product">
@@ -57,7 +57,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Specification</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;">
                                             <li>
                                                 <p>World’s thinnest truly rugged phone</p>
                                             </li>
@@ -103,6 +103,9 @@
                     <video class="video-section"  title="catterpillar-page video" autoplay muted loop>
                         <source src="{{URL::to('/images/new-website/products/caterpillar/products/s52/Cat S52 - Designed to be seen. Made to be used.mp4')}}" type="video/mp4">
                     </video>
+                    <picture class="pic-section">
+                        <img src="/images/new-website/products/caterpillar/products/s52/131120692_2757412061190741_5321385817136725605_o.jpg" width="100%" alt="">
+                    </picture>
                 </section>
                 <section class="section-2">
                     <div class="w-100">
@@ -117,8 +120,8 @@
                         <figure style="text-align: center">
                             <img src="/images/new-website/products/caterpillar/products/s52/CAT-S52-LS0001-CAT-S52-RS0001-Mask.png" width="95%" alt="armor-x">
                         </figure>
-                        <div class="d-flex" style="padding-top: 45px;text-align: center;">
-                            <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex d-bl" style="padding-top: 45px;text-align: center;">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
                                 <figure style="padding-right: 10px;text-align: end;">
                                     <img src="/images/new-website/products/caterpillar/products/s52/MF_CAT_S52_Stills_0.png" width="97%" alt="armor-x">
                                 </figure>
@@ -131,7 +134,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
                                 <figure style="padding-left: 10px;text-align: start;">
                                     <img src="/images/new-website/products/caterpillar/products/s52/MF_CAT_S52_Stills_02.png" width="97%" alt="armor-x">
                                 </figure>
@@ -161,14 +164,14 @@
                     </div>
                 </section>
                 <section class="section-3">
-                    <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class=" w-100 d-flex d-bl">
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-7">
                                 <figure>
                                     <img src="/images/new-website/products/caterpillar/products/s52/S52_Group_1.png" width="100%" alt="Cat s62">
                                 </figure>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-5 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-5 text-3">
                                 <h2>
                                     The world’s thinnest rugged phone
                                 </h2>
@@ -181,15 +184,16 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
                 </section>
                 <section class="section-4">
-                    <div class="col-12 flex-row-reverse d-flex">
-                        <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="col-12 flex-row-reverse d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s52/MF_CAT_S52_Stills_04.png" width="100%" alt="Cat s62">
                             </figure>
                         </div>
-                        <div class="col-sm-12 col-md-5 col-lg-5 text-4">
+                        <div class="col-sm-12 col-md-12 col-lg-5 text-4">
                             <h2>
                                 Our sleekest design. Tough as ever.
                             </h2>
@@ -223,13 +227,13 @@
                                 </li>
                             </ul>
                         </div>
-                            {{-- <a href="images/database/caterpillar/pdf_file/S62 Pro_User_Manual_EN_V2_English.pdf">
-                                <button class="btn btn-banner button-sec-3 "> <i class="glyphicon glyphicon-inbox" > Download</i></button>
-                            </a> --}}
                     </div>
                 </section>
             </div>
         </div>
+
+
+
 <section>
     @include('includes/arrow-top')
 </section>

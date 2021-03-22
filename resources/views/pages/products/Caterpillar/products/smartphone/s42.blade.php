@@ -57,7 +57,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Specification</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;">
                                             <li>
                                                 <p>Deliberately designed, utterly dependable.</p>
                                             </li>
@@ -122,8 +122,8 @@
                                 12.7mm thin, 220g light
                             </p>
                         </div>
-                        <div class="d-flex" style="padding-top: 15px;text-align: center;">
-                            <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex d-bl" style="padding-top: 15px;text-align: center;">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
                                 <figure style="padding-right: 10px;text-align: end;">
                                     <img src="/images/new-website/products/caterpillar/products/s42/S42-Banner-02-2x.png" width="97%" alt="armor-x">
                                 </figure>
@@ -136,7 +136,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="col-sm-12 col-md-12 col-lg-6">
                                 <figure style="padding-left: 10px;text-align: start;">
                                     <img src="/images/new-website/products/caterpillar/products/s42/S42-Banner-03-2x.png" width="97%" alt="armor-x">
                                 </figure>
@@ -153,14 +153,14 @@
                     </div>
                 </section>
                 <section class="section-3">
-                    <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class=" w-100 d-flex ">
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-7">
                                 <figure>
                                     <img src="/images/new-website/products/caterpillar/products/s42/S42-Hero-Banner-01-2x.png" width="100%" alt="Cat s62">
                                 </figure>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-5 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-5 text-3">
                                 <h2>
                                     Keyworkers of the world unite.
                                 </h2>
@@ -180,13 +180,13 @@
                         </div>
                 </section>
                 <section class="section-4">
-                    <div class="col-12 flex-row-reverse d-flex">
-                        <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="col-12 flex-row-reverse d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s42/S42-Banner-.png" width="100%" alt="Cat s42">
                             </figure>
                         </div>
-                        <div class="col-sm-12 col-md-5 col-lg-5 text-4">
+                        <div class="col-sm-12 col-md-12 col-lg-5 text-4">
                             <h2 style="margin-top: 5%;">
                                 Essential work phone features
                             </h2>
@@ -214,9 +214,6 @@
                                 </li>
                             </ul>
                         </div>
-                            {{-- <a href="images/database/caterpillar/pdf_file/S62 Pro_User_Manual_EN_V2_English.pdf">
-                                <button class="btn btn-banner button-sec-3 "> <i class="glyphicon glyphicon-inbox" > Download</i></button>
-                            </a> --}}
                     </div>
                 </section>
             </div>

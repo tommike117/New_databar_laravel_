@@ -1,5 +1,5 @@
 .thumbnails{
-    right: 120px;
+    right: 220px;
     top: 0;
     position: absolute;
     height: 100%;
@@ -52,6 +52,9 @@ ul > li > label{
     text-align: center;
 }
 @media only screen and (min-width:320px){
+    .thumbnails{
+        right: 120px;
+    }
     .banner_first{
         margin-top:15% !important;
     }
@@ -129,6 +132,9 @@ ul > li > label{
     }
 }
 @media only screen and (min-width:768px){
+    .thumbnails{
+        right: 120px;
+    }
     .banner_first{
         margin-top:5% !important;
     }
@@ -206,6 +212,9 @@ ul > li > label{
     }
 }
 @media only screen and (min-width:1024px){
+    .thumbnails{
+        right: 120px;
+    }
     .banner_first{
         margin-top:0 !important;
     }
@@ -283,9 +292,12 @@ ul > li > label{
     }
 }
 @media only screen and (max-width:426px){
-    .ul-product{
-        width:20% !important;
-    }
+.thumbnails{
+    right: 120px;
+}
+.ul-product{
+    width:20% !important;
+}
 }
 .py-4{
     visibility: hidden !important;

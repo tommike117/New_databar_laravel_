@@ -28,7 +28,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/SPP-L310_1.png')}}" style="width:100%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                         </figure>
                         <div class="thumbnails">
@@ -57,7 +57,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
+                                        <ul  class="text-ul" style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
                                             <li>
                                                 <p>The ergonomic design of the 3-inch (80mm) SPP-L310 offers a small form factor, but large feature set for when you need to take label printing on-the-go.
                                                     Supporting marketing leading programming languages, including BPL-Z™ and BPL-C™, and offering extensive memory for the storage and processing of your many formats, fonts or graphics, the 203 dpi Direct Thermal SPP-L310 provide simple Near Field Communication (NFC) auto-pairing and print speeds of up to 5 ips. Wired or wireless connectivity choices - Serial, USB, Bluetooth (MFi certified) or WLAN and the ability to handle both liner and linerless media ensures that the SPP-L310 can be used for all of your mobile labelling needs. Supported by its broad range of drivers, utilities and SDKs across various platforms, including Windows, Android and iOS, the SPP-L310 is the mobile worker's chosen brand.
@@ -78,7 +78,7 @@
                             FEATURES
                         </h2>
                     </div>
-                    <div class="w-100 d-flex">
+                    <div class="w-100 d-flex card-sec-1">
                         <div class="card col-sm-12 col-md-4 col-lg-4" style="border:0;background-color: #fff0;">
                             <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274315438.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
@@ -128,9 +128,69 @@
                             </div>
                         </div>
                     </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274315438.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Exceptional Perfoarmance
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Fully compatible with market-leading programming languages: SLCS, BPL-Z™, BPL-C™ </li>
+                                        <li>Interchange programming language without setting the mode </li>
+                                        <li>Fast data processing and printing speed up to 5 ips (127 mm/sec)</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316659.png" alt="" class="card-img-top" style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    The Perfect Fit for Mobile Environment
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Wireless and wired connectivity options including Bluetooth, WLAN, USB and Serial </li>
+                                        <li>Compatible with all major operating systems including Android™, iOS™ and Windows </li>
+                                        <li>Supports Easy Bluetooth Pairing™ via embedded NFC tag enabling auto pairing</li>
+                                        <li>Smart Wi-Fi setting via mobile devices available</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1562915274316203.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Optimized for Field Operation
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Super compact and light-weight(385g) yet powerful </li>
+                                        <li>1.8 m / 6 ft. drop rate </li>
+                                        <li>IP54 water and dust proof</li>
+                                        <li>Various accessories and connectivity ports</li>
+                                        <li>Supports transmissive gap sensor, black mark reflective sensor</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
                 </section>
                 <section class="section-2">
-                    <div class="col-12 flex-row-reverse d-flex" style="margin-top:5%;">
+                    <div class="col-12 flex-row-reverse d-flex d-bl" style="margin-top:5%;">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/mobile-printer/1562839384811856.png" width="100%" alt="armor-x">
@@ -150,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 flex-row-reverse d-flex" >
+                    <div class="col-12 flex-row-reverse d-flex d-bl" >
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/mobile-printer/Blinerless.png" width="100%" alt="armor-x">

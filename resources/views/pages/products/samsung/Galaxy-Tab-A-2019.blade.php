@@ -4,6 +4,7 @@
 
 @section('link')
 <link rel="stylesheet" type="text/css" href="/css/new-website/products/samsung/tab-a-2019/main.css">
+<link rel="stylesheet" type="text/css" href="/css/new-website/products/samsung/tab-a-2019/style.css">
 
 @endsection
 
@@ -14,7 +15,7 @@
 
 <div class="container-fluid p-lg-5">
     <section data-aos="fade">
-        <div class="row section-h1">
+        <div class=" section-h1">
             <h1 class="font-80">Galaxy Tab A 2019</h1>
         </div>
     </section>
@@ -94,7 +95,7 @@
             </p>
         </div>
         <div class="block-image">
-            <img src="{{URL::asset('images/samsung/tablet/tab-a-2019/banner_3.webp')}}" style="width:100%;" alt="">
+            <img src="{{URL::asset('images/samsung/tablet/tab-a-2019/th-feature-a-screen-you-ll-love-to-watch-179419927.jfif')}}" style="width:100%;" alt="">
         </div>
     </section>
 

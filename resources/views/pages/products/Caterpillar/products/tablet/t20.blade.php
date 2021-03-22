@@ -23,12 +23,12 @@
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/caterpillar"><span itemprop="name">Caterpillar</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">CATERPILLAR® T20</h1>
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px;">CATERPILLAR® T20</h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/caterpillar/products/t20/T20-0.png')}}" style="width:100%;" alt="Cat T20" title="Cat T20">
                         </figure>
                         <div class="thumbnails">
@@ -57,7 +57,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Specification</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;">
                                             <li>
                                                 <p>Display : IPS LCD 8” 800 x 1280 IPS LCD</p>
                                             </li>
@@ -102,8 +102,8 @@
                     </div>
                 </section>
                 <section class="section-3">
-                    <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
+                    <div class=" w-100 d-flex d-bl">
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
                             <div class="col-sm-12 col-md-7 col-lg-6">
                                 <figure>
                                     <img src="/images/new-website/products/caterpillar/products/t20/cat-t20-drop-proof-600x450px_1.png" width="100%" alt="Cat t20">

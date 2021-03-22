@@ -104,15 +104,18 @@
             <div class="body-standard">
                 <section class="section-1">
                     <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-6 video-box">
-                                <video title="Falcon-x4"
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-6 video-box">
+                                <video class="video-1" title="av900"
                                 width="553" height="380" autoplay muted loop>
                                     <source src="/images/new-website/products/datalogic/automation/av900.mp4" type="video/mp4">
                                     <source src="/images/new-website/products/datalogic/automation/av900.ogg" type="video/ogg">
                                 </video>
+                                <picture class="pic-1">
+                                    <img src="/images/new-website/products/datalogic/automation/av900-1.jpg" width="100%" alt="">
+                                </picture>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-6 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-6 text-3">
                                 <h2>
                                     OVERVIEW
                                 </h2>

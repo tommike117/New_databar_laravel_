@@ -75,12 +75,12 @@
     transition: 1s;
 }
 .bg-body{
-        background-image: url("/images/new-website/products/caterpillar/products/t20/BG_product-01.png");
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-attachment: fixed;
-        height: 100%;
-        width: auto;
+    background-image: url("/images/new-website/products/caterpillar/products/t20/BG_product-01.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
 }
 .card-title{
     font-size: 15px;
@@ -178,4 +178,76 @@
         font-size: 0.8vw;
         font-weight: 200;
     }
+    .pic-1{
+        display: none;
+    }
+}
+@media only screen and (max-width:850px){
+    .d-bl{
+        display: block !important;
+    }
+    .section-1{
+        margin-top: 5%;
+    }
+    .video-1{
+        display: none;
+    }
+    .pic-1{
+        display: block;
+    }
+    .text-3{
+        text-align: start;
+        margin: auto;
+
+    }
+    .text-3 > h2{
+        margin-top: 20px;
+        color: #3399ff;
+        font-size: 4vw;
+        font-weight: 600;
+    }
+    .text-3 > h3{
+        font-size: 1vw;
+        font-weight: 200;
+        color: #4a4a4a;
+    }
+    .text-3 > p{
+        font-size: 1.9vw;
+        font-weight: 200;
+        color: #4a4a4a;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .body-standard {
+        margin: 0px 25px 0 40px;
+    }
+    .breadcrumb-item > a ,
+    .m-auto{
+        font-size: 11px !important;
+    }
+    .text-box{
+        line-height: 4vw !important;
+        font-size: 10px;
+    }
+    .text-box li p {
+        margin-bottom: 0;
+    }
+    .text-3 > h2{
+        font-size: 4vw;
+    }
+    .text-3 > p{
+        font-size: 2.5vw;
+    }
+    .thumbnails {
+        top: 100px;
+    }
+    .pic-thumbnail{
+        padding-left: 66px !important;
+        margin-top: 0 !important;
+    }
+    .ul-product {
+        width: 35% !important;
+    }
+
 }

@@ -21,7 +21,7 @@
 
     <!-- section 1 -->
     <section style="margin-top:5px;">
-        <div class="row margin-from-nav">
+        <div class="row">
             <div class="block-h1 flex-column pl-xs-1 pr-xs-1">
                 <h1 class="m-xs-5-auto text-center">Creativity without boundaries​</h1>
                 <div class="block-p">

@@ -22,12 +22,12 @@
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/datalogic"><span itemprop="name">Datalogic</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">The Magellan 1500i</h1>
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px;">The Magellan 1500i</h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/datalogic/barcode/Magellan 1500i-882x882.png')}}" style="width:100%;" alt="The Magellan 1500i" title="The Magellan 1500i">
                         </figure>
                         <div class="thumbnails">
@@ -113,15 +113,18 @@
             <div class="body-standard">
                 <section class="section-1">
                     <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-6 video-box">
-                                <video title="The Magellan 1500i"
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-6 video-box">
+                                <video class="video-1" title="The Magellan 1500i"
                                 width="553" height="380" autoplay muted loop>
                                     <source src="/images/new-website/products/datalogic/barcode/magellan1500.mp4" type="video/mp4">
                                     <source src="/images/new-website/products/datalogic/barcode/magellan1500.ogg" type="video/ogg">
                                 </video>
+                                <picture class="pic-1">
+                                    <img src="/images/new-website/products/datalogic/barcode/magellan1500-0.jpg" width="100%" alt="">
+                                </picture>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-6 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-6 text-3">
                                 <h2>
                                     OVERVIEW
                                 </h2>

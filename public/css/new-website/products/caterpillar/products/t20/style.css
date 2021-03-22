@@ -105,20 +105,20 @@
     text-align: center;
     margin: 0 32%;
 }
+.section-1{
+    margin-top: 5%;
+    position: relative;
+}
+.position-absolute > h2{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #f0f8ffba;
+}
+.position-absolute > p{
+    color: #f0f8ffba;
+}
 
 @media only screen and (min-width:992px){
-    .section-1{
-        margin-top: 5%;
-        position: relative;
-    }
-    .position-absolute > h2{
-        font-size: 2vw;
-        font-weight: 600;
-        color: #f0f8ffba;
-    }
-    .position-absolute > p{
-        color: #f0f8ffba;
-    }
     .head-text-1{
         margin-bottom: 25px;
         width: max-content;
@@ -281,6 +281,76 @@
         font-size: 0.9vw;
         line-height: 1.3;
         color: #4a4a4a;
+    }
+
+}
+@media only screen and (max-width:850px){
+    .body-standard {
+        margin: 0px 25px 0 40px;
+    }
+    .ul-product {
+        width: 35% !important;
+    }
+    .thumbnails {
+        top: 130px;
+    }
+    .breadcrumb{
+        padding-left: 0;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pic-thumnail{
+        padding-left: 50px !important;
+        margin-top:0px !important;
+    }
+    .firstrow{
+        padding: 0 ;
+    }
+    .text-ul{
+        line-height: 1.3 !important;
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 10%;
+        padding-inline-start: 0 !important;
+    }
+    .box-sup{
+        padding: 0 !important;
+    }
+    .section-3{
+        margin: 5%;
+    }
+}
+@media only screen and (max-width:500px){
+    .d-bl{
+        display: block !important;
+    }
+    .ul-product {
+        width: 30% !important;
+    }
+    .text-ul{
+        line-height: 1.5 !important;
+        font-size: 11px;
+    }
+    .text-ul li p{
+        margin-bottom: 0%;
+    }
+    .pic-thumbnail{
+        padding-left: 90px !important;
+        margin-top: 0px !important;
+    }
+    .position-absolute{
+        top: 20%;
+        text-align: center;
+        margin: 0 5%;
+    }
+    .position-absolute > p {
+        font-size: 2.5vw;
+    }
+    .breadcrumb-item > a ,
+    .m-auto{
+        font-size: 11px !important;
     }
 
 }

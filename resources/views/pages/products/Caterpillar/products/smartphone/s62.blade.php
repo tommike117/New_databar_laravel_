@@ -28,7 +28,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
+                        <figure   style=" text-align: center; padding-left: 80px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/caterpillar/products/s62/Cat-S62-Pro-1-1.png')}}" style="width:100%;" alt="Cat S62 pro" title="Cat S62 pro">
                         </figure>
                         <div class="thumbnails">
@@ -54,7 +54,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Specification</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;">
                                             <li>
                                                 <p>Next Generation Thermal Imaging Smartphone</p>
                                             </li>
@@ -104,9 +104,12 @@
                     <video class="video-section"  title="catterpillar-page video" autoplay muted loop>
                         <source src="{{URL::to('/images/new-website/products/caterpillar/products/s62/s62pro.mp4')}}" type="video/mp4">
                     </video>
+                    <picture class="pic-section">
+                        <img src="/images/new-website/products/caterpillar/products/s62/937950372_1280x720.jpg" width="100%" alt="">
+                    </picture>
                 </section>
                 <section class="section-2">
-                    <div class="col-12 flex-row-reverse d-flex" >
+                    <div class="col-12 flex-row-reverse d-flex d-bl" >
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s62/cat-sec-3.png" width="90%" alt="armor-x">
@@ -145,8 +148,8 @@
                             Game changing professional picture quality
                         </p>
                     </div>
-                    <div class=" w-100 d-flex">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class=" w-100 d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s62/Cat-S62-Pro-Thermal-Feature-2x.png" width="100%" alt="Cat s62">
                             </figure>
@@ -159,7 +162,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s62/MF_CAT_S52_Stills_0-Copy-2@2x.png" width="100%" alt="Cat s62">
                             </figure>
@@ -175,13 +178,13 @@
                     </div>
                 </section>
                 <section class="section-4">
-                    <div class="col-12 flex-row-reverse d-flex">
-                        <div class="col-sm-12 col-md-7 col-lg-7">
+                    <div class="col-12 flex-row-reverse d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
                             <figure>
                                 <img src="/images/new-website/products/caterpillar/products/s62/Pic_cat62-4.jpg" width="100%" alt="Cat s62">
                             </figure>
                         </div>
-                        <div class="col-sm-12 col-md-5 col-lg-5 text-4">
+                        <div class="col-sm-12 col-md-12 col-lg-5 text-4">
                             <h2>
                                 The Ultimate Workphone
                             </h2>

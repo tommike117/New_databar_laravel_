@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a31/main.css')}}">
 <link rel="stylesheet" href="{{ URL::to('/css/new-website/products/samsung/galaxy-a31/style.css')}}">
 
-<link rel="stylesheet" href="/css/animate.css">
 @endsection
 
 
@@ -138,7 +137,7 @@
                 </div>
             </div>
         </div>
-        <div class="container icon-column" style="margin: 8% 0">
+        <div class="container icon-col" style="margin: 8% 0">
             <div class="row text-center feature-tab" style="align-items: center;">
                 <div class="border-right-solid col-3 feature-tab-icon">
                     <span class="icon icon-display-6-4"></span>

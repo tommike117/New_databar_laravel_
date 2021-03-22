@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 80px; margin-top:50px">
+                        <figure class="pic-thumnail" style=" text-align: center; padding-left: 80px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/bixolon/products/mobile-printer/1562839450690080.png')}}" style="width:90%;" alt="Bixolon mobile-printer" title="Mobile printer BIXOLON">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
-                                        <ul style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
+                                        <ul class="text-ul" style="line-height: 1.2vw;font-weight:200;margin-bottom: 10%;">
                                             <li>
                                                 <p>BIXOLON's SPP-R210 is its most compact 2-inch (58mm) mobile receipt printer. A clear, precise design offering easy drop-in receipt loading and single touch opening. The small form factor is optimised for your Mobile workforce with ruggedness up to IP54 and a design to resist multiple drops. Offering wired and wireless: WLAN and MFi certified Bluetooth, connectivity, the SPP-R210 can be controlled via fixed or mobile devices - handheld, tablet or terminal, and its long-lasting battery will ensure your workforce maintain uptime. Offering integrated magnetic and smart card reader options, the printer is capable of handling your transactional routine.
                                                     icon</p>
@@ -76,7 +76,7 @@
                             FEATURES
                         </h2>
                     </div>
-                    <div class="w-100 d-flex">
+                    <div class="w-100 d-flex card-sec-1">
                         <div class="card col-sm-12 col-md-4 col-lg-4" style="border:0;background-color: #fff0;">
                             <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588234930.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
                             <div class="card-body">
@@ -124,9 +124,67 @@
                             </div>
                         </div>
                     </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588234930.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Seamless Mobility
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Ideal for using smart devices including iPhone,iPad, and Android</li>
+                                        <li>Versatile connectivity supported (802.11 b/g/n and more) </li>
+                                        <li>232g (0.51 lbs.) light weight, 20% slimmer and 25% smaller than SPP-R200II</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588235613.png" alt="" class="card-img-top" style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Field-work Optimization
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>IP54 rated rugged design (with protective case)</li>
+                                        <li>1.2 m drop resistant </li>
+                                        <li>Optional integrated card reader (MSR or MSR + SCR)</li>
+                                        <li>Long-lasting battery life</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/new-website/products/bixolon/products/mobile-printer/1563158588236305.png" alt="" class="card-img-top"style="box-shadow: 6px 6px 15px #b5b5b5bf;">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Outstanding Performance
+                                </h2>
+                                <p class="card-text">
+                                    <div class="text-sec1">
+                                        <li>Print speeds up to 90 mm/sec (Receipt) </li>
+                                        <li>Linerless label printing (Optional)</li>
+                                        <li>Low-temp (-15°C) printing</li>
+                                    </div>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
                 </section>
                 <section class="section-2">
-                    <div class="col-12 flex-row-reverse d-flex" style="margin-top:5%;">
+                    <div class="col-12 flex-row-reverse d-flex d-bl" style="margin-top:5%;">
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/bixolon/products/mobile-printer/1562839384811856.png" width="100%" alt="armor-x">

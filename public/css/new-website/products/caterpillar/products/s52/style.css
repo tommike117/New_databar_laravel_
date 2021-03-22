@@ -100,168 +100,278 @@
     box-shadow: 6px 6px 15px #b5b5b5bf;
     margin-bottom: 20px;
 }
-
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: auto;
+}
+.head-text-1{
+    margin-bottom: 25px;
+    width: max-content;
+}
+.head-text-1 > h2{
+    color: #3399ff;
+    font-size: 2vw;
+    font-weight: 600;
+    border-bottom: solid 4px #edc91d;
+}
+.head-text-1 > p{
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+.section-2{
+    margin-top: 10%;
+}
+.head-text-2{
+    text-align: center;
+}
+.head-text-2 > h2{
+    color: #3399ff;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.head-text-2 > p{
+    font-weight: 200;
+    font-size: 1vw;
+    margin-top: 15px;
+    margin: 0 8%;
+}
+.text-2{
+    text-align: left;
+    margin-top: 10%;
+}
+.text-2 > h2{
+    color: #3399ff;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+.text-2 > h3{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.text-2 > p{
+    font-weight: 200;
+    font-size: 1vw;
+    margin-top: 15px;
+}
+.section-3{
+    margin-top: 10%;
+}
+.text-3{
+    text-align: left;
+}
+.text-3 > h2{
+    color: #3399ff;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.text-3 > h3{
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+.text-3 > p{
+    font-size: 1vw;
+    font-weight: 200;
+    color: #4a4a4a;
+}
+.text-3-1{
+    margin-top: 20px;
+}
+.text-3-1 > h2{
+    margin-bottom: 0%;
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+.text-3-1 > p{
+    font-size: 0.8vw;
+    font-weight: 200;
+}
+.section-4{
+    margin-top: 10%;
+}
+.text-4 > h2{
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #3399ff;
+}
+.text-4 > p{
+    font-size: 0.9vw;
+    font-weight: 200;
+    color: #4a4a4a;
+    width: 80%;
+}
+.text-4 > ul > li {
+    font-size: 0.9vw;
+    font-weight: 200;
+    color: #4a4a4a;
+    width: 80%;
+}
+.section-video{
+    display: flex;
+    justify-content: center;
+}
+.video-section{
+    width: 80%;
+}
+.accessory-list > li {
+    display: inline-block;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.accessory-list > li > h3{
+    font-size: 1.1vw;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+.accessory-list > li > p{
+    font-weight: 100;
+    font-size: 0.9vw;
+    line-height: 1.3;
+    color: #4a4a4a;
+}
+.pic-section{
+    display: none;
+}
 @media only screen and (min-width:992px){
-    .section-1{
-        margin-top: 10%;
-        width: auto;
-        margin-left: 40%;
-    }
-    .head-text-1{
-        margin-bottom: 25px;
-        width: max-content;
-        text-align: center;
-    }
-    .head-text-1 > h2{
-        color: #3399ff;
-        font-size: 2vw;
-        font-weight: 600;
-        border-bottom: solid 4px #edc91d;
-    }
-    .head-text-1 > p{
-        font-size: 1.2vw;
-        margin-top: 0;
-    }
-    .section-2{
-        margin-top: 10%;
-    }
-    .head-text-2{
-        text-align: center;
-    }
-    .head-text-2 > h2{
-        color: #3399ff;
-        font-size: 2vw;
-        font-weight: 600;
-    }
-    .head-text-2 > p{
-        font-weight: 200;
-        font-size: 1vw;
-        margin-top: 15px;
-        margin: 0 8%;
-    }
-    .text-2{
-        text-align: left;
-        margin-top: 10%;
-        padding-left: 3%;
-    }
-    .text-2 > h2{
-        color: #3399ff;
-        font-size: 1.8vw;
-        font-weight: 600;
-    }
-    .text-2 > h3{
-        font-size: 2vw;
-        font-weight: 600;
-    }
-    .text-2 > p{
-        font-weight: 200;
-        font-size: 1vw;
-        margin-top: 15px;
-    }
-    .text-sup-2{
-        line-height: 0.5;
-        margin-top: 3%;
-        text-align: start;
-        padding-left: 4%;
-    }
-    .text-sup-2 > h2{
-        font-size: 1.2vw;
-        font-weight: 200;
-        color: #4a4a4a;
-    }
-    .text-sup-2 > p{
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #4a4a4a;
-    }
-    .text-sup-2-1{
-        padding: 0 5%;
-        margin-top: 3%;
-    }
-    .text-sup-2-1 > p{
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #4a4a4a;
-    }
-    .section-3{
-        margin-top: 5%;
-    }
-    .text-3{
-        text-align: left;
-    }
-    .text-3 > h2{
-        color: #3399ff;
-        font-size: 1.8vw;
-        font-weight: 600;
-    }
-    .text-3 > h3{
-        font-size: 1.2vw;
-        font-weight: 200;
-        color: #4a4a4a;
-    }
-    .text-3 > p{
-        font-size: 1vw;
-        font-weight: 200;
-        color: #4a4a4a;
-    }
-    .text-3-1{
-        margin-top: 20px;
-    }
-    .text-3-1 > h2{
-        margin-bottom: 0%;
-        font-size: 1.2vw;
-        font-weight: 200;
-    }
-    .text-3-1 > p{
-        font-size: 0.8vw;
-        font-weight: 200;
-    }
-    .section-4{
-        margin-top: 5%;
-    }
-    .text-4 > h2{
-        font-size: 1.4vw;
-        font-weight: 600;
-        color: #3399ff;
-    }
-    .text-4 > p{
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #4a4a4a;
-        width: 80%;
-    }
-    .text-4 > ul > li {
-        font-size: 0.9vw;
-        font-weight: 200;
-        color: #4a4a4a;
-        width: 80%;
-    }
-    .section-video{
-        display: flex;
-        justify-content: center;
+    .pic-section{
+        display: none;
     }
     .video-section{
+        display: block;
+     }
+     .video-section{
         width: 80%;
     }
-    .accessory-list > li {
-        display: inline-block;
-        max-width: 25%;
-        flex: 0 0 25%;
-        padding-left: 30px;
-        padding-right: 30px;
+}
+@media only screen and (max-width:850px){
+    .ul-product {
+        width: 20% !important;
+    }
+    .text-ul{
+        line-height: 1.3 !important;
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 10%;
+    }
+    .video-section{
+       display: none;
+    }
+    .d-bl{
+        display: block !important;
+    }
+    .pic-section{
+        display: block;
+    }
+    .head-text-1 > h2{
         text-align: center;
-        margin-bottom: 20px;
+        font-size: 3vw;
     }
-    .accessory-list > li > h3{
-        font-size: 1.1vw;
-        color: #4a4a4a;
-        font-weight: 500;
+    .head-text-1 > p{
+        font-size: 2vw;
+        margin-top: 0;
     }
-    .accessory-list > li > p{
-        font-weight: 100;
-        font-size: 0.9vw;
-        line-height: 1.3;
-        color: #4a4a4a;
+    .text-2 > h2,
+    .text-3-1 > h2,
+    .text-4 > h2,
+    .text-sup-2 > h2{
+        font-size: 2.5vw;
+    }
+    .text-2 > p,
+    .text-3 > p,
+    .text-3-1 > p,
+    .text-4 > p,
+    .text-4 > ul > li,
+    .text-sup-2 > p,
+    .text-sup-2-1 > p{
+        font-size: 1.7vw;
+    }
+    .text-3 > h2{
+        font-size: 3vw;
+    }
+    .text-3 > h3{
+        font-size: 2vw;
+    }
+    .text-4{
+        margin-top: 5%;
     }
 
+}
+@media only screen and (max-width:500px){
+    .video-section{
+        display: none;
+     }
+    .body-standard {
+        margin: 0px 25px 0 40px;
+    }
+    .ul-product {
+        width: 35% !important;
+    }
+    .thumbnails {
+        top: 130px;
+    }
+    .breadcrumb{
+        padding-left: 0;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pic-thumnail{
+        padding-left: 50px !important;
+        margin-top:0px !important;
+    }
+    .firstrow{
+        padding: 0 ;
+    }
+    .text-ul{
+        line-height: 1.3 !important;
+        font-size: 10px;
+        font-weight: 200;
+        margin-bottom: 10%;
+        padding-inline-start: 0 !important;
+    }
+    .box-sup{
+        padding: 0 !important;
+    }
+    .head-text-1 > h2{
+        text-align: center;
+        font-size: 4vw;
+    }
+    .head-text-1 > p{
+        font-size: 3vw;
+        margin-top: 0;
+    }
+    .text-2 > h2,
+    .text-3-1 > h2,
+    .text-4 > h2,
+    .text-sup-2 > h2{
+        font-size: 3.5vw;
+    }
+    .text-2 > p,
+    .text-3 > p,
+    .text-3-1 > p,
+    .text-4 > p,
+    .text-4 > ul > li,
+    .text-sup-2 > p,
+    .text-sup-2-1 > p{
+        font-size: 2.7vw;
+    }
+    .text-3 > h2{
+        font-size: 4vw;
+    }
+    .text-3 > h3{
+        font-size: 3vw;
+    }
+    .text-4 > ul > li{
+        width: 100%;
+    }
+    .text-4 > p{
+        width: 100%;
+    }
 }

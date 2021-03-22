@@ -230,9 +230,7 @@
         <img src="/images/samsung/galaxy-tab-active3/levant-feature-security-at-every-level-protects-what-s-yours-314915726.webp" width="100%" alt="">
     </figure>
 </section>
-<picture>
 
-</picture>
 
 
 
