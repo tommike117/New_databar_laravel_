@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/datalogic/automation/Matrix 120.png')}}" style="width:100%;" alt="Matrix 120" title="Matrix 120">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">FEATURES</h3><br>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200;">
+                                        <ul class="text-box" style="line-height: 1;font-weight:200;">
                                             <li>
                                                 <p>Ultra compact dimensions for easy integration</p>
                                             </li>
@@ -103,16 +103,19 @@
             </div>
             <div class="body-standard">
                 <section class="section-1">
-                    <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-6 video-box">
-                                <video title="Falcon-x4"
+                    <div class=" w-100 d-flex ">
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-6 video-box">
+                                <video class="video-1" title="Falcon-x4"
                                 width="553" height="380" autoplay muted loop>
                                     <source src="/images/new-website/products/datalogic/automation/matrix120.mp4" type="video/mp4">
                                     <source src="/images/new-website/products/datalogic/automation/matrix120.ogg" type="video/ogg">
                                 </video>
+                                <picture class="pic-1">
+                                    <img src="/images/new-website/products/datalogic/automation/matrix120-0.jpg" width="100%" alt="matrix120">
+                                </picture>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-6 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-6 text-3">
                                 <h2>
                                     OVERVIEW
                                 </h2>

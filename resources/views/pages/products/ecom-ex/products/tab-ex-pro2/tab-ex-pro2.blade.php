@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/ecom-ex/tab-ex-pro2/Pro D2_1.png')}}" style="width:100%;" alt="Tab-Ex® Pro D2" title="Tab-Ex® Pro D2">
                         </figure>
                         <div class="thumbnails">
@@ -49,12 +49,12 @@
                         <div class="row box-spec">
                             <div class="col-xs-12 col-sm-12 col-md-12" style="background: rgba(0,0,0,0.1);margin-top:70px;padding:20px !important; border-radius: 15px;">
                                 <h2 style="font-size:17px;color:grey;text-align: center;font-weight: 200;">Tablets for hazardous areas</h2>
-                                <h1 class="product_name" style="color:#4a4a4a;">Tab-Ex® Pro D2 – 10.1" (25,6 cm)
+                                <h1 class="product_name" style="color:#4a4a4a;">Tab-Ex® Pro D2 – 10.1" (25.6 cm)
                                     Android Tablet for Division 2</h1>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">OVERVIEW</h3><br>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200;">
+                                        <ul class="text-box" style="line-height: 1.5;font-weight:200;">
                                                 <p>The Tab-Ex® Pro from the Pepperl+Fuchs brand ecom expands the Tab-Ex series as the world's first 10-inch Android tablet for hazardous areas.</p>
                                                 <p>The Tab-Ex® Pro’s large display is ideal for demanding
                                                     applications and for accessing web-based content. In
@@ -73,9 +73,9 @@
             </div>
             <div class="body-standard">
                 <section class="section-1">
-                    <div class=" w-100 d-flex">
-                        <div class="col-12 flex-row-reverse d-flex">
-                            <div class="col-sm-12 col-md-7 col-lg-6 video-box">
+                    <div class=" w-100">
+                        <div class="col-12 flex-row-reverse d-flex d-bl">
+                            <div class="col-sm-12 col-md-12 col-lg-6 video-box">
                                <figure style="text-align: end;">
                                    <img src="/images/new-website/products/ecom-ex/tab-ex-pro2/csm_Tab-Ex_Pro_D2_Gallery_2_d350564279.png" width="90%" alt="">
                                </fiigur>
@@ -83,7 +83,7 @@
                                    <img src="/images/new-website/products/ecom-ex/icon/Icon-03.svg" width="70%" alt="">
                                </figure>
                             </div>
-                            <div class="col-sm-12 col-md-5 col-lg-6 text-3">
+                            <div class="col-sm-12 col-md-12 col-lg-6 text-3">
                                 <h2>
                                     Designed for Industry 4.0
                                 </h2>
@@ -171,7 +171,7 @@
                             </li>
                         </ul>
                     </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 ">
+                        <div class="col-sm-12 col-md-12 col-lg-6 space ">
 
                         </div>
                 </section>
