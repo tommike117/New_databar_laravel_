@@ -22,12 +22,12 @@
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a itemprop="brand" itemscope itemtype="http://schema.org/Brand" href="/products/sam4s"><span itemprop="name">Sam4s</span></a></li>
                                     <li class="breadcrumb-item d-flex active" aria-current="page">
-                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">SHM-200</h1>
+                                        <h1 itemprop="name" class="m-auto" style="font-size: 14px !important;">SHR-1000</h1>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/sam4s/handheld-computer/shr-1000-1.png')}}" style="width:100%;" alt="Matrix 120" title="Matrix 120">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">FEATURES</h3><br>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200;">
+                                        <ul class="text-box" style="line-height: 1;font-weight:200;">
                                             <li>
                                                 <p>2m drop tolerance, IP67 sealing, MIL-STD 810G  </p>
                                             </li>
@@ -87,8 +87,8 @@
                 <section class="section-1">
                     <h2>SPECIFICATIONS</h2>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 CPU
                             </h2>
@@ -100,8 +100,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 OS
                             </h2>
@@ -113,8 +113,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Memory
                             </h2>
@@ -127,8 +127,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Display
                             </h2>
@@ -141,8 +141,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Keypad
                             </h2>
@@ -154,8 +154,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Communications
                             </h2>
@@ -170,8 +170,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 RFID
                             </h2>
@@ -183,8 +183,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Scanner
                             </h2>
@@ -196,8 +196,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Camera
                             </h2>
@@ -209,8 +209,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Audio
                             </h2>
@@ -222,8 +222,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Expansion
                             </h2>
@@ -235,8 +235,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Battery
                             </h2>
@@ -249,8 +249,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Cradle
                             </h2>
@@ -263,8 +263,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Operation Temp.
                             </h2>
@@ -276,8 +276,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Storage Temp.
                             </h2>
@@ -289,8 +289,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Humidity
                             </h2>
@@ -302,8 +302,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Drop
                             </h2>
@@ -316,8 +316,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Sealing
                             </h2>
@@ -330,8 +330,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Physical Characteristics
                             </h2>
@@ -345,15 +345,18 @@
                     </div>
                 </section>
                 <section class="section-2">
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <video title="SHR-1000"
+                    <div class="w-100 d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <picture class="pic-1">
+                                <img src="/images/new-website/products/sam4s/handheld-computer/shr-1000-1.jpg" width="100%" alt="">
+                            </picture>
+                            <video class="video-1" title="SHR-1000"
                             width="553" height="380" autoplay muted loop>
                                 <source src="/images/new-website/products/sam4s/handheld-computer/shr-1000.mp4" type="video/mp4">
                                 <source src="/images/new-website/products/sam4s/handheld-computer/shr-1000.ogg" type="video/ogg">
                             </video>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6 " >
+                        <div class="col-sm-12 col-md-12 col-lg-6 " >
                             <p>
                                 OPTION
                             </p>

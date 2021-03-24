@@ -105,6 +105,9 @@
     text-align: center;
     margin: 0 32%;
 }
+.pic-1{
+    display: none;
+}
 
 @media only screen and (min-width:992px){
     .text-box > li > p{
@@ -183,5 +186,96 @@
         font-size: 0.9vw;
         line-height: 1.3;
         color: #4a4a4a;
+    }
+}
+@media only screen and (max-width:850px){
+    .pic-1{
+        display: block;
+    }
+    .video-1{
+        display: none;
+    }
+    .pic-thumbnail{
+        padding-left: 100px !important;
+        margin-top: 0 !important;
+    }
+    .thumbnails{
+        top: 130px;
+    }
+    .ul-product{
+        width: 30% !important;
+    }
+    .d-bl{
+        display: block !important;
+    }
+    .section-1{
+        margin-top: 10%;
+    }
+    .head-text-1{
+        text-align: start;
+        margin-left: 5%;
+    }
+    .head-text-1 > h2{
+        color: #3399ff;
+        font-weight: 600;
+    }
+    .head-text-1 > h3{
+        color: #3399ff;
+        margin-top: 3%;
+    }
+    .head-text-1 > p{
+        color: #4a4a4a;
+        font-weight: 200;
+    }
+    .text-1{
+        border-bottom: solid 1px #4a4a4a14 ;
+        margin-top: 7px;
+    }
+    .text-1 > h2{
+        color: #3399ff;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 2.5vw;
+    }
+    .text-1 > p{
+        font-weight: 200;
+        color: #4a4a4a;
+        margin-bottom: 0;
+        font-size: 2.5vw;
+    }
+    .accessory-list{
+        padding-inline-start: 0 !important;
+    }
+    .accessory-list li{
+        text-align: center;
+    }
+    .accessory-list li img{
+        width: 60% !important;
+    }
+    .accessory-list > li > h3{
+        color: #4a4a4a;
+        font-weight: 500;
+        font-size: 2.5vw;
+    }
+    .text-3-1{
+        text-align: center;
+        margin-bottom: 5%;
+        color: #3399ff;
+    }
+    .pic-2{
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .body-standard {
+        margin: 0px 25px 0 40px;
+    }
+    .d-sm-none {
+        display: none !important;
+    }
+    .pic-thumbnail{
+        padding-left: 50px !important;
+        margin-top: 0 !important;
     }
 }

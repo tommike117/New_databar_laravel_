@@ -28,8 +28,8 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 100px; margin-top:0px">
-                            <img id="a01" src="{{URL::asset('/images/new-website/products/koamtac/pocket-barcode/kdc270/kdc280.png')}}" style="width:100%;" alt="Tab-Ex® 02" title="Tab-Ex® 02">
+                        <figure style=" text-align: center;  margin-top:0px">
+                            <img id="a01" src="{{URL::asset('/images/new-website/products/koamtac/pocket-barcode/kdc270/kdc280.png')}}" style="width:80%;" alt="Tab-Ex® 02" title="Tab-Ex® 02">
                         </figure>
                     </div>
 
