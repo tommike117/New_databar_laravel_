@@ -271,8 +271,8 @@
     .body-standard {
         margin: 0px 25px 0 40px;
     }
-    .d-sm-none {
-        display: none !important;
+    .sm-none {
+        display: none !important ;
     }
     .pic-thumbnail{
         padding-left: 50px !important;

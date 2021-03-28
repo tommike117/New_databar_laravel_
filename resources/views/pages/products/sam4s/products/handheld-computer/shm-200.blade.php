@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">FEATURES</h3><br>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200;">
+                                        <ul class="text-box" style="line-height: 1;font-weight:200;">
                                             <li>
                                                 <p>Qualcomm Snapdragon Quad Core Processor 1.2GHz    </p>
                                             </li>
@@ -96,8 +96,8 @@
                 <section class="section-1">
                     <h2>SPECIFICATIONS</h2>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none  col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 CPU
                             </h2>
@@ -109,8 +109,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 OS
                             </h2>
@@ -122,8 +122,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Memory
                             </h2>
@@ -136,8 +136,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Display
                             </h2>
@@ -150,8 +150,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Keypad
                             </h2>
@@ -163,8 +163,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Communications
                             </h2>
@@ -181,8 +181,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none  col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Printer
                             </h2>
@@ -194,8 +194,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none  col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 MSR
                             </h2>
@@ -207,8 +207,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 IC Card
                             </h2>
@@ -220,8 +220,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 RFID
                             </h2>
@@ -233,8 +233,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none  col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Scanner
                             </h2>
@@ -246,8 +246,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Camera
                             </h2>
@@ -259,8 +259,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Audio
                             </h2>
@@ -272,8 +272,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Expansion
                             </h2>
@@ -285,8 +285,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Battery
                             </h2>
@@ -298,8 +298,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Cradle
                             </h2>
@@ -311,8 +311,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Operation Temp.
                             </h2>
@@ -324,8 +324,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Storage Temp.
                             </h2>
@@ -337,8 +337,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Humidity
                             </h2>
@@ -350,8 +350,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Drop
                             </h2>
@@ -363,8 +363,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Physical Characteristics
                             </h2>
@@ -377,8 +377,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Additional Feature
                             </h2>
