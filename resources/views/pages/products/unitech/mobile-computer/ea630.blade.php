@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/unitech/mobile-computer/ea630-1.png')}}" style="width:100%;" alt="Matrix 120" title="EA630">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Features</h3> <br>
-                                        <ul class="text-box" style="line-height: 1.5vw;font-weight:200; margin-bottom:16%;">
+                                        <ul class="text-box" style="line-height: 1.5;font-weight:200; margin-bottom:16%;">
                                             <li>
                                                 <p>
                                                     6-inch rugged smartphone with a screen-to-body ratio of over 80%
@@ -114,8 +114,8 @@
                     <figure>
                         <img src="/images/new-website/products/unitech/mobile-computer/pic_1-01.png" width="100%" alt="">
                     </figure>
-                    <div class="w-100 d-flex" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                            <div class="text-1-1">
                                <h2>
                                     High Performance 2D Scanner
@@ -142,7 +142,7 @@
                                </ul>
                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure style="text-align: center">
                                 <img src="/images/new-website/products/unitech/mobile-computer/small_ea630-scanning.png" width="85%" alt="">
                             </figure>
@@ -162,8 +162,8 @@
                         <img src="/images/new-website/products/unitech/mobile-computer/small_ea630_screen.png" width="50%" alt="">
                         <img src="/images/new-website/products/unitech/mobile-computer/screen-1.png" width="50%" alt="">
                     </figure>
-                    <div class="w-100 d-flex" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                            <div class="text-1-1">
                                <h2>
                                     Specially Designed for Portability
@@ -185,7 +185,7 @@
                                </ul>
                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/unitech/mobile-computer/small_shop_EA630.png" width="85%" alt="">
                             </figure>
@@ -193,13 +193,13 @@
                     </div>
                 </section>
                 <section class="section-3">
-                    <div class="w-100 d-flex" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/unitech/mobile-computer/small_ea630-battery.png" width="85%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-1-1 text-3">
                                 <h2>
                                     Long-Lasting Battery Life
@@ -235,18 +235,18 @@
                             • IP65 Certification • 1.2 m Drop Protection • 1.5 m Drop Protection (With Boot case)
                         </p>
                     </div>
-                    <figure style="text-align: center">
+                    <figure class="pic-4" style="text-align: center">
                         <img src="/images/new-website/products/unitech/mobile-computer/ea630_ip65.png" width="20%" alt="">
                     </figure>
                 </section>
                 <section class="section-5">
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/unitech/mobile-computer/ea630-190718-2_1135 (1).png" width="100%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-1-1 text-3">
                                 <h2>
                                     All-In-One Functionality
@@ -277,13 +277,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-100 d-flex" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/unitech/mobile-computer/ea630_GUN.png" width="85%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-1-1 text-3">
                                 <h2>
                                     Ergonomic Gun Grip Design

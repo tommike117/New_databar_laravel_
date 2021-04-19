@@ -148,6 +148,9 @@ Route::group(['prefix' => 'products'], function () {
             Route::get('/smartphones/galaxy-a12', function () {
                 return view('/pages/products/samsung/galaxy-a12');
             });
+            Route::get('/smartphones/galaxy-a02s', function () {
+                return view('/pages/products/samsung/galaxy-a02s');
+            });
             Route::get('/smartphones/galaxy-a01', function () {
                 return view('/pages/products/samsung/galaxy-a01');
             });

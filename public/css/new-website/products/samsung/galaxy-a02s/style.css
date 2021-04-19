@@ -1,0 +1,41 @@
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size: 3vw;
+    font-weight: 600;
+}
+.text p{
+    font-size: 1.3vw;
+    font-weight: 200;
+}
+.text-1{
+    margin-top: 10%;
+}
+.text-2{
+    text-align: start;
+}
+.section-2{
+    margin-top: 10%;
+}
+.section-3{
+    margin-top: 10%;
+}
+.svg_camera_size{
+    margin: 0 5%;
+}
+.section-4,
+.section-5{
+    margin-top: 10%;
+}
+.pic-5 img{
+    margin-top: 5%;
+}
+@media only screen and (max-width:991.98px){
+    .d-bl{
+        display: block !important;
+    }
+}
+@media only screen and (max-width:550px){
+
+}

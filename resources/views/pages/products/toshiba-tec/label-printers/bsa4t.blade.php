@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/toshiba-tec/label-printers/sa4tp.png')}}" style="width:100%;" alt="Matrix 120" title="Toshiba BSA4TP">
                         </figure>
                         <div class="thumbnails">
@@ -59,7 +59,7 @@
                                         <p>
                                             The TOSHIBA Tec B-SA4 barcode label printer provides the functionality and robustness of an industrial printer with the compact footprint and ease of use of a desktop printer.For ultimate networking capabilities, it comes with a wide variety of communication interfaces, enabling you to manage your whole network of printers from a central source.
                                         </p>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200; margin-bottom:10%;">
+                                        <ul class="text-box" style="line-height: 1;font-weight:200; margin-bottom:10%;">
                                             <li>
                                                 <p>
                                                     high speed printing leading to increased efficiency and productivity
@@ -102,8 +102,8 @@
                 <section class="section-1">
                     <h2>ADDITIONAL SPECIFICATIONS</h2>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Technology
                             </h2>
@@ -115,8 +115,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Resolution
                             </h2>
@@ -128,8 +128,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Print Width
                             </h2>
@@ -141,8 +141,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Print Speed
                             </h2>
@@ -154,8 +154,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Interfaces
                             </h2>
@@ -167,8 +167,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Barcodes
                             </h2>
@@ -180,8 +180,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 2D Codes
                             </h2>
@@ -193,8 +193,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Fonts
                             </h2>
@@ -206,8 +206,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Optional
                             </h2>
@@ -219,8 +219,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Dimensions
                             </h2>
@@ -232,8 +232,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Weight
                             </h2>

@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/unitech/mobile-computer/ea602_1.png')}}" style="width:100%;" alt="EA602" title="EA630">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Features</h3> <br>
-                                        <ul class="text-box" style="line-height: 1.5vw;font-weight:200; margin-bottom:16%;">
+                                        <ul class="text-box" style="line-height: 1.5;font-weight:200; margin-bottom:16%;">
                                             <li>
                                                 All-in-one box; EA602 comes with USB cradle and power supply
                                             </li>
@@ -94,13 +94,13 @@
             </div>
             <div class="body-standard">
                 <section class="section-1">
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure style="text-align: center">
                                 <img src="/images/new-website/products/unitech/mobile-computer/ea602_icon.png" width="80%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-1-1 text-1">
                                 <h2>
                                     Entry Level Handheld (Android)
@@ -139,14 +139,17 @@
                     </div>
                 </section>
                 <section class="section-2">
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                          <video title="ea602" width="553" height="380" autoplay muted loop>
-                            <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.mp4" type="video/mp4">
-                            <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.ogg" type="video/ogg">
-                        </video>
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <video class="video-1" title="ea602" width="553" height="380" autoplay muted loop>
+                                <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.mp4" type="video/mp4">
+                                <source src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video.ogg" type="video/ogg">
+                            </video>
+                            <picture class="pic-1">
+                                <img src="/images/new-website/products/unitech/mobile-computer/EA602 Product Video-1.jpg" width="100%" alt="">
+                            </picture>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-2">
                                 <h2>
                                     One Functionality

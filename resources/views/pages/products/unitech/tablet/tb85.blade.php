@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/unitech/tablet/tb85.png')}}" style="width:100%;" alt="tb85" title="tb85">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Features</h3> <br>
-                                        <ul class="text-box" style="line-height: 1.5vw;font-weight:200; margin-bottom:16%;">
+                                        <ul class="text-box" style="line-height: 1.5;font-weight:200; margin-bottom:16%;">
                                             <li>
                                                 <p>
                                                     Android 8.0 GMS with Octa-Core CPU.
@@ -112,15 +112,18 @@
             </div>
             <div class="body-standard">
                 <section class="section-1">
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <video title="TB85"
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <video class="video-1" title="TB85"
                             width="100%"  autoplay muted loop style="margin-top: 20%;">
                                 <source src="/images/new-website/products/unitech/tablet/Unitech TB85 Rugged Tablet Review.mp4" type="video/mp4">
                                 <source src="/images/new-website/products/unitech/tablet/Unitech TB85 Rugged Tablet Review.ogg" type="video/ogg">
                             </video>
+                            <picuture class="pic-1">
+                                <img src="/images/new-website/products/unitech/tablet/Unitech TB85 Rugged Tablet Review-0.jpg" width="100%" alt="">
+                            </picuture>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                            <div class="text-1-1 text-3">
                                <h2>
                                     High Capacity Battery

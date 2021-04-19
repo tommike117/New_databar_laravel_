@@ -234,6 +234,9 @@
     .pic-2{
         justify-content: center;
     }
+    .sm-none{
+     display: none;
+    }
 }
 @media only screen and (max-width:500px){
     .body-standard {

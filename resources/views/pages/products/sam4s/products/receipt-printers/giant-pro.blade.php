@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/sam4s/receipt-printers/giant_pro1.png')}}" style="width:100%;" alt="AV900" title="AV900">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">FEATURES</h3><br>
-                                        <ul class="text-box" style="line-height: 1vw;font-weight:200;">
+                                        <ul class="text-box" style="line-height: 1;font-weight:200;">
                                             <li>
                                                 <p>User-Friendly Interface</p>
                                             </li>
@@ -117,8 +117,8 @@
                 <section class="section-1">
                     <h2>ADDITIONAL SPECIFICATIONS</h2>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Printing Method
                             </h2>
@@ -130,8 +130,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Resolution
                             </h2>
@@ -143,8 +143,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Printing Speed
                             </h2>
@@ -158,8 +158,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Paper
                             </h2>
@@ -173,8 +173,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Memory
                             </h2>
@@ -188,8 +188,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Reliability
                             </h2>
@@ -203,8 +203,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Drawer Port
                             </h2>
@@ -216,8 +216,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Barcode
                             </h2>
@@ -230,8 +230,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Driver/Utility
                             </h2>
@@ -243,8 +243,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 SDK
                             </h2>
@@ -256,8 +256,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Interface
                             </h2>
@@ -269,8 +269,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 NFC Function
                             </h2>
@@ -282,8 +282,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Dimension (with Foot Rubber)
                             </h2>
@@ -295,8 +295,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Weight(Net)
                             </h2>
@@ -308,8 +308,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Color
                             </h2>
@@ -321,8 +321,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Emulation
                             </h2>
@@ -334,8 +334,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Options
                             </h2>
@@ -352,8 +352,8 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2 text-1">
+                        <div class="sm-none col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Power Supply
                             </h2>
@@ -366,15 +366,15 @@
                     </div>
                 </section>
                 <section class="section-2">
-                    <div class="w-100 d-flex">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <video title="giant-pro"
+                    <div class="w-100 d-flex d-bl">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <video class="video-1" title="giant-pro"
                             width="553" height="380" autoplay muted loop>
                                 <source src="/images/new-website/products/sam4s/receipt-printers/SAM4S Receipt Printer 'GIANT PRO' PR Video (2015).mp4" type="video/mp4">
                                 <source src="/images/new-website/products/sam4s/receipt-printers/SAM4S Receipt Printer 'GIANT PRO' PR Video (2015).ogg" type="video/ogg">
                             </video>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6 " >
+                        <div class="col-sm-12 col-md-12 col-lg-6 " >
                             <p>
                                 OPTION
                             </p>

@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 140px; padding-right: 40px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/unitech/tablet/tb162-1.png')}}" style="width:100%;" alt="TB162" title="TB162">
                         </figure>
                         <div class="thumbnails">
@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 15px 30px 0 30px !important;">
                                         <h3 for="" style="font-size:20px;color:#4a4a4a;font-weight:600">Features</h3> <br>
-                                        <ul class="text-box" style="line-height: 1.5vw;font-weight:200; margin-bottom:16%;">
+                                        <ul class="text-box" style="line-height: 1.5;font-weight:200; margin-bottom:16%;">
                                             <li>
                                                 <p>
                                                     Windows 10 IoT Enterprise (LTSB version) operation system
@@ -128,13 +128,13 @@
                     <figure>
                         <img src="/images/new-website/products/unitech/tablet/pic1-tb162-01.png" width="100%" alt="">
                     </figure>
-                    <div class="w-100 d-flex " style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure style="text-align: center">
                                 <img src="/images/new-website/products/unitech/tablet/tb162_2d(1)(1).jpg" width="100%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                            <div class="text-1-1">
                                <h2>
                                     Intelligently Tough Tablet
@@ -159,13 +159,13 @@
                            </div>
                         </div>
                     </div>
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure style="text-align: center">
                                 <img src="/images/new-website/products/unitech/tablet/hotswap.jpg" width="100%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                            <div class="text-1-1 text-3">
                                <h2>
                                     High Capacity Battery
@@ -205,13 +205,13 @@
                     </figure>
                 </section>
                 <section class="section-4">
-                    <div class="w-100 d-flex flex-row-reverse" style="margin-top: 5%;">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="w-100 d-flex flex-row-reverse d-bl" style="margin-top: 5%;">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <figure>
                                 <img src="/images/new-website/products/unitech/tablet/lan_工作區域 1.png" width="100%" alt="">
                             </figure>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="text-1-1 text-3">
                                 <h2>
                                     Wireless Connectivity

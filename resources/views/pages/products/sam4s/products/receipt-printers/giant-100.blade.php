@@ -87,7 +87,7 @@
                 <section class="section-1">
                     <h2>ADDITIONAL SPECIFICATIONS</h2>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3 "></div>
+                        <div class="sm-none col-lg-3 "></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Printing Method
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Resolution
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Printing Speed
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Paper
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Memory
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Reliability
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Drawer Port
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Barcode
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Driver/Utility
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 SDK
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Interface
@@ -242,7 +242,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Dimension (with Foot Rubber)
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Weight(Net)
@@ -268,7 +268,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Color
@@ -281,7 +281,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Emulation
@@ -294,7 +294,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Options
@@ -312,7 +312,7 @@
                         </div>
                     </div>
                     <div class="w-100 d-flex">
-                        <div class="d-sm-none d-md-none col-lg-3"></div>
+                        <div class="sm-none col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-2 text-1">
                             <h2>
                                 Power Supply

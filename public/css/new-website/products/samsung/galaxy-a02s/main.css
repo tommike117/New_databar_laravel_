@@ -1,0 +1,153 @@
+.body{
+    margin: 0 70px 0 100px;
+}
+.section-information{
+    margin: 4% 8% 0 8%;
+}
+.info-leftside{
+    position: relative;
+}
+.head-info{
+    text-align: center;
+    padding: 3% 0 ;
+}
+.head-info h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.head-info h2{
+    font-size: 15px;
+    font-weight: 200;
+    color: #4d4d4d;
+}
+.breadcrumb li a{
+    font-size: 15px ;
+    color: #797979;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+.breadcrumb li a:hover{
+    color: #2e2e2e ;
+    font-weight: 400 ;
+    text-decoration: none ;
+}
+.breadcrumb li {
+    padding-right: 1%;
+}
+.color{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+}
+.color1{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.color2{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.thumbnails{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.product-list{
+    width: 18%;
+}
+.product-list img{
+
+    margin: 15px auto;
+}
+.product-color1{
+    width: 100%;
+    border:1px solid lightgrey;
+    cursor: pointer;
+}
+.product-color2{
+    width: 100%;
+    border:1px solid lightgrey;
+    cursor: pointer;
+    display: none;
+}
+.text-info{
+    padding: 30px;
+    border-bottom: solid 1px #4d4d4d;
+}
+.text-info h2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.text-info ul li{
+    font-size: 13px;
+    color: #4d4d4d;
+    font-weight: 200;
+}
+.icon-spec{
+    text-align: center;
+    margin-top: 10%;
+}
+.icon-spec img{
+    width: 4vw;
+    height: 4vw;
+}
+.flex-icon{
+    flex: 0 0 33.3333333%;
+    max-width: 33.3333333%;
+    border-right: solid 1px #b5b5b5;
+    border-left: solid 1px #b5b5b5;
+}
+.flex-icon p{
+    font-size: 13px;
+    font-weight: 200;
+    color: #4d4d4d;
+    padding: 3% 0;
+}
+@media only screen and (max-width:991.98px){
+    .d-bl{
+        display: block !important;
+    }
+    .icon-spec img{
+        width: 6vw;
+        height: 6vw;
+    }
+    .section-information {
+        margin: 0;
+        padding-top: 7%;
+    }
+}
+@media only screen and (max-width:550px){
+    .product-list{
+        width: 25%;
+    }
+    .body{
+        margin: 0 10px 0 30px;
+    }
+    .icon-spec img{
+        width: 16vw;
+        height: 16vw;
+    }
+    .color1,
+    .color2{
+        width: 4vw;
+        height: 4vw;
+    }
+    .flex-icon p {
+        font-size: 10px;
+    }
+    .text-info ul li {
+        font-size: 10px;
+    }
+}

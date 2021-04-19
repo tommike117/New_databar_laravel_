@@ -27,7 +27,7 @@
                                 </ol>
                             </nav>
                         </div>
-                        <figure style=" text-align: center; padding-left: 150px; margin-top:50px">
+                        <figure class="pic-thumbnail" style=" text-align: center; padding-left: 150px; margin-top:50px">
                             <img id="a01" src="{{URL::asset('/images/new-website/products/sam4s/handheld-computer/shm-200-1.png')}}" style="width:100%;" alt="Matrix 120" title="SHM-200">
                         </figure>
                         <div class="thumbnails">
@@ -391,8 +391,11 @@
                     </div>
                 </section>
                 <section class="section-2">
+                    <picture class="pic-1">
+                        <img src="/images/new-website/products/sam4s/handheld-computer/shr-200-0.jpg" width="100%" alt="">
+                    </picture>
                     <div class="w-100 d-flex" style="justify-content: center;">
-                        <video title="SHR-1000"
+                        <video class="video-1" title="SHR-1000"
                         width="553" height="380" autoplay muted loop>
                             <source src="/images/new-website/products/sam4s/handheld-computer/shr-1000.mp4" type="video/mp4">
                             <source src="/images/new-website/products/sam4s/handheld-computer/shr-1000.ogg" type="video/ogg">
