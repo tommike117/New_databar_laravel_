@@ -35,7 +35,24 @@
     .d-bl{
         display: block !important;
     }
+    .text-2{
+        margin-top: 7%;
+    }
+    .pic-2 img{
+        margin-top: 5%;
+    }
+
 }
 @media only screen and (max-width:550px){
-
+    .text h2{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .text p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .svg_camera_size img{
+        width: 50%;
+    }
 }

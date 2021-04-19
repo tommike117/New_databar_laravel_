@@ -73,15 +73,15 @@ services')
 
         </div>
       </div>
-      <div class="element-item PDA rugged-smartphones rugged-tablets">
+      {{-- <div class="element-item PDA rugged-smartphones rugged-tablets">
         <img class="card-img-top" src="/images/logo/brand2.png" width="100px" alt="Card image cap">
         <div class="card-body">
-            {{-- <h3 class="card-title text-center">Catphone</h3> --}}
+            <h3 class="card-title text-center">Catphone</h3>
             <p>See our full range of Caterpillar Phones and choose the best rugged phone for your needs.</p>
             <a href="#" style="margin-top: 10px" class="button-viewmore">Learn more</a>
 
         </div>
-      </div>
+      </div> --}}
       <div class="element-item automation PDA scanning barcode-solutions">
         <img class="card-img-top" src="/images/logo/brand2_2-02.png" width="100px" alt="Card image cap">
         <div class="card-body">

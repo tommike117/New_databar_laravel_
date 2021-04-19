@@ -806,7 +806,7 @@
                     <li><a href="/products/samsung">Samsung</a></li>
                     <li><a href="/products/armor-x">Armor-X</a></li>
                     <li><a href="/products/bixolon">Bixolon</a></li>
-                    <li><a href="/products/caterpillar">Caterpillar</a></li>
+                    {{-- <li><a href="/products/caterpillar">Caterpillar</a></li> --}}
                     <li><a href="/products/datalogic">Datalogic</a></li>
                     <li><a href="/products/ecom-ex">Ecom-EX</a></li>
                     <li><a href="/products/gamber-johnson">Gamber-Johnson</a></li>

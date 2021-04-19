@@ -31,7 +31,7 @@ services')
                         <div class="catagories">Hardwares</div>
                             <a class="brand" href="/products/samsung" >Samsung</a>
                             <a class="brand" href="/products/bixolon">Bixolon</a>
-                            <a class="brand" href="/products/caterpillar">Caterpillar</a>
+                            {{-- <a class="brand" href="/products/caterpillar">Caterpillar</a> --}}
                             <a class="brand" href="/products/datalogic">Datalogic</a>
                             <a class="brand" href="/products/ecom-ex">Ecom-ex</a>
                             <a class="brand" href="/products/koamtac">Koamtac</a>

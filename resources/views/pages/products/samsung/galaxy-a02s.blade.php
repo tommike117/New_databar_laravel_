@@ -112,7 +112,7 @@
     <section class="section-2">
         <div class="d-flex d-bl">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <picture>
+                <picture class="pic-2">
                     <img src="/images/samsung/galaxy-a02s/uk-feature-galaxy-a02s-a025-386577816.webp" width="100%" alt="">
                 </picture>
             </div>
@@ -129,7 +129,7 @@
         </div>
         <div class="d-flex flex-row-reverse d-bl">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <picture>
+                <picture class="pic-2">
                     <img src="/images/samsung/galaxy-a02s/uk-feature-multiple-ways-to-capture-your-world-with-triple-camera-384115442.webp" width="100%" alt="">
                 </picture>
             </div>
@@ -146,7 +146,7 @@
         </div>
         <div class="d-flex d-bl">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <picture>
+                <picture class="pic-2">
                     <img src="/images/samsung/galaxy-a02s/uk-feature-macro-camera-pays-attention-to-the-tiny-details-384115430.webp" width="100%" alt="">
                 </picture>
             </div>
@@ -216,6 +216,49 @@
         <picture class="pic-5">
             <img src="/images/samsung/galaxy-a02s/uk-feature-power-that-keeps-you-going-384115432.webp" width="100%" alt="">
         </picture>
+    </section>
+    <section class="section-6">
+        <div class="text text-6">
+            <h2>
+                Give yourself more room to play
+            </h2>
+            <p>
+                Galaxy A02s combines Octa-core processing power with up to 3GB of RAM for fast and efficient performance for the task at hand. Enjoy 32GB of internal storage or add even more space with up to 1TB MicroSD card.
+            </p>
+        </div>
+        <picture>
+            <img src="/images/samsung/galaxy-a02s/uk-feature-galaxy-a02s-a025-386577864.webp" width="100%" alt="">
+        </picture>
+    </section>
+    <section class="section-7">
+        <div class="text text-7">
+            <h2>
+                Made to focus with One UI Core
+            </h2>
+            <p>
+                One UI Core helps you focus on what matters to you. Hardware and software work together, giving you content and features at your fingertips so you can get to them faster. Use Dark Mode for a comfortable experience in the dark. With clear and intuitive visuals, using your phone is like second nature.
+            </p>
+        </div>
+        <picture>
+            <img src="/images/samsung/galaxy-a02s/uk-feature-made-to-focus-with-one-ui-core-384115436.webp" width="100%" alt="">
+        </picture>
+        <div class="d-flex flex-row-reverse d-bl">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <picture>
+                    <img src="/images/samsung/galaxy-a02s/uk-feature-an-awesome-android--experience--always-384115438.webp" width="100%" alt="">
+                </picture>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+                <div class="text text-2">
+                    <h2>
+                        An awesome Android™ experience, always
+                    </h2>
+                    <p>
+                        Get the latest Google apps on Android OS, fully supported on your Galaxy A02s.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
     <section>

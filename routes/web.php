@@ -222,28 +222,28 @@ Route::group(['prefix' => 'products'], function () {
         });
     });
 
-    Route::group(['prefix' => '/caterpillar'], function () {
+    // Route::group(['prefix' => '/caterpillar'], function () {
 
-        Route::get('/', function () {
-            return view('/pages/products/caterpillar/index');
-        });
-        Route::get('/smart-phone-cat','ProductListController@smart_phone_cat');
-        Route::get('/smart-phone-cat/s62', function () {
-            return view('/pages/products/caterpillar/products/smartphone/s62');
-        });
-        Route::get('/smart-phone-cat/s52', function () {
-            return view('/pages/products/caterpillar/products/smartphone/s52');
-        });
-        Route::get('/smart-phone-cat/s42', function () {
-            return view('/pages/products/caterpillar/products/smartphone/s42');
-        });
+    //     Route::get('/', function () {
+    //         return view('/pages/products/caterpillar/index');
+    //     });
+    //     Route::get('/smart-phone-cat','ProductListController@smart_phone_cat');
+    //     Route::get('/smart-phone-cat/s62', function () {
+    //         return view('/pages/products/caterpillar/products/smartphone/s62');
+    //     });
+    //     Route::get('/smart-phone-cat/s52', function () {
+    //         return view('/pages/products/caterpillar/products/smartphone/s52');
+    //     });
+    //     Route::get('/smart-phone-cat/s42', function () {
+    //         return view('/pages/products/caterpillar/products/smartphone/s42');
+    //     });
 
-        Route::get('/tablet-cat','ProductListController@tablet_cat');
-        Route::get('/tablet-cat/t20', function () {
-            return view('/pages/products/caterpillar/products/tablet/t20');
-        });
+    //     Route::get('/tablet-cat','ProductListController@tablet_cat');
+    //     Route::get('/tablet-cat/t20', function () {
+    //         return view('/pages/products/caterpillar/products/tablet/t20');
+    //     });
 
-    });
+    // });
 
     Route::group(['prefix' => '/bixolon'], function () {
 
